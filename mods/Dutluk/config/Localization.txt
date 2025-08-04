@@ -1,7 +1,14 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
 dutCursedTotems,items,Item,,,"Cursed Totem",,,,,,,,,,,"Lanetli Totem",,
 dutCursedTotemsDesc,items,Item,,,"Cursed Totem",,,,,,,,,,,"Lanetli Totem",,
-dutLumberjackHelmetBundle,items,Item,,,"Lumberjack's Legendary Helmet Bundle",,,,,,,,,,,"Oduncu Efsanevi Miğfer Kutusu",,
-dutLumberjackHelmetBundleDesc,items,Item,,,"Contains a legendary quality 6 Lumberjack Helmet. Open to receive your reward.",,,,,,,,,,,"Efsanevi kalite 6 Oduncu Miğferi içerir. Açınca ödülünü alırsın.","
 dutResourceMythicParts,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",,
 dutResourceMythicPartsDesc,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",,
+
+dutT6LumberjackHelmetBundle,items,Item,,,"Lumberjack's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Oduncu Şapkası Kutusu",,
+dutT6LumberjackHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Şapkası içerir. Açınca ödülünü alırsın.","
+dutT6LumberjackOutfitBundle,items,Item,,,"Lumberjack's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Oduncu Kıyafeti Kutusu",,
+dutT6LumberjackOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6LumberjackGlovesBundle,items,Item,,,"Lumberjack's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Oduncu Eldiveni Kutusu",,
+dutT6LumberjackGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6LumberjackBootsBundle,items,Item,,,"Lumberjack's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Oduncu Çizmesi Kutusu",,
+dutT6LumberjackBootsBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Çizmesi içerir. Açınca ödülünü alırsın.","

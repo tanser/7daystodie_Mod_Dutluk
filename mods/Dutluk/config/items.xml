@@ -2,13 +2,41 @@
 
 <configs>
 
+	<!-- *** GENERAL MODIFICATIONS *** -->
+
+  <append xpath="/items/item[starts-with(@name, 'armor')]">
+    <effect_group>
+      <passive_effect name="PhysicalDamageResist" operation="perc_add" value="-.1,.2" tier="5"/>
+      <passive_effect name="ElementalDamageResist" operation="perc_add" value="-.1,.2" tier="5"/>
+      <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.2" tier="5"/>
+    </effect_group>
+    <effect_group>
+      <passive_effect name="PhysicalDamageResist" operation="perc_add" value="-.2,.3" tier="6"/>
+      <passive_effect name="ElementalDamageResist" operation="perc_add" value="-.2,.3" tier="6"/>
+      <passive_effect name="DegradationMax" operation="perc_add" value="-.2,.3" tier="6"/>
+    </effect_group>
+  </append>
+
+  <append xpath="/items/item[starts-with(@name, 'gun') or starts-with(@name, 'melee') or starts-with(@name, 'tool') or starts-with(@name, 'bow') or starts-with(@name, 'crossbow')]">
+    <effect_group>
+      <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.2" tier="5"/>
+      <passive_effect name="BlockDamage" operation="perc_add" value="-.1,.2" tier="5"/>
+      <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.2" tier="5"/>
+    </effect_group>
+    <effect_group>
+      <passive_effect name="EntityDamage" operation="perc_add" value="-.2,.3" tier="6"/>
+      <passive_effect name="BlockDamage" operation="perc_add" value="-.2,.3" tier="6"/>
+      <passive_effect name="DegradationMax" operation="perc_add" value="-.2,.3" tier="6"/>
+    </effect_group>
+  </append>
+
   <append xpath="/items">
 
-    <!-- dutCursedTotems -->
+    <!-- dutResourceMythicParts -->
     <item name="dutResourceMythicParts">
       <property name="Extends" value="resourceLegendaryParts"/> 
       <property name="DescriptionKey" value="dutResourceMythicPartsDesc" />
-      <property name="CreativeMode" value="Dev"/>
+      <property name="CreativeMode" value="Player"/>
       <property name="EconomicValue" value="10000" />
 	    <property name="Group" value="Special Items"/>
 			<property name="CustomIcon" value="dutResourceMythicParts"/>
@@ -18,28 +46,82 @@
     <item name="dutCursedTotems">
       <property name="Extends" value="resourceLegendaryParts"/> 
       <property name="DescriptionKey" value="dutCursedTotemsDesc" />
-      <property name="CreativeMode" value="Dev"/>
+      <property name="CreativeMode" value="Player"/>
       <property name="EconomicValue" value="10000" />
 	    <property name="Group" value="Special Items"/>
 			<property name="CustomIcon" value="dutCursedTotems"/>
     </item>
 
-    <!-- dutLumberjackHelmetBundle -->
-    <item name="dutLumberjackHelmetBundle">
-      <property name="Extends" value="noteTestersDelightAdmin"/> 
-      <property name="CreativeMode" value="Dev"/>
-      <property name="CustomIcon" value="armorLumberjackHelmet"/>
+    <!-- *** T6 Armor Bundles *** -->
+
+    <item name="dutT6ArmorBundle">
+	    <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="resourcePaper"/>
+      <property name="ItemTypeIcon" value="computer"/>
       <property name="CustomIconTint" value="FF00FF"/>
-      <property name="DescriptionKey" value="dutLumberjackHelmetBundleDesc"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="Weight" value="0"/>
+      <property name="SellableToTrader" value="false"/>
 	    <property name="Group" value="Special Items,Clothing,Armor,TCArmor"/>
-	    <!-- <property name="UnlockedBy" value="craftingArmor"/>
-	    <property name="ArmorGroup" value="groupLumberjack"/> -->
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+      </property>
+    </item>
+
+    <!-- *** LUMBERJACK T6 Bundles *** -->
+
+		<!-- *** LUMBERJACK_HELMET *** -->
+    <item name="dutT6LumberjackHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/> 
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackHelmet"/>
+      <property name="DescriptionKey" value="dutT6LumberjackHelmetBundleDesc"/>
       <property class="Action0">
         <property name="Create_item" value="armorLumberjackHelmet"/>
         <property name="Create_item_count" value="6"/>
       </property>
     </item>
 
+		<!-- *** LUMBERJACK_OUTFIT *** -->
+    <item name="dutT6LumberjackOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/> 
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackOutfit"/>
+      <property name="DescriptionKey" value="dutT6LumberjackOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+		<!-- *** LUMBERJACK_GLOVES *** -->
+    <item name="dutT6LumberjackGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/> 
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackGloves"/>
+      <property name="DescriptionKey" value="dutT6LumberjackGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+		<!-- *** LUMBERJACK_BOOTS *** -->
+    <item name="dutT6LumberjackBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/> 
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackBoots"/>
+      <property name="DescriptionKey" value="dutT6LumberjackBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
 
   </append>
 
