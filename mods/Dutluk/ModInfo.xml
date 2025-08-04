@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Dutluk" />
+	<DisplayName value="Dutluk" />
+    <Description value="Random stats, new equipment tiers, and player-triggered special zombie hunts." />
+    <Author value="Tanser Cobanoglu" />
+	<Version value="1.1.0.4" />
+	<Website value="" />
+	<SkipWithAntiCheat value="false" />
+</xml>

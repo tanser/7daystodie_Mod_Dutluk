@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <append xpath="/items">
+
+    <!-- dutCursedTotems -->
+    <item name="dutResourceMythicParts">
+      <property name="Extends" value="resourceLegendaryParts"/> 
+      <property name="DescriptionKey" value="dutResourceMythicPartsDesc" />
+      <property name="CreativeMode" value="Dev"/>
+      <property name="EconomicValue" value="10000" />
+	    <property name="Group" value="Special Items"/>
+			<property name="CustomIcon" value="dutResourceMythicParts"/>
+    </item>
+
+    <!-- dutCursedTotems -->
+    <item name="dutCursedTotems">
+      <property name="Extends" value="resourceLegendaryParts"/> 
+      <property name="DescriptionKey" value="dutCursedTotemsDesc" />
+      <property name="CreativeMode" value="Dev"/>
+      <property name="EconomicValue" value="10000" />
+	    <property name="Group" value="Special Items"/>
+			<property name="CustomIcon" value="dutCursedTotems"/>
+    </item>
+
+    <!-- dutLumberjackHelmetBundle -->
+    <item name="dutLumberjackHelmetBundle">
+      <property name="Extends" value="noteTestersDelightAdmin"/> 
+      <property name="CreativeMode" value="Dev"/>
+      <property name="CustomIcon" value="armorLumberjackHelmet"/>
+      <property name="CustomIconTint" value="FF00FF"/>
+      <property name="DescriptionKey" value="dutLumberjackHelmetBundleDesc"/>
+	    <property name="Group" value="Special Items,Clothing,Armor,TCArmor"/>
+	    <!-- <property name="UnlockedBy" value="craftingArmor"/>
+	    <property name="ArmorGroup" value="groupLumberjack"/> -->
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+  </append>
+
+</configs>

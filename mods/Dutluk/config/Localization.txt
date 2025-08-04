@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+dutCursedTotems,items,Item,,,"Cursed Totem",,,,,,,,,,,"Lanetli Totem",,
+dutCursedTotemsDesc,items,Item,,,"Cursed Totem",,,,,,,,,,,"Lanetli Totem",,
+dutLumberjackHelmetBundle,items,Item,,,"Lumberjack's Legendary Helmet Bundle",,,,,,,,,,,"Oduncu Efsanevi Miğfer Kutusu",,
+dutLumberjackHelmetBundleDesc,items,Item,,,"Contains a legendary quality 6 Lumberjack Helmet. Open to receive your reward.",,,,,,,,,,,"Efsanevi kalite 6 Oduncu Miğferi içerir. Açınca ödülünü alırsın.","
+dutResourceMythicParts,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",,
+dutResourceMythicPartsDesc,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",,

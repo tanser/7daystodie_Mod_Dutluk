@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <set
+    xpath="//item[starts-with(@name, 'armor')]/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">
+    0.7,1.5</set>
+  <set
+    xpath="//item[starts-with(@name, 'gun') or starts-with(@name, 'melee') or starts-with(@name, 'tool') or starts-with(@name, 'bow') or starts-with(@name, 'crossbow')]/effect_group/passive_effect[@name='EntityDamage']/@value">
+    0.7,1.5</set>
+  <set
+    xpath="//item[starts-with(@name, 'gun') or starts-with(@name, 'melee') or starts-with(@name, 'tool') or starts-with(@name, 'bow') or starts-with(@name, 'crossbow')]/effect_group/passive_effect[@name='BlockDamage']/@value">
+    0.7,1.5</set>
+  <set
+    xpath="//item[starts-with(@name, 'armor') or starts-with(@name, 'gun') or starts-with(@name, 'melee') or starts-with(@name, 'tool') or starts-with(@name, 'bow') or starts-with(@name, 'crossbow')]/effect_group/passive_effect[@name='DegradationMax']/@value">
+    0.7,1.5</set>
+
+</configs>
