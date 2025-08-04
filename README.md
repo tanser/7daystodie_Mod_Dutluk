@@ -39,7 +39,7 @@ The following new items have been added and can be found in the Creative Menu:
 
 1.  Navigate to your 7 Days to Die installation folder.
 2.  If it doesn't already exist, create a folder named `Mods`.
-3.  Copy the entire `dutluk_v1` mod folder (the one containing this `README.md` and the `ModInfo.xml` file) into the `Mods` folder.
+3.  Copy the `Dutluk` mod folder (the one containing the `ModInfo.xml` file) into the `Mods` folder.
 4.  Start the game. The mod will be loaded automatically.
 
 ## How to Verify
