@@ -10,14 +10,18 @@ This mod is compatible with game version 2.2.
 
 ### 1. Randomized Equipment Statistics
 
-This mod dynamically adjusts the stats of newly found or crafted equipment, providing a range of values instead of a fixed number. This makes every piece of gear potentially unique.
+This mod dynamically adjusts the stats of newly found or crafted Tier 5 and Tier 6 equipment, providing a range of values instead of a fixed number. This makes every piece of gear potentially unique.
 
-The following stats are randomized for all quality levels:
+The following stats are randomized:
 
-*   **Physical Damage Resist:** For all armor pieces.
-*   **Entity Damage:** For all guns, melee weapons, tools, bows, and crossbows.
-*   **Block Damage:** For all guns, melee weapons, tools, bows, and crossbows.
-*   **Max Degradation:** For all armor, guns, melee weapons, tools, bows, and crossbows.
+*   **For all armor pieces (Tier 5 & 6):**
+    *   Physical Damage Resist
+    *   Elemental Damage Resist
+    *   Max Degradation
+*   **For all guns, melee weapons, tools, bows, and crossbows (Tier 5 & 6):**
+    *   Entity Damage
+    *   Block Damage
+    *   Max Degradation
 
 ### 2. New Items
 
@@ -31,8 +35,9 @@ The following new items have been added and can be found in the Creative Menu:
     *   A mysterious and valuable special item.
     *   Group: `Special Items`
 
-*   **Lumberjack Helmet Bundle (`dutLumberjackHelmetBundle`)**
-    *   A special bundle item. When used, it grants the player 6 quality 6 Lumberjack Helmets.
+*   **Tier 6 Armor Bundles (e.g., `dutT6LumberjackHelmetBundle`)**
+    *   Special bundle items that grant the player 6 of a specific quality 6 armor piece.
+    *   Bundles are available for all pieces (helmet, outfit, gloves, boots) of the following armor sets: Lumberjack, Preacher, Rogue, Athletic, Enforcer, Farmer, Biker, Scavenger, Ranger, Commando, Assassin, Miner, Nomad, Nerd, and Raider.
     *   Group: `Special Items,Clothing,Armor,TCArmor`
 
 ## Installation
