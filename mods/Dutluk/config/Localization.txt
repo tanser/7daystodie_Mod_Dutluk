@@ -4,151 +4,137 @@ dutCursedTotemsDesc,items,Item,,,"Cursed Totem",,,,,,,,,,,"Lanetli Totem",,
 dutResourceMythicParts,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",,
 dutResourceMythicPartsDesc,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",,
 
-dutT6LumberjackHelmetBundle,items,Item,,,"Lumberjack's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Oduncu Şapkası Kutusu",,
-dutT6LumberjackHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Şapkası içerir. Açınca ödülünü alırsın.","
+ddutT6RogueHelmetBundleutT6LumberjackHelmetBundle,items,Item,,,"Lumberjack's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Oduncu Şapkası Kutusu",,
+dutT6LumberjackHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Şapkası içerir. Açınca ödülünü alırsın.",,
 dutT6LumberjackOutfitBundle,items,Item,,,"Lumberjack's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Oduncu Kıyafeti Kutusu",,
-dutT6LumberjackOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6LumberjackOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6LumberjackGlovesBundle,items,Item,,,"Lumberjack's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Oduncu Eldiveni Kutusu",,
-dutT6LumberjackGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6LumberjackGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6LumberjackBootsBundle,items,Item,,,"Lumberjack's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Oduncu Çizmesi Kutusu",,
-dutT6LumberjackBootsBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6LumberjackBootsBundleDesc,items,Item,,,"Contains a legendary T6 Lumberjack Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Oduncu Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6PreacherHelmetBundle,items,Item,,,"Preacher's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Vaiz Şapkası Kutusu",,
-dutT6PreacherHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Şapkası içerir. Açınca ödülünü alırsın.","
+dutT6PreacherHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Şapkası içerir. Açınca ödülünü alırsın.",,
 dutT6PreacherOutfitBundle,items,Item,,,"Preacher's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Vaiz Kıyafeti Kutusu",,
-dutT6PreacherOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6PreacherOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6PreacherGlovesBundle,items,Item,,,"Preacher's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Vaiz Eldiveni Kutusu",,
-dutT6PreacherGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6PreacherGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6PreacherBootsBundle,items,Item,,,"Preacher's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Vaiz Çizmesi Kutusu",,
-dutT6PreacherBootsBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6PreacherBootsBundleDesc,items,Item,,,"Contains a legendary T6 Preacher Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Vaiz Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6RogueHelmetBundle,items,Item,,,"Rogue's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Haydut Şapkası Kutusu",,
-dutT6RogueHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Şapkası içerir. Açınca ödülünü alırsın.","
+dutT6RogueHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Şapkası içerir. Açınca ödülünü alırsın.",,
 dutT6RogueOutfitBundle,items,Item,,,"Rogue's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Haydut Kıyafeti Kutusu",,
-dutT6RogueOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6RogueOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6RogueGlovesBundle,items,Item,,,"Rogue's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Haydut Eldiveni Kutusu",,
-dutT6RogueGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6RogueGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6RogueBootsBundle,items,Item,,,"Rogue's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Haydut Çizmesi Kutusu",,
-dutT6RogueBootsBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6RogueBootsBundleDesc,items,Item,,,"Contains a legendary T6 Rogue Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Haydut Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6AthleticHelmetBundle,items,Item,,,"Athletic's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Atletik Şapkası Kutusu",,
-dutT6AthleticHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Şapkası içerir. Açınca ödülünü alırsın.","
+dutT6AthleticHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Şapkası içerir. Açınca ödülünü alırsın.",,
 dutT6AthleticOutfitBundle,items,Item,,,"Athletic's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Atletik Kıyafeti Kutusu",,
-dutT6AthleticOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6AthleticOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6AthleticGlovesBundle,items,Item,,,"Athletic's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Atletik Eldiveni Kutusu",,
-dutT6AthleticGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6AthleticGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6AthleticBootsBundle,items,Item,,,"Athletic's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Atletik Çizmesi Kutusu",,
-dutT6AthleticBootsBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6AthleticBootsBundleDesc,items,Item,,,"Contains a legendary T6 Athletic Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Atletik Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6EnforcerHelmetBundle,items,Item,,,"Enforcer's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Memur Güneş Gözlüğü Kutusu",,
-dutT6EnforcerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Güneş Gözlüğü içerir. Açınca ödülünü alırsın.","
+dutT6EnforcerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Güneş Gözlüğü içerir. Açınca ödülünü alırsın.",,
 dutT6EnforcerOutfitBundle,items,Item,,,"Enforcer's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Memur Kıyafeti Kutusu",,
-dutT6EnforcerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6EnforcerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6EnforcerGlovesBundle,items,Item,,,"Enforcer's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Memur Eldiveni Kutusu",,
-dutT6EnforcerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6EnforcerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6EnforcerBootsBundle,items,Item,,,"Enforcer's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Memur Ayakkabıları Kutusu",,
-dutT6EnforcerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Ayakkabıları içerir. Açınca ödülünü alırsın.","
-
+dutT6EnforcerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Enforcer Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Memur Ayakkabıları içerir. Açınca ödülünü alırsın.",,
 
 dutT6FarmerHelmetBundle,items,Item,,,"Farmer's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Çiftçi Şapkası Kutusu",,
-dutT6FarmerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Şapkası içerir. Açınca ödülünü alırsın.","
+dutT6FarmerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Şapkası içerir. Açınca ödülünü alırsın.",,
 dutT6FarmerOutfitBundle,items,Item,,,"Farmer's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Çiftçi Kıyafeti Kutusu",,
-dutT6FarmerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6FarmerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6FarmerGlovesBundle,items,Item,,,"Farmer's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Çiftçi Eldiveni Kutusu",,
-dutT6FarmerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6FarmerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6FarmerBootsBundle,items,Item,,,"Farmer's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Çiftçi Çizmesi Kutusu",,
-dutT6FarmerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6FarmerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Farmer Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çiftçi Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6BikerHelmetBundle,items,Item,,,"Biker's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Motorcu Kaskı Kutusu",,
-dutT6BikerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Biker Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Kaskı içerir. Açınca ödülünü alırsın.","
+dutT6BikerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Biker Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Kaskı içerir. Açınca ödülünü alırsın.",,
 dutT6BikerOutfitBundle,items,Item,,,"Biker's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Motorcu Kıyafeti Kutusu",,
-dutT6BikerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Biker Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6BikerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Biker Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6BikerGlovesBundle,items,Item,,,"Biker's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Motorcu Eldiveni Kutusu",,
-dutT6BikerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Biker Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6BikerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Biker Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6BikerBootsBundle,items,Item,,,"Biker's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Motorcu Çizmesi Kutusu",,
-dutT6BikerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Biker Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6BikerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Biker Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Motorcu Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6ScavengerHelmetBundle,items,Item,,,"Scavenger's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Çöpçü Şapkası Kutusu",,
-dutT6ScavengerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Şapkası içerir. Açınca ödülünü alırsın.","
+dutT6ScavengerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Şapkası içerir. Açınca ödülünü alırsın.",,
 dutT6ScavengerOutfitBundle,items,Item,,,"Scavenger's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Çöpçü Kıyafeti Kutusu",,
-dutT6ScavengerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6ScavengerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6ScavengerGlovesBundle,items,Item,,,"Scavenger's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Çöpçü Eldiveni Kutusu",,
-dutT6ScavengerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6ScavengerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6ScavengerBootsBundle,items,Item,,,"Scavenger's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Çöpçü Çizmesi Kutusu",,
-dutT6ScavengerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6ScavengerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Scavenger Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Çöpçü Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6RangerHelmetBundle,items,Item,,,"Ranger's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Korucu Şapkası Kutusu",,
-dutT6RangerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Şapkası içerir. Açınca ödülünü alırsın.","
+dutT6RangerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Şapkası içerir. Açınca ödülünü alırsın.",,
 dutT6RangerOutfitBundle,items,Item,,,"Ranger's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Korucu Kıyafeti Kutusu",,
-dutT6RangerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6RangerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6RangerGlovesBundle,items,Item,,,"Ranger's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Korucu Eldiveni Kutusu",,
-dutT6RangerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6RangerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6RangerBootsBundle,items,Item,,,"Ranger's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Korucu Çizmesi Kutusu",,
-dutT6RangerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6RangerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Ranger Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Korucu Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6CommandoHelmetBundle,items,Item,,,"Commando's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Komando Kaskı Kutusu",,
-dutT6CommandoHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Commando Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Kaskı içerir. Açınca ödülünü alırsın.","
+dutT6CommandoHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Commando Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Kaskı içerir. Açınca ödülünü alırsın.",,
 dutT6CommandoOutfitBundle,items,Item,,,"Commando's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Komando Kıyafeti Kutusu",,
-dutT6CommandoOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Commando Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6CommandoOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Commando Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6CommandoGlovesBundle,items,Item,,,"Commando's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Komando Eldiveni Kutusu",,
-dutT6CommandoGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Commando Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6CommandoGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Commando Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6CommandoBootsBundle,items,Item,,,"Commando's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Komando Çizmesi Kutusu",,
-dutT6CommandoBootsBundleDesc,items,Item,,,"Contains a legendary T6 Commando Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6CommandoBootsBundleDesc,items,Item,,,"Contains a legendary T6 Commando Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Komando Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6AssassinHelmetBundle,items,Item,,,"Assassin's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Suikastçı Başlığı Kutusu",,
-dutT6AssassinHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Başlığı içerir. Açınca ödülünü alırsın.","
+dutT6AssassinHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Başlığı içerir. Açınca ödülünü alırsın.",,
 dutT6AssassinOutfitBundle,items,Item,,,"Assassin's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Suikastçı Kıyafeti Kutusu",,
-dutT6AssassinOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6AssassinOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6AssassinGlovesBundle,items,Item,,,"Assassin's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Suikastçı Eldiveni Kutusu",,
-dutT6AssassinGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6AssassinGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6AssassinBootsBundle,items,Item,,,"Assassin's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Suikastçı Çizmesi Kutusu",,
-dutT6AssassinBootsBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6AssassinBootsBundleDesc,items,Item,,,"Contains a legendary T6 Assassin Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Suikastçı Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6MinerHelmetBundle,items,Item,,,"Miner's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Madenci Kaskı Kutusu",,
-dutT6MinerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Miner Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Kaskı içerir. Açınca ödülünü alırsın.","
+dutT6MinerHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Miner Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Kaskı içerir. Açınca ödülünü alırsın.",,
 dutT6MinerOutfitBundle,items,Item,,,"Miner's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Madenci Kıyafeti Kutusu",,
-dutT6MinerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Miner Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6MinerOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Miner Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6MinerGlovesBundle,items,Item,,,"Miner's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Madenci Eldiveni Kutusu",,
-dutT6MinerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Miner Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6MinerGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Miner Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6MinerBootsBundle,items,Item,,,"Miner's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Madenci Çizmesi Kutusu",,
-dutT6MinerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Miner Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6MinerBootsBundleDesc,items,Item,,,"Contains a legendary T6 Miner Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Madenci Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6NomadHelmetBundle,items,Item,,,"Nomad's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Göçebe Başlığı Kutusu",,
-dutT6NomadHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Başlığı içerir. Açınca ödülünü alırsın.","
+dutT6NomadHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Başlığı içerir. Açınca ödülünü alırsın.",,
 dutT6NomadOutfitBundle,items,Item,,,"Nomad's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Göçebe Kıyafeti Kutusu",,
-dutT6NomadOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6NomadOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6NomadGlovesBundle,items,Item,,,"Nomad's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Göçebe Eldiveni Kutusu",,
-dutT6NomadGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6NomadGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6NomadBootsBundle,items,Item,,,"Nomad's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Göçebe Çizmesi Kutusu",,
-dutT6NomadBootsBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6NomadBootsBundleDesc,items,Item,,,"Contains a legendary T6 Nomad Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Göçebe Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6NerdHelmetBundle,items,Item,,,"Nerd's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye İnek Öğrenci Gözlüğü Kutusu",,
-dutT6NerdHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Gözlüğü içerir. Açınca ödülünü alırsın.","
+dutT6NerdHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Gözlüğü içerir. Açınca ödülünü alırsın.",,
 dutT6NerdOutfitBundle,items,Item,,,"Nerd's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye İnek Öğrenci Kıyafeti Kutusu",,
-dutT6NerdOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6NerdOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6NerdGlovesBundle,items,Item,,,"Nerd's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye İnek Öğrenci Eldiveni Kutusu",,
-dutT6NerdGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6NerdGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6NerdBootsBundle,items,Item,,,"Nerd's T6 Gloves Boots",,,,,,,,,,,"6. Seviye İnek Öğrenci Çizmesi Kutusu",,
-dutT6NerdBootsBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Çizmesi içerir. Açınca ödülünü alırsın.","
-
+dutT6NerdBootsBundleDesc,items,Item,,,"Contains a legendary T6 Nerd Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye İnek Öğrenci Çizmesi içerir. Açınca ödülünü alırsın.",,
 
 dutT6RaiderHelmetBundle,items,Item,,,"Raider's T6 Helmet Bundle",,,,,,,,,,,"6. Seviye Akıncı Kaskı Kutusu",,
-dutT6RaiderHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Raider Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Kaskı içerir. Açınca ödülünü alırsın.","
+dutT6RaiderHelmetBundleDesc,items,Item,,,"Contains a legendary T6 Raider Helmet. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Kaskı içerir. Açınca ödülünü alırsın.",,
 dutT6RaiderOutfitBundle,items,Item,,,"Raider's T6 Outfit Bundle",,,,,,,,,,,"6. Seviye Akıncı Kıyafeti Kutusu",,
-dutT6RaiderOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Raider Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Kıyafeti içerir. Açınca ödülünü alırsın.","
+dutT6RaiderOutfitBundleDesc,items,Item,,,"Contains a legendary T6 Raider Outfit. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Kıyafeti içerir. Açınca ödülünü alırsın.",,
 dutT6RaiderGlovesBundle,items,Item,,,"Raider's T6 Gloves Bundle",,,,,,,,,,,"6. Seviye Akıncı Eldiveni Kutusu",,
-dutT6RaiderGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Raider Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Eldiveni içerir. Açınca ödülünü alırsın.","
+dutT6RaiderGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Raider Gloves. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Eldiveni içerir. Açınca ödülünü alırsın.",,
 dutT6RaiderBootsBundle,items,Item,,,"Raider's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Akıncı Çizmesi Kutusu",,
-dutT6RaiderBootsBundleDesc,items,Item,,,"Contains a legendary T6 Raider Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Çizmesi içerir. Açınca ödülünü alırsın.","
+dutT6RaiderBootsBundleDesc,items,Item,,,"Contains a legendary T6 Raider Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Çizmesi içerir. Açınca ödülünü alırsın.",,
