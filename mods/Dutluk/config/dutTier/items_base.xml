@@ -41,6 +41,7 @@
     <!-- dutT8BundleBox -->
     <item name="dutT8BundleBox">
       <property name="Extends" value="dutT7BundleBox"/>
+      <property name="CreativeMode" value="None"/>
       <property name="CustomIconTint" value="239BA7"/>
     </item>
 

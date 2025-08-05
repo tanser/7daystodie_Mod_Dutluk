@@ -67,6 +67,7 @@
         <property name="Zoom_max_in" value="40"/>
         <property name="triggerEffectTriggerPullDualsense" value="PistolZoom"/>
       </property>
+
       <effect_group name="dutT7CompoundBow">
         <passive_effect name="ProjectileVelocity" operation="perc_add" value=".2" tags="perkArchery"/>
         <passive_effect name="DamageFalloffRange" operation="base_set" value="34" tags="perkArchery"/>
@@ -120,6 +121,11 @@
         <passive_effect name="DamageBonus" operation="base_add" value="3"/>
         <passive_effect name="EntityDamage" operation="perc_add" value="3" tags="perkArchery"/>
         <display_value name="dEntityDamageSneak" value="3"/>
+      </effect_group>
+
+      <effect_group name="add spark">
+        <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0" />
+        <triggered_effect trigger="onSelfEquipUpdate" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0" />
       </effect_group>
     </item>
 

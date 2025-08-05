@@ -121,6 +121,13 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="4" tags="perkArchery"/>
         <display_value name="dEntityDamageSneak" value="4"/>
       </effect_group>
+
+
+      <effect_group name="add spark">
+        <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0" />
+        <triggered_effect trigger="onSelfEquipUpdate" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0" />
+      </effect_group>
+
     </item>
 
 
