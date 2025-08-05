@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+    <!-- Legendary ve Mythic M60'ı craftingMachineGuns yeteneğine ekle -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']">
+        <display_entry item="dutGunMGT3M60LegendaryBundle" unlock_level="100"/>
+        <display_entry item="dutGunMGT3M60MythicBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutGunMGT3M60LegendaryBundle"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutGunMGT3M60MythicBundle"/>
+
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutGunMGT3M60LegendaryBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutGunMGT3M60MythicBundle"/>
+    </append>
+
+</configs>
