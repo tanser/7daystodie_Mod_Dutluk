@@ -3,9 +3,9 @@
 <configs>
 
   <append xpath="/items">
-    <item name="dutGunMGT3M60Legendary">
+    <item name="dutT7GunMGT3M60">
       <property name="CreativeMode" value="Player"/>
-      
+
       <property name="CustomIcon" value="gunMGT3M60"/>
       <property name="CustomIconTint" value="FFAF61"/>
 
@@ -32,7 +32,8 @@
       <!-- gunMGT3M60 -->
       <property name="UnlockedBy" value="craftingMachineGuns"/>
       <!-- perkAutoWeaponsMachineGuns, -->
-      <property name="ShowQuality" value="false"/> <!-- dutluk -->
+      <property name="ShowQuality" value="false"/>
+      <!-- dutluk -->
       <property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
       <property name="SoundUnholster" value="weapon_unholster"/>
       <property name="SoundHolster" value="weapon_holster"/>
@@ -65,14 +66,14 @@
         <property name="zoomTriggerEffectTriggerPullXbox" value="PistolZoom"/>
       </property>
 
-      <effect_group name="dutGunMGT3M60Legendary">
+      <effect_group name="dutT7GunMGT3M60">
         <passive_effect name="MaxRange" operation="base_set" value="90" tags="perkMachineGunner"/>
         <passive_effect name="DamageFalloffRange" operation="base_set" value="58" tags="perkMachineGunner"/>
         <passive_effect name="DamageFalloffRange" operation="perc_add" value=".05" tags="perkMachineGunner"/>
         <!-- random effective rng -->
         <passive_effect name="BlockDamage" operation="base_add" value="-2" tags="perkMachineGunner"/>
         <!-- damage offset -->
-        <passive_effect name="EntityDamage" operation="base_add" value="30" tags="perkMachineGunner"/>
+        <passive_effect name="EntityDamage" operation="base_add" value="50" tags="perkMachineGunner"/>
         <!-- damage offset -->
         <passive_effect name="EntityDamage" operation="perc_add" value=".01,.25" tags="perkMachineGunner"/>
         <!-- random BlockDmg -->
@@ -109,6 +110,18 @@
         <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
         <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
       </effect_group>
+    </item>
+
+    <item name="dutT7GunMGT3M60Bundle">
+      <property name="Extends" value="dutT7BundleBox"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunMGT3M60"/>
+      <property name="DescriptionKey" value="dutT7GunMGT3M60BundleDesc"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT7GunMGT3M60,dutT7GunMGT3M60,dutResourceMythicParts,plantedPotato1"/>
+        <property name="Random_item_count" value="1,1,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
     </item>
 
   </append>

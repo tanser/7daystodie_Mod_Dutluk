@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <!-- *** NEW T6 ARMOR BUNDLES *** -->
+  <append xpath="/items">
+    <item name="dutT6ArmorBundle">
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="resourcePaper"/>
+      <property name="CustomIconTint" value="ff9f9f"/>
+      <property name="ItemTypeIcon" value="computer"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="Weight" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Group" value="Special Items,Clothing,Armor,TCArmor"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+      </property>
+    </item>
+
+    <!-- *** LUMBERJACK T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** LUMBERJACK_HELMET *** -->
+    <item name="dutT6LumberjackHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackHelmet"/>
+      <property name="DescriptionKey" value="dutT6LumberjackHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** LUMBERJACK_OUTFIT *** -->
+    <item name="dutT6LumberjackOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackOutfit"/>
+      <property name="DescriptionKey" value="dutT6LumberjackOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** LUMBERJACK_GLOVES *** -->
+    <item name="dutT6LumberjackGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackGloves"/>
+      <property name="DescriptionKey" value="dutT6LumberjackGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** LUMBERJACK_BOOTS *** -->
+    <item name="dutT6LumberjackBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorLumberjackBoots"/>
+      <property name="DescriptionKey" value="dutT6LumberjackBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorLumberjackBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+    <!-- *** PREACHER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** PREACHER_HELMET *** -->
+    <item name="dutT6PreacherHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorPreacherHelmet"/>
+      <property name="DescriptionKey" value="dutT6PreacherHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorPreacherHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** PREACHER_OUTFIT *** -->
+    <item name="dutT6PreacherOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorPreacherOutfit"/>
+      <property name="DescriptionKey" value="dutT6PreacherOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorPreacherOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** PREACHER_GLOVES *** -->
+    <item name="dutT6PreacherGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorPreacherGloves"/>
+      <property name="DescriptionKey" value="dutT6PreacherGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorPreacherGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** PREACHER_BOOTS *** -->
+    <item name="dutT6PreacherBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorPreacherBoots"/>
+      <property name="DescriptionKey" value="dutT6PreacherBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorPreacherBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ROGUE T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** ROGUE_HELMET *** -->
+    <item name="dutT6RogueHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRogueHelmet"/>
+      <property name="DescriptionKey" value="dutT6RogueHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRogueHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ROGUE_OUTFIT *** -->
+    <item name="dutT6RogueOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRogueOutfit"/>
+      <property name="DescriptionKey" value="dutT6RogueOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRogueOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ROGUE_GLOVES *** -->
+    <item name="dutT6RogueGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRogueGloves"/>
+      <property name="DescriptionKey" value="dutT6RogueGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRogueGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ROGUE_BOOTS *** -->
+    <item name="dutT6RogueBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRogueBoots"/>
+      <property name="DescriptionKey" value="dutT6RogueBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRogueBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ATHLETIC T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** ATHLETIC_HELMET *** -->
+    <item name="dutT6AthleticHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAthleticHelmet"/>
+      <property name="DescriptionKey" value="dutT6AthleticHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAthleticHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ATHLETIC_OUTFIT *** -->
+    <item name="dutT6AthleticOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAthleticOutfit"/>
+      <property name="DescriptionKey" value="dutT6AthleticOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAthleticOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ATHLETIC_GLOVES *** -->
+    <item name="dutT6AthleticGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAthleticGloves"/>
+      <property name="DescriptionKey" value="dutT6AthleticGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAthleticGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ATHLETIC_BOOTS *** -->
+    <item name="dutT6AthleticBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAthleticBoots"/>
+      <property name="DescriptionKey" value="dutT6AthleticBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAthleticBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ENFORCER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** ENFORCER_HELMET *** -->
+    <item name="dutT6EnforcerHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorEnforcerHelmet"/>
+      <property name="DescriptionKey" value="dutT6EnforcerHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorEnforcerHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ENFORCER_OUTFIT *** -->
+    <item name="dutT6EnforcerOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorEnforcerOutfit"/>
+      <property name="DescriptionKey" value="dutT6EnforcerOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorEnforcerOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ENFORCER_GLOVES *** -->
+    <item name="dutT6EnforcerGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorEnforcerGloves"/>
+      <property name="DescriptionKey" value="dutT6EnforcerGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorEnforcerGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ENFORCER_BOOTS *** -->
+    <item name="dutT6EnforcerBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorEnforcerBoots"/>
+      <property name="DescriptionKey" value="dutT6EnforcerBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorEnforcerBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+    <!-- *** FARMER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** FARMER_HELMET *** -->
+    <item name="dutT6FarmerHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorFarmerHelmet"/>
+      <property name="DescriptionKey" value="dutT6FarmerHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorFarmerHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** FARMER_OUTFIT *** -->
+    <item name="dutT6FarmerOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorFarmerOutfit"/>
+      <property name="DescriptionKey" value="dutT6FarmerOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorFarmerOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** FARMER_GLOVES *** -->
+    <item name="dutT6FarmerGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorFarmerGloves"/>
+      <property name="DescriptionKey" value="dutT6FarmerGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorFarmerGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** FARMER_BOOTS *** -->
+    <item name="dutT6FarmerBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorFarmerBoots"/>
+      <property name="DescriptionKey" value="dutT6FarmerBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorFarmerBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+    <!-- *** BIKER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** BIKER_HELMET *** -->
+    <item name="dutT6BikerHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorBikerHelmet"/>
+      <property name="DescriptionKey" value="dutT6BikerHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorBikerHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** BIKER_OUTFIT *** -->
+    <item name="dutT6BikerOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorBikerOutfit"/>
+      <property name="DescriptionKey" value="dutT6BikerOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorBikerOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** BIKER_GLOVES *** -->
+    <item name="dutT6BikerGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorBikerGloves"/>
+      <property name="DescriptionKey" value="dutT6BikerGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorBikerGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** BIKER_BOOTS *** -->
+    <item name="dutT6BikerBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorBikerBoots"/>
+      <property name="DescriptionKey" value="dutT6BikerBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorBikerBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+    <!-- *** SCAVENGER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** SCAVENGER_HELMET *** -->
+    <item name="dutT6ScavengerHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorScavengerHelmet"/>
+      <property name="DescriptionKey" value="dutT6ScavengerHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorScavengerHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** SCAVENGER_OUTFIT *** -->
+    <item name="dutT6ScavengerOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorScavengerOutfit"/>
+      <property name="DescriptionKey" value="dutT6ScavengerOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorScavengerOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** SCAVENGER_GLOVES *** -->
+    <item name="dutT6ScavengerGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorScavengerGloves"/>
+      <property name="DescriptionKey" value="dutT6ScavengerGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorScavengerGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** SCAVENGER_BOOTS *** -->
+    <item name="dutT6ScavengerBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorScavengerBoots"/>
+      <property name="DescriptionKey" value="dutT6ScavengerBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorScavengerBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+
+    <!-- *** RANGER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** RANGER_HELMET *** -->
+    <item name="dutT6RangerHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRangerHelmet"/>
+      <property name="DescriptionKey" value="dutT6RangerHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRangerHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RANGER_OUTFIT *** -->
+    <item name="dutT6RangerOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRangerOutfit"/>
+      <property name="DescriptionKey" value="dutT6RangerOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRangerOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RANGER_GLOVES *** -->
+    <item name="dutT6RangerGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRangerGloves"/>
+      <property name="DescriptionKey" value="dutT6RangerGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRangerGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RANGER_BOOTS *** -->
+    <item name="dutT6RangerBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRangerBoots"/>
+      <property name="DescriptionKey" value="dutT6RangerBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRangerBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** COMMANDO T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** COMMANDO_HELMET *** -->
+    <item name="dutT6CommandoHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorCommandoHelmet"/>
+      <property name="DescriptionKey" value="dutT6CommandoHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorCommandoHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** COMMANDO_OUTFIT *** -->
+    <item name="dutT6CommandoOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorCommandoOutfit"/>
+      <property name="DescriptionKey" value="dutT6CommandoOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorCommandoOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** COMMANDO_GLOVES *** -->
+    <item name="dutT6CommandoGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorCommandoGloves"/>
+      <property name="DescriptionKey" value="dutT6CommandoGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorCommandoGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** COMMANDO_BOOTS *** -->
+    <item name="dutT6CommandoBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorCommandoBoots"/>
+      <property name="DescriptionKey" value="dutT6CommandoBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorCommandoBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ASSASSIN T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** ASSASSIN_HELMET *** -->
+    <item name="dutT6AssassinHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAssassinHelmet"/>
+      <property name="DescriptionKey" value="dutT6AssassinHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAssassinHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ASSASSIN_OUTFIT *** -->
+    <item name="dutT6AssassinOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAssassinOutfit"/>
+      <property name="DescriptionKey" value="dutT6AssassinOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAssassinOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ASSASSIN_GLOVES *** -->
+    <item name="dutT6AssassinGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAssassinGloves"/>
+      <property name="DescriptionKey" value="dutT6AssassinGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAssassinGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** ASSASSIN_BOOTS *** -->
+    <item name="dutT6AssassinBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorAssassinBoots"/>
+      <property name="DescriptionKey" value="dutT6AssassinBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorAssassinBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** MINER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** MINER_HELMET *** -->
+    <item name="dutT6MinerHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorMinerHelmet"/>
+      <property name="DescriptionKey" value="dutT6MinerHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorMinerHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** MINER_OUTFIT *** -->
+    <item name="dutT6MinerOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorMinerOutfit"/>
+      <property name="DescriptionKey" value="dutT6MinerOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorMinerOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** MINER_GLOVES *** -->
+    <item name="dutT6MinerGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorMinerGloves"/>
+      <property name="DescriptionKey" value="dutT6MinerGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorMinerGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** MINER_BOOTS *** -->
+    <item name="dutT6MinerBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorMinerBoots"/>
+      <property name="DescriptionKey" value="dutT6MinerBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorMinerBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NOMAD T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** NOMAD_HELMET *** -->
+    <item name="dutT6NomadHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNomadHelmet"/>
+      <property name="DescriptionKey" value="dutT6NomadHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNomadHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NOMAD_OUTFIT *** -->
+    <item name="dutT6NomadOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNomadOutfit"/>
+      <property name="DescriptionKey" value="dutT6NomadOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNomadOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NOMAD_GLOVES *** -->
+    <item name="dutT6NomadGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNomadGloves"/>
+      <property name="DescriptionKey" value="dutT6NomadGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNomadGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NOMAD_BOOTS *** -->
+    <item name="dutT6NomadBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNomadBoots"/>
+      <property name="DescriptionKey" value="dutT6NomadBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNomadBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NERD T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** NERD_HELMET *** -->
+    <item name="dutT6NerdHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNerdHelmet"/>
+      <property name="DescriptionKey" value="dutT6NerdHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNerdHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NERD_OUTFIT *** -->
+    <item name="dutT6NerdOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNerdOutfit"/>
+      <property name="DescriptionKey" value="dutT6NerdOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNerdOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NERD_GLOVES *** -->
+    <item name="dutT6NerdGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNerdGloves"/>
+      <property name="DescriptionKey" value="dutT6NerdGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNerdGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** NERD_BOOTS *** -->
+    <item name="dutT6NerdBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorNerdBoots"/>
+      <property name="DescriptionKey" value="dutT6NerdBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorNerdBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RAIDER T6 Bundles *** -->
+    <!-- *** **************** *** -->
+
+    <!-- *** RAIDER_HELMET *** -->
+    <item name="dutT6RaiderHelmetBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRaiderHelmet"/>
+      <property name="DescriptionKey" value="dutT6RaiderHelmetBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRaiderHelmet"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RAIDER_OUTFIT *** -->
+    <item name="dutT6RaiderOutfitBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRaiderOutfit"/>
+      <property name="DescriptionKey" value="dutT6RaiderOutfitBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRaiderOutfit"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RAIDER_GLOVES *** -->
+    <item name="dutT6RaiderGlovesBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRaiderGloves"/>
+      <property name="DescriptionKey" value="dutT6RaiderGlovesBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRaiderGloves"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RAIDER_BOOTS *** -->
+    <item name="dutT6RaiderBootsBundle">
+      <property name="Extends" value="dutT6ArmorBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="armorRaiderBoots"/>
+      <property name="DescriptionKey" value="dutT6RaiderBootsBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="armorRaiderBoots"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+  </append>
+
+</configs>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <!-- COLORS -->
+  <!-- T6: ff9f9f -->
+  <!-- T7: FFAF61 (legendary) -->
+  <!-- T8: 239BA7 (mythic) -->
+
+  <append xpath="/items">
+    <!-- dutResourceMythicParts -->
+    <item name="dutResourceMythicParts">
+      <property name="Extends" value="resourceLegendaryParts"/>
+      <property name="DescriptionKey" value="dutResourceMythicPartsDesc" />
+      <property name="CreativeMode" value="Player"/>
+      <property name="EconomicValue" value="10000" />
+      <property name="Group" value="Special Items"/>
+      <property name="CustomIcon" value="dutResourceMythicParts"/>
+    </item>
+
+    <!-- dutT7BundleBox -->
+    <item name="dutT7BundleBox">
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="resourcePaper"/>
+      <property name="CustomIconTint" value="FFAF61"/>
+      <property name="ItemTypeIcon" value="computer"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="Weight" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="Group" value="Special Items"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+      </property>
+    </item>
+
+    <!-- dutT8BundleBox -->
+    <item name="dutT8BundleBox">
+      <property name="Extends" value="dutT7BundleBox"/>
+      <property name="CustomIconTint" value="239BA7"/>
+    </item>
+
+  </append>
+
+</configs>

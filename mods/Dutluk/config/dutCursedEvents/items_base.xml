@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+
+  <append xpath="/items">
+    <!-- dutCursedTotems -->
+    <item name="dutCursedTotems">
+      <property name="Extends" value="resourceLegendaryParts"/>
+      <property name="DescriptionKey" value="dutCursedTotemsDesc" />
+      <property name="CreativeMode" value="Player"/>
+      <property name="EconomicValue" value="10000" />
+      <property name="Group" value="Special Items"/>
+      <property name="CustomIcon" value="dutCursedTotems"/>
+    </item>
+  </append>
+
+</configs>

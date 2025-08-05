@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+
+    <!-- *** T6 Weapon Bundles *** -->
+    <append xpath="/recipes">
+
+        <!-- M60 -->
+        <recipe name="dutT6M60Bundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
+            <ingredient name="gunMGT1AK47Parts" count="18"/>
+            <ingredient name="resourceForgedSteel" count="150"/>
+            <ingredient name="resourceDuctTape" count="18"/>
+            <ingredient name="resourceSpring" count="35"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+
+            <requirement name="ProgressionLevel" progression_name="craftingMachineGuns" level="100"/>
+        </recipe>
+
+    </append>
+
+
+</configs>

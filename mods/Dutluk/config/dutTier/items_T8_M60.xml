@@ -3,7 +3,7 @@
 <configs>
 
   <append xpath="/items">
-    <item name="dutGunMGT3M60Mythic">
+    <item name="dutT8GunMGT3M60">
       <!-- <property name="Extends" value="gunMGT3M60"/> -->
 
       <property name="CreativeMode" value="Player"/>
@@ -67,14 +67,14 @@
         <property name="zoomTriggerEffectTriggerPullXbox" value="PistolZoom"/>
       </property>
 
-      <effect_group name="dutGunMGT3M60Mythic">
+      <effect_group name="dutT8GunMGT3M60">
         <passive_effect name="MaxRange" operation="base_set" value="120" tags="perkMachineGunner"/>
         <passive_effect name="DamageFalloffRange" operation="base_set" value="58" tags="perkMachineGunner"/>
         <passive_effect name="DamageFalloffRange" operation="perc_add" value=".05" tags="perkMachineGunner"/>
         <!-- random effective rng -->
         <passive_effect name="BlockDamage" operation="base_add" value="-2" tags="perkMachineGunner"/>
         <!-- damage offset -->
-        <passive_effect name="EntityDamage" operation="base_add" value="40" tags="perkMachineGunner"/>
+        <passive_effect name="EntityDamage" operation="base_add" value="70" tags="perkMachineGunner"/>
         <!-- damage offset -->
         <passive_effect name="EntityDamage" operation="perc_add" value=".01,.4" tags="perkMachineGunner"/>
         <!-- random BlockDmg -->
@@ -111,6 +111,18 @@
         <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
         <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
       </effect_group>
+    </item>
+
+    <item name="dutT8GunMGT3M60Bundle">
+      <property name="Extends" value="dutT8BundleBox"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunMGT3M60"/>
+      <property name="DescriptionKey" value="dutT8GunMGT3M60BundleDesc"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT8GunMGT3M60,plantedPotato1,plantedPotato1,dutResourceMythicParts"/>
+        <property name="Random_item_count" value="1,1,1,2"/>
+        <property name="Random_count" value="1"/>
+      </property>
     </item>
 
   </append>
