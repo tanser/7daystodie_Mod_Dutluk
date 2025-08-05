@@ -16,4 +16,18 @@
         <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutGunMGT3M60MythicBundle"/>
     </append>
 
+    <!-- Legendary ve Mythic Bow'ı craftingMachineGuns yeteneğine ekle -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']">
+        <display_entry item="dutT7CompoundBowBundle" unlock_level="100"/>
+        <display_entry item="dutT8CompoundBowBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7CompoundBowBundle"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT8CompoundBowBundle"/>
+
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7CompoundBowBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT8CompoundBowBundle"/>
+    </append>
+
 </configs>

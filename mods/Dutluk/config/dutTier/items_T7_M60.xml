@@ -28,7 +28,6 @@
       <property name="Sound_Sight_Out" value="rifle_sight_out"/>
       <property name="RepairExpMultiplier" value="10.8"/>
       <property name="EconomicValue" value="5000"/>
-      <property name="TraderStageTemplate" value="baseTier3"/>
       <!-- gunMGT3M60 -->
       <property name="UnlockedBy" value="craftingMachineGuns"/>
       <!-- perkAutoWeaponsMachineGuns, -->

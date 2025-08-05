@@ -7,6 +7,8 @@
   <include filename="dutTier/items_base.xml"/>
   <include filename="dutTier/items_T7_M60.xml"/>
   <include filename="dutTier/items_T8_M60.xml"/>
+  <include filename="dutTier/items_T7_Bow.xml"/>
+  <include filename="dutTier/items_T8_Bow.xml"/>
 
   <!-- *** NEW CURSED EVENT SYSTEM *** -->
 

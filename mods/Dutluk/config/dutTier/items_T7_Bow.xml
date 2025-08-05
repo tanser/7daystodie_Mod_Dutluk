@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <append xpath="/items">
+
+    <item name="dutT7CompoundBow">
+
+      <property name="CreativeMode" value="Player"/>
+
+      <property name="CustomIcon" value="gunBowT3CompoundBow"/>
+      <property name="CustomIconTint" value="FFAF61"/>
+      <property name="SellableToTrader" value="false"/>
+
+      <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill"/>
+      <property name="DisplayType" value="rangedBow"/>
+      <property name="HoldType" value="53"/>
+      <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Bows/advancedBow/advancedCompoundBow/advancedCompoundBowPrefab.prefab"/>
+      <property name="Material" value="MBowCrossbowParts"/>
+      <property name="TintColor" value="FFAF61"/>
+      <property name="Weight" value="7"/>
+      <property name="ScrapTimeOverride" value="10.0"/>
+      <property name="RepairTools" value="resourceRepairKit"/>
+      <property name="DegradationBreaksAfter" value="false"/>
+      <property name="SoundJammed" value="ItemNeedsRepair"/>
+      <property name="SoundDestroy" value="wooddestroy1"/>
+      <property name="CrosshairOnAim" value="true"/>
+      <!-- aimTest -->
+      <property name="CrosshairUpAfterShot" value="false"/>
+      <property name="EconomicBundleSize" value="1"/>
+      <property name="EconomicValue" value="5000"/>
+      <!-- gunBowT3CompoundBow -->
+      <property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
+      <property name="RepairExpMultiplier" value="5.5"/>
+      <property name="UnlockedBy" value="craftingBows"/>
+      <!-- gunBowT3CompoundBowSchematic, -->
+      <property name="ShowQuality" value="false"/>
+      <property name="UsableUnderwater" value="false"/>
+      <property name="SoundUnholster" value="weapon_unholster"/>
+      <property name="SoundHolster" value="weapon_holster"/>
+      <property name="SoundPickup" value="bow_wooden_grab"/>
+      <property name="SoundPlace" value="bow_wooden_place"/>
+
+      <property class="Action0">
+        <property name="Class" value="Catapult"/>
+        <!-- Catapult might not be the best name for it but it can also be used for a slingshot -->
+        <property name="Hitmask_override" value="Arrow"/>
+        <property name="Delay" value="1"/>
+        <!-- obsolete if rounds per minute exists -->
+        <property name="Magazine_items" value="ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding"/>
+        <!-- <property name="Reload_time" value=".9"/> -->
+        <property name="Sound_start" value="bow3_fire"/>
+        <property name="Sound_repeat" value=""/>
+        <property name="Sound_end" value=""/>
+        <property name="Sound_empty" value="dryfire"/>
+        <property name="Sound_reload" value="bow_unquiver"/>
+        <property name="Sound_draw" value="bow3_draw"/>
+        <property name="Sound_cancel" value="bow_fire_cancel"/>
+        <property name="Max_strain_time" value=".43"/>
+        <property name="triggerEffectTriggerPullDualsense" value="PistolTrigger"/>
+        <property name="triggerEffectTriggerPullXbox" value="PistolTrigger"/>
+        <property name="triggerEffectShootDualsense" value="PistolShoot"/>
+        <property name="triggerEffectShootXbox" value="PistolShoot"/>
+      </property>
+      <property class="Action1">
+        <property name="Class" value="Zoom"/>
+        <property name="Zoom_max_out" value="40"/>
+        <property name="Zoom_max_in" value="40"/>
+        <property name="triggerEffectTriggerPullDualsense" value="PistolZoom"/>
+      </property>
+      <effect_group name="dutT7CompoundBow">
+        <passive_effect name="ProjectileVelocity" operation="perc_add" value=".2" tags="perkArchery"/>
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="34" tags="perkArchery"/>
+        <passive_effect name="DamageFalloffRange" operation="perc_add" value=".12" tags="perkArchery"/>
+        <passive_effect name="MaxRange" operation="base_set" value="100" tags="perkArchery"/>
+        <passive_effect name="MagazineSize" operation="base_set" value="1" tags="perkArchery"/>
+        <passive_effect name="EntityDamage" operation="base_add" value="29" tags="perkArchery"/>
+        <!-- damage offset -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.1" tags="perkArchery"/>
+        <!-- random EntityDmg -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".20,.90" tags="perkArchery"/>
+        <!-- tier bonus -->
+        <passive_effect name="BlockDamage" operation="perc_add" value="-.1,." tags="perkArchery"/>
+        <!-- random BlockDmg -->
+        <passive_effect name="BlockDamage" operation="perc_add" value=".80,.95" tags="perkArchery"/>
+        <!-- tier bonus -->
+        <passive_effect name="ProjectileVelocity" operation="perc_add" value="-.1,.1" tags="perkArchery"/>
+        <!-- random Veloc -->
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkArchery"/>
+        <!-- random WeaponHandling -->
+
+        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.67" tags="perkArchery"/>
+        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.67" tags="perkArchery"/>
+        <passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".06" tags="perkArchery"/>
+        <passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".5" tags="perkArchery"/>
+        <passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.2" tags="perkArchery"/>
+        <passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.0" tags="perkArchery"/>
+
+        <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9" tags="perkArchery"/>
+        <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2" tags="perkArchery"/>
+        <passive_effect name="WeaponHandling" operation="base_set" value=".9" tags="perkArchery"/>
+        <!-- crosshair reset speed -->
+
+        <passive_effect name="RoundsPerMinute" operation="base_set" value="75" tags="perkArchery,bowDrawPenalty"/>
+        <passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkArchery"/>
+
+        <passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".5" tags="perkArchery"/>
+        <passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".5" tags="perkArchery"/>
+        <passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkArchery"/>
+        <passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkArchery"/>
+
+        <passive_effect name="DegradationMax" operation="base_set" value="600,700" tags="perkArchery"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkArchery"/>
+        <passive_effect name="ModSlots" operation="base_set" value="4"/>
+        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+      </effect_group>
+      <effect_group name="sneak damage bonus">
+        <requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+        <requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+        <passive_effect name="DamageBonus" operation="base_add" value="3"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="3" tags="perkArchery"/>
+        <display_value name="dEntityDamageSneak" value="3"/>
+      </effect_group>
+    </item>
+
+    <item name="dutT7CompoundBowBundle">
+      <property name="Extends" value="dutT7BundleBox"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunBowT3CompoundBow"/>
+      <property name="DescriptionKey" value="dutT7CompoundBowBundleDesc"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT7CompoundBow,dutT7CompoundBow,dutResourceMythicParts,plantedPotato1"/>
+        <property name="Random_item_count" value="1,1,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+  </append>
+
+
+</configs>

@@ -16,6 +16,17 @@
             <requirement name="ProgressionLevel" progression_name="craftingMachineGuns" level="100"/>
         </recipe>
 
+        <!-- BOW -->
+        <recipe name="dutT6CompoundBowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
+            <ingredient name="gunBowT1WoodenBowParts" count="18"/>
+            <ingredient name="resourceLeather" count="35"/>
+            <ingredient name="resourceDuctTape" count="18"/>
+            <ingredient name="resourceSpring" count="35"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+
+            <requirement name="ProgressionLevel" progression_name="craftingBows" level="100"/>
+        </recipe>
+
     </append>
 
 

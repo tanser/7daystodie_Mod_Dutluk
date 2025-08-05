@@ -139,14 +139,27 @@ dutT6RaiderGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Raider Gloves.
 dutT6RaiderBootsBundle,items,Item,,,"Raider's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Akıncı Çizmesi Kutusu",,
 dutT6RaiderBootsBundleDesc,items,Item,,,"Contains a legendary T6 Raider Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Çizmesi içerir. Açınca ödülünü alırsın.",,
 
-dutGunMGT3M60Legendary,items,Gun,,,"M60 Machine Gun Legendary",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi",,
-dutGunMGT3M60Mythic,items,Gun,,,"M60 Machine Gun Mistik",,,,,,,,,,,"M60 Makineli Tüfek Mistik",,
 
-dutGunMGT3M60LegendaryBundle,items,Gun,,,"M60 Machine Gun Legendary Bundle",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi Kutusu",,
-dutGunMGT3M60LegendaryBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Legendary. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7CompoundBow,items,Gun,,,"Compound Bow Legendary",,,,,,,,,,,"Compound Bow Efsanevi",,
+dutT8CompoundBow,items,Gun,,,"Compound Bow Mythic",,,,,,,,,,,"Compound Bow Mistik",,
 
-dutGunMGT3M60MythicBundle,items,Gun,,,"60 Machine Gun Mythic Bundle",,,,,,,,,,,"M60 Makineli Tüfek Mistik Kutusu",,
-dutGunMGT3M60MythicBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Mythic. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT7CompoundBowBundle,items,Gun,,,"Compound Bow Legendary Bundle",,,,,,,,,,,"Compound Bow Efsanevi Kutusu",,
+dutT7CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow Legendary. Open to receive your reward.",,,,,,,,,,,"Compound Bow Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+
+dutT8CompoundBowBundle,items,Gun,,,"Compound Bow Mythic Bundle",,,,,,,,,,,"Compound Bow Mistik Kutusu",,
+dutT8CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow Mythic. Open to receive your reward.",,,,,,,,,,,"Compound Bow Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+
+dutT7GunMGT3M60,items,Gun,,,"M60 Machine Gun Legendary",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi",,
+dutT8GunMGT3M60,items,Gun,,,"M60 Machine Gun Mythic",,,,,,,,,,,"M60 Makineli Tüfek Mistik",,
+
+dutT7GunMGT3M60Bundle,items,Gun,,,"M60 Machine Gun Legendary Bundle",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi Kutusu",,
+dutT7GunMGT3M60BundleDesc,items,Gun,,,"Contains a M60 Machine Gun Legendary. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+
+dutT8GunMGT3M60Bundle,items,Gun,,,"M60 Machine Gun Mythic Bundle",,,,,,,,,,,"M60 Makineli Tüfek Mistik Kutusu",,
+dutT8GunMGT3M60BundleDesc,items,Gun,,,"Contains a M60 Machine Gun Mythic. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
 
 dutT6M60Bundle,items,Gun,,,"M60 Machine Gun T6 Bundle",,,,,,,,,,,"M60 Makineli Tüfek 6. Seviye Kutusu",,
 dutT6M60BundleDesc,items,Gun,,,"Contains a M60 Machine Gun T6. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6CompoundBowBundle,items,Gun,,,"Compound Bow T6 Bundle",,,,,,,,,,,"Yoğun Yay 6. Seviye Kutusu",,
+dutT6CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow T6. Open to receive your reward.",,,,,,,,,,,"Yoğun Yay 6. Seviye içerir açınca ödülünü alırsın.",,
