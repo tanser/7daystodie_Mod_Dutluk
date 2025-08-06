@@ -29,7 +29,6 @@
       <property name="RepairExpMultiplier" value="10.8"/>
       <property name="EconomicValue" value="5000"/>
       <!-- gunMGT3M60 -->
-      <property name="UnlockedBy" value="craftingMachineGuns"/>
       <!-- perkAutoWeaponsMachineGuns, -->
       <property name="ShowQuality" value="false"/>
       <!-- dutluk -->
@@ -116,6 +115,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="gunMGT3M60"/>
       <property name="DescriptionKey" value="dutT7GunMGT3M60BundleDesc"/>
+      <property name="UnlockedBy" value="craftingMachineGuns"/>
       <property class="Action0">
         <property name="Random_item" value="dutT7GunMGT3M60,dutT7GunMGT3M60,dutResourceMythicParts,plantedPotato1"/>
         <property name="Random_item_count" value="1,1,1,1"/>

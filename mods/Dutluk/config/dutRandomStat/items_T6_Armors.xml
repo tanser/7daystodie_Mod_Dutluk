@@ -16,7 +16,8 @@
       <property name="Stacknumber" value="1"/>
       <property name="Weight" value="0"/>
       <property name="SellableToTrader" value="false"/>
-      <property name="Group" value="Special Items,Clothing,Armor,TCArmor"/>
+      <property name="Group" value="Clothing,Armor,TCArmor"/>
+      <property name="UnlockedBy" value="craftingArmor"/>
       <property class="Action0">
         <property name="Class" value="OpenBundle"/>
         <property name="Delay" value="0"/>

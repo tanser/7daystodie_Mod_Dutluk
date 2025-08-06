@@ -4,9 +4,6 @@
   <append xpath="/items">
 
     <item name="dutT7CompoundBow">
-
-      <property name="CreativeMode" value="Player"/>
-
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
       <property name="CustomIconTint" value="FFAF61"/>
       <property name="SellableToTrader" value="false"/>
@@ -31,7 +28,6 @@
       <!-- gunBowT3CompoundBow -->
       <property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
       <property name="RepairExpMultiplier" value="5.5"/>
-      <property name="UnlockedBy" value="craftingBows"/>
       <!-- gunBowT3CompoundBowSchematic, -->
       <property name="ShowQuality" value="false"/>
       <property name="UsableUnderwater" value="false"/>
@@ -131,9 +127,10 @@
 
     <item name="dutT7CompoundBowBundle">
       <property name="Extends" value="dutT7BundleBox"/>
-      <property name="CreativeMode" value="Player"/>
+      <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
       <property name="DescriptionKey" value="dutT7CompoundBowBundleDesc"/>
+      <property name="UnlockedBy" value="craftingBows"/>
       <property class="Action0">
         <property name="Random_item" value="dutT7CompoundBow,dutT7CompoundBow,dutResourceMythicParts,plantedPotato1"/>
         <property name="Random_item_count" value="1,1,1,1"/>

@@ -12,8 +12,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6LumberjackOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -22,8 +20,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6LumberjackGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -32,8 +28,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6LumberjackBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -42,8 +36,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <!-- *** PREACHER T6 Bundles *** -->
@@ -54,8 +46,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6PreacherOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -64,8 +54,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6PreacherGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -74,8 +62,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6PreacherBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -84,8 +70,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -97,8 +81,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RogueOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -107,8 +89,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RogueGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -117,8 +97,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RogueBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -127,8 +105,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -140,8 +116,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6AthleticOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -150,8 +124,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6AthleticGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -160,8 +132,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6AthleticBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -170,8 +140,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -183,8 +151,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6EnforcerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -193,8 +159,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6EnforcerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -203,8 +167,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6EnforcerBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -213,8 +175,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -227,8 +187,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6FarmerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -237,8 +195,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6FarmerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -247,8 +203,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6FarmerBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -257,8 +211,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -272,8 +224,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6BikerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -282,8 +232,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6BikerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -292,8 +240,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6BikerBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -302,8 +248,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -317,8 +261,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6ScavengerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -327,8 +269,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6ScavengerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -337,8 +277,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6ScavengerBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -347,8 +285,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -362,8 +298,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RangerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -372,8 +306,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RangerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -382,8 +314,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RangerBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -392,8 +322,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -407,8 +335,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6CommandoOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -417,8 +343,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6CommandoGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -427,8 +351,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6CommandoBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -437,8 +359,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
 
@@ -452,8 +372,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6AssassinOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -462,8 +380,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6AssassinGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -472,8 +388,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6AssassinBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -482,8 +396,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <!-- *** MINER T6 Bundles *** -->
@@ -494,8 +406,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6MinerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -504,8 +414,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6MinerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -514,8 +422,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6MinerBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -524,8 +430,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <!-- *** NOMAD T6 Bundles *** -->
@@ -536,8 +440,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6NomadOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -546,8 +448,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6NomadGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -556,8 +456,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6NomadBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -566,8 +464,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <!-- *** NERD T6 Bundles *** -->
@@ -578,8 +474,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6NerdOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -588,8 +482,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6NerdGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -598,8 +490,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6NerdBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -608,8 +498,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <!-- *** RAIDER T6 Bundles *** -->
@@ -620,8 +508,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RaiderOutfitBundle" count="1" craft_area="workbench" tags="learnable">
@@ -630,8 +516,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RaiderGlovesBundle" count="1" craft_area="workbench" tags="learnable">
@@ -640,8 +524,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
     <recipe name="dutT6RaiderBootsBundle" count="1" craft_area="workbench" tags="learnable">
@@ -650,8 +532,6 @@
       <ingredient name="resourceForgedIron" count="25"/>
       <ingredient name="resourceForgedSteel" count="25"/>
       <ingredient name="resourceLegendaryParts" count="1"/>
-
-      <requirement name="ProgressionLevel" progression_name="craftingArmor" level="100"/>
     </recipe>
 
   </append>

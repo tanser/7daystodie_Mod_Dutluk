@@ -23,6 +23,10 @@
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='groupInfestedT5']">
-		<item name="dutResourceMythicParts" count="1,3" loot_prob_template="veryLow" force_prob="true"/>
+		<item name="dutResourceMythicParts" count="1,3" loot_prob_template="low" force_prob="true"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='buriedSuppliesT2']">
+		<item name="dutResourceMythicParts" count="1" loot_prob_template="low" force_prob="true"/>
 	</append>
 </configs>

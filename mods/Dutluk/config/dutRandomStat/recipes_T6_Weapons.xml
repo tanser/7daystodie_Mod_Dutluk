@@ -12,8 +12,6 @@
             <ingredient name="resourceDuctTape" count="18"/>
             <ingredient name="resourceSpring" count="35"/>
             <ingredient name="resourceLegendaryParts" count="1"/>
-
-            <requirement name="ProgressionLevel" progression_name="craftingMachineGuns" level="100"/>
         </recipe>
 
         <!-- BOW -->
@@ -23,8 +21,6 @@
             <ingredient name="resourceDuctTape" count="18"/>
             <ingredient name="resourceSpring" count="35"/>
             <ingredient name="resourceLegendaryParts" count="1"/>
-
-            <requirement name="ProgressionLevel" progression_name="craftingBows" level="100"/>
         </recipe>
 
     </append>

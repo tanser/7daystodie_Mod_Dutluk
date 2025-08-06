@@ -31,7 +31,6 @@
       <!-- gunBowT3CompoundBow -->
       <property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
       <property name="RepairExpMultiplier" value="5.5"/>
-      <property name="UnlockedBy" value="craftingBows"/>
       <!-- gunBowT3CompoundBowSchematic, -->
       <property name="ShowQuality" value="false"/>
       <property name="UsableUnderwater" value="false"/>
@@ -136,6 +135,7 @@
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
       <property name="DescriptionKey" value="dutT8CompoundBowBundleDesc"/>
+      <property name="UnlockedBy" value="craftingBows"/>
       <property class="Action0">
         <property name="Random_item" value="dutT8CompoundBow,plantedPotato1,dutResourceMythicParts,plantedPotato1"/>
         <property name="Random_item_count" value="1,1,1,1"/>

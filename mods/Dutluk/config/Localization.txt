@@ -163,3 +163,5 @@ dutT6M60BundleDesc,items,Gun,,,"Contains a M60 Machine Gun T6. Open to receive y
 
 dutT6CompoundBowBundle,items,Gun,,,"Compound Bow T6 Bundle",,,,,,,,,,,"Yoğun Yay 6. Seviye Kutusu",,
 dutT6CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow T6. Open to receive your reward.",,,,,,,,,,,"Yoğun Yay 6. Seviye içerir açınca ödülünü alırsın.",,
+
+armorT6,progression,Attribute,,,T6 Armors,,Schwere Rüstungen,Armaduras pesadas,Armures lourdes,Armature pesanti,ヘビーアーマー,중갑옷,Ciężkie pancerze,Armadura pesadas,Тяжелая броня,6. Seviye Zırhlar,重型护甲,重甲

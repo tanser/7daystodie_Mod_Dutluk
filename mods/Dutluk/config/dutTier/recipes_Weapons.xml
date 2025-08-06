@@ -9,30 +9,22 @@
         <recipe name="dutT7GunMGT3M60Bundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
             <ingredient name="gunMGT3M60" count="1" quality="6"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
-
-            <requirement name="ProgressionLevel" progression_name="craftingMachineGuns" level="100"/>
         </recipe>
 
         <recipe name="dutT8GunMGT3M60Bundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
             <ingredient name="dutT7GunMGT3M60" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
-
-            <requirement name="ProgressionLevel" progression_name="craftingMachineGuns" level="100"/>
         </recipe>
 
         <!-- BOW -->
         <recipe name="dutT7CompoundBowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
             <ingredient name="gunBowT3CompoundBow" count="1" quality="6"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
-
-            <requirement name="ProgressionLevel" progression_name="craftingBows" level="100"/>
         </recipe>
 
         <recipe name="dutT8CompoundBowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
             <ingredient name="dutT7CompoundBow" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
-
-            <requirement name="ProgressionLevel" progression_name="craftingBows" level="100"/>
         </recipe>
 
 
