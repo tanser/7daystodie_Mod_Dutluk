@@ -127,7 +127,6 @@
 
     <item name="dutT7CompoundBowBundle">
       <property name="Extends" value="dutT7BundleBox"/>
-      <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
       <property name="DescriptionKey" value="dutT7CompoundBowBundleDesc"/>
       <property name="UnlockedBy" value="craftingBows"/>

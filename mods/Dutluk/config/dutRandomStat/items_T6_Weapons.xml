@@ -27,10 +27,10 @@
     <!-- *** M60 *** -->
     <item name="dutT6M60Bundle">
       <property name="Extends" value="dutT6WeaponBundle"/>
-      <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="gunMGT3M60"/>
       <property name="DescriptionKey" value="dutT6M60BundleDesc"/>
+      <property name="UnlockedBy" value="craftingMachineGuns"/>
       <property class="Action0">
         <property name="Create_item" value="gunMGT3M60"/>
         <property name="Create_item_count" value="6"/>
@@ -40,10 +40,10 @@
     <!-- *** BOW *** -->
     <item name="dutT6CompoundBowBundle">
       <property name="Extends" value="dutT6WeaponBundle"/>
-      <property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
       <property name="DescriptionKey" value="dutT6CompoundBowBundleDesc"/>
+      <property name="UnlockedBy" value="craftingBows"/>
       <property class="Action0">
         <property name="Create_item" value="gunBowT3CompoundBow"/>
         <property name="Create_item_count" value="6"/>
