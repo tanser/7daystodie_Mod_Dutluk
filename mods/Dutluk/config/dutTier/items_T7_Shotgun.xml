@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <append xpath="/items">
+
+    <item name="dutT7Shotgun">
+      <property name="Extends" value="gunShotgunT3AutoShotgun"/>
+
+      <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
+      <property name="Material" value="MShotgunParts"/>
+      <property name="TintColor" value="FFAF61"/>
+      <property name="CustomIcon" value="gunShotgunT1DoubleBarrel"/>
+      <property name="CustomIconTint" value="FFAF61"/>
+      <property name="ShowQuality" value="false"/>
+      <property name="CreativeMode" value="Player"/>
+
+      <!-- prevent to sell or buy -->
+      <property name="SellableToTrader" value="false"/>
+      <property name="EconomicValue" value="0"/>
+
+      <effect_group name="dutT7Shotgun">
+
+        <!-- orginal values -->
+        <passive_effect name="RoundsPerMinute" operation="base_set" value="70" tags="perkBoomstick"/>
+        <passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
+        <passive_effect name="MagazineSize" operation="base_set" value="16" tags="perkBoomstick"/>
+        <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/> <!-- 2.3s -->
+        <passive_effect name="ModSlots" operation="base_set" value="4,4,4,4,4,4" tier="1,2,3,4,5,6"/>
+        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+        <passive_effect name="EntityDamage" operation="base_add" value="10" tags="perkBoomstick"/> <!-- damage offset -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.02,.02" tags="perkBoomstick"/> <!-- random EntityDmg -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".05,.25" tier="2,6" tags="perkBoomstick"/> <!-- tier bonus -->
+        <passive_effect name="BlockDamage" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/> <!-- random BlockDmg -->
+        <passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkBoomstick"/> <!-- tier bonus -->
+        <!-- <passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tier="1,6" tags="perkBoomstick"/> --> <!-- random DegMax -->
+        <!-- <passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/> --> <!-- random APM -->
+        <!-- <passive_effect name="MagazineSize" operation="perc_add" value="-.122,.24"/> --> <!-- random MagazineSize -->
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.085,.085" tags="perkBoomstick"/> <!-- random WeaponHandling -->
+
+        <passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
+        <passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
+        <passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick"/>
+        <passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2.5" tags="perkBoomstick"/>
+
+        <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2" tags="perkBoomstick"/>
+        <passive_effect name="WeaponHandling" operation="base_set" value="1.7" tags="perkBoomstick"/>
+
+        <passive_effect name="DegradationMax" operation="base_set" value="700,1100" tier="1,6" tags="perkBoomstick"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
+        <display_value name="dStatStunEffect" value="4"/>
+        <!-- /orginal values -->
+
+        <!-- custom values for T7 -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.25"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.25"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.25"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.25"/>
+        <passive_effect name="MagazineSize" operation="base_add" value="-2, 6"/>
+
+      </effect_group>
+    </item>
+
+    <item name="dutT7ShotgunBundle">
+      <property name="Extends" value="dutT7BundleBox"/>
+      <property name="CustomIcon" value="gunShotgunT1DoubleBarrel"/>
+      <property name="DescriptionKey" value="dutT7ShotgunBundleDesc"/>
+      <property name="UnlockedBy" value="craftingShotguns"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT7Shotgun,dutT7Shotgun,dutResourceMythicParts,plantedPotato1"/>
+        <property name="Random_item_count" value="6,6,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+  </append>
+
+</configs>

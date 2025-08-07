@@ -9,6 +9,8 @@
   <include filename="dutTier/items_T8_M60.xml"/>
   <include filename="dutTier/items_T7_Bow.xml"/>
   <include filename="dutTier/items_T8_Bow.xml"/>
+  <include filename="dutTier/items_T7_Shotgun.xml"/>
+  <include filename="dutTier/items_T8_Shotgun.xml"/>
 
   <!-- *** NEW CURSED EVENT SYSTEM *** -->
 

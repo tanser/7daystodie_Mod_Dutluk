@@ -27,6 +27,16 @@
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
+        <!-- SHOTGUN -->
+        <recipe name="dutT7ShotgunBundle" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
+            <ingredient name="gunShotgunT3AutoShotgun" count="1" quality="6"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8ShotgunBundle" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
+            <ingredient name="dutT7Shotgun" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
 
     </append>
 

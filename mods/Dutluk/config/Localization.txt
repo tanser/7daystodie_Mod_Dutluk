@@ -139,14 +139,24 @@ dutT6RaiderGlovesBundleDesc,items,Item,,,"Contains a legendary T6 Raider Gloves.
 dutT6RaiderBootsBundle,items,Item,,,"Raider's T6 Gloves Boots",,,,,,,,,,,"6. Seviye Akıncı Çizmesi Kutusu",,
 dutT6RaiderBootsBundleDesc,items,Item,,,"Contains a legendary T6 Raider Boots. Open to receive your reward.",,,,,,,,,,,"6. Seviye Akıncı Çizmesi içerir. Açınca ödülünü alırsın.",,
 
+dutT7Shotgun,items,Gun,,,"Shotgun Legendary",,,,,,,,,,,"Pompalı Tüfek Efsanevi",,
+dutT8Shotgun,items,Gun,,,"Shotgun Mythic",,,,,,,,,,,"Pompalı Tüfek Mistik",,
 
-dutT7CompoundBow,items,Gun,,,"Compound Bow Legendary",,,,,,,,,,,"Compound Bow Efsanevi",,
+dutT7ShotgunBundle,items,Gun,,,"Shotgun Legendary Bundle",,,,,,,,,,,"Pompalı Tüfek Efsanevi Kutusu",,
+dutT7ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Legendary. Open to receive your reward.",,,,,,,,,,,"Pompalı Tüfek Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
 
-dutT7CompoundBowBundle,items,Gun,,,"Compound Bow Legendary Bundle",,,,,,,,,,,"Compound Bow Efsanevi Kutusu",,
-dutT7CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow Legendary. Open to receive your reward.",,,,,,,,,,,"Compound Bow Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT8ShotgunBundle,items,Gun,,,"Shotgun Mythic Bundle",,,,,,,,,,,"Pompalı Tüfek Mistik Kutusu",,
+dutT8ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Mythic. Open to receive your reward.",,,,,,,,,,,"Pompalı Tüfek Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
 
-dutT8CompoundBowBundle,items,Gun,,,"Compound Bow Mythic Bundle",,,,,,,,,,,"Compound Bow Mistik Kutusu",,
-dutT8CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow Mythic. Open to receive your reward.",,,,,,,,,,,"Compound Bow Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+
+dutT7CompoundBow,items,Gun,,,"Bow Legendary",,,,,,,,,,,"Yay Efsanevi",,
+dutT8CompoundBow,items,Gun,,,"Bow Mythic",,,,,,,,,,,"Yay Mistik",,
+
+dutT7CompoundBowBundle,items,Gun,,,"Bow Legendary Bundle",,,,,,,,,,,"Yay Efsanevi Kutusu",,
+dutT7CompoundBowBundleDesc,items,Gun,,,"Contains a Bow Legendary. Open to receive your reward.",,,,,,,,,,,"Yay Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+
+dutT8CompoundBowBundle,items,Gun,,,"Bow Mythic Bundle",,,,,,,,,,,"Yay Mistik Kutusu",,
+dutT8CompoundBowBundleDesc,items,Gun,,,"Contains a Bow Mythic. Open to receive your reward.",,,,,,,,,,,"Yay Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
 
 dutT7GunMGT3M60,items,Gun,,,"M60 Machine Gun Legendary",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi",,
 dutT8GunMGT3M60,items,Gun,,,"M60 Machine Gun Mythic",,,,,,,,,,,"M60 Makineli Tüfek Mistik",,
