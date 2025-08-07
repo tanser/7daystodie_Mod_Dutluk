@@ -116,11 +116,11 @@
     </item>
 
     <!-- *** SLEDGEHAMMER *** -->
-    <item name="dutT6SledgeBundle">
+    <item name="dutT6SledgehammerBundle">
       <property name="Extends" value="dutT6WeaponBundle"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer"/>
-      <property name="DescriptionKey" value="dutT6SledgeBundleDesc"/>
+      <property name="DescriptionKey" value="dutT6SledgehammerBundleDesc"/>
       <property name="UnlockedBy" value="craftingSledgehammers"/>
       <property class="Action0">
         <property name="Create_item" value="meleeWpnSledgeT3SteelSledgehammer"/>
