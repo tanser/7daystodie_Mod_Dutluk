@@ -10,4 +10,8 @@
 		<item name="dutResourceMythicParts" count="1" loot_prob_template="low" force_prob="true"/>
 	</append>
 
+	<append xpath="/lootcontainers/lootgroup[@name='groupAirDrop']">
+		<item name="dutResourceMythicParts" count="1,2" loot_prob_template="low" force_prob="true"/>
+	</append>
+
 </configs>
