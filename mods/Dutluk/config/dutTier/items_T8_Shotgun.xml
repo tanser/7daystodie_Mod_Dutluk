@@ -57,7 +57,6 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.5"/>
         <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.5"/>
         <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.5"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.5"/>
         <passive_effect name="MagazineSize" operation="base_add" value="3, 10"/>
 
       </effect_group>
@@ -70,8 +69,8 @@
       <property name="DescriptionKey" value="dutT8ShotgunBundleDesc"/>
       <property name="UnlockedBy" value="craftingShotguns"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8Shotgun,plantedPotato1,dutResourceMythicParts,plantedPotato1"/>
-        <property name="Random_item_count" value="6,1,1,1"/>
+        <property name="Random_item" value="dutT8Shotgun,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>

@@ -64,11 +64,11 @@
     </item>
 
     <!-- *** RIFLE *** -->
-    <item name="dutT6RifleBundle">
+    <item name="dutT6SniperBundle">
       <property name="Extends" value="dutT6WeaponBundle"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
-      <property name="DescriptionKey" value="dutT6RifleBundleDesc"/>
+      <property name="DescriptionKey" value="dutT6SniperBundleDesc"/>
       <property name="UnlockedBy" value="craftingRifles"/>
       <property class="Action0">
         <property name="Create_item" value="gunRifleT3SniperRifle"/>

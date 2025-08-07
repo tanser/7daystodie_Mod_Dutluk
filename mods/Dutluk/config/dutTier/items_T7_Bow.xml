@@ -6,9 +6,9 @@
     <item name="dutT7CompoundBow">
       <property name="Extends" value="gunBowT3CompoundBow"/>
 
-      <property name="TintColor" value="FFAF61"/>
+      <property name="TintColor" value="F0E68C"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
-      <property name="CustomIconTint" value="FFAF61"/>
+      <property name="CustomIconTint" value="F0E68C"/>
       <property name="ShowQuality" value="false"/>
       <property name="CreativeMode" value="Player"/>
 
@@ -60,7 +60,6 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.25"/>
         <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.25"/>
         <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.25"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.25"/>
         <passive_effect name="DamageFalloffRange" operation="perc_add" value="-.1,.25"/>
         <passive_effect name="ProjectileVelocity" operation="perc_add" value="-.1,.25"/>
         

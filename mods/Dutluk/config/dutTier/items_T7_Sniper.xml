@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <append xpath="/items">
+
+    <item name="dutT7Sniper">
+      <property name="Extends" value="gunRifleT3SniperRifle"/>
+
+      <property name="TintColor" value="F0E68C"/>
+      <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
+      <property name="CustomIconTint" value="F0E68C"/>
+      <property name="ShowQuality" value="false"/>
+      <property name="CreativeMode" value="Player"/>
+
+      <!-- prevent to sell or buy -->
+      <property name="SellableToTrader" value="false"/>
+      <property name="EconomicValue" value="0"/>
+
+      <effect_group name="dutT7Sniper">
+
+        <!-- orginal values -->
+        <passive_effect name="MaxRange" operation="base_set" value="150" tags="perkDeadEye"/>
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="80" tags="perkDeadEye"/>
+        <passive_effect name="DamageFalloffRange" operation="perc_add" value="-.1,.05" tier="1,6" tags="perkDeadEye"/> <!-- random effective rng -->
+        <passive_effect name="RoundsPerMinute" operation="base_set" value="140" tags="perkDeadEye"/>
+        <passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
+        <passive_effect name="MagazineSize" operation="base_set" value="12" tags="perkDeadEye"/>
+        <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/> <!-- 2.7s -->
+        <passive_effect name="ModSlots" operation="base_set" value="4,4,4,4,4,4" tier="1,2,3,4,5,6"/>
+        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+        <passive_effect name="EntityDamage" operation="base_add" value="53" tags="perkDeadEye"/> <!-- damage offset -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.02,.02" tags="perkDeadEye"/> <!-- random EntityDmg -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".05,.25" tier="2,6" tags="perkDeadEye"/> <!-- tier bonus -->
+        <passive_effect name="BlockDamage" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/> <!-- random BlockDmg -->
+        <passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkDeadEye"/> <!-- tier bonus -->
+        <!-- <passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tier="1,6" tags="perkDeadEye"/> --> <!-- random DegMax -->
+        <!-- <passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/> --> <!-- random APM -->
+        <!-- <passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/> --><!-- random MagazineSize -->
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/> <!-- random WeaponHandling -->
+
+        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="6" tags="perkDeadEye"/>
+        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6" tags="perkDeadEye"/>
+        <passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".06" tags="perkDeadEye"/>
+        <passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkDeadEye"/>
+        <passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkDeadEye"/>
+        <passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2" tags="perkDeadEye"/>
+
+        <passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5" tags="perkDeadEye"/>
+        <passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0" tags="perkDeadEye"/>
+        <passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkDeadEye"/>
+        <passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkDeadEye"/>
+
+        <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11" tags="perkDeadEye"/>
+        <passive_effect name="WeaponHandling" operation="base_set" value=".75" tags="perkDeadEye"/>
+
+        <passive_effect name="DegradationMax" operation="base_set" value="700,1100" tier="1,6" tags="perkDeadEye"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
+
+        <passive_effect name="DamageModifier" operation="base_add" value="200" tags="head"/>
+        <!-- /orginal values -->
+
+        <!-- custom values for T7 -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.25"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.25"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.25"/>
+        <passive_effect name="MagazineSize" operation="base_add" value="-2, 6"/>
+        <passive_effect name="DamageModifier" operation="base_add" value="50" tags="head"/>
+
+      </effect_group>
+    </item>
+
+    <item name="dutT7SniperBundle">
+      <property name="Extends" value="dutT7BundleBox"/>
+      <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
+      <property name="DescriptionKey" value="dutT7SniperBundleDesc"/>
+      <property name="UnlockedBy" value="craftingRifles"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT7Sniper,dutT7Sniper,dutResourceMythicParts,plantedPotato1"/>
+        <property name="Random_item_count" value="6,6,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+  </append>
+
+</configs>

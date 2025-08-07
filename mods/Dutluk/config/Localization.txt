@@ -167,6 +167,12 @@ dutT7MachineGunBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Legendary. Ope
 dutT8MachineGunBundle,items,Gun,,,"M60 Machine Gun Mythic Bundle",,,,,,,,,,,"M60 Makineli Tüfek Mistik Kutusu",,
 dutT8MachineGunBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Mythic. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
 
+dutT7SniperBundle,items,Gun,,,"Sniper Rifle Legendary Bundle",,,,,,,,,,,"Keskin Nişancı Tüfeği Efsanevi Kutusu",,
+dutT7SniperBundleDesc,items,Gun,,,"Contains a Sniper Rifle Legendary. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+
+dutT8SniperBundle,items,Gun,,,"Sniper Rifle Mythic Bundle",,,,,,,,,,,"Keskin Nişancı Tüfeği Mistik Kutusu",,
+dutT8SniperBundleDesc,items,Gun,,,"Contains a Sniper Rifle Mythic. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+
 dutT6M60Bundle,items,Gun,,,"M60 Machine Gun T6 Bundle",,,,,,,,,,,"M60 Makineli Tüfek 6. Seviye Kutusu",,
 dutT6M60BundleDesc,items,Gun,,,"Contains a M60 Machine Gun T6. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek 6. Seviye içerir açınca ödülünü alırsın.",,
 
@@ -178,8 +184,8 @@ armorT6,progression,Attribute,,,T6 Armors,,Schwere Rüstungen,Armaduras pesadas,
 dutT6ShotgunBundle,items,Gun,,,"Shotgun T6 Bundle",,,,,,,,,,,"Otomatik Pompalı Tüfek 6. Seviye Kutusu",,
 dutT6ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun T6. Open to receive your reward.",,,,,,,,,,,"Otomatik Pompalı Tüfek 6. Seviye içerir açınca ödülünü alırsın.",,
 
-dutT6RifleBundle,items,Gun,,,"Rifle T6 Bundle",,,,,,,,,,,"Keskin Nişancı Tüfeği 6. Seviye Kutusu",,
-dutT6RifleBundleDesc,items,Gun,,,"Contains a Rifle T6. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği 6. Seviye içerir açınca ödülünü alırsın.",,
+dutT6SniperBundle,items,Gun,,,"Rifle T6 Bundle",,,,,,,,,,,"Keskin Nişancı Tüfeği 6. Seviye Kutusu",,
+dutT6SniperBundleDesc,items,Gun,,,"Contains a Rifle T6. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği 6. Seviye içerir açınca ödülünü alırsın.",,
 
 dutT6DesertVultureBundle,items,Gun,,,"Desert Vulture T6 Bundle",,,,,,,,,,,"Desert Vulture 6. Seviye Kutusu",,
 dutT6DesertVultureBundleDesc,items,Gun,,,"Contains a Desert Vulture T6. Open to receive your reward.",,,,,,,,,,,"Desert Vulture 6. Seviye içerir açınca ödülünü alırsın.",,

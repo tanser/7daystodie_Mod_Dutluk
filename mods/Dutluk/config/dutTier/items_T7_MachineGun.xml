@@ -10,9 +10,9 @@
 
       <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
       <property name="Material" value="MMachineGunParts"/>
-      <property name="TintColor" value="FFAF61"/>
+      <property name="TintColor" value="F0E68C"/>
       <property name="CustomIcon" value="gunMGT1AK47"/>
-      <property name="CustomIconTint" value="FFAF61"/>
+      <property name="CustomIconTint" value="F0E68C"/>
       <property name="ShowQuality" value="false"/>
       <property name="CreativeMode" value="Player"/>
 
@@ -68,7 +68,6 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.25"/>
         <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.25"/>
         <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.25"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.25"/>
         <passive_effect name="MagazineSize" operation="base_add" value="-5, 20"/>
 
       </effect_group>

@@ -67,7 +67,6 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.5"/>
         <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.5"/>
         <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.5"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.5"/>
         <passive_effect name="MagazineSize" operation="base_add" value="-5, 40"/>
 
       </effect_group>
@@ -80,8 +79,8 @@
       <property name="DescriptionKey" value="dutT8MachineGunBundleDesc"/>
       <property name="UnlockedBy" value="craftingMachineGuns"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8MachineGun,plantedPotato1,plantedPotato1,dutResourceMythicParts"/>
-        <property name="Random_item_count" value="6,1,1,2"/>
+        <property name="Random_item" value="dutT8MachineGun,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>
