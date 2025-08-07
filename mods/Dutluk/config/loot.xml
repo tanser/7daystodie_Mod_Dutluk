@@ -2,31 +2,6 @@
 
 <configs>
 
-	<append xpath="/lootcontainers">	
-		<lootgroup name="dutEliteAmmoGroup" count="1">
-			<item name="ammo762mmBulletAP" count="25,60" />
-			<item name="ammoShotgunShell" count="30,70" />
-			<item name="ammo9mmBulletAP" count="40,80" />
-			<item name="ammo44MagnumBulletAP" count="20,50" />
-			<item name="ammoArrowSteelAP" count="20,50" />
-			<item name="ammoCrossbowBoltSteelAP" count="20,50" />
-			<item name="ammoRocketHE" count="2,5" prob="0.5" />
-		</lootgroup>
-	</append>
-	
-	<append xpath="/lootcontainers">	
-		<lootcontainer name="dutEliteZombieLoot" count="1" size="6,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPrimitiveItemsTemplate" destroy_on_close="empty">
-			<item name="dutResourceMythicParts" count="1,3" prob="0.15"/>
-			<item group="dutEliteAmmoGroup" prob="0.8"/>
-			<item name="casinoCoin" count="100,500"/>
-		</lootcontainer>
-	</append>
+	<include filename="dutTier/loot_T7T8.xml"/>
 
-	<append xpath="/lootcontainers/lootgroup[@name='groupInfestedT5']">
-		<item name="dutResourceMythicParts" count="1,3" loot_prob_template="low" force_prob="true"/>
-	</append>
-
-	<append xpath="/lootcontainers/lootgroup[@name='buriedSuppliesT2']">
-		<item name="dutResourceMythicParts" count="1" loot_prob_template="low" force_prob="true"/>
-	</append>
 </configs>

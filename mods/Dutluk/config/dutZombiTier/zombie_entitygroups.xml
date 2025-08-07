@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+  <append xpath="/entitygroups">
+
+		<!-- Yeni zorluk seviyeleri için zombi grupları -->
+		
+		<!-- Corrupted (Mor) zombi grupları -->
+		<entitygroup name="zombieArleneCorrupted">
+			zombieArleneCorrupted
+		</entitygroup>
+		<entitygroup name="zombieBusinessManCorrupted">
+			zombieBusinessManCorrupted
+		</entitygroup>
+		<entitygroup name="zombieJoeCorrupted">
+			zombieJoeCorrupted
+		</entitygroup>
+		<entitygroup name="zombieBoeCorrupted">
+			zombieBoeCorrupted
+		</entitygroup>
+		<entitygroup name="zombieSpiderCorrupted">
+			zombieSpiderCorrupted
+		</entitygroup>
+		
+		<!-- Apocalyptic (Kırmızı) zombi grupları -->
+		<entitygroup name="zombieArleneApocalyptic">
+			zombieArleneApocalyptic
+		</entitygroup>
+		<entitygroup name="zombieBusinessManApocalyptic">
+			zombieBusinessManApocalyptic
+		</entitygroup>
+		<entitygroup name="zombieJoeApocalyptic">
+			zombieJoeApocalyptic
+		</entitygroup>
+		<entitygroup name="zombieBoeApocalyptic">
+			zombieBoeApocalyptic
+		</entitygroup>
+		<entitygroup name="zombieSpiderApocalyptic">
+			zombieSpiderApocalyptic
+		</entitygroup>
+
+		<!-- Boss Level - Legendary Spider -->
+		<entitygroup name="zombieSpiderLegendary">
+			zombieSpiderLegendary
+		</entitygroup>
+
+		<!-- Karışık zorluk grupları - Yüksek game stage'ler için -->
+		<entitygroup name="mixedCorruptedGroup" count="3,5">
+			zombieArleneCorrupted, .2
+			zombieBusinessManCorrupted, .2
+			zombieJoeCorrupted, .2
+			zombieBoeCorrupted, .2
+			zombieSpiderCorrupted, .2
+		</entitygroup>
+
+		<entitygroup name="mixedApocalypticGroup" count="2,4">
+			zombieArleneApocalyptic, .2
+			zombieBusinessManApocalyptic, .2
+			zombieJoeApocalyptic, .2
+			zombieBoeApocalyptic, .2
+			zombieSpiderApocalyptic, .2
+		</entitygroup>
+
+		<!-- Boss grupları - Legendary Boss'lar -->
+		<entitygroup name="bossSpiderGroup" count="1,1">
+			zombieSpiderLegendary
+		</entitygroup>
+
+		<!-- Karışık Boss Grubu -->
+		<entitygroup name="mixedBossGroup" count="1,2">
+			zombieSpiderLegendary, 1
+		</entitygroup>
+
+		<!-- Boss encounter - Legendary Spider + destekçiler -->
+		<entitygroup name="bossEncounterGroup" count="3,5">
+			zombieSpiderLegendary, .3
+			zombieSpiderApocalyptic, .4
+			zombieSpiderCorrupted, .3
+		</entitygroup>
+
+		<!-- Ultimate Boss Encounter - Her iki boss + destekçiler -->
+		<entitygroup name="ultimateBossEncounter" count="4,6">
+			zombieSpiderLegendary, .2
+			zombieSpiderApocalyptic, .2
+			zombieSpiderCorrupted, .2
+			zombieBusinessManApocalyptic, .2
+		</entitygroup>
+
+		<!-- Aşamalı zorluk grupları - Farklı zorlukları karıştıran gruplar -->
+		<entitygroup name="progressiveHordeStageHigh" count="4,8">
+			zombieArleneCharged, .15
+			zombieBusinessManCharged, .15
+			zombieJoeCharged, .15
+			zombieBoeCharged, .15
+			zombieArleneCorrupted, .1
+			zombieBusinessManCorrupted, .1
+			zombieJoeCorrupted, .1
+			zombieBoeCorrupted, .1
+		</entitygroup>
+
+		<entitygroup name="progressiveHordeStageExtreme" count="3,6">
+			zombieArleneCorrupted, .15
+			zombieBusinessManCorrupted, .15
+			zombieJoeCorrupted, .15
+			zombieBoeCorrupted, .15
+			zombieArleneApocalyptic, .1
+			zombieBusinessManApocalyptic, .1
+			zombieJoeApocalyptic, .1
+			zombieBoeApocalyptic, .1
+		</entitygroup>
+
+		<!-- Nightmare mod için ultra zorluk grubu -->
+		<entitygroup name="nightmareHorde" count="2,3">
+			zombieArleneApocalyptic, .25
+			zombieBusinessManApocalyptic, .25
+			zombieBoeApocalyptic, .25
+			zombieSpiderApocalyptic, .25
+		</entitygroup>
+
+		<!-- Ultimate Boss Challenge - Sadece boss'lar -->
+		<entitygroup name="ultimateBossChallenge" count="1,2">
+			zombieSpiderLegendary, 1
+		</entitygroup>
+
+  </append>
+</configs>

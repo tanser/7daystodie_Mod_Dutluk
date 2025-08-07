@@ -141,7 +141,6 @@ dutT6RaiderBootsBundleDesc,items,Item,,,"Contains a legendary T6 Raider Boots. O
 
 
 dutT7CompoundBow,items,Gun,,,"Compound Bow Legendary",,,,,,,,,,,"Compound Bow Efsanevi",,
-dutT8CompoundBow,items,Gun,,,"Compound Bow Mythic",,,,,,,,,,,"Compound Bow Mistik",,
 
 dutT7CompoundBowBundle,items,Gun,,,"Compound Bow Legendary Bundle",,,,,,,,,,,"Compound Bow Efsanevi Kutusu",,
 dutT7CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow Legendary. Open to receive your reward.",,,,,,,,,,,"Compound Bow Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
@@ -165,3 +164,24 @@ dutT6CompoundBowBundle,items,Gun,,,"Compound Bow T6 Bundle",,,,,,,,,,,"Yoğun Ya
 dutT6CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow T6. Open to receive your reward.",,,,,,,,,,,"Yoğun Yay 6. Seviye içerir açınca ödülünü alırsın.",,
 
 armorT6,progression,Attribute,,,T6 Armors,,Schwere Rüstungen,Armaduras pesadas,Armures lourdes,Armature pesanti,ヘビーアーマー,중갑옷,Ciężkie pancerze,Armadura pesadas,Тяжелая броня,6. Seviye Zırhlar,重型护甲,重甲
+
+// Yeni Zombi Zorluk Seviyeleri
+zombieArleneCorrupted,entities,Entity,,"Corrupted Arlene",,,,,,,,,,,"Bozulmuş Arlene",,
+zombieArleneApocalyptic,entities,Entity,,"Apocalyptic Arlene",,,,,,,,,,,"Kıyamet Arlene",,
+zombieBusinessManCorrupted,entities,Entity,,"Corrupted Businessman",,,,,,,,,,,"Bozulmuş İş Adamı",,
+zombieBusinessManApocalyptic,entities,Entity,,"Apocalyptic Businessman",,,,,,,,,,,"Kıyamet İş Adamı",,
+zombieJoeCorrupted,entities,Entity,,"Corrupted Joe",,,,,,,,,,,"Bozulmuş Joe",,
+zombieJoeApocalyptic,entities,Entity,,"Apocalyptic Joe",,,,,,,,,,,"Kıyamet Joe",,
+zombieBoeCorrupted,entities,Entity,,"Corrupted Boe",,,,,,,,,,,"Bozulmuş Boe",,
+zombieBoeApocalyptic,entities,Entity,,"Apocalyptic Boe",,,,,,,,,,,"Kıyamet Boe",,
+zombieSpiderCorrupted,entities,Entity,,"Corrupted Spider",,,,,,,,,,,"Bozulmuş Örümcek",,
+zombieSpiderApocalyptic,entities,Entity,,"Apocalyptic Spider",,,,,,,,,,,"Kıyamet Örümcek",,
+zombieSpiderLegendary,entities,Entity,,"Legendary Spider Boss",,,,,,,,,,,"Efsanevi Örümcek Boss",,
+
+// Zorluk Seviyesi Açıklamaları
+corruptedZombieDesc,entities,Entity,,"A zombie corrupted by dark energy, more dangerous than charged variants.",,,,,,,,,,,"Karanlık enerji tarafından bozulmuş zombi, şarjlı türlerden daha tehlikeli.",,
+apocalypticZombieDesc,entities,Entity,,"Pure red apocalyptic zombies, the ultimate threat before boss level.",,,,,,,,,,,"Saf kırmızı kıyamet zombileri, boss seviyesinden önceki en büyük tehdit.",,
+legendaryZombieDesc,entities,Entity,,"Golden legendary boss zombie, nearly indestructible and extremely dangerous.",,,,,,,,,,,"Altın efsanevi boss zombi, neredeyse yıkılmaz ve son derece tehlikeli.",,
+
+// Renk Açıklamaları
+zombieTierInfo,entities,Entity,,"Zombie Difficulty: Green > Blue > Yellow > Purple > Red > Golden",,,,,,,,,,,"Zombi Zorluk Seviyeleri: Yeşil > Mavi > Sarı > Mor > Kırmızı > Altın",,

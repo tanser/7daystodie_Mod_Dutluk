@@ -21,5 +21,9 @@
   <include filename="dutRandomStat/items_T6_Weapons.xml"/>
   <include filename="dutRandomStat/items_T6_Armors.xml"/>
 
+  <!-- *** NEW ZOMBIE DIFFICULTY LEVELS *** -->
+
+  <include filename="dutZombiTier/zombie_items.xml"/>
+
 
 </configs>

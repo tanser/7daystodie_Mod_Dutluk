@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <append xpath="/items">
+
+		<!-- Yeni zorluk seviyeleri için zombi el silahları -->
+
+		<!-- Corrupted (Mor) Zombi El Silahı -->
+		<item name="meleeHandZombieCorrupted">
+			<property name="Tags" value="melee,zombie,corrupted"/>
+			<property name="DisplayType" value="meleeHand"/>
+			<property name="HoldType" value="31"/>
+			<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/PrefabKnucklesT0Iron.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="2"/>
+			<property name="RepairTools" value="repairKit"/>
+			<property name="SoundDestroy" value="destroy_metal"/>
+			<property name="SoundHolster" value="holster"/>
+			<property name="SoundUnholster" value="unholster"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="CrosshairUpAfterShot" value="true"/>
+			<property name="Sound_Sight_In" value="weapon_handgun_sightin"/>
+			<property name="Sound_Sight_Out" value="weapon_handgun_sightout"/>
+			<property name="AttachmentSlots" value=""/>
+			<property name="Attachments" value=""/>
+			<property name="Group" value="Ammo/Weapons,Melee Weapons,Blades"/>
+			<property name="EconomicValue" value="1"/>
+
+			<property name="ShowQuality" value="false"/>
+			<property name="CanHaveCosmetic" value="false"/>
+
+			<property name="ActionSkillGroup" value="Melee"/>
+			<property name="Action0" value="Melee"/>
+			<property name="Action1" value="Block"/>
+
+			<effect_group name="meleeHandZombieCorrupted">
+				<passive_effect name="EntityDamage" operation="base_set" value="45"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="90"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="120"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.8"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="8"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="9999999"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0"/>
+			</effect_group>
+		</item>
+
+		<!-- Apocalyptic (Turuncu) Zombi El Silahı -->
+		<item name="meleeHandZombieApocalyptic">
+			<property name="Tags" value="melee,zombie,apocalyptic"/>
+			<property name="DisplayType" value="meleeHand"/>
+			<property name="HoldType" value="31"/>
+			<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/PrefabKnucklesT0Iron.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="2"/>
+			<property name="RepairTools" value="repairKit"/>
+			<property name="SoundDestroy" value="destroy_metal"/>
+			<property name="SoundHolster" value="holster"/>
+			<property name="SoundUnholster" value="unholster"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="CrosshairUpAfterShot" value="true"/>
+			<property name="Sound_Sight_In" value="weapon_handgun_sightin"/>
+			<property name="Sound_Sight_Out" value="weapon_handgun_sightout"/>
+			<property name="AttachmentSlots" value=""/>
+			<property name="Attachments" value=""/>
+			<property name="Group" value="Ammo/Weapons,Melee Weapons,Blades"/>
+			<property name="EconomicValue" value="1"/>
+
+			<property name="ShowQuality" value="false"/>
+			<property name="CanHaveCosmetic" value="false"/>
+
+			<property name="ActionSkillGroup" value="Melee"/>
+			<property name="Action0" value="Melee"/>
+			<property name="Action1" value="Block"/>
+
+			<effect_group name="meleeHandZombieApocalyptic">
+				<passive_effect name="EntityDamage" operation="base_set" value="60"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="120"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="135"/>
+				<passive_effect name="MaxRange" operation="base_set" value="3.0"/>
+				<passive_effect name="BlockRange" operation="base_set" value="4.0"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="10"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="9999999"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0"/>
+			</effect_group>
+		</item>
+
+		<!-- Legendary Boss (Altın) Zombi El Silahı -->
+		<item name="meleeHandZombieLegendary">
+			<property name="Tags" value="melee,zombie,legendary,boss"/>
+			<property name="DisplayType" value="meleeHand"/>
+			<property name="HoldType" value="31"/>
+			<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knuckles/PrefabKnucklesT0Iron.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="3"/>
+			<property name="RepairTools" value="repairKit"/>
+			<property name="SoundDestroy" value="destroy_metal"/>
+			<property name="SoundHolster" value="holster"/>
+			<property name="SoundUnholster" value="unholster"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="CrosshairUpAfterShot" value="true"/>
+			<property name="Sound_Sight_In" value="weapon_handgun_sightin"/>
+			<property name="Sound_Sight_Out" value="weapon_handgun_sightout"/>
+			<property name="AttachmentSlots" value=""/>
+			<property name="Attachments" value=""/>
+			<property name="Group" value="Ammo/Weapons,Melee Weapons,Blades"/>
+			<property name="EconomicValue" value="1"/>
+
+			<property name="ShowQuality" value="false"/>
+			<property name="CanHaveCosmetic" value="false"/>
+
+			<property name="ActionSkillGroup" value="Melee"/>
+			<property name="Action0" value="Melee"/>
+			<property name="Action1" value="Block"/>
+
+			<effect_group name="meleeHandZombieLegendary">
+				<passive_effect name="EntityDamage" operation="base_set" value="85"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="170"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="150"/>
+				<passive_effect name="MaxRange" operation="base_set" value="3.5"/>
+				<passive_effect name="BlockRange" operation="base_set" value="4.5"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="12"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="9999999"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0"/>
+			</effect_group>
+		</item>
+
+		<item name="meleeHandZombieCopLegendary">
+			<property name="Extends" value="meleeHandZombieCopRadiated"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Action1">
+				<property name="Magazine_items" value="ammoProjectileZombieVomitRadiated"/>
+			</property>
+			<effect_group name="meleeHandZombieCopLegendary" tiered="false">
+				<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/> A16 .8 -->
+				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="8"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="15"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="50"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+					buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+					weights=".15,.09,.09,.06,.31,.40,.15"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="20"><!--InfectionRadiated-->
+					<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="3200"/><!--AbrasionRadiated-->
+			</effect_group>
+		</item>
+
+
+  </append>
+</configs>

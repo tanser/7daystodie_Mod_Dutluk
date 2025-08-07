@@ -1,0 +1,903 @@
+Mono path[0] = '/Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Resources/Data/Managed'
+Mono config path = '/Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+Loading player data from /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Resources/Data/data.unity3d
+Initialize engine version: 2022.3.54f1 (129125d4e700)
+[Subsystems] Discovering subsystems at path /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Resources/Data/UnitySubsystems
+Forcing GfxDevice: OpenGL Core
+GfxDevice: creating device client; threaded=1; jobified=1
+Renderer: Apple M4 Pro
+Vendor:   Apple
+Version:  4.1 Metal - 89.4
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_fl
+ush_render GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -267709440
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.189 seconds
+- Finished resetting the current domain, in  0.003 seconds
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGB Compressed BC6H UFloat format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+UnloadTime: 1.536625 ms
+2025-08-07T15:10:30 0.047 INF Version: V 2.2 (b3) Compatibility Version: V 2.2, Build: OSXPlayer 64 Bit
+2025-08-07T15:10:30 0.050 INF System information:
+2025-08-07T15:10:30 0.051 INF    OS: Mac OS X 15.5.0
+2025-08-07T15:10:30 0.051 INF    CPU: Apple M4 Pro (cores: 14)
+2025-08-07T15:10:30 0.052 INF    RAM: 24576 MB
+2025-08-07T15:10:30 0.052 INF    GPU: Apple M4 Pro (16384 MB)
+2025-08-07T15:10:30 0.057 INF    Graphics API: OpenGL 4.1 Metal - 89.4 (shader level 4.6)
+2025-08-07T15:10:30 0.063 INF Local UTC offset: 3 hours
+2025-08-07T15:10:30 0.130 INF Command line arguments: "/Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/MacOS/7 Days To Die" -force-glcore -disablenativeinput -nogs -noeac -logfile "/Users/tansercobanoglu/Library/Application Support/7DaysToDie/logs/output_log_client__2025-08-07__15-10-29.txt"
+2025-08-07T15:10:30 0.157 INF UserDataFolder: /Users/tansercobanoglu/Library/Application Support/7DaysToDie
+2025-08-07T15:10:30 0.160 INF [Platform] Init
+2025-08-07T15:10:30 0.213 INF [Platform] Using native platform: Steam
+2025-08-07T15:10:30 0.215 INF [Platform] Using cross platform: EOS
+2025-08-07T15:10:30 0.216 INF [Platform] Using server platform: Steam
+2025-08-07T15:10:30 0.217 INF [Platform] Using server platform: XBL
+2025-08-07T15:10:30 0.217 INF [Platform] Using server platform: PSN
+2025-08-07T15:10:30 0.217 INF [Platform] Using server platform: LAN
+2025-08-07T15:10:30 0.240 INF Starting PlayerInputManager...
+2025-08-07T15:10:30 0.245 INF InControl (version 1.8.9 build 9376, native module = False, XInput = True)
+2025-08-07T15:10:30 0.253 INF InControl (version 1.8.9 build 9376)
+2025-08-07T15:10:31 0.890 INF UnityInputDeviceManager enabled.
+2025-08-07T15:10:31 0.989 INF [Platform] Initializing Steam
+[S_API] SteamAPI_Init(): Loaded '/Users/tansercobanoglu/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steamclient.dylib' OK.
+Setting breakpad minidump AppID = 251570
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561199556994821 [API loaded no]
+2025-08-07T15:10:31 1.072 INF [Steamworks.NET] SteamAPI_Init() ok
+2025-08-07T15:10:31 1.075 INF [Steamworks.NET] Registering auth callbacks
+2025-08-07T15:10:31 1.081 INF Not running in Big Picture Mode, no on-screen keyboard available
+2025-08-07T15:10:31 1.081 INF [Platform] Initializing EOS
+2025-08-07 15:10:31.541 7 Days To Die[74801:7530582] [UE4] Shutdown handler: initialize.
+2025-08-07T15:10:31 1.125 INF [EOS] Initialize: Success
+2025-08-07T15:10:31 1.182 INF [EOS-Voice] Successfully initialized.
+2025-08-07T15:10:31 1.185 INF [EOS-ACC] Not started with EAC, anticheat disabled
+2025-08-07T15:10:31 1.185 INF [EAC] AntiCheatServerP2P initialized with null interface
+2025-08-07T15:10:31 1.189 INF [Platform] Initializing XBL
+2025-08-07T15:10:31 1.191 INF [Platform] Initializing PSN
+2025-08-07T15:10:31 1.191 INF [Platform] Initializing LAN
+2025-08-07T15:10:31 1.198 INF [SaveDataUtils] InitStatic Begin
+2025-08-07T15:10:31 1.205 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2025-08-07T15:10:31 1.206 INF [SaveDataUtils] InitStatic Complete
+2025-08-07T15:10:31 1.305 INF Last played version: V 2.2
+2025-08-07T15:10:31 1.535 INF Localization language from prefs: turkish
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+UnloadTime: 3.053000 ms
+2025-08-07T15:10:32 1.568 INF Texture quality is set to 0
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 5672.
+Total: 8.041042 ms (FindLiveObjects: 0.122541 ms CreateObjectMapping: 0.047792 ms MarkObjects: 7.806666 ms  DeleteObjects: 0.063875 ms)
+
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+UnloadTime: 5.295875 ms
+2025-08-07T15:10:39 9.386 INF Awake IsFocused: True
+2025-08-07T15:10:39 9.386 INF Awake
+2025-08-07T15:10:40 9.664 INF Occlusion: Awake
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 5874.
+Total: 7.253792 ms (FindLiveObjects: 0.151916 ms CreateObjectMapping: 0.056958 ms MarkObjects: 6.771459 ms  DeleteObjects: 0.272959 ms)
+
+2025-08-07T15:10:40 9.791 INF ApplyAllOptions streaming budget 14745.6 MB
+2025-08-07T15:10:40 9.798 INF ApplyAllOptions current screen 3456 x 2102, 60.0000024000001hz, window 3456 x 2102, mode FullScreenWindow
+2025-08-07T15:10:40 9.801 INF Texture quality is set to 0
+2025-08-07T15:10:40 9.802 INF ApplyTextureFilter 3, AF Enable
+2025-08-07T15:10:40 9.804 INF ApplyTerrainOptions 3
+2025-08-07T15:10:40 10.113 INF [MODS] Start loading from: '/Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/../../Mods'
+2025-08-07T15:10:40 10.121 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2025-08-07T15:10:40 10.164 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2025-08-07T15:10:40 10.165 INF [MODS]   Trying to load from folder: 'Dutluk'
+2025-08-07T15:10:40 10.168 INF [MODS]     Loaded Mod: Dutluk (1.1.0.4)
+2025-08-07T15:10:40 10.169 INF [MODS] Initializing mod code
+2025-08-07T15:10:40 10.169 INF [MODS]   Initializing mod TFP_Harmony
+2025-08-07T15:10:40 10.181 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
+2025-08-07T15:10:40 10.183 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/data-0x7fbe7f9e4400.dylib
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libSystem
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libSystem
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.dylib
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.dylib
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.so
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.bundle
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.dylib
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.dylib
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.so
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2.bundle
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.2
+Fallback handler could not load library /Users/tansercobanoglu/Library/Application Support/Steam/steamapps/common/7 Days To Die/7DaysToDie.app/Contents/Frameworks/MonoEmbedRuntime/osx/dl
+2025-08-07T15:10:41 10.899 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
+2025-08-07T15:10:41 10.900 INF [MODS] Loading done
+2025-08-07T15:10:41 10.917 INF Pack 4195 us
+2025-08-07T15:10:41 10.922 INF [MODS] Loading localization from mod: Dutluk
+2025-08-07T15:10:41 11.003 INF Loading permissions file at '/Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/serveradmin.xml'
+2025-08-07T15:10:41 11.036 INF Loading permissions file done.
+2025-08-07T15:10:41 11.169 INF GameSense server not found (no props file), disabling
+2025-08-07T15:10:41 11.293 INF [Discord] Loaded settings with DiscordDisabled=False
+2025-08-07T15:10:41 11.327 INF [Discord] Initializing, version 1.4.9649, # 763870b3777c80fd978f7ba35bb7bc0178c55098
+2025-08-07T15:10:41 11.339 INF [Discord] Registering game for Discord invites: Failed
+2025-08-07T15:10:41 11.374 INF [Discord] Initialized
+2025-08-07T15:10:41 11.396 INF [PartyQuests] Initialized
+2025-08-07T15:10:41 11.399 INF Awake done in 2012 ms
+2025-08-07T15:10:42 11.575 INF [XUi] Instantiating XUi from default prefab.
+2025-08-07T15:10:42 11.589 INF [XUi] XUi instantiation completed in 13 ms
+2025-08-07T15:10:42 11.762 ERR [Discord][Log] Failed to create file at path: /Users/tansercobanoglu/Library/Application Support/discord/games/1296840202995896363.json (command_register_osx.cpp:33)
+2025-08-07T15:10:42 11.764 WRN [Discord][RTC][Log] Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats. (input_volume_stats_reporter.cc:98)
+2025-08-07T15:10:42 11.765 WRN [Discord][RTC][Log] Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats. (input_volume_stats_reporter.cc:98)
+2025-08-07T15:10:42 11.765 WRN [Discord][RTC][Log] Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats. (input_volume_stats_reporter.cc:98)
+2025-08-07T15:10:42 11.765 WRN [Discord][RTC][Log] Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats. (input_volume_stats_reporter.cc:98)
+2025-08-07T15:10:42 11.765 ERR [Discord][RTC][Log] BuiltInAECIsAvailable: Not supported on this platform (audio_device_generic.cc:32)
+2025-08-07T15:10:42 11.823 WRN [EOS] [LogAudioMixerAudioUnit - Warning] Error querying Sample Rate: 2003332927
+2025-08-07T15:10:42 11.826 INF [XUi] Loading XUi asynchronously
+2025-08-07T15:10:42 11.860 INF Updated culture for display texts
+src/steamnetworkingsockets/clientlib/steamnetworkingsockets_lowlevel.cpp (2535) : Assertion Failed: Extra control data returned besides TOS?  0x0/0x1b
+src/steamnetworkingsockets/clientlib/steamnetworkingsockets_lowlevel.cpp (2535) : Assertion Failed: Extra control data returned besides TOS?  0x0/0x1b
+src/steamnetworkingsockets/clientlib/steamnetworkingsockets_lowlevel.cpp (2541) : No control data returned even though we asked for TOS?
+2025-08-07T15:10:42 12.096 INF [Discord] Current output device: default // default (MacBook Pro Speakers) // True
+2025-08-07T15:10:42 12.097 INF [Discord] Current input device: default // default (MacBook Pro Microphone) // True
+2025-08-07T15:10:42 12.097 INF [Discord] Current output device: default // default (MacBook Pro Speakers) // True
+2025-08-07T15:10:42 12.097 INF [Discord] Current input device: default // default (MacBook Pro Microphone) // True
+2025-08-07T15:10:42 12.386 INF [EOS] Read cached (NewsFeatured.xml) completed: 2168 bytes
+2025-08-07T15:10:42 12.425 INF [EOS] Read cached (News.xml) completed: 5333 bytes
+2025-08-07T15:10:43 13.220 INF [XUi] Parsing all window groups completed in 1121 ms total.
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+Couldn't create a Convex Mesh from source mesh "hull_forklift_tire" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+2025-08-07T15:10:44 14.051 INF [EOS] Read cached (news_featured_bm3.jpg) completed: 371831 bytes
+2025-08-07T15:10:44 14.077 INF [EOS] Read cached (news_features_yttfp.jpg) completed: 102985 bytes
+2025-08-07T15:10:44 14.098 INF [EOS] Read cached (news_featured_tfpmerch.jpg) completed: 78916 bytes
+2025-08-07T15:10:44 14.112 INF [EOS] Read cached (news_featured_soundtrack.jpg) completed: 235045 bytes
+2025-08-07T15:10:44 14.140 INF [EOS] Read cached (news_game_2.1_stable.jpg) completed: 95868 bytes
+2025-08-07T15:10:44 14.152 INF [EOS] Read cached (news_game_06_2.0_stable.jpg) completed: 96807 bytes
+2025-08-07T15:10:44 14.162 INF [EOS] Read cached (news_game_06_b294exp.jpg) completed: 103907 bytes
+2025-08-07T15:10:44 14.173 INF [EOS] Read cached (news_game_06_b292exp.jpg) completed: 103720 bytes
+2025-08-07T15:10:44 14.184 INF [EOS] Read cached (news_game__06_b289exp.jpg) completed: 110544 bytes
+2025-08-07T15:10:44 14.195 INF [EOS] Read cached (game_news_06_EXP.jpg) completed: 110240 bytes
+2025-08-07T15:10:44 14.206 INF [EOS] Read cached (news_game_2.0_info.jpg) completed: 103730 bytes
+2025-08-07T15:10:45 15.023 INF Loaded default EULA
+2025-08-07T15:10:45 15.112 INF [XUi] Initialized all window groups completed in 1602 ms total.
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+Couldn't create a Convex Mesh from source mesh "Head" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+2025-08-07T15:10:47 16.987 INF LoadTextureArraysForQuality quality -1 to 0, reload False
+2025-08-07T15:10:48 18.043 INF LoadTextureArraysForQuality took 1.054
+2025-08-07T15:10:48 18.144 INF Loaded (local): events in 0.03
+2025-08-07T15:10:48 18.260 INF Loaded (local): rwgmixer in 0.05
+2025-08-07T15:10:48 18.377 INF Loaded (local): archetypes in 0.05
+2025-08-07T15:10:48 18.476 INF Loaded (local): loadingscreen in 0.03
+2025-08-07T15:10:49 18.571 INF Added 1336 subtitle data entries and 3 speaker colors
+2025-08-07T15:10:49 18.576 INF Loaded (local): subtitles in 0.03
+2025-08-07T15:10:49 18.678 INF Loaded (local): videos in 0.03
+2025-08-07T15:10:49 18.680 INF WorldStaticData.Init() needed 6.000s
+2025-08-07T15:10:49 18.707 INF [Steamworks.NET] Login ok.
+2025-08-07T15:10:49 18.709 INF [EOS] Login
+2025-08-07T15:10:49 18.996 INF AchievementManager: Received stats and achievements from Steam
+2025-08-07T15:10:49 19.061 WRN [Steam] Tick took exceptionally long: 67 ms
+2025-08-07T15:10:51 20.737 INF [EOS] Login succeeded, PUID: 0002c194d6704a09971dedd2c3133960
+2025-08-07T15:10:51 20.742 INF [EOS] Getting native user for 0002c194d6704a09971dedd2c3133960
+2025-08-07T15:10:51 20.748 INF [EOS] CopyIdToken result: Success
+2025-08-07T15:10:51 21.377 INF [EOS] Created RFS Request: NewsFeatured.xml
+2025-08-07T15:10:51 21.382 INF [EOS] Created RFS Request: News.xml
+2025-08-07T15:10:51 21.417 INF [EOS] Created RFS Request: DLCConfiguration
+2025-08-07T15:10:51 21.418 INF [EOS] Created RFS Request: eula_turkish
+2025-08-07T15:10:51 21.420 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2025-08-07T15:10:51 21.443 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetching Title Storage Overrides...
+2025-08-07T15:10:51 21.445 INF [EOS] Created RFS Request: PlatformOverrides
+2025-08-07T15:10:51 21.461 INF [EOS] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2025-08-07T15:10:52 22.201 INF [EOS] Read (BlockedPlayerList) completed: Success, received 518 bytes
+2025-08-07T15:10:52 22.405 INF [EOS] Read (NewsFeatured.xml) completed: Success, received 2168 bytes
+2025-08-07T15:10:52 22.408 INF [EOS] Created RFS Request: news_featured_bm3.jpg
+2025-08-07T15:10:52 22.408 INF [EOS] Created RFS Request: news_features_yttfp.jpg
+2025-08-07T15:10:52 22.408 INF [EOS] Created RFS Request: news_featured_tfpmerch.jpg
+2025-08-07T15:10:52 22.526 INF [EOS] found external account for 0002468b60ac43d4b13b0ba49952366a: Type: Steam, Id: 76561199556586852
+2025-08-07T15:10:52 22.527 INF [EOS] found external account for 00027df4b12b41e49e9d44e3388527f7: Type: Steam, Id: 76561199567170080
+2025-08-07T15:10:52 22.527 INF [EOS] found external account for 000231311cff46869717646485ede060: Type: Steam, Id: 76561199557033778
+2025-08-07T15:10:52 22.527 INF [EOS] found external account for 00029aaf26ea4595acdcb0fe0047cf52: Type: Steam, Id: 76561199556253786
+2025-08-07T15:10:53 22.613 INF [EOS] Read (News.xml) completed: Success, received 5333 bytes
+2025-08-07T15:10:53 22.615 INF [EOS] Created RFS Request: news_game_2.1_stable.jpg
+2025-08-07T15:10:53 22.616 INF [EOS] Created RFS Request: news_game_06_2.0_stable.jpg
+2025-08-07T15:10:53 22.616 INF [EOS] Created RFS Request: news_game_06_b294exp.jpg
+2025-08-07T15:10:53 23.327 INF [EOS] Read (eula_turkish) completed: Success, received 40348 bytes
+2025-08-07T15:10:54 23.629 INF [EOS] Read (PlatformOverrides) completed: Success, received 532 bytes
+2025-08-07T15:10:54 23.634 INF [TitleStorageOverridesManager] Successfully retrieved overrides.
+2025-08-07T15:10:54 23.636 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetched Title Storage Overrides!
+2025-08-07T15:10:54 23.743 INF [EOS] Read (DLCConfiguration) completed: Success, received 1261 bytes
+2025-08-07T15:10:54 23.746 INF [DLCTitleStorageManager] Successfully retrieved DLC configuration.
+2025-08-07T15:10:54 24.544 INF [EOS] Read (news_features_yttfp.jpg) completed: Success, received 102985 bytes
+2025-08-07T15:10:54 24.544 INF [EOS] Created RFS Request: news_featured_soundtrack.jpg
+2025-08-07T15:10:55 24.660 INF [EOS] Read (news_featured_tfpmerch.jpg) completed: Success, received 78916 bytes
+2025-08-07T15:10:55 24.860 INF [EOS] Read (news_game_2.1_stable.jpg) completed: Success, received 95868 bytes
+2025-08-07T15:10:55 24.860 INF [EOS] Created RFS Request: news_game_06_b292exp.jpg
+2025-08-07T15:10:55 24.960 INF [EOS] Read (news_game_06_2.0_stable.jpg) completed: Success, received 96807 bytes
+2025-08-07T15:10:55 24.960 INF [EOS] Created RFS Request: news_game__06_b289exp.jpg
+2025-08-07T15:10:55 25.060 INF [EOS] Read (news_game_06_b294exp.jpg) completed: Success, received 103907 bytes
+2025-08-07T15:10:55 25.060 INF [EOS] Created RFS Request: game_news_06_EXP.jpg
+2025-08-07T15:10:55 25.360 INF [EOS] Read (news_featured_bm3.jpg) completed: Success, received 371831 bytes
+2025-08-07T15:10:56 25.878 INF [EOS] Read (news_game_06_b292exp.jpg) completed: Success, received 103720 bytes
+2025-08-07T15:10:56 25.878 INF [EOS] Created RFS Request: news_game_2.0_info.jpg
+2025-08-07T15:10:56 26.277 INF [EOS] Read (news_featured_soundtrack.jpg) completed: Success, received 235045 bytes
+2025-08-07T15:10:56 26.301 INF [EOS] Read (news_game__06_b289exp.jpg) completed: Success, received 110544 bytes
+2025-08-07T15:10:56 26.393 INF [EOS] Read (game_news_06_EXP.jpg) completed: Success, received 110240 bytes
+2025-08-07T15:10:57 27.009 INF [EOS] Read (news_game_2.0_info.jpg) completed: Success, received 103730 bytes
+2025-08-07T15:29:40 1150.479 INF [Discord] Logging in with provisional account
+2025-08-07T15:29:40 1150.481 INF [EOS] CopyIdToken result: Success
+src/steamnetworkingsockets/clientlib/steamnetworkingsockets_lowlevel.cpp (2541) : No control data returned even though we asked for TOS?
+2025-08-07T15:29:43 1152.843 INF [Discord] Saving settings with DiscordDisabled=False
+2025-08-07T15:29:43 1152.878 INF [Discord] Logged in
+2025-08-07T15:29:43 1152.889 INF [EOS] Created RFS Request: PlatformOverrides
+2025-08-07T15:29:43 1152.895 WRN [Discord][Log] RPC manager reset: RPC manager connecting with new client ID Status:0 (rpc_manager.cpp:130)
+2025-08-07T15:29:43 1152.895 WRN [Discord][Log] RPC Connect error: -2 (rpc_manager.cpp:39)
+2025-08-07T15:29:43 1152.895 WRN [Discord][Log] RPC manager reset: RPC failed to receive READY payload (rpc_manager.cpp:130)
+2025-08-07T15:29:43 1153.411 INF [EOS] Read (PlatformOverrides) completed: Success, received 532 bytes
+2025-08-07T15:29:43 1153.412 INF [TitleStorageOverridesManager] Successfully retrieved overrides.
+2025-08-07T15:29:45 1154.826 WRN [Discord][Log] RPC Connect error: -2 (rpc_manager.cpp:39)
+2025-08-07T15:29:45 1154.826 WRN [Discord][Log] RPC manager reset: RPC failed to receive READY payload (rpc_manager.cpp:130)
+2025-08-07T15:29:46 1155.575 INF NET: Starting offline server.
+2025-08-07T15:29:46 1155.577 INF [PlatformApplication] restart required = False
+2025-08-07T15:29:46 1155.577 INF StartGame
+2025-08-07T15:29:46 1155.611 INF NetPackageManager Init
+2025-08-07T15:29:46 1155.720 INF [XUi] Instantiating XUi from default prefab.
+2025-08-07T15:29:46 1155.734 INF [XUi] XUi instantiation completed in 14 ms
+2025-08-07T15:29:46 1155.767 INF Persistent GamePrefs saved
+GamePref.AdminFileName = serveradmin.xml
+GamePref.AirDropFrequency = 72
+GamePref.AirDropMarker = True
+GamePref.AllowSpawnNearBackpack = True
+GamePref.AllowSpawnNearFriend = 2
+GamePref.AutopilotMode = 0
+GamePref.BedrollDeadZoneSize = 15
+GamePref.BedrollExpiryTime = 45
+GamePref.BiomeProgression = True
+GamePref.BlockDamageAI = 100
+GamePref.BlockDamageAIBM = 100
+GamePref.BlockDamagePlayer = 100
+GamePref.BloodMoonEnemyCount = 10
+GamePref.BloodMoonFrequency = 7
+GamePref.BloodMoonRange = 0
+GamePref.BloodMoonWarning = 8
+GamePref.BuildCreate = True
+GamePref.ConnectToServerIP = 5.62.99.205
+GamePref.ConnectToServerPort = 26200
+GamePref.CreateLevelDim = 4096
+GamePref.CreateLevelName = My Level
+GamePref.CreativeMenuEnabled = False
+GamePref.DayCount = 3
+GamePref.DayLightLength = 18
+GamePref.DayNightLength = 60
+GamePref.DeathPenalty = 1
+GamePref.DebugMenuEnabled = False
+GamePref.DebugMenuShowTasks = False
+GamePref.DebugPanelsEnabled = ,Ply,Ge,Sp,Fo,Pr,
+GamePref.DebugStopEnemiesMoving = False
+GamePref.DropOnDeath = 1
+GamePref.DropOnQuit = 0
+GamePref.DynamicMeshDistance = 1000
+GamePref.DynamicMeshEnabled = True
+GamePref.DynamicMeshLandClaimBuffer = 3
+GamePref.DynamicMeshLandClaimOnly = True
+GamePref.DynamicMeshMaxItemCache = 3
+GamePref.DynamicMeshMaxRegionCache = 1
+GamePref.DynamicMeshUseImposters = False
+GamePref.DynamicSpawner = 
+GamePref.EACEnabled = False
+GamePref.EnableMapRendering = False
+GamePref.EnemyDifficulty = 0
+GamePref.EnemySpawnMode = True
+GamePref.EulaLatestVersion = 2
+GamePref.EulaVersionAccepted = 2
+GamePref.FavoriteServersList = 
+GamePref.FragLimit = 20
+GamePref.GameDifficulty = 1
+GamePref.GameGuidClient = 
+GamePref.GameMode = GameModeSurvival
+GamePref.GameName = mod_test_3
+GamePref.GameNameClient = My Game
+GamePref.GameVersion = V 2.2
+GamePref.GameWorld = Navezgane
+GamePref.HideCommandExecutionLog = 0
+GamePref.IgnoreEOSSanctions = False
+GamePref.JoiningOptions = True
+GamePref.LandClaimCount = 5
+GamePref.LandClaimDeadZone = 30
+GamePref.LandClaimDecayMode = 0
+GamePref.LandClaimExpiryTime = 7
+GamePref.LandClaimOfflineDelay = 0
+GamePref.LandClaimOfflineDurabilityModifier = 4
+GamePref.LandClaimOnlineDurabilityModifier = 4
+GamePref.LandClaimSize = 41
+GamePref.Language = turkish
+GamePref.LanguageBrowser = 
+GamePref.LastGameResetRevision = 13
+GamePref.LastLoadedPrefab = 
+GamePref.LastLoadingTipRead = 1
+GamePref.LootAbundance = 100
+GamePref.LootRespawnDays = 7
+GamePref.LootTimer = 
+GamePref.MatchLength = 10
+GamePref.MaxChunkAge = -1
+GamePref.MaxQueuedMeshLayers = 40
+GamePref.MaxSpawnedAnimals = 50
+GamePref.MaxSpawnedZombies = 64
+GamePref.MaxUncoveredMapChunksPerPlayer = 524288
+GamePref.NoGraphicsMode = False
+GamePref.OptionsAllowController = True
+GamePref.OptionsAmbientVolumeLevel = 1
+GamePref.OptionsAudioOcclusion = False
+GamePref.OptionsAutoPartyWithFriends = True
+GamePref.OptionsBackgroundGlobalOpacity = 0.95
+GamePref.OptionsChatCommunication = True
+GamePref.OptionsControllerAimAssists = True
+GamePref.OptionsControllerCursorHoverSensitivity = 0.5
+GamePref.OptionsControllerCursorSnap = True
+GamePref.OptionsControllerIconStyle = 0
+GamePref.OptionsControllerJoystickLayout = 0
+GamePref.OptionsControllerLookAcceleration = 4
+GamePref.OptionsControllerLookAxisDeadzone = 0.1
+GamePref.OptionsControllerLookInvert = False
+GamePref.OptionsControllerMoveAxisDeadzone = 0.1
+GamePref.OptionsControllerSensitivityX = 0.35
+GamePref.OptionsControllerSensitivityY = 0.25
+GamePref.OptionsControllerTriggerEffects = False
+GamePref.OptionsControllerVehicleSensitivity = 1
+GamePref.OptionsControllerVibration = True
+GamePref.OptionsControllerVibrationStrength = 2
+GamePref.OptionsControllerWeaponAiming = False
+GamePref.OptionsControllerZoomSensitivity = 0.5
+GamePref.OptionsControlsResetRevision = 7
+GamePref.OptionsControlsSprintLock = 1
+GamePref.OptionsCrossplay = True
+GamePref.OptionsDisableChunkLODs = False
+GamePref.OptionsDisableXmlEvents = False
+GamePref.OptionsDynamicMusicDailyTime = 0.45
+GamePref.OptionsDynamicMusicEnabled = True
+GamePref.OptionsFilterProfanity = False
+GamePref.OptionsForegroundGlobalOpacity = 1
+GamePref.OptionsGfxAA = 2
+GamePref.OptionsGfxAASharpness = 0.6
+GamePref.OptionsGfxBloom = True
+GamePref.OptionsGfxBrightness = 0.5
+GamePref.OptionsGfxDOF = False
+GamePref.OptionsGfxDynamicMinFPS = 30
+GamePref.OptionsGfxDynamicMode = 0
+GamePref.OptionsGfxDynamicScale = 1
+GamePref.OptionsGfxFOV = 70
+GamePref.OptionsGfxFSRPreset = 2
+GamePref.OptionsGfxGrassDistance = 1
+GamePref.OptionsGfxLODDistance = 0.5732759
+GamePref.OptionsGfxMotionBlur = 0
+GamePref.OptionsGfxMotionBlurEnabled = False
+GamePref.OptionsGfxObjQuality = 3
+GamePref.OptionsGfxOcclusion = True
+GamePref.OptionsGfxQualityPreset = 5
+GamePref.OptionsGfxReflectQuality = 1
+GamePref.OptionsGfxReflectShadows = False
+GamePref.OptionsGfxResetRevision = 4
+GamePref.OptionsGfxResolution = 0
+GamePref.OptionsGfxShadowDistance = 0
+GamePref.OptionsGfxShadowQuality = 1
+GamePref.OptionsGfxSSAO = True
+GamePref.OptionsGfxSSReflections = 1
+GamePref.OptionsGfxStreamMipmaps = True
+GamePref.OptionsGfxSunShafts = True
+GamePref.OptionsGfxTerrainQuality = 3
+GamePref.OptionsGfxTexFilter = 3
+GamePref.OptionsGfxTexQuality = 0
+GamePref.OptionsGfxTreeDistance = 4
+GamePref.OptionsGfxUpscalerMode = 4
+GamePref.OptionsGfxViewDistance = 7
+GamePref.OptionsGfxVsync = 0
+GamePref.OptionsGfxWaterPtlLimiter = 0.5775862
+GamePref.OptionsGfxWaterQuality = 1
+GamePref.OptionsHudOpacity = 1
+GamePref.OptionsHudSize = 1
+GamePref.OptionsInterfaceSensitivity = 0.5
+GamePref.OptionsIntroMovieEnabled = True
+GamePref.OptionsInvertMouse = False
+GamePref.OptionsJournalPopup = True
+GamePref.OptionsLiteNetLibMtuOverride = False
+GamePref.OptionsLookSensitivity = 0.5
+GamePref.OptionsMenuMusicVolumeLevel = 0.7
+GamePref.OptionsMicVolumeLevel = 0.75
+GamePref.OptionsMumblePositionalAudioSupport = False
+GamePref.OptionsMusicVolumeLevel = 0.6
+GamePref.OptionsOverallAudioVolumeLevel = 0
+GamePref.OptionsPlayChanceFrequency = 3
+GamePref.OptionsPlayChanceProbability = 0.983
+GamePref.OptionsPlayerModel = playerMale
+GamePref.OptionsPlayerModelTexture = Player/Male/Player_male
+GamePref.OptionsPOICulling = 1
+GamePref.OptionsQuestsAutoAccept = True
+GamePref.OptionsQuestsAutoShare = True
+GamePref.OptionsScreenBoundsValue = 1
+GamePref.OptionsSelectionBoxAlphaMultiplier = 0.4
+GamePref.OptionsShowCompass = True
+GamePref.OptionsShowConsoleButton = False
+GamePref.OptionsShowCrosshair = True
+GamePref.OptionsStabSpawnBlocksOnGround = True
+GamePref.OptionsSubtitlesEnabled = True
+GamePref.OptionsTempCelsius = True
+GamePref.OptionsUiCompassUseEnglishCardinalDirections = False
+GamePref.OptionsUiFpsScaling = 1
+GamePref.OptionsVehicleLookSensitivity = 0.5
+GamePref.OptionsVoiceChatEnabled = True
+GamePref.OptionsVoiceInputDevice = BuiltInMicrophoneDevice
+GamePref.OptionsVoiceOutputDevice = MacBook Pro Speakers
+GamePref.OptionsVoiceVolumeLevel = 0.75
+GamePref.OptionsWeaponAiming = False
+GamePref.OptionsZoomAccel = 0.5
+GamePref.OptionsZoomSensitivity = 0.3
+GamePref.PartySharedKillRange = 100
+GamePref.PersistentPlayerProfiles = False
+GamePref.PlayerAutologin = False
+GamePref.PlayerKillingMode = 2
+GamePref.PlayerName = tanser2
+GamePref.PlayerSafeZoneHours = 7
+GamePref.PlayerSafeZoneLevel = 5
+GamePref.PlayerToken = 
+GamePref.PlaytestBiome = 3
+GamePref.QuestProgressionDailyLimit = 4
+GamePref.RebuildMap = False
+GamePref.Region = Europe
+GamePref.SaveDataLimit = -1
+GamePref.SaveDataLimitType = Unlimited
+GamePref.SelectionContextMode = 0
+GamePref.SelectionOperationMode = 0
+GamePref.ServerAdminSlots = 0
+GamePref.ServerAdminSlotsPermission = 0
+GamePref.ServerAllowCrossplay = True
+GamePref.ServerDescription = 
+GamePref.ServerDisabledNetworkProtocols = 
+GamePref.ServerEACPeerToPeer = False
+GamePref.ServerEnabled = False
+GamePref.ServerIP = 
+GamePref.ServerIsPublic = True
+GamePref.ServerLoginConfirmationText = 
+GamePref.ServerMatchmakingGroup = 
+GamePref.ServerMaxAllowedViewDistance = 12
+GamePref.ServerMaxPlayerCount = 8
+GamePref.ServerMaxWorldTransferSpeedKiBs = 512
+GamePref.ServerName = Default Server
+GamePref.ServerPort = 26900
+GamePref.ServerReservedSlots = 0
+GamePref.ServerReservedSlotsPermission = 100
+GamePref.ServerVisibility = 1
+GamePref.ServerWebsiteURL = 
+GamePref.ShowFriendPlayerOnMap = True
+GamePref.SkipSpawnButton = False
+GamePref.StormFreq = 100
+GamePref.TelnetEnabled = False
+GamePref.TelnetFailedLoginLimit = 10
+GamePref.TelnetFailedLoginsBlocktime = 10
+GamePref.TelnetPort = 25003
+GamePref.TerminalWindowEnabled = True
+GamePref.TwitchBloodMoonAllowed = True
+GamePref.TwitchServerPermission = 90
+GamePref.UNUSED_ControlPanelEnabled = False
+GamePref.UNUSED_ControlPanelPort = 8080
+GamePref.UNUSED_LastLoadedPrefabSize = 
+GamePref.UNUSED_NewGameSetDefaults = 
+GamePref.UNUSED_OptionsBloom = 
+GamePref.UNUSED_OptionsDOF = 
+GamePref.UNUSED_OptionsFieldOfViewNew = 
+GamePref.UNUSED_OptionsGamma = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionHeight = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionWidth = 
+GamePref.UNUSED_OptionsGfxUMATexQuality = 
+GamePref.UNUSED_OptionsMotionBlur = 
+GamePref.UNUSED_OptionsObjectBlur = 
+GamePref.UNUSED_OptionsReflectionBounces = 
+GamePref.UNUSED_OptionsReflectionCullList = 
+GamePref.UNUSED_OptionsReflectionFarClip = 
+GamePref.UNUSED_OptionsReflectionRefreshMode = 
+GamePref.UNUSED_OptionsReflectionShadowDistance = 
+GamePref.UNUSED_OptionsReflectionTimeSlicingMode = 
+GamePref.UNUSED_OptionsSSAO = 
+GamePref.UNUSED_OptionsStreamingMipmapsBudget = 
+GamePref.UNUSED_OptionsSunShafts = 
+GamePref.UNUSED_PlayerId = 
+GamePref.UNUSED_SaveGameFolder = 
+GamePref.UNUSED_UserDataFolder = 
+GamePref.WebDashboardEnabled = False
+GamePref.WebDashboardPort = 8080
+GamePref.WebDashboardUrl = 
+GamePref.WorldGenSeed = 
+GamePref.WorldGenSize = 8192
+GamePref.XPMultiplier = 100
+GamePref.ZombieBMMove = 3
+GamePref.ZombieFeralMove = 3
+GamePref.ZombieFeralSense = 0
+GamePref.ZombieMove = 0
+GamePref.ZombieMoveNight = 3
+GamePref.ZombiePlayers = True
+GameStat.AirDropFrequency = 0
+GameStat.AirDropMarker = True
+GameStat.AllowedViewDistance = 12
+GameStat.AnimalCount = 0
+GameStat.AutoParty = False
+GameStat.BedrollExpiryTime = 45
+GameStat.BiomeProgression = True
+GameStat.BlockDamagePlayer = 100
+GameStat.BloodMoonDay = 0
+GameStat.BloodMoonEnemyCount = 8
+GameStat.BloodMoonWarning = 8
+GameStat.ChunkStabilityEnabled = True
+GameStat.CurrentRoundIx = 0
+GameStat.DayLightLength = 18
+GameStat.DayLimitActive = False
+GameStat.DayLimitThisRound = 0
+GameStat.DeathPenalty = XPOnly
+GameStat.DropOnDeath = 1
+GameStat.DropOnQuit = 0
+GameStat.EnemyCount = 0
+GameStat.EnemyDifficulty = Normal
+GameStat.EnemySpawnMode = True
+GameStat.FragLimitActive = False
+GameStat.FragLimitThisRound = 0
+GameStat.GameDifficulty = 2
+GameStat.GameDifficultyBonus = 1
+GameStat.GameModeId = 0
+GameStat.GameState = 0
+GameStat.GlobalMessageToShow = 
+GameStat.IsCreativeMenuEnabled = False
+GameStat.IsFlyingEnabled = False
+GameStat.IsPlayerCollisionEnabled = True
+GameStat.IsPlayerDamageEnabled = True
+GameStat.IsResetMapOnRestart = False
+GameStat.IsSaveSupplyCrates = True
+GameStat.IsSpawnEnemies = True
+GameStat.IsSpawnNearOtherPlayer = False
+GameStat.IsTeleportEnabled = False
+GameStat.IsVersionCheckDone = False
+GameStat.LandClaimCount = 5
+GameStat.LandClaimDeadZone = 30
+GameStat.LandClaimDecayMode = 0
+GameStat.LandClaimExpiryTime = 3
+GameStat.LandClaimOfflineDelay = 0
+GameStat.LandClaimOfflineDurabilityModifier = 32
+GameStat.LandClaimOnlineDurabilityModifier = 32
+GameStat.LandClaimSize = 41
+GameStat.LoadScene = 
+GameStat.LootTimer = 
+GameStat.OptionsPOICulling = 0
+GameStat.PartySharedKillRange = 100
+GameStat.PlayerKillingMode = KillStrangersOnly
+GameStat.QuestProgressionDailyLimit = 4
+GameStat.ScoreDiedMultiplier = -5
+GameStat.ScorePlayerKillMultiplier = 1
+GameStat.ScoreZombieKillMultiplier = 1
+GameStat.ShowAllPlayersOnMap = False
+GameStat.ShowFriendPlayerOnMap = True
+GameStat.ShowSpawnWindow = False
+GameStat.ShowWindow = 
+GameStat.StormFreq = 100
+GameStat.TimeLimitActive = False
+GameStat.TimeLimitThisRound = 0
+GameStat.TimeOfDayIncPerSec = 20
+GameStat.TwitchBloodMoonAllowed = True
+GameStat.UNUSED_ShowZombieCounter = 
+GameStat.XPMultiplier = 100
+GameStat.ZombieHordeMeter = False
+2025-08-07T15:29:46 1155.843 INF StartAsServer
+2025-08-07T15:29:46 1155.877 INF Setting for 'BloodMoonEnemyCount' does not match the default (server will go to the modded category): current = 10, default = 8
+2025-08-07T15:29:46 1155.877 INF Setting for 'BuildCreate' does not match the default (server will go to the modded category): current = True, default = False
+2025-08-07T15:29:46 1156.126 INF Loaded (local): events in 0.03
+2025-08-07T15:29:46 1156.481 INF Set Microsplat diffuse: MicroSplatConfig_diff_tarray (UnityEngine.Texture2DArray)
+2025-08-07T15:29:46 1156.482 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)
+2025-08-07T15:29:46 1156.482 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)
+2025-08-07T15:29:46 1156.510 INF Loaded (local): materials in 0.32
+2025-08-07T15:29:47 1156.610 INF Loaded (local): physicsbodies in 0.03
+2025-08-07T15:29:47 1156.710 INF Loaded (local): painting in 0.03
+2025-08-07T15:29:47 1156.843 INF Loaded (local): shapes in 0.05
+2025-08-07T15:29:49 1158.877 WRN [Discord][Log] RPC Connect error: -2 (rpc_manager.cpp:39)
+2025-08-07T15:29:49 1158.877 WRN [Discord][Log] RPC manager reset: RPC failed to receive READY payload (rpc_manager.cpp:130)
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+2025-08-07T15:29:57 1166.842 WRN [Discord][Log] RPC Connect error: -2 (rpc_manager.cpp:39)
+2025-08-07T15:29:57 1166.842 WRN [Discord][Log] RPC manager reset: RPC failed to receive READY payload (rpc_manager.cpp:130)
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+Unloading 3 Unused Serialized files (Serialized files now loaded: 59)
+2025-08-07T15:30:02 1171.628 INF Block IDs with mapping
+2025-08-07T15:30:02 1171.638 INF Block IDs total 24295, terr 30, last 24516
+2025-08-07T15:30:02 1171.653 INF Loaded (local): blocks in 14.54
+Unloading 9431 unused Assets to reduce memory usage. Loaded Objects now: 291894.
+Total: 258.025584 ms (FindLiveObjects: 20.811708 ms CreateObjectMapping: 11.191875 ms MarkObjects: 220.105916 ms  DeleteObjects: 5.915750 ms)
+
+2025-08-07T15:30:02 1172.210 INF Loaded (local): progression in 0.20
+2025-08-07T15:30:02 1172.488 INF Loaded (local): buffs in 0.19
+2025-08-07T15:30:03 1172.593 INF Loaded (local): misc in 0.05
+2025-08-07T15:30:03 1173.253 INF Loaded (local): items in 0.51
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 UNorm format is not supported, decompressing texture
+2025-08-07T15:30:03 1173.410 INF Item IDs with mapping
+2025-08-07T15:30:03 1173.410 INF ItemIDs from Mapping
+2025-08-07T15:30:03 1173.415 INF ItemClass assignLeftOverItems 67015 of 81920
+2025-08-07T15:30:03 1173.493 INF Loaded (local): item_modifiers in 0.08
+2025-08-07T15:30:04 1173.714 INF Loaded (local): entityclasses in 0.16
+2025-08-07T15:30:04 1173.810 INF Loaded (local): qualityinfo in 0.03
+2025-08-07T15:30:04 1173.993 INF Loaded (local): sounds in 0.08
+2025-08-07T15:30:04 1174.143 INF Loaded (local): recipes in 0.08
+2025-08-07T15:30:04 1174.260 INF Loaded (local): blockplaceholders in 0.05
+2025-08-07T15:30:04 1174.279 WRN XML patch for "loot.xml" from mod "Dutluk" did not apply: <append xpath="/lootcontainers/lootgroup[@name='buriedSuppliesT2']"  (line 29 at pos 3)
+2025-08-07T15:30:04 1174.410 INF Loaded (local): loot in 0.08
+2025-08-07T15:30:04 1174.427 WRN XML patch for "entitygroups.xml" from mod "Dutluk" did not apply: <append xpath="/entity_groups"  (line 4 at pos 4)
+2025-08-07T15:30:04 1174.427 WRN XML patch for "entitygroups.xml" from mod "Dutluk" did not apply: <include filename="dutZombiTier/zombie_groups.xml"  (line 5 at pos 4)
+2025-08-07T15:30:04 1174.526 INF Loaded (local): entitygroups in 0.05
+2025-08-07T15:30:05 1174.626 INF Loaded (local): utilityai in 0.03
+2025-08-07T15:30:05 1174.726 INF Loaded (local): vehicles in 0.03
+2025-08-07T15:30:05 1174.827 INF Loaded (local): rwgmixer in 0.03
+2025-08-07T15:30:05 1174.927 INF Loaded (local): weathersurvival in 0.03
+2025-08-07T15:30:05 1175.027 INF Loaded (local): archetypes in 0.03
+2025-08-07T15:30:05 1175.176 INF Loaded (local): challenges in 0.08
+2025-08-07T15:30:05 1175.393 INF Loaded (local): quests in 0.15
+2025-08-07T15:30:05 1175.509 INF Loaded (local): traders in 0.05
+2025-08-07T15:30:06 1175.643 INF Loaded (local): npc in 0.07
+2025-08-07T15:30:06 1175.760 INF Loaded (local): dialogs in 0.05
+2025-08-07T15:30:06 1175.893 INF Loaded (local): ui_display in 0.07
+2025-08-07T15:30:06 1176.027 INF Loaded (local): nav_objects in 0.07
+2025-08-07T15:30:06 1176.127 ERR XML loader: Loading and parsing 'gamestages.xml' failed
+2025-08-07T15:30:06 1176.136 EXC Error loading gamestages.xml: Spawner 'zombieArleneCorrupted', gamestage 1: EntityGroup 'zombieArleneCorrupted' unknown! (line 0 at pos 0)
+  at GameStagesFromXml.ParseSpawn (GameStageDefinition gsd, GameStageDefinition+Stage stage, System.Xml.Linq.XElement root) [0x0005e] in <d576767ce78b4b6bb39a7771cc8cf00a>:0 
+  at GameStagesFromXml.ParseStage (GameStageDefinition gsd, System.Xml.Linq.XElement root) [0x00063] in <d576767ce78b4b6bb39a7771cc8cf00a>:0 
+  at GameStagesFromXml.ParseGameStageDef (System.Xml.Linq.XElement root) [0x0004e] in <d576767ce78b4b6bb39a7771cc8cf00a>:0 
+  at GameStagesFromXml+<Load>d__2.MoveNext () [0x00079] in <d576767ce78b4b6bb39a7771cc8cf00a>:0 
+  at ThreadManager+<CoroutineWrapperWithExceptionCallback>d__50.MoveNext () [0x00044] in <d576767ce78b4b6bb39a7771cc8cf00a>:0 
+UnityEngine.StackTraceUtility:ExtractStringFromException(Object)
+Log:Exception(Exception)
+<>c__DisplayClass51_0:<loadSingleXml>b__4(Exception)
+<CoroutineWrapperWithExceptionCallback>d__50:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+2025-08-07T15:30:07 1176.889 INF Loaded (local): gameevents in 0.50
+2025-08-07T15:30:07 1177.070 INF Loaded (local): twitch in 0.11
+2025-08-07T15:30:07 1177.177 INF Loaded (local): twitch_events in 0.05
+2025-08-07T15:30:07 1177.310 INF Loaded (local): dmscontent in 0.07
+2025-08-07T15:30:07 1177.410 INF Loaded (local): XUi_Common/styles in 0.03
+2025-08-07T15:30:07 1177.510 INF Loaded (local): XUi_Common/controls in 0.03
+2025-08-07T15:30:08 1177.610 INF Loaded (local): XUi/styles in 0.03
+2025-08-07T15:30:08 1177.710 INF Loaded (local): XUi/controls in 0.03
+2025-08-07T15:30:08 1177.810 INF Loaded (local): XUi/windows in 0.03
+2025-08-07T15:30:08 1177.910 INF [XUi] Loading XUi asynchronously
+2025-08-07T15:30:08 1177.943 INF Loaded (local): XUi/xui in 0.07
+2025-08-07T15:30:08 1178.424 INF Loaded (local): biomes in 0.14
+2025-08-07T15:30:09 1178.845 INF Loaded (local): worldglobal in 0.13
+2025-08-07T15:30:09 1179.120 INF Loaded (local): spawning in 0.09
+2025-08-07T15:30:09 1179.314 INF [XUi] Parsing all window groups completed in 955 ms total.
+2025-08-07T15:30:09 1179.451 INF Loaded (local): loadingscreen in 0.11
+2025-08-07T15:30:10 1179.942 INF Added 1336 subtitle data entries and 3 speaker colors
+2025-08-07T15:30:10 1180.012 INF Loaded (local): subtitles in 0.14
+2025-08-07T15:30:10 1180.416 INF ShapeControllers: 96
+2025-08-07T15:30:10 1180.421 INF Loaded (local): videos in 0.08
+2025-08-07T15:30:10 1180.566 INF Loading players.xml
+2025-08-07T15:30:11 1180.606 INF createWorld: Navezgane, mod_test_3, GameModeSurvival
+2025-08-07T15:30:11 1180.608 WRN Occlusion: !supportsComputeShaders
+2025-08-07T15:30:11 1180.608 INF Occlusion: Disabled
+2025-08-07T15:30:11 1180.705 INF Started thread ChunkRegeneration
+2025-08-07T15:30:11 1180.706 INF Started thread ChunkCalc
+2025-08-07T15:30:11 1180.707 INF Started thread ChunkMeshBake
+2025-08-07T15:30:11 1180.927 INF World.Load: Navezgane
+2025-08-07T15:30:11 1180.955 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
+2025-08-07T15:30:11 1181.053 INF Started thread WaterSimulationApplyChanges
+2025-08-07T15:30:11 1181.552 INF [XUi] Initialized all window groups completed in 1215 ms total.
+2025-08-07T15:30:13 1182.859 WRN [Discord][Log] RPC Connect error: -2 (rpc_manager.cpp:39)
+2025-08-07T15:30:13 1182.859 WRN [Discord][Log] RPC manager reset: RPC failed to receive READY payload (rpc_manager.cpp:130)
+2025-08-07T15:30:16 1185.779 INF Started thread GenerateChunks
+Unloading 3 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 22219 unused Assets to reduce memory usage. Loaded Objects now: 417628.
+Total: 568.139166 ms (FindLiveObjects: 28.235500 ms CreateObjectMapping: 14.440708 ms MarkObjects: 517.471833 ms  DeleteObjects: 7.990708 ms)
+
+2025-08-07T15:30:17 1187.189 INF Calculating world hashes took 379 ms (world size 193 MiB)
+2025-08-07T15:30:17 1187.196 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2025-08-07T15:30:17 1187.247 INF Loading dtm raw file took 1445ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417628.
+Total: 527.404958 ms (FindLiveObjects: 24.746541 ms CreateObjectMapping: 7.886875 ms MarkObjects: 494.635084 ms  DeleteObjects: 0.136250 ms)
+
+2025-08-07T15:30:18 1188.274 INF Biomes image size w= 3072, h = 3072
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417644.
+Total: 523.340458 ms (FindLiveObjects: 24.464333 ms CreateObjectMapping: 8.187583 ms MarkObjects: 490.568459 ms  DeleteObjects: 0.119916 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417644.
+Total: 532.647083 ms (FindLiveObjects: 24.780166 ms CreateObjectMapping: 7.943125 ms MarkObjects: 499.804000 ms  DeleteObjects: 0.119666 ms)
+
+2025-08-07T15:30:21 1190.573 INF Loading and creating biomes took 3326ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417644.
+Total: 523.607583 ms (FindLiveObjects: 23.812000 ms CreateObjectMapping: 7.967958 ms MarkObjects: 491.696083 ms  DeleteObjects: 0.131500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417649.
+Total: 528.594000 ms (FindLiveObjects: 25.618500 ms CreateObjectMapping: 8.197750 ms MarkObjects: 494.656917 ms  DeleteObjects: 0.120417 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417650.
+Total: 531.920083 ms (FindLiveObjects: 25.686291 ms CreateObjectMapping: 8.279250 ms MarkObjects: 497.832166 ms  DeleteObjects: 0.122208 ms)
+
+2025-08-07T15:30:24 1193.803 WRN [Steam] Tick took exceptionally long: 171 ms
+2025-08-07T15:30:24 1193.856 INF Loading and creating shader control textures took 3282ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417656.
+Total: 522.019166 ms (FindLiveObjects: 24.158292 ms CreateObjectMapping: 8.004041 ms MarkObjects: 489.732042 ms  DeleteObjects: 0.124708 ms)
+
+2025-08-07T15:30:25 1195.089 INF Loading and parsing of generator took 1232ms
+2025-08-07T15:30:25 1195.136 INF Computed 505 chunk groups containing a total of 9726 chunks. Largest group contains 435 chunks.
+2025-08-07T15:30:25 1195.161 INF Started thread SaveChunks /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/Region
+Unloading 0 Unused Serialized files (Serialized files now loaded: 59)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 417672.
+Total: 534.942709 ms (FindLiveObjects: 24.105750 ms CreateObjectMapping: 8.097209 ms MarkObjects: 502.614333 ms  DeleteObjects: 0.125292 ms)
+
+2025-08-07T15:30:27 1197.041 INF [DECO] read 75569
+2025-08-07T15:30:27 1197.118 INF Dynamic Music Initialized on Server
+2025-08-07T15:30:27 1197.142 INF Dynamic Music Initialized on Client
+2025-08-07T15:30:27 1197.143 INF Begin DMS Conductor Preload Routine
+2025-08-07T15:30:27 1197.144 INF Preloading LayeredSection Exploration : Type: DynamicMusic.Adventure
+2025-08-07T15:30:27 1197.145 INF Loading new config for Exploration...
+2025-08-07T15:30:27 1197.184 INF Loading new ClipSets for Exploration...
+2025-08-07T15:30:27 1197.562 INF Exploration loaded new config and clipsets
+2025-08-07T15:30:28 1197.622 INF Preloading LayeredSection Suspense : Type: DynamicMusic.Adventure
+2025-08-07T15:30:28 1197.622 INF Loading new config for Suspense...
+2025-08-07T15:30:28 1197.648 INF Loading new ClipSets for Suspense...
+2025-08-07T15:30:28 1197.773 INF Suspense loaded new config and clipsets
+2025-08-07T15:30:28 1197.794 INF Preloading LayeredSection Combat : Type: DynamicMusic.Combat
+2025-08-07T15:30:28 1197.794 INF Loading new config for Combat...
+2025-08-07T15:30:28 1197.814 INF Loading new ClipSets for Combat...
+2025-08-07T15:30:28 1198.039 INF Combat loaded new config and clipsets
+2025-08-07T15:30:28 1198.079 INF Preloading LayeredSection Bloodmoon : Type: DynamicMusic.Bloodmoon
+2025-08-07T15:30:28 1198.080 INF Loading new config for Bloodmoon...
+2025-08-07T15:30:28 1198.419 INF fetching Twitch entitlements for s76561199556994821
+2025-08-07T15:30:28 1198.565 INF AstarManager Init
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed BC7 sRGB format is not supported, decompressing texture
+2025-08-07T15:30:29 1199.040 WRN Failed to fetch Twitch entitlements: HTTP/1.1 404 Not Found
+2025-08-07T15:30:29 1199.282 INF createWorld() done
+ERROR: Shader Hidden/PostProcessing/Debug/Vectorscope shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/PostProcessing/Debug/LightMeter shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/PostProcessing/MultiScaleVO shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/PostProcessing/ScreenSpaceReflections shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/PostProcessing/Debug/Waveform shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/PostProcessing/Debug/Histogram shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+2025-08-07T15:30:32 1201.834 INF DynamicResolutionAllocRT scale 1, Tex 3456x2102
+2025-08-07T15:30:32 1202.416 INF Created player with id=224
+2025-08-07T15:30:32 1202.449 INF [PartyQuests] Player registered: [type=EntityPlayerLocal, name=tanser2, id=224]
+2025-08-07T15:30:33 1202.574 INF Loaded player
+2025-08-07T15:30:33 1203.095 INF VehicleManager /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/vehicles.dat, loaded 0
+2025-08-07T15:30:33 1203.097 INF DroneManager /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/drones.dat, loaded 0
+2025-08-07T15:30:33 1203.099 INF TurretTracker /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/turrets.dat, loaded 0
+Unloading 3 Unused Serialized files (Serialized files now loaded: 90)
+Unloading 1392 unused Assets to reduce memory usage. Loaded Objects now: 426395.
+Total: 575.834250 ms (FindLiveObjects: 35.895125 ms CreateObjectMapping: 10.977416 ms MarkObjects: 528.054000 ms  DeleteObjects: 0.907583 ms)
+
+2025-08-07T15:30:34 1204.378 INF OpenSpawnWindow
+2025-08-07T15:30:34 1204.427 INF Loading dymesh settings
+2025-08-07T15:30:34 1204.430 INF Dynamic Mesh Settings
+2025-08-07T15:30:34 1204.430 INF Use Imposter Values: False
+2025-08-07T15:30:34 1204.430 INF Only Player Areas: True
+2025-08-07T15:30:34 1204.430 INF Player Area Buffer: 3
+2025-08-07T15:30:34 1204.431 INF Max View Distance: 1000
+2025-08-07T15:30:34 1204.431 INF Regen all on new world: False
+2025-08-07T15:30:34 1204.440 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2025-08-07T15:30:34 1204.441 INF Dymesh: Mesh location: /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/DynamicMeshes/
+2025-08-07T15:30:34 1204.443 INF StartGame done
+2025-08-07T15:30:35 1204.839 INF [DECO] written 75569, in 54ms
+2025-08-07T15:30:35 1204.842 INF [DECO] write thread 1ms
+2025-08-07T15:30:35 1205.319 INF Dymesh: Warming dynamic mesh
+2025-08-07T15:30:35 1205.320 INF Dymesh: Creating dynamic mesh manager
+2025-08-07T15:30:35 1205.326 INF Dymesh: Awake
+2025-08-07T15:30:35 1205.327 INF Dymesh: Mesh location: /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/DynamicMeshes/
+2025-08-07T15:30:35 1205.331 INF Dymesh: Loading Items: /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/DynamicMeshes/
+2025-08-07T15:30:35 1205.334 INF Dymesh: Loaded Items: 0
+2025-08-07T15:30:35 1205.337 INF Dymesh: Loading all items took: 0.00605 seconds.
+2025-08-07T15:30:35 1205.368 INF Meshlist count is now 1
+2025-08-07T15:30:35 1205.369 INF Meshlist count is now 2
+2025-08-07T15:30:35 1205.372 INF Force load took 0 seconds
+2025-08-07T15:30:35 1205.376 INF Clearing queues.
+2025-08-07T15:30:35 1205.376 INF Cleared queues.
+2025-08-07T15:30:35 1205.379 INF Dynamic thread starting
+2025-08-07T15:30:35 1205.386 INF Dymesh door replacement: imposterBlock
+2025-08-07T15:30:41 1210.796 INF Respawn almost done
+2025-08-07T15:30:41 1210.821 INF PlayerSpawnedInWorld (reason: LoadedGame, position: 328, 58, 513): localplayer
+2025-08-07T15:30:41 1210.827 INF 69119+0 Origin Reposition (0.0, 0.0, 0.0) to (320.0, 48.0, 512.0)
+2025-08-07T15:30:41 1211.366 INF tanser2 onNewBiomeEntered +buffForest_Hazard
+2025-08-07T15:30:45 1214.740 INF Saving 62 of chunks took 64ms
+2025-08-07T15:30:45 1214.827 WRN [Discord][Log] RPC Connect error: -2 (rpc_manager.cpp:39)
+2025-08-07T15:30:45 1214.827 WRN [Discord][Log] RPC manager reset: RPC failed to receive READY payload (rpc_manager.cpp:130)
+2025-08-07T15:30:50 1220.110 INF [Discord] Saving settings with DiscordDisabled=False
+2025-08-07T15:30:50 1220.114 INF Persistent GamePrefs saved
+2025-08-07T15:30:54 1223.914 INF tanser2 WeatherStatusTick  to default
+2025-08-07T15:30:54 1223.915 INF tanser2 WeatherBuffUpdate , indoors False
+2025-08-07T15:31:13 1242.688 INF Time: 20.27m FPS: 27.18 Heap: 2009.6MB Max: 2009.6MB Chunks: 298 CGO: 156 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 0.0MB
+2025-08-07T15:31:43 1273.160 INF Time: 20.77m FPS: 28.88 Heap: 2036.5MB Max: 2036.5MB Chunks: 298 CGO: 156 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 0.0MB
+2025-08-07T15:31:45 1274.824 WRN [Discord][Log] RPC Connect error: -2 (rpc_manager.cpp:39)
+2025-08-07T15:31:45 1274.824 WRN [Discord][Log] RPC manager reset: RPC failed to receive READY payload (rpc_manager.cpp:130)
+2025-08-07T15:31:47 1276.661 INF Saving 61 of chunks took 63ms
+2025-08-07T15:31:48 1277.862 INF Disconnect
+2025-08-07T15:31:48 1277.878 INF [NET] ServerShutdown
+2025-08-07T15:31:48 1277.879 INF NET: Stopping server protocols
+2025-08-07T15:31:48 1277.882 INF SaveAndCleanupWorld
+2025-08-07T15:31:48 1277.887 INF [Discord] Saving settings with DiscordDisabled=False
+2025-08-07T15:31:48 1277.945 INF Saving 61 of chunks took 41ms
+2025-08-07T15:31:48 1277.962 INF [Steamworks.NET] Exiting Lobby
+2025-08-07T15:31:48 1277.964 INF [Steamworks.NET] Stopping server
+2025-08-07T15:31:48 1277.967 INF [PlayerInteractions] Shutdown, record disconnect for all currently connected players
+2025-08-07T15:31:48 1277.970 INF [PartyQuests] Player unregistered
+2025-08-07T15:31:48 1278.420 INF [MODS] Loading localization from mod: Dutluk
+2025-08-07T15:31:48 1278.428 INF [EOS] Created RFS Request: NewsFeatured.xml
+2025-08-07T15:31:48 1278.428 INF [EOS] Created RFS Request: News.xml
+2025-08-07T15:31:48 1278.429 INF [EOS] Created RFS Request: eula_turkish
+2025-08-07T15:31:48 1278.435 INF [TitleStorageOverridesManager] Using cached last success.
+2025-08-07T15:31:48 1278.440 INF AstarManager Cleanup
+2025-08-07T15:31:49 1278.590 INF Clearing queues.
+2025-08-07T15:31:49 1278.590 INF Cleared queues.
+2025-08-07T15:31:49 1279.463 INF Clearing queues.
+2025-08-07T15:31:49 1279.463 INF Cleared queues.
+2025-08-07T15:31:49 1279.498 INF World.Unload
+2025-08-07T15:31:49 1279.508 INF Exited thread GenerateChunks
+2025-08-07T15:31:49 1279.563 INF Exited thread SaveChunks /Users/tansercobanoglu/Library/Application Support/7DaysToDie/Saves/Navezgane/mod_test_3/Region
+2025-08-07T15:31:50 1279.624 INF World.Cleanup
+2025-08-07T15:31:50 1279.624 INF Exited thread ChunkRegeneration
+2025-08-07T15:31:50 1279.630 INF Exited thread ChunkCalc
+2025-08-07T15:31:50 1279.630 INF Exited thread ChunkMeshBake
+2025-08-07T15:31:50 1279.652 INF Exited thread WaterSimulationApplyChanges
+2025-08-07T15:31:50 1279.665 INF VehicleManager saving 0 (0 + 0)
+2025-08-07T15:31:50 1279.667 INF VehicleManager saved 9 bytes
+2025-08-07T15:31:50 1279.668 INF DroneManager saving 0 (0 + 0)
+2025-08-07T15:31:50 1279.670 INF DroneManager saved 9 bytes
+2025-08-07T15:31:50 1279.671 INF TurretTracker saving 0 (0 + 0)
+2025-08-07T15:31:50 1279.673 INF TurretTracker saved 9 bytes
+2025-08-07T15:31:50 1279.698 INF Persistent GamePrefs saved
+2025-08-07T15:31:50 1279.953 INF [EOS] Read (BlockedPlayerList) completed: Success, received 518 bytes
+2025-08-07T15:31:50 1280.070 INF [EOS] found external account for 0002468b60ac43d4b13b0ba49952366a: Type: Steam, Id: 76561199556586852
+2025-08-07T15:31:50 1280.070 INF [EOS] found external account for 00027df4b12b41e49e9d44e3388527f7: Type: Steam, Id: 76561199567170080
+2025-08-07T15:31:50 1280.070 INF [EOS] found external account for 000231311cff46869717646485ede060: Type: Steam, Id: 76561199557033778
+2025-08-07T15:31:50 1280.070 INF [EOS] found external account for 00029aaf26ea4595acdcb0fe0047cf52: Type: Steam, Id: 76561199556253786
+2025-08-07T15:31:50 1280.370 INF [EOS] Read (NewsFeatured.xml) completed: Success, received 2168 bytes
+2025-08-07T15:31:50 1280.371 INF [EOS] Created RFS Request: news_featured_bm3.jpg
+2025-08-07T15:31:50 1280.371 INF [EOS] Created RFS Request: news_features_yttfp.jpg
+2025-08-07T15:31:50 1280.371 INF [EOS] Created RFS Request: news_featured_tfpmerch.jpg
+2025-08-07T15:31:51 1280.870 INF [EOS] Read (eula_turkish) completed: Success, received 40348 bytes
+2025-08-07T15:31:51 1281.171 INF [EOS] Read (News.xml) completed: Success, received 5333 bytes
+2025-08-07T15:31:51 1281.173 INF [EOS] Created RFS Request: news_game_2.1_stable.jpg
+2025-08-07T15:31:51 1281.173 INF [EOS] Created RFS Request: news_game_06_2.0_stable.jpg
+2025-08-07T15:31:51 1281.173 INF [EOS] Created RFS Request: news_game_06_b294exp.jpg
+2025-08-07T15:31:52 1281.985 INF [EOS] Read (news_features_yttfp.jpg) completed: Success, received 102985 bytes
+2025-08-07T15:31:52 1281.985 INF [EOS] Created RFS Request: news_featured_soundtrack.jpg
+2025-08-07T15:31:52 1282.010 INF [EOS] Read (news_featured_tfpmerch.jpg) completed: Success, received 78916 bytes
+2025-08-07T15:31:53 1282.603 INF [EOS] Read (news_featured_bm3.jpg) completed: Success, received 371831 bytes
+2025-08-07T15:31:53 1282.628 INF [EOS] Read (news_game_2.1_stable.jpg) completed: Success, received 95868 bytes
+2025-08-07T15:31:53 1282.628 INF [EOS] Created RFS Request: news_game_06_b292exp.jpg
+2025-08-07T15:31:53 1282.719 INF [EOS] Read (news_game_06_2.0_stable.jpg) completed: Success, received 96807 bytes
+2025-08-07T15:31:53 1282.719 INF [EOS] Created RFS Request: news_game__06_b289exp.jpg
+2025-08-07T15:31:53 1282.819 INF [EOS] Read (news_game_06_b294exp.jpg) completed: Success, received 103907 bytes
+2025-08-07T15:31:53 1282.819 INF [EOS] Created RFS Request: game_news_06_EXP.jpg
+2025-08-07T15:31:53 1283.519 INF [EOS] Read (news_game_06_b292exp.jpg) completed: Success, received 103720 bytes
+2025-08-07T15:31:53 1283.519 INF [EOS] Created RFS Request: news_game_2.0_info.jpg
+2025-08-07T15:31:54 1283.719 INF [EOS] Read (news_featured_soundtrack.jpg) completed: Success, received 235045 bytes
+2025-08-07T15:31:54 1284.036 INF [EOS] Read (news_game__06_b289exp.jpg) completed: Success, received 110544 bytes
+2025-08-07T15:31:54 1284.048 INF [EOS] Read (game_news_06_EXP.jpg) completed: Success, received 110240 bytes
+2025-08-07T15:31:54 1284.552 INF [EOS] Read (news_game_2.0_info.jpg) completed: Success, received 103730 bytes
+2025-08-07T15:32:04 1294.498 INF [Discord] Saving settings with DiscordDisabled=False
+2025-08-07T15:32:04 1294.499 INF Persistent GamePrefs saved

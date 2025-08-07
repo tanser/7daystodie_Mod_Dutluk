@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+
+  <append xpath="/gamestages">
+
+		<!-- Yeni zorluk seviyeleri için grup tanımları -->
+		<group name="zombieArleneCorrupted" spawner="zombieArleneCorrupted"/>
+		<group name="zombieBusinessManCorrupted" spawner="zombieBusinessManCorrupted"/>
+		<group name="zombieJoeCorrupted" spawner="zombieJoeCorrupted"/>
+		<group name="zombieBoeCorrupted" spawner="zombieBoeCorrupted"/>
+		<group name="zombieSpiderCorrupted" spawner="zombieSpiderCorrupted"/>
+		
+		<group name="zombieArleneApocalyptic" spawner="zombieArleneApocalyptic"/>
+		<group name="zombieBusinessManApocalyptic" spawner="zombieBusinessManApocalyptic"/>
+		<group name="zombieJoeApocalyptic" spawner="zombieJoeApocalyptic"/>
+		<group name="zombieBoeApocalyptic" spawner="zombieBoeApocalyptic"/>
+		<group name="zombieSpiderApocalyptic" spawner="zombieSpiderApocalyptic"/>
+		
+		<group name="zombieSpiderLegendary" spawner="zombieSpiderLegendary"/>
+
+		<!-- Yeni zorluk seviyeleri için bireysel spawner'lar -->
+		<!-- Corrupted (Mor) zombi spawner'ları -->
+		<spawner name="zombieArleneCorrupted">
+			<gamestage stage="1">
+				<spawn group="zombieArleneCorrupted" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieBusinessManCorrupted">
+			<gamestage stage="1">
+				<spawn group="zombieBusinessManCorrupted" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieJoeCorrupted">
+			<gamestage stage="1">
+				<spawn group="zombieJoeCorrupted" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieBoeCorrupted">
+			<gamestage stage="1">
+				<spawn group="zombieBoeCorrupted" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieSpiderCorrupted">
+			<gamestage stage="1">
+				<spawn group="zombieSpiderCorrupted" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<!-- Apocalyptic (Kırmızı) zombi spawner'ları -->
+		<spawner name="zombieArleneApocalyptic">
+			<gamestage stage="1">
+				<spawn group="zombieArleneApocalyptic" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieBusinessManApocalyptic">
+			<gamestage stage="1">
+				<spawn group="zombieBusinessManApocalyptic" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieJoeApocalyptic">
+			<gamestage stage="1">
+				<spawn group="zombieJoeApocalyptic" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieBoeApocalyptic">
+			<gamestage stage="1">
+				<spawn group="zombieBoeApocalyptic" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="zombieSpiderApocalyptic">
+			<gamestage stage="1">
+				<spawn group="zombieSpiderApocalyptic" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<!-- Boss Level - Legendary Spider spawner -->
+		<spawner name="zombieSpiderLegendary">
+			<gamestage stage="1">
+				<spawn group="zombieSpiderLegendary" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<!-- Gelişmiş Wandering Horde - Yeni zorluk seviyeleri ile -->
+		<spawner name="EnhancedWanderingHorde">
+			<!-- Orta seviye - Corrupted zombiler başlar -->
+			<gamestage stage="150">
+				<spawn group="progressiveHordeStageHigh" num="8" maxAlive="25" duration="9"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="mixedCorruptedGroup" num="10" maxAlive="30" duration="9"/>
+			</gamestage>
+			<gamestage stage="250">
+				<spawn group="progressiveHordeStageExtreme" num="12" maxAlive="35" duration="9"/>
+			</gamestage>
+			<!-- Yüksek seviye - Apocalyptic zombiler -->
+			<gamestage stage="300">
+				<spawn group="mixedApocalypticGroup" num="8" maxAlive="25" duration="9"/>
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="nightmareHorde" num="6" maxAlive="20" duration="9"/>
+			</gamestage>
+			<!-- Boss seviyesi -->
+			<gamestage stage="500">
+				<spawn group="bossEncounterGroup" num="4" maxAlive="15" duration="9"/>
+			</gamestage>
+		</spawner>
+
+		<!-- Gelişmiş Blood Moon Horde - Extreme zorluk -->
+		<spawner name="EnhancedBloodMoonHorde">
+			<!-- Corrupted seviye başlangıcı -->
+			<gamestage stage="120">
+				<spawn group="progressiveHordeStageHigh" num="30" maxAlive="15" duration="2" interval="30"/>
+				<spawn group="mixedCorruptedGroup" num="20" maxAlive="10" duration="3" interval="25"/>
+				<spawn group="progressiveHordeStageHigh" num="100" maxAlive="8"/>
+			</gamestage>
+			
+			<!-- Corrupted dominant -->
+			<gamestage stage="180">
+				<spawn group="mixedCorruptedGroup" num="40" maxAlive="18" duration="2" interval="25"/>
+				<spawn group="progressiveHordeStageExtreme" num="30" maxAlive="12" duration="3" interval="20"/>
+				<spawn group="mixedCorruptedGroup" num="150" maxAlive="10"/>
+			</gamestage>
+
+			<!-- Apocalyptic başlangıcı -->
+			<gamestage stage="250">
+				<spawn group="progressiveHordeStageExtreme" num="50" maxAlive="22" duration="2" interval="20"/>
+				<spawn group="mixedApocalypticGroup" num="25" maxAlive="15" duration="3" interval="15"/>
+				<spawn group="progressiveHordeStageExtreme" num="200" maxAlive="12"/>
+			</gamestage>
+
+			<!-- Apocalyptic dominant -->
+			<gamestage stage="350">
+				<spawn group="mixedApocalypticGroup" num="35" maxAlive="20" duration="2" interval="15"/>
+				<spawn group="nightmareHorde" num="20" maxAlive="12" duration="4" interval="10"/>
+				<spawn group="mixedApocalypticGroup" num="250" maxAlive="15"/>
+			</gamestage>
+
+			<!-- Boss Blood Moon -->
+			<gamestage stage="500">
+				<spawn group="bossEncounterGroup" num="15" maxAlive="12" duration="3" interval="10"/>
+				<spawn group="ultimateBossChallenge" num="3" maxAlive="8" duration="4" interval="8"/>
+				<spawn group="bossEncounterGroup" num="200" maxAlive="15"/>
+			</gamestage>
+
+			<!-- Ultimate nightmare -->
+			<gamestage stage="750">
+				<spawn group="ultimateBossChallenge" num="10" maxAlive="15" duration="3" interval="5"/>
+				<spawn group="bossEncounterGroup" num="30" maxAlive="18" duration="3" interval="5"/>
+				<spawn group="ultimateBossChallenge" num="300" maxAlive="20"/>
+			</gamestage>
+		</spawner>
+
+		<!-- Gelişmiş Sleeper Horde - Yüksek game stage'ler için -->
+		<spawner name="EnhancedSleeperHorde">
+			<gamestage stage="150">
+				<spawn group="progressiveHordeStageHigh" num="8" maxAlive="12" duration="1"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="mixedCorruptedGroup" num="10" maxAlive="15" duration="1"/>
+			</gamestage>
+			<gamestage stage="280">
+				<spawn group="progressiveHordeStageExtreme" num="12" maxAlive="18" duration="1"/>
+			</gamestage>
+			<gamestage stage="350">
+				<spawn group="mixedApocalypticGroup" num="8" maxAlive="12" duration="1"/>
+			</gamestage>
+			<gamestage stage="450">
+				<spawn group="nightmareHorde" num="6" maxAlive="10" duration="1"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="bossEncounterGroup" num="3" maxAlive="6" duration="1"/>
+			</gamestage>
+			<gamestage stage="800">
+				<spawn group="ultimateBossChallenge" num="1" maxAlive="3" duration="1"/>
+			</gamestage>
+		</spawner>
+
+		<!-- Boss Challenge Spawner - Özel boss etkinlikleri için -->
+		<spawner name="BossChallenge">
+			<gamestage stage="500">
+				<spawn group="bossSpiderGroup" num="1" maxAlive="1" duration="10"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="mixedBossGroup" num="1" maxAlive="2" duration="10"/>
+			</gamestage>
+			<gamestage stage="750">
+				<spawn group="ultimateBossChallenge" num="2" maxAlive="2" duration="10"/>
+			</gamestage>
+		</spawner>
+
+  </append>
+</configs>

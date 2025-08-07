@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <append xpath="/entity_classes">
+
+		<!-- Yeni zorluk seviyeleri için renk tanımları -->
+		<!-- Purple (Mor) - Charged'dan daha güçlü -->
+		<color name="corrupted" value="1.5,0,2.5, .8"/> <!-- Purple, emissive power .8 -->
+		
+		<!-- Red (Kırmızı) - En güçlü seviye (Infernal yerine gerçek kırmızı) -->
+		<color name="apocalyptic" value="3,0,0, .9"/> <!-- Pure Red, emissive power .9 -->
+
+		<!-- Boss seviyesi - Altın sarı renk -->
+		<color name="legendary" value="3,2.5,0, 1.0"/> <!-- Golden, maximum emissive power -->
+
+
+
+
+
+		<!-- Örnek zombi türleri için yeni zorluk varyantları -->
+		
+		<!-- Arlene Corrupted -->
+		<entity_class name="zombieArleneCorrupted" extends="zombieArleneCharged">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="corrupted"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
+			<property name="ExperienceGain" value="2000"/><!-- XP Corrupted -->
+			<property name="HandItem" value="meleeHandZombieCorrupted"/>
+			<property name="MoveSpeedAggro" value="2.5, .9, .8, 1.8, 1.1, .7, .4, 1.8"/>
+			<property name="JumpMaxDistance" value="4.5, 6.5"/> <!-- Daha uzun zıplama -->
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- Arlene Apocalyptic -->
+		<entity_class name="zombieArleneApocalyptic" extends="zombieArleneCorrupted">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="apocalyptic"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
+			<property name="ExperienceGain" value="2800"/><!-- XP Apocalyptic -->
+			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
+			<property name="MoveSpeedAggro" value="4, .98, 1.2, .6, 1.3, .5, .3, 2.0"/>
+			<property name="JumpMaxDistance" value="5.0, 7.0"/> <!-- En uzun zıplama -->
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="2600"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- BusinessMan Corrupted -->
+		<entity_class name="zombieBusinessManCorrupted" extends="zombieBusinessManCharged">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="corrupted"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
+			<property name="ExperienceGain" value="2100"/><!-- XP Corrupted -->
+			<property name="HandItem" value="meleeHandZombieCorrupted"/>
+			<property name="MoveSpeedAggro" value="2.5, .9, .8, 1.8, 1.1, .7, .4, 1.8"/>
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="2250"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- BusinessMan Apocalyptic -->
+		<entity_class name="zombieBusinessManApocalyptic" extends="zombieBusinessManCorrupted">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="apocalyptic"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
+			<property name="ExperienceGain" value="2900"/><!-- XP Apocalyptic -->
+			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
+			<property name="MoveSpeedAggro" value="4, .98, 1.2, .6, 1.3, .5, .3, 2.0"/>
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="2925"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- Joe Corrupted -->
+		<entity_class name="zombieJoeCorrupted" extends="zombieJoeCharged">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="corrupted"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
+			<property name="ExperienceGain" value="2000"/><!-- XP Corrupted -->
+			<property name="HandItem" value="meleeHandZombieCorrupted"/>
+			<property name="MoveSpeedAggro" value="2.5, .9, .8, 1.8, 1.1, .7, .4, 1.8"/>
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- Joe Apocalyptic -->
+		<entity_class name="zombieJoeApocalyptic" extends="zombieJoeCorrupted">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="apocalyptic"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
+			<property name="ExperienceGain" value="2800"/><!-- XP Apocalyptic -->
+			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
+			<property name="MoveSpeedAggro" value="4, .98, 1.2, .6, 1.3, .5, .3, 2.0"/>
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="2600"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- Boe Corrupted -->
+		<entity_class name="zombieBoeCorrupted" extends="zombieBoeCharged">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="corrupted"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
+			<property name="ExperienceGain" value="2200"/><!-- XP Corrupted -->
+			<property name="HandItem" value="meleeHandZombieCorrupted"/>
+			<property name="MoveSpeedAggro" value="2.5, .9, .8, 1.8, 1.1, .7, .4, 1.8"/>
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="3125"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- Boe Apocalyptic -->
+		<entity_class name="zombieBoeApocalyptic" extends="zombieBoeCorrupted">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="apocalyptic"/>
+			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
+			<property name="ExperienceGain" value="3100"/><!-- XP Apocalyptic -->
+			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
+			<property name="MoveSpeedAggro" value="4, .98, 1.2, .6, 1.3, .5, .3, 2.0"/>
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="4063"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- Spider Corrupted -->
+		<entity_class name="zombieSpiderCorrupted" extends="zombieSpiderCharged">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="corrupted"/>
+			<property name="Tags" value="entity,zombie,spider,allbiome,feral,corrupted"/>
+			<property name="ExperienceGain" value="2300"/><!-- XP Corrupted -->
+			<property name="HandItem" value="meleeHandZombieCorrupted"/>
+			<property name="MoveSpeedAggro" value="2.5, .9, .8, 1.8, 1.1, .7, .4, 1.8"/>
+			<property name="JumpMaxDistance" value="6.0, 8.0"/> <!-- Spider için daha uzun zıplama -->
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="2750"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- Spider Apocalyptic -->
+		<entity_class name="zombieSpiderApocalyptic" extends="zombieSpiderCorrupted">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="apocalyptic"/>
+			<property name="Tags" value="entity,zombie,spider,allbiome,feral,apocalyptic"/>
+			<property name="ExperienceGain" value="3200"/><!-- XP Apocalyptic -->
+			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
+			<property name="MoveSpeedAggro" value="4, .98, 1.2, .6, 1.3, .5, .3, 2.0"/>
+			<property name="JumpMaxDistance" value="6.5, 8.5"/> <!-- En uzun spider zıplaması -->
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="3575"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- BOSS LEVEL: Legendary Spider - Altın renk, ultra güçlü -->
+		<entity_class name="zombieSpiderLegendary" extends="zombieSpiderApocalyptic">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="legendary"/>
+			<property name="Tags" value="entity,zombie,spider,allbiome,feral,legendary,boss"/>
+			<property name="ExperienceGain" value="5000"/><!-- XP Boss -->
+			<property name="HandItem" value="meleeHandZombieLegendary"/>
+			<property name="MoveSpeedAggro" value="5, 1.0, 1.5, .4, 1.5, .3, .2, 2.5"/>
+			<property name="JumpMaxDistance" value="8.0, 12.0"/> <!-- Boss seviyesi zıplama -->
+			<property name="SizeScale" value="2"/> <!-- %200 daha büyük -->
+			<property name="Mass" value="120"/> <!-- Daha ağır -->
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_set" value="7500"/>
+				<!-- Boss özel yetenekleri -->
+				<passive_effect name="BuffResistance" operation="base_set" value=".85" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
+				<passive_effect name="BuffResistance" operation="base_set" value=".80" tags="buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03"/>
+			</effect_group>
+		</entity_class>
+
+  </append>
+</configs>
