@@ -6,7 +6,7 @@
 
     <!-- *** LUMBERJACK T6 Bundles *** -->
 
-    <recipe name="dutT6LumberjackHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6LumberjackHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -14,7 +14,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6LumberjackOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6LumberjackOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -22,7 +22,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6LumberjackGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6LumberjackGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -30,7 +30,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6LumberjackBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6LumberjackBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -40,7 +40,7 @@
 
     <!-- *** PREACHER T6 Bundles *** -->
 
-    <recipe name="dutT6PreacherHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6PreacherHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -48,7 +48,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6PreacherOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6PreacherOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -56,7 +56,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6PreacherGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6PreacherGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -64,7 +64,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6PreacherBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6PreacherBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -75,7 +75,7 @@
 
     <!-- *** ROGUE T6 Bundles *** -->
 
-    <recipe name="dutT6RogueHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RogueHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -83,7 +83,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RogueOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RogueOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -91,7 +91,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RogueGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RogueGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -99,7 +99,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RogueBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RogueBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -110,7 +110,7 @@
 
     <!-- *** ATHLETIC T6 Bundles *** -->
 
-    <recipe name="dutT6AthleticHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AthleticHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -118,7 +118,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6AthleticOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AthleticOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -126,7 +126,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6AthleticGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AthleticGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -134,7 +134,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6AthleticBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AthleticBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -145,7 +145,7 @@
 
     <!-- *** ENFORCER T6 Bundles *** -->
 
-    <recipe name="dutT6EnforcerHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6EnforcerHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -153,7 +153,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6EnforcerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6EnforcerOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -161,7 +161,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6EnforcerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6EnforcerGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -169,7 +169,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6EnforcerBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6EnforcerBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -181,7 +181,7 @@
 
     <!-- *** FARMER T6 Bundles *** -->
 
-    <recipe name="dutT6FarmerHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6FarmerHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -189,7 +189,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6FarmerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6FarmerOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -197,7 +197,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6FarmerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6FarmerGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -205,7 +205,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6FarmerBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6FarmerBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -218,7 +218,7 @@
 
     <!-- *** BIKER T6 Bundles *** -->
 
-    <recipe name="dutT6BikerHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6BikerHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -226,7 +226,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6BikerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6BikerOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -234,7 +234,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6BikerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6BikerGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -242,7 +242,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6BikerBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6BikerBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -255,7 +255,7 @@
 
     <!-- *** SCAVENGER T6 Bundles *** -->
 
-    <recipe name="dutT6ScavengerHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6ScavengerHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -263,7 +263,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6ScavengerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6ScavengerOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -271,7 +271,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6ScavengerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6ScavengerGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -279,7 +279,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6ScavengerBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6ScavengerBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -292,7 +292,7 @@
 
     <!-- *** RANGER T6 Bundles *** -->
 
-    <recipe name="dutT6RangerHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RangerHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -300,7 +300,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RangerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RangerOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -308,7 +308,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RangerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RangerGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -316,7 +316,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RangerBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RangerBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -329,7 +329,7 @@
 
     <!-- *** COMMANDO T6 Bundles *** -->
 
-    <recipe name="dutT6CommandoHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6CommandoHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -337,7 +337,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6CommandoOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6CommandoOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -345,7 +345,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6CommandoGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6CommandoGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -353,7 +353,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6CommandoBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6CommandoBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -366,7 +366,7 @@
 
     <!-- *** ASSASSIN T6 Bundles *** -->
 
-    <recipe name="dutT6AssassinHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AssassinHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -374,7 +374,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6AssassinOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AssassinOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -382,7 +382,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6AssassinGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AssassinGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -390,7 +390,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6AssassinBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6AssassinBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -400,7 +400,7 @@
 
     <!-- *** MINER T6 Bundles *** -->
 
-    <recipe name="dutT6MinerHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6MinerHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -408,7 +408,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6MinerOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6MinerOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -416,7 +416,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6MinerGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6MinerGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -424,7 +424,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6MinerBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6MinerBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -434,7 +434,7 @@
 
     <!-- *** NOMAD T6 Bundles *** -->
 
-    <recipe name="dutT6NomadHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NomadHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -442,7 +442,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6NomadOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NomadOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -450,7 +450,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6NomadGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NomadGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -458,7 +458,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6NomadBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NomadBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -468,7 +468,7 @@
 
     <!-- *** NERD T6 Bundles *** -->
 
-    <recipe name="dutT6NerdHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NerdHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -476,7 +476,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6NerdOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NerdOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -484,7 +484,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6NerdGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NerdGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -492,7 +492,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6NerdBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6NerdBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -502,7 +502,7 @@
 
     <!-- *** RAIDER T6 Bundles *** -->
 
-    <recipe name="dutT6RaiderHelmetBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RaiderHelmetBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -510,7 +510,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RaiderOutfitBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RaiderOutfitBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -518,7 +518,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RaiderGlovesBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RaiderGlovesBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>
@@ -526,7 +526,7 @@
       <ingredient name="resourceLegendaryParts" count="1"/>
     </recipe>
 
-    <recipe name="dutT6RaiderBootsBundle" count="1" craft_area="workbench" tags="learnable">
+    <recipe name="dutT6RaiderBootsBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable">
       <ingredient name="resourceArmorCraftingKit" count="6"/>
       <ingredient name="resourceCloth" count="25"/>
       <ingredient name="resourceForgedIron" count="25"/>

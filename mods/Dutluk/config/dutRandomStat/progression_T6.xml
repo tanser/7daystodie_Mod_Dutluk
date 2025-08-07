@@ -76,9 +76,19 @@
         <display_entry item="dutT6M60Bundle" unlock_level="100"/>
     </append>
 
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6M60Bundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6M60Bundle"/>
+    </append>
+
     <!-- T6 Compound Bow -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']">
         <display_entry item="dutT6CompoundBowBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT6CompoundBowBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT6CompoundBowBundle"/>
     </append>
 
     <!-- T6 Shotgun -->
@@ -86,9 +96,19 @@
         <display_entry item="dutT6ShotgunBundle" unlock_level="100"/>
     </append>
 
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6ShotgunBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6ShotgunBundle"/>
+    </append>
+
     <!-- T6 Sniper -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']">
         <display_entry item="dutT6SniperBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6SniperBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6SniperBundle"/>
     </append>
 
     <!-- T6 Desert Vulture -->
@@ -96,9 +116,19 @@
         <display_entry item="dutT6DesertVultureBundle" unlock_level="100"/>
     </append>
 
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6DesertVultureBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6DesertVultureBundle"/>
+    </append>
+
     <!-- T6 SMG -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">
-        <display_entry item="dutT6SMGBundle" unlock_level="100"/>
+        <display_entry item="dutT6SMGBundle" unlock_level="70"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="70" value="1" tags="dutT6SMGBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="70" value="1" tags="dutT6SMGBundle"/>
     </append>
 
     <!-- T6 Machete -->
@@ -106,9 +136,19 @@
         <display_entry item="dutT6MacheteBundle" unlock_level="75"/>
     </append>
 
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT6MacheteBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT6MacheteBundle"/>
+    </append>
+
     <!-- T6 Sledgehammer -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSledgehammers']">
         <display_entry item="dutT6SledgehammerBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSledgehammers']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT6SledgehammerBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT6SledgehammerBundle"/>
     </append>
 
     <!-- T6 Baton -->
@@ -116,9 +156,19 @@
         <display_entry item="dutT6BatonBundle" unlock_level="50"/>
     </append>
 
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50" value="1" tags="dutT6BatonBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="50" value="1" tags="dutT6BatonBundle"/>
+    </append>
+
     <!-- T6 Knuckles -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingKnuckles']">
         <display_entry item="dutT6KnucklesBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingKnuckles']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT6KnucklesBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT6KnucklesBundle"/>
     </append>
 
     <!-- T6 Spear -->
@@ -126,9 +176,19 @@
         <display_entry item="dutT6SpearBundle" unlock_level="75"/>
     </append>
 
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT6SpearBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT6SpearBundle"/>
+    </append>
+
     <!-- T6 Club -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']">
         <display_entry item="dutT6ClubBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT6ClubBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT6ClubBundle"/>
     </append>
 
 </configs>

@@ -6,45 +6,45 @@
     <append xpath="/recipes">
 
         <!-- Machine Gun -->
-        <recipe name="dutT7MachineGunBundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
+        <recipe name="dutT7MachineGunBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkMachineGunner,workbenchCrafting">
             <ingredient name="dutT6M60Bundle" count="1"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
         </recipe>
 
-        <recipe name="dutT8MachineGunBundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
+        <recipe name="dutT8MachineGunBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkMachineGunner,workbenchCrafting">
             <ingredient name="dutT7MachineGun" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
         <!-- Bow -->
-        <recipe name="dutT7BowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
+        <recipe name="dutT7BowBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkArchery,workbenchCrafting">
             <ingredient name="dutT6CompoundBowBundle" count="1"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
         </recipe>
 
-        <recipe name="dutT8BowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
+        <recipe name="dutT8BowBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkArchery,workbenchCrafting">
             <ingredient name="dutT7Bow" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
         <!-- Shotgun -->
-        <recipe name="dutT7ShotgunBundle" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
+        <recipe name="dutT7ShotgunBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkBoomstick,workbenchCrafting">
             <ingredient name="dutT6ShotgunBundle" count="1"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
         </recipe>
 
-        <recipe name="dutT8ShotgunBundle" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
+        <recipe name="dutT8ShotgunBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkBoomstick,workbenchCrafting">
             <ingredient name="dutT7Shotgun" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
         <!-- Sniper -->
-        <recipe name="dutT7SniperBundle" count="1" craft_area="workbench" tags="learnable,perkDeadEye,workbenchCrafting">
+        <recipe name="dutT7SniperBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkDeadEye,workbenchCrafting">
             <ingredient name="dutT6SniperBundle" count="1"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
         </recipe>
 
-        <recipe name="dutT8SniperBundle" count="1" craft_area="workbench" tags="learnable,perkDeadEye,workbenchCrafting">
+        <recipe name="dutT8SniperBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkDeadEye,workbenchCrafting">
             <ingredient name="dutT7Sniper" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
