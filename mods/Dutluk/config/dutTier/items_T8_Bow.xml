@@ -3,7 +3,7 @@
 <configs>
   <append xpath="/items">
 
-    <item name="dutT8CompoundBow">
+    <item name="dutT8Bow">
       <property name="Extends" value="gunBowT3CompoundBow"/>
 
       <property name="TintColor" value="239BA7"/>
@@ -12,7 +12,7 @@
       <property name="ShowQuality" value="false"/>
       <property name="CreativeMode" value="Player"/>
 
-      <effect_group name="dutT8CompoundBow">
+      <effect_group name="dutT8Bow">
        
         <!-- orginal values -->
         <passive_effect name="ProjectileVelocity" operation="perc_add" value=".2" tags="perkArchery"/>
@@ -82,14 +82,14 @@
     </item>
 
 
-    <item name="dutT8CompoundBowBundle">
+    <item name="dutT8BowBundle">
       <property name="Extends" value="dutT8BundleBox"/>
       <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
-      <property name="DescriptionKey" value="dutT8CompoundBowBundleDesc"/>
+      <property name="DescriptionKey" value="dutT8BowBundleDesc"/>
       <property name="UnlockedBy" value="craftingBows"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8CompoundBow,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item" value="dutT8Bow,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
         <property name="Random_item_count" value="6,2,1,1"/>
         <property name="Random_count" value="1"/>
       </property>

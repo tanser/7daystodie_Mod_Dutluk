@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+    <!-- T6 New bundles -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']">
+        <display_entry item="dutT6LumberjackHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6LumberjackOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6LumberjackGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6LumberjackBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6PreacherHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6PreacherOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6PreacherGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6PreacherBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6RogueHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6RogueOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6RogueGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6RogueBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6AthleticHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6AthleticOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6AthleticGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6AthleticBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6EnforcerHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6EnforcerOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6EnforcerGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6EnforcerBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6FarmerHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6FarmerOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6FarmerGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6FarmerBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6BikerHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6BikerOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6BikerGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6BikerBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6ScavengerHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6ScavengerOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6ScavengerGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6ScavengerBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6RangerHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6RangerOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6RangerGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6RangerBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6CommandoHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6CommandoOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6CommandoGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6CommandoBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6AssassinHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6AssassinOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6AssassinGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6AssassinBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6MinerHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6MinerOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6MinerGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6MinerBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6NomadHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6NomadOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6NomadGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6NomadBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6NerdHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6NerdOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6NerdGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6NerdBootsBundle" unlock_level="100"/>
+        <display_entry item="dutT6RaiderHelmetBundle" unlock_level="100"/>
+        <display_entry item="dutT6RaiderOutfitBundle" unlock_level="100"/>
+        <display_entry item="dutT6RaiderGlovesBundle" unlock_level="100"/>
+        <display_entry item="dutT6RaiderBootsBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6LumberjackHelmetBundle,dutT6LumberjackOutfitBundle,dutT6LumberjackGlovesBundle,dutT6LumberjackBootsBundle,dutT6PreacherHelmetBundle,dutT6PreacherOutfitBundle,dutT6PreacherGlovesBundle,dutT6PreacherBootsBundle,dutT6RogueHelmetBundle,dutT6RogueOutfitBundle,dutT6RogueGlovesBundle,dutT6RogueBootsBundle,dutT6AthleticHelmetBundle,dutT6AthleticOutfitBundle,dutT6AthleticGlovesBundle,dutT6AthleticBootsBundle,dutT6EnforcerHelmetBundle,dutT6EnforcerOutfitBundle,dutT6EnforcerGlovesBundle,dutT6EnforcerBootsBundle,dutT6FarmerHelmetBundle,dutT6FarmerOutfitBundle,dutT6FarmerGlovesBundle,dutT6FarmerBootsBundle,dutT6BikerHelmetBundle,dutT6BikerOutfitBundle,dutT6BikerGlovesBundle,dutT6BikerBootsBundle,dutT6ScavengerHelmetBundle,dutT6ScavengerOutfitBundle,dutT6ScavengerGlovesBundle,dutT6ScavengerBootsBundle,dutT6RangerHelmetBundle,dutT6RangerOutfitBundle,dutT6RangerGlovesBundle,dutT6RangerBootsBundle,dutT6CommandoHelmetBundle,dutT6CommandoOutfitBundle,dutT6CommandoGlovesBundle,dutT6CommandoBootsBundle,dutT6AssassinHelmetBundle,dutT6AssassinOutfitBundle,dutT6AssassinGlovesBundle,dutT6AssassinBootsBundle,dutT6MinerHelmetBundle,dutT6MinerOutfitBundle,dutT6MinerGlovesBundle,dutT6MinerBootsBundle,dutT6NomadHelmetBundle,dutT6NomadOutfitBundle,dutT6NomadGlovesBundle,dutT6NomadBootsBundle,dutT6NerdHelmetBundle,dutT6NerdOutfitBundle,dutT6NerdGlovesBundle,dutT6NerdBootsBundle,dutT6RaiderHelmetBundle,dutT6RaiderOutfitBundle,dutT6RaiderGlovesBundle,dutT6RaiderBootsBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6LumberjackHelmetBundle,dutT6LumberjackOutfitBundle,dutT6LumberjackGlovesBundle,dutT6LumberjackBootsBundle,dutT6PreacherHelmetBundle,dutT6PreacherOutfitBundle,dutT6PreacherGlovesBundle,dutT6PreacherBootsBundle,dutT6RogueHelmetBundle,dutT6RogueOutfitBundle,dutT6RogueGlovesBundle,dutT6RogueBootsBundle,dutT6AthleticHelmetBundle,dutT6AthleticOutfitBundle,dutT6AthleticGlovesBundle,dutT6AthleticBootsBundle,dutT6EnforcerHelmetBundle,dutT6EnforcerOutfitBundle,dutT6EnforcerGlovesBundle,dutT6EnforcerBootsBundle,dutT6FarmerHelmetBundle,dutT6FarmerOutfitBundle,dutT6FarmerGlovesBundle,dutT6FarmerBootsBundle,dutT6BikerHelmetBundle,dutT6BikerOutfitBundle,dutT6BikerGlovesBundle,dutT6BikerBootsBundle,dutT6ScavengerHelmetBundle,dutT6ScavengerOutfitBundle,dutT6ScavengerGlovesBundle,dutT6ScavengerBootsBundle,dutT6RangerHelmetBundle,dutT6RangerOutfitBundle,dutT6RangerGlovesBundle,dutT6RangerBootsBundle,dutT6CommandoHelmetBundle,dutT6CommandoOutfitBundle,dutT6CommandoGlovesBundle,dutT6CommandoBootsBundle,dutT6AssassinHelmetBundle,dutT6AssassinOutfitBundle,dutT6AssassinGlovesBundle,dutT6AssassinBootsBundle,dutT6MinerHelmetBundle,dutT6MinerOutfitBundle,dutT6MinerGlovesBundle,dutT6MinerBootsBundle,dutT6NomadHelmetBundle,dutT6NomadOutfitBundle,dutT6NomadGlovesBundle,dutT6NomadBootsBundle,dutT6NerdHelmetBundle,dutT6NerdOutfitBundle,dutT6NerdGlovesBundle,dutT6NerdBootsBundle,dutT6RaiderHelmetBundle,dutT6RaiderOutfitBundle,dutT6RaiderGlovesBundle,dutT6RaiderBootsBundle"/>
+    </append>
+
+    <!-- T6 M60 -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']">
+        <display_entry item="dutT6M60Bundle" unlock_level="100"/>
+    </append>
+
+    <!-- T6 Compound Bow -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']">
+        <display_entry item="dutT6CompoundBowBundle" unlock_level="75"/>
+    </append>
+
+    <!-- T6 Shotgun -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']">
+        <display_entry item="dutT6ShotgunBundle" unlock_level="100"/>
+    </append>
+
+    <!-- T6 Sniper -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']">
+        <display_entry item="dutT6SniperBundle" unlock_level="100"/>
+    </append>
+
+    <!-- T6 Desert Vulture -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">
+        <display_entry item="dutT6DesertVultureBundle" unlock_level="100"/>
+    </append>
+
+    <!-- T6 SMG -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">
+        <display_entry item="dutT6SMGBundle" unlock_level="100"/>
+    </append>
+
+    <!-- T6 Machete -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']">
+        <display_entry item="dutT6MacheteBundle" unlock_level="75"/>
+    </append>
+
+    <!-- T6 Sledgehammer -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSledgehammers']">
+        <display_entry item="dutT6SledgehammerBundle" unlock_level="75"/>
+    </append>
+
+    <!-- T6 Baton -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']">
+        <display_entry item="dutT6BatonBundle" unlock_level="50"/>
+    </append>
+
+    <!-- T6 Knuckles -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingKnuckles']">
+        <display_entry item="dutT6KnucklesBundle" unlock_level="75"/>
+    </append>
+
+    <!-- T6 Spear -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']">
+        <display_entry item="dutT6SpearBundle" unlock_level="75"/>
+    </append>
+
+    <!-- T6 Club -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']">
+        <display_entry item="dutT6ClubBundle" unlock_level="75"/>
+    </append>
+
+</configs>
+

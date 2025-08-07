@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+
+    <!-- T7 - T8 Machine Gun -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']">
+        <display_entry item="dutT7MachineGunBundle" unlock_level="100"/>
+        <display_entry item="dutT8MachineGunBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7MachineGunBundle,dutT8MachineGunBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7MachineGunBundle,dutT8MachineGunBundle"/>
+    </append>
+
+    <!-- T7 - T8 Bow -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']">
+        <display_entry item="dutT7BowBundle" unlock_level="75"/>
+        <display_entry item="dutT8BowBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT7BowBundle,dutT8BowBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT7BowBundle,dutT8BowBundle"/>
+    </append>
+
+    <!-- T7 - T8 Shotgun -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']">
+        <display_entry item="dutT7ShotgunBundle" unlock_level="100"/>
+        <display_entry item="dutT8ShotgunBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7ShotgunBundle,dutT8ShotgunBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7ShotgunBundle,dutT8ShotgunBundle"/>
+    </append>
+
+    <!-- T7 - T8 Sniper -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']">
+        <display_entry item="dutT7SniperBundle" unlock_level="100"/>
+        <display_entry item="dutT8SniperBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7SniperBundle,dutT8SniperBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7SniperBundle,dutT8SniperBundle"/>
+    </append>
+
+</configs>

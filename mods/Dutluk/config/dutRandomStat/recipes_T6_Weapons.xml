@@ -32,7 +32,7 @@
             <ingredient name="resourceLegendaryParts" count="1"/>
         </recipe>
 
-        <!-- RIFLE -->
+        <!-- SNIPER -->
         <recipe name="dutT6SniperBundle" count="1" craft_area="workbench" tags="learnable,perkDeadEye,workbenchCrafting">
             <ingredient name="gunRifleT1HuntingRifleParts" count="18"/>
             <ingredient name="resourceForgedSteel" count="150"/>

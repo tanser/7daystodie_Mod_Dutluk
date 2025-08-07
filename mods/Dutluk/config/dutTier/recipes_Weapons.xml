@@ -17,13 +17,13 @@
         </recipe>
 
         <!-- Bow -->
-        <recipe name="dutT7CompoundBowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
+        <recipe name="dutT7BowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
             <ingredient name="dutT6CompoundBowBundle" count="1"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
         </recipe>
 
-        <recipe name="dutT8CompoundBowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
-            <ingredient name="dutT7CompoundBow" count="1"/>
+        <recipe name="dutT8BowBundle" count="1" craft_area="workbench" tags="learnable,perkArchery,workbenchCrafting">
+            <ingredient name="dutT7Bow" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
