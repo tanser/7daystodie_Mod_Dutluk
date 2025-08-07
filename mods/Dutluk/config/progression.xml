@@ -73,13 +73,13 @@
 
     <!-- T7 - T8 M60 -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']">
-        <display_entry item="dutT7GunMGT3M60Bundle" unlock_level="100"/>
-        <display_entry item="dutT8GunMGT3M60Bundle" unlock_level="100"/>
+        <display_entry item="dutT7MachineGunBundle" unlock_level="100"/>
+        <display_entry item="dutT8MachineGunBundle" unlock_level="100"/>
     </append>
 
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/effect_group">
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7GunMGT3M60Bundle,dutT8GunMGT3M60Bundle"/>
-        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7GunMGT3M60Bundle,dutT8GunMGT3M60Bundle"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7MachineGunBundle,dutT8MachineGunBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7MachineGunBundle,dutT8MachineGunBundle"/>
     </append>
 
     <!-- T7 - T8 Compound Bow -->

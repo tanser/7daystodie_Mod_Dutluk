@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <append xpath="/items">
+    <item name="dutT8MachineGun">
+     
+      <property name="Extends" value="gunMGT3M60"/>
+
+      <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
+      <property name="Material" value="MMachineGunParts"/>
+      <property name="TintColor" value="239BA7"/>
+      <property name="CustomIcon" value="gunMGT1AK47"/>
+      <property name="CustomIconTint" value="239BA7"/>
+      <property name="ShowQuality" value="false"/>
+      <property name="CreativeMode" value="Player"/>
+
+      <!-- prevent to sell or buy -->
+      <property name="SellableToTrader" value="false"/>
+      <property name="EconomicValue" value="0"/>
+
+      <effect_group name="dutT7MachineGun">
+        
+        <!-- orginal values -->
+        <passive_effect name="MaxRange" operation="base_set" value="90" tags="perkMachineGunner"/>
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="58" tags="perkMachineGunner"/>
+        <passive_effect name="DamageFalloffRange" operation="perc_add" value="-.1,.05" tier="1,6" tags="perkMachineGunner"/> <!-- random effective rng -->
+        <passive_effect name="BlockDamage" operation="base_add" value="-2" tags="perkMachineGunner"/> <!-- damage offset -->
+        <passive_effect name="EntityDamage" operation="base_add" value="23" tags="perkMachineGunner"/> <!-- damage offset -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.02,.02" tags="perkMachineGunner"/> <!-- random EntityDmg -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".05,.25" tier="2,6" tags="perkMachineGunner"/> <!-- tier bonus -->
+        <passive_effect name="BlockDamage" operation="perc_add" value="-.08,.08" tags="perkMachineGunner"/> <!-- random BlockDmg -->
+        <passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkMachineGunner"/> <!-- tier bonus -->
+        <!-- <passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tier="1,6" tags="perkMachineGunner"/> --> <!-- random DegMax -->
+        <!-- <passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkMachineGunner"/> --> <!-- random APM -->
+        <!-- <passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/> --> <!-- random MagazineSize -->
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkMachineGunner"/> <!-- random WeaponHandling -->
+        <passive_effect name="RoundsPerMinute" operation="base_set" value="440" tags="perkMachineGunner"/>
+        <passive_effect name="BurstRoundCount" operation="base_set" value="1000" tags="perkMachineGunner"/>
+        <passive_effect name="MagazineSize" operation="base_set" value="60" tags="perkMachineGunner"/>
+        <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkMachineGunner"/>
+
+        <passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8" tags="perkMachineGunner"/>
+        <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8" tags="perkMachineGunner"/>
+        <passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".33" tags="perkMachineGunner"/>
+        <passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkMachineGunner"/>
+        <passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkMachineGunner"/>
+        <passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkMachineGunner"/>
+
+        <passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.4" tags="perkMachineGunner"/>
+        <passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1.1" tags="perkMachineGunner"/>
+        <passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1" tags="perkMachineGunner"/>
+        <passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1" tags="perkMachineGunner"/>
+
+        <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5" tags="perkMachineGunner"/>
+        <passive_effect name="WeaponHandling" operation="base_set" value=".83" tags="perkMachineGunner"/> <!-- M60 -->
+
+        <passive_effect name="DegradationMax" operation="base_set" value="700,1100" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
+
+        <passive_effect name="ModSlots" operation="base_set" value="4,4,4,4,4,4" tier="1,2,3,4,5,6"/>
+        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+        <!-- /orginal values -->
+
+        <!-- custom values for T7 -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.5"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.5"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.5"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.5"/>
+        <passive_effect name="MagazineSize" operation="base_add" value="-5, 40"/>
+
+      </effect_group>
+    </item>
+
+    <item name="dutT8MachineGunBundle">
+      <property name="Extends" value="dutT8BundleBox"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunMGT3M60"/>
+      <property name="DescriptionKey" value="dutT8MachineGunBundleDesc"/>
+      <property name="UnlockedBy" value="craftingMachineGuns"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT8MachineGun,plantedPotato1,plantedPotato1,dutResourceMythicParts"/>
+        <property name="Random_item_count" value="6,1,1,2"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+  </append>
+
+</configs>

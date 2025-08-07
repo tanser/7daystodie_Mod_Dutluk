@@ -2,12 +2,6 @@
 
 <configs>
 
-    <!-- <remove xpath="/recipes/recipe[@name='armorLumberjackHelmet' and ingredient/@quality='6']"/>
-    <remove xpath="/recipes/recipe[@name='armorLumberjackOutfit' and ingredient/@quality='6']"/>
-    <remove xpath="/recipes/recipe[@name='armorLumberjackGloves' and ingredient/@quality='6']"/>
-    <remove xpath="/recipes/recipe[@name='armorLumberjackBoots' and ingredient/@quality='6']"/> -->
-
-
     <!-- *** NEW T7 (LEGENDARY) T8 (MYTHIC) TIER SYSTEM *** -->
     <include filename="dutTier/recipes_Weapons.xml"/>
     <include filename="dutTier/recipes_Armors.xml"/>

@@ -6,13 +6,13 @@
     <append xpath="/recipes">
 
         <!-- M60 -->
-        <recipe name="dutT7GunMGT3M60Bundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
+        <recipe name="dutT7MachineGunBundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
             <ingredient name="gunMGT3M60" count="1" quality="6"/>
             <ingredient name="dutResourceMythicParts" count="2"/>
         </recipe>
 
-        <recipe name="dutT8GunMGT3M60Bundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
-            <ingredient name="dutT7GunMGT3M60" count="1"/>
+        <recipe name="dutT8MachineGunBundle" count="1" craft_area="workbench" tags="learnable,perkMachineGunner,workbenchCrafting">
+            <ingredient name="dutT7MachineGun" count="1"/>
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
