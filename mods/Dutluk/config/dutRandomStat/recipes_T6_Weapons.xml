@@ -23,6 +23,96 @@
             <ingredient name="resourceLegendaryParts" count="1"/>
         </recipe>
 
+        <!-- SHOTGUN -->
+        <recipe name="dutT6ShotgunBundle" count="1" craft_area="workbench" tags="learnable,perkBoomstick,workbenchCrafting">
+            <ingredient name="gunShotgunT1DoubleBarrelParts" count="18"/>
+            <ingredient name="resourceForgedSteel" count="150"/>
+            <ingredient name="resourceDuctTape" count="18"/>
+            <ingredient name="resourceSpring" count="35"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- RIFLE -->
+        <recipe name="dutT6RifleBundle" count="1" craft_area="workbench" tags="learnable,perkDeadEye,workbenchCrafting">
+            <ingredient name="gunRifleT1HuntingRifleParts" count="18"/>
+            <ingredient name="resourceForgedSteel" count="150"/>
+            <ingredient name="resourceDuctTape" count="18"/>
+            <ingredient name="resourceSpring" count="35"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- DESERT VULTURE -->
+        <recipe name="dutT6DesertVultureBundle" count="1" craft_area="workbench" tags="learnable,perkGunslinger,workbenchCrafting">
+            <ingredient name="gunHandgunT1PistolParts" count="18"/>
+            <ingredient name="resourceForgedSteel" count="150"/>
+            <ingredient name="resourceDuctTape" count="18"/>
+            <ingredient name="resourceSpring" count="35"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- SMG -->
+        <recipe name="dutT6SMGBundle" count="1" craft_area="workbench" tags="learnable,perkGunslinger,workbenchCrafting">
+            <ingredient name="gunHandgunT1PistolParts" count="18"/>
+            <ingredient name="resourceForgedSteel" count="150"/>
+            <ingredient name="resourceDuctTape" count="18"/>
+            <ingredient name="resourceSpring" count="35"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- MACHETE -->
+        <recipe name="dutT6MacheteBundle" count="1" craft_area="workbench" tags="learnable,perkDeepCuts,workbenchCrafting">
+            <ingredient name="meleeWpnBladeT3MacheteParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceWood" count="15"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- SLEDGEHAMMER -->
+        <recipe name="dutT6SledgehammerBundle" count="1" craft_area="workbench" tags="learnable,perkSkullCrusher,workbenchCrafting">
+            <ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceWood" count="15"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- BATON -->
+        <recipe name="dutT6BatonBundle" count="1" craft_area="workbench" tags="learnable,perkElectrocutioner,workbenchCrafting">
+            <ingredient name="meleeWpnBatonT2StunBatonParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceWood" count="15"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- KNUCKLES -->
+        <recipe name="dutT6KnucklesBundle" count="1" craft_area="workbench" tags="learnable,perkBrawler,workbenchCrafting">
+            <ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceLeather" count="8"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!-- SPEAR -->
+        <recipe name="dutT6SpearBundle" count="1" craft_area="workbench" tags="learnable,perkJavelinMaster,craftingSpears,workbenchCrafting">
+            <ingredient name="meleeWpnSpearT3SteelSpearParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceWood" count="15"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!--CLUB-->
+        <recipe name="dutT6ClubBundle" count="1" craft_area="workbench" tags="learnable,perkPummelPete,workbenchCrafting">
+            <ingredient name="meleeWpnClubT3SteelClubParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceWood" count="15"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
     </append>
 
 

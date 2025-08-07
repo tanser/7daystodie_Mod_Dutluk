@@ -175,6 +175,38 @@ dutT6CompoundBowBundleDesc,items,Gun,,,"Contains a Compound Bow T6. Open to rece
 
 armorT6,progression,Attribute,,,T6 Armors,,Schwere Rüstungen,Armaduras pesadas,Armures lourdes,Armature pesanti,ヘビーアーマー,중갑옷,Ciężkie pancerze,Armadura pesadas,Тяжелая броня,6. Seviye Zırhlar,重型护甲,重甲
 
+dutT6ShotgunBundle,items,Gun,,,"Shotgun T6 Bundle",,,,,,,,,,,"Otomatik Pompalı Tüfek 6. Seviye Kutusu",,
+dutT6ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun T6. Open to receive your reward.",,,,,,,,,,,"Otomatik Pompalı Tüfek 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6RifleBundle,items,Gun,,,"Rifle T6 Bundle",,,,,,,,,,,"Keskin Nişancı Tüfeği 6. Seviye Kutusu",,
+dutT6RifleBundleDesc,items,Gun,,,"Contains a Rifle T6. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6DesertVultureBundle,items,Gun,,,"Desert Vulture T6 Bundle",,,,,,,,,,,"Desert Vulture 6. Seviye Kutusu",,
+dutT6DesertVultureBundleDesc,items,Gun,,,"Contains a Desert Vulture T6. Open to receive your reward.",,,,,,,,,,,"Desert Vulture 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6SMGBundle,items,Gun,,,"SMG T6 Bundle",,,,,,,,,,,"SMG 6. Seviye Kutusu",,
+dutT6SMGBundleDesc,items,Gun,,,"Contains a SMG T6. Open to receive your reward.",,,,,,,,,,,"SMG 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6MacheteBundle,items,Gun,,,"Machete T6 Bundle",,,,,,,,,,,"Pala 6. Seviye Kutusu",,
+dutT6MacheteBundleDesc,items,Gun,,,"Contains a Machete T6. Open to receive your reward.",,,,,,,,,,,"Pala 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6SledgehammerBundle,items,Gun,,,"Sledgehammer T6 Bundle",,,,,,,,,,,"Çelik Balyoz 6. Seviye Kutusu",,
+dutT6SledgehammerBundleDesc,items,Gun,,,"Contains a Sledgehammer T6. Open to receive your reward.",,,,,,,,,,,"Çelik Balyoz 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6BatonBundle,items,Gun,,,"Baton T6 Bundle",,,,,,,,,,,"Elektroşok Tabancası 6. Seviye Kutusu",,
+dutT6BatonBundleDesc,items,Gun,,,"Contains a Baton T6. Open to receive your reward.",,,,,,,,,,,"Elektroşok Tabancası 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6KnucklesBundle,items,Gun,,,"Knuckles T6 Bundle",,,,,,,,,,,"Çelik Muşta 6. Seviye Kutusu",,
+dutT6KnucklesBundleDesc,items,Gun,,,"Contains a Knuckles T6. Open to receive your reward.",,,,,,,,,,,"Çelik Muşta 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6SpearBundle,items,Gun,,,"Spear T6 Bundle",,,,,,,,,,,"Çelik Mızrak 6. Seviye Kutusu",,
+dutT6SpearBundleDesc,items,Gun,,,"Contains a Spear T6. Open to receive your reward.",,,,,,,,,,,"Çelik Mızrak 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6ClubBundle,items,Gun,,,"Club T6 Bundle",,,,,,,,,,,"Çelik Sopa 6. Seviye Kutusu",,
+dutT6ClubBundleDesc,items,Gun,,,"Contains a Club T6. Open to receive your reward.",,,,,,,,,,,"Çelik Sopa 6. Seviye içerir açınca ödülünü alırsın.",,
+
+
+
 // Yeni Zombi Zorluk Seviyeleri
 zombieArleneCorrupted,entities,Entity,,"Corrupted Arlene",,,,,,,,,,,"Bozulmuş Arlene",,
 zombieArleneApocalyptic,entities,Entity,,"Apocalyptic Arlene",,,,,,,,,,,"Kıyamet Arlene",,

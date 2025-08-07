@@ -50,6 +50,135 @@
       </property>
     </item>
 
+    <!-- *** SHOTGUN *** -->
+    <item name="dutT6ShotgunBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunShotgunT3AutoShotgun"/>
+      <property name="DescriptionKey" value="dutT6ShotgunBundleDesc"/>
+      <property name="UnlockedBy" value="craftingShotguns"/>
+      <property class="Action0">
+        <property name="Create_item" value="gunShotgunT3AutoShotgun"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** RIFLE *** -->
+    <item name="dutT6RifleBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
+      <property name="DescriptionKey" value="dutT6RifleBundleDesc"/>
+      <property name="UnlockedBy" value="craftingRifles"/>
+      <property class="Action0">
+        <property name="Create_item" value="gunRifleT3SniperRifle"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** DESERT VULTURE *** -->
+    <item name="dutT6DesertVultureBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunHandgunT3DesertVulture"/>
+      <property name="DescriptionKey" value="dutT6DesertVultureBundleDesc"/>
+      <property name="UnlockedBy" value="craftingHandguns"/>
+      <property class="Action0">
+        <property name="Create_item" value="gunHandgunT3DesertVulture"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** SMG *** -->
+    <item name="dutT6SMGBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="gunHandgunT3SMG5"/>
+      <property name="DescriptionKey" value="dutT6SMGBundleDesc"/>
+      <property name="UnlockedBy" value="craftingHandguns"/>
+      <property class="Action0">
+        <property name="Create_item" value="gunHandgunT3SMG5"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** MACHETE *** -->
+    <item name="dutT6MacheteBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeWpnBladeT3Machete"/>
+      <property name="DescriptionKey" value="dutT6MacheteBundleDesc"/>
+      <property name="UnlockedBy" value="craftingBlades"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeWpnBladeT3Machete"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** SLEDGEHAMMER *** -->
+    <item name="dutT6SledgeBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer"/>
+      <property name="DescriptionKey" value="dutT6SledgeBundleDesc"/>
+      <property name="UnlockedBy" value="craftingSledgehammers"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeWpnSledgeT3SteelSledgehammer"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** BATON *** -->
+    <item name="dutT6BatonBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeWpnBatonT2StunBaton"/>
+      <property name="DescriptionKey" value="dutT6BatonBundleDesc"/>
+      <property name="UnlockedBy" value="craftingRobotics"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeWpnBatonT2StunBaton"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** KNUCKLES *** -->
+    <item name="dutT6KnucklesBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles"/>
+      <property name="DescriptionKey" value="dutT6KnucklesBundleDesc"/>
+      <property name="UnlockedBy" value="craftingKnuckles"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeWpnKnucklesT3SteelKnuckles"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** SPEAR *** -->
+    <item name="dutT6SpearBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear"/>
+      <property name="DescriptionKey" value="dutT6SpearBundleDesc"/>
+      <property name="UnlockedBy" value="craftingSpears"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeWpnSpearT3SteelSpear"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** CLUB *** -->
+    <item name="dutT6ClubBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeWpnClubT3SteelClub"/>
+      <property name="DescriptionKey" value="dutT6ClubBundleDesc"/>
+      <property name="UnlockedBy" value="craftingClubs"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeWpnClubT3SteelClub"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
 
   </append>
 
