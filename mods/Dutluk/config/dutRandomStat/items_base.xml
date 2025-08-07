@@ -2,7 +2,7 @@
 
 <configs>
 
-  <append xpath="/items/item[starts-with(@name, 'armor') and not(substring(@name, string-length(@name) - string-length('Parts') + 1) = 'Parts')]">
+  <append xpath="/items/item[starts-with(@name, 'armor') and not(@name = 'armorSkillMagazine') and not(substring(@name, string-length(@name) - string-length('Parts') + 1) = 'Parts')]">
     <effect_group>
       <passive_effect name="PhysicalDamageResist" operation="perc_add" value="-.1,.2" tier="5"/>
       <passive_effect name="ElementalDamageResist" operation="perc_add" value="-.1,.2" tier="5"/>
@@ -16,7 +16,7 @@
   </append>
 
   <!-- *** GENERAL MODIFICATIONS - GUNS, TOOLS, MELEE, BOWS, CROSSBOWS *** -->
-    <append xpath="/items/item[(starts-with(@name, 'gun') or starts-with(@name, 'melee') or starts-with(@name, 'tool') or starts-with(@name, 'bow') or starts-with(@name, 'crossbow')) and not(substring(@name, string-length(@name) - string-length('Parts') + 1) = 'Parts')]">
+    <append xpath="/items/item[(starts-with(@name, 'gun') or starts-with(@name, 'melee') or starts-with(@name, 'tool') or starts-with(@name, 'bow') or starts-with(@name, 'crossbow')) and not(substring(@name, string-length(@name) - string-length('Parts') + 1) = 'Parts') and not(substring(@name, string-length(@name) - string-length('Magazine') + 1) = 'Magazine')]">
     <effect_group>
       <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.2" tier="5"/>
       <passive_effect name="BlockDamage" operation="perc_add" value="-.1,.2" tier="5"/>
