@@ -123,12 +123,12 @@
 
     <!-- T6 SMG -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">
-        <display_entry item="dutT6SMGBundle" unlock_level="70"/>
+        <display_entry item="dutT6SMGBundle" unlock_level="100"/>
     </append>
 
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="70" value="1" tags="dutT6SMGBundle"/>
-        <passive_effect name="CraftingTier" operation="base_add" level="70" value="1" tags="dutT6SMGBundle"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6SMGBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6SMGBundle"/>
     </append>
 
     <!-- T6 Machete -->
@@ -153,12 +153,12 @@
 
     <!-- T6 Baton -->
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']">
-        <display_entry item="dutT6BatonBundle" unlock_level="50"/>
+        <display_entry item="dutT6BatonBundle" unlock_level="100"/>
     </append>
 
     <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']/effect_group">
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50" value="1" tags="dutT6BatonBundle"/>
-        <passive_effect name="CraftingTier" operation="base_add" level="50" value="1" tags="dutT6BatonBundle"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6BatonBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6BatonBundle"/>
     </append>
 
     <!-- T6 Knuckles -->
