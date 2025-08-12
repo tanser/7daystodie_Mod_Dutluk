@@ -65,10 +65,10 @@
         <!-- /orginal values -->
 
         <!-- custom values for T7 -->
-        <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.35"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.35"/>
-        <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.35"/>
-        <passive_effect name="MagazineSize" operation="base_add" value="-5, 20"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value=".35,1.2"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value=".35,1.2"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value=".35,1.2"/>
+        <passive_effect name="MagazineSize" operation="base_add" value="0, 10"/>
 
       </effect_group>
     </item>

@@ -63,10 +63,10 @@
         <!-- /orginal values -->
 
         <!-- custom values for T8 -->
-        <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.6"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.6"/>
-        <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.6"/>
-        <passive_effect name="MagazineSize" operation="base_add" value="3, 10"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="MagazineSize" operation="base_add" value="0, 30"/>
         <passive_effect name="DamageModifier" operation="base_add" value="100" tags="head"/>
 
       </effect_group>

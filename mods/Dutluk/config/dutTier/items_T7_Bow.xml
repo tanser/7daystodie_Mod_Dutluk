@@ -57,11 +57,11 @@
 
 
         <!-- custom values for T7 -->
-        <passive_effect name="EntityDamage" operation="perc_add" value="-.1,.35"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="-.1,.35"/>
-        <passive_effect name="DegradationMax" operation="perc_add" value="-.1,.35"/>
-        <passive_effect name="DamageFalloffRange" operation="perc_add" value="-.1,.35"/>
-        <passive_effect name="ProjectileVelocity" operation="perc_add" value="-.1,.35"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="DamageFalloffRange" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="ProjectileVelocity" operation="perc_add" value=".35,1.20"/>
         
       </effect_group>
 
