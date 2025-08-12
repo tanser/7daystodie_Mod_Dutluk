@@ -15,6 +15,12 @@
   <include filename="dutTier/items_T8_Sniper.xml"/>
   <include filename="dutTier/items_T7_Machete.xml"/>
   <include filename="dutTier/items_T8_Machete.xml"/>
+  <include filename="dutTier/items_T7_Club.xml"/>
+  <include filename="dutTier/items_T8_Club.xml"/>
+  <include filename="dutTier/items_T7_Magnum.xml"/>
+  <include filename="dutTier/items_T8_Magnum.xml"/>
+  <include filename="dutTier/items_T7_SMG.xml"/>
+  <include filename="dutTier/items_T8_SMG.xml"/>
 
   <!-- *** NEW CURSED EVENT SYSTEM *** -->
 

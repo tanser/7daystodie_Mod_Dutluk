@@ -156,6 +156,30 @@ dutT7MacheteBundleDesc,items,Gun,,,"Contains a Machete Legendary. Open to receiv
 dutT8MacheteBundle,items,Gun,,,"Machete Mythic Bundle",,,,,,,,,,,"Pala Mistik Kutusu",,
 dutT8MacheteBundleDesc,items,Gun,,,"Contains a Machete Mythic. Open to receive your reward.",,,,,,,,,,,"Pala Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
 
+dutT7Club,items,Gun,,,"Club Legendary",,,,,,,,,,,"Beyzbol Sopası Efsanevi",,
+dutT8Club,items,Gun,,,"Club Mythic",,,,,,,,,,,"Beyzbol Sopası Mistik",,
+
+dutT7ClubBundle,items,Gun,,,"Club Legendary Bundle",,,,,,,,,,,"Beyzbol Sopası Efsanevi Kutusu",,
+dutT7ClubBundleDesc,items,Gun,,,"Contains a Club Legendary. Open to receive your reward.",,,,,,,,,,,"Beyzbol Sopası Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT8ClubBundle,items,Gun,,,"Club Mythic Bundle",,,,,,,,,,,"Beyzbol Sopası Mistik Kutusu",,
+dutT8ClubBundleDesc,items,Gun,,,"Contains a Club Mythic. Open to receive your reward.",,,,,,,,,,,"Beyzbol Sopası Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+
+dutT7Magnum,items,Gun,,,"Magnum Legendary",,,,,,,,,,,"Magnum Efsanevi",,
+dutT8Magnum,items,Gun,,,"Magnum Mythic",,,,,,,,,,,"Magnum Mistik",,
+
+dutT7MagnumBundle,items,Gun,,,"Magnum Legendary Bundle",,,,,,,,,,,"Magnum Efsanevi Kutusu",,
+dutT7MagnumBundleDesc,items,Gun,,,"Contains a Magnum Legendary. Open to receive your reward.",,,,,,,,,,,"Magnum Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT8MagnumBundle,items,Gun,,,"Magnum Mythic Bundle",,,,,,,,,,,"Magnum Mistik Kutusu",,
+dutT8MagnumBundleDesc,items,Gun,,,"Contains a Magnum Mythic. Open to receive your reward.",,,,,,,,,,,"Magnum Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+
+dutT7SMG,items,Gun,,,"SMG Legendary",,,,,,,,,,,"SMG Efsanevi",,
+dutT8SMG,items,Gun,,,"SMG Mythic",,,,,,,,,,,"SMG Mistik",,
+
+dutT7SMGBundle,items,Gun,,,"SMG Legendary Bundle",,,,,,,,,,,"SMG Efsanevi Kutusu",,
+dutT7SMGBundleDesc,items,Gun,,,"Contains a SMG Legendary. Open to receive your reward.",,,,,,,,,,,"SMG Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT8SMGBundle,items,Gun,,,"SMG Mythic Bundle",,,,,,,,,,,"SMG Mistik Kutusu",,
+dutT8SMGBundleDesc,items,Gun,,,"Contains a SMG Mythic. Open to receive your reward.",,,,,,,,,,,"SMG Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+
 dutT7Bow,items,Gun,,,"Bow Legendary",,,,,,,,,,,"Yay Efsanevi",,
 dutT8Bow,items,Gun,,,"Bow Mythic",,,,,,,,,,,"Yay Mistik",,
 

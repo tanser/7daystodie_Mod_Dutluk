@@ -58,4 +58,37 @@
         <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT7MacheteBundle,dutT8MacheteBundle"/>
     </append>
 
+    <!-- T7 - T8 Club -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']">
+        <display_entry item="dutT7ClubBundle" unlock_level="75"/>
+        <display_entry item="dutT8ClubBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT7ClubBundle,dutT8ClubBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT7ClubBundle,dutT8ClubBundle"/>
+    </append>
+
+    <!-- T7 - T8 Magnum -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">
+        <display_entry item="dutT7MagnumBundle" unlock_level="100"/>
+        <display_entry item="dutT8MagnumBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7MagnumBundle,dutT8MagnumBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7MagnumBundle,dutT8MagnumBundle"/>
+    </append>
+
+    <!-- T7 - T8 SMG -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">
+        <display_entry item="dutT7SMGBundle" unlock_level="100"/>
+        <display_entry item="dutT8SMGBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7SMGBundle,dutT8SMGBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7SMGBundle,dutT8SMGBundle"/>
+    </append>
+
 </configs>

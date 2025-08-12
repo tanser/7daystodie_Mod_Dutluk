@@ -60,6 +60,39 @@
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
+        <!-- Club -->
+        <recipe name="dutT7ClubBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkPummelPete,workbenchCrafting">
+            <ingredient name="dutT6ClubBundle" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8ClubBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkPummelPete,workbenchCrafting">
+            <ingredient name="dutT7Club" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
+
+        <!-- Magnum -->
+        <recipe name="dutT7MagnumBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkGunslinger,workbenchCrafting">
+            <ingredient name="dutT6DesertVultureBundle" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8MagnumBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkGunslinger,workbenchCrafting">
+            <ingredient name="dutT7Magnum" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
+
+        <!-- SMG -->
+        <recipe name="dutT7SMGBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkGunslinger,workbenchCrafting">
+            <ingredient name="dutT6SMGBundle" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8SMGBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkGunslinger,workbenchCrafting">
+            <ingredient name="dutT7SMG" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
+
     </append>
 
 
