@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <append xpath="/items">
+
+    <item name="dutT8Machete">
+      <property name="Extends" value="meleeWpnBladeT3Machete"/>
+
+      <property name="TintColor" value="239BA7"/>
+      <property name="CustomIcon" value="meleeWpnBladeT3Machete"/>
+      <property name="CustomIconTint" value="239BA7"/>
+      <property name="ShowQuality" value="false"/>
+      <property name="CreativeMode" value="Player"/>
+
+      <effect_group name="dutT8Machete">
+       
+        <!-- orginal values -->
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="65" tags="perkDeepCuts,perkFlurryOfAgility"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="16" tags="primary"/>
+        <passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6" tags="perkDeepCuts"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
+        <passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
+        <passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
+        <passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,4" tier="1,2,3,4,5,6"/>
+        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+        <passive_effect name="EntityDamage" operation="base_set" value="25" tags="perkDeepCuts"/> <!-- meleeWpnBladeT3Machete -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkDeepCuts"/> <!-- random EntityDmg -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/> <!-- tier bonus -->
+        <passive_effect name="BlockDamage" operation="base_set" value="21" tags="perkDeepCuts"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkDeepCuts"/> <!-- random BlockDmg -->
+        <passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/> <!-- tier bonus -->
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+        <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+        <!--<passive_effect name="BlockDamage" operation="perc_add" value="1.5" tags="blockButcher"/>-->
+        <passive_effect name="DismemberChance" operation="base_add" value="1"/>
+        <!-- /orginal values -->
+
+
+        <!-- custom values for T7 -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="1.1,2"/>
+        
+      </effect_group>
+
+      <!-- custom values for T7 -->
+      <effect_group name="Power Attack">
+        <passive_effect name="EntityDamage" operation="perc_add" value="1.4" tags="secondary"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="1.4" tags="secondary"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="25" tags="secondary"/>
+      </effect_group>
+
+      <!-- custom values for T7 -->
+      <effect_group name="sneak damage bonus">
+        <requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+        <requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+          <passive_effect name="DamageBonus" operation="base_add" value="7"/>
+          <passive_effect name="EntityDamage" operation="perc_add" value="7" tags="perkDeepCuts"/>
+          <display_value name="dEntityDamageSneak" value="7"/>
+      </effect_group>
+
+    </item>
+
+    <item name="dutT8MacheteBundle">
+      <property name="Extends" value="dutT8BundleBox"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeWpnBladeT3Machete"/>
+      <property name="DescriptionKey" value="dutT8MacheteBundleDesc"/>
+      <property name="UnlockedBy" value="craftingBlades"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT8Machete,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+  </append>
+
+
+</configs>

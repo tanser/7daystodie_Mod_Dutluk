@@ -49,6 +49,17 @@
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
+        <!-- Machete -->
+        <recipe name="dutT7MacheteBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkDeepCuts,workbenchCrafting">
+            <ingredient name="dutT6MacheteBundle" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8MacheteBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkDeepCuts,workbenchCrafting">
+            <ingredient name="dutT7Machete" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
+
     </append>
 
 

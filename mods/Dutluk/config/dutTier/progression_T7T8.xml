@@ -47,4 +47,15 @@
         <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7SniperBundle,dutT8SniperBundle"/>
     </append>
 
+    <!-- T7 - T8 Machete -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']">
+        <display_entry item="dutT7MacheteBundle" unlock_level="75"/>
+        <display_entry item="dutT8MacheteBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT7MacheteBundle,dutT8MacheteBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT7MacheteBundle,dutT8MacheteBundle"/>
+    </append>
+
 </configs>

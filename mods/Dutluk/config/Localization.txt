@@ -148,6 +148,13 @@ dutT7ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Legendary. Open to receiv
 dutT8ShotgunBundle,items,Gun,,,"Shotgun Mythic Bundle",,,,,,,,,,,"Pompalı Tüfek Mistik Kutusu",,
 dutT8ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Mythic. Open to receive your reward.",,,,,,,,,,,"Pompalı Tüfek Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
 
+dutT7Machete,items,Gun,,,"Machete Legendary",,,,,,,,,,,"Pala Efsanevi",,
+dutT8Machete,items,Gun,,,"Machete Mythic",,,,,,,,,,,"Pala Mistik",,
+
+dutT7MacheteBundle,items,Gun,,,"Machete Legendary Bundle",,,,,,,,,,,"Pala Efsanevi Kutusu",,
+dutT7MacheteBundleDesc,items,Gun,,,"Contains a Machete Legendary. Open to receive your reward.",,,,,,,,,,,"Pala Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT8MacheteBundle,items,Gun,,,"Machete Mythic Bundle",,,,,,,,,,,"Pala Mistik Kutusu",,
+dutT8MacheteBundleDesc,items,Gun,,,"Contains a Machete Mythic. Open to receive your reward.",,,,,,,,,,,"Pala Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
 
 dutT7Bow,items,Gun,,,"Bow Legendary",,,,,,,,,,,"Yay Efsanevi",,
 dutT8Bow,items,Gun,,,"Bow Mythic",,,,,,,,,,,"Yay Mistik",,
@@ -213,7 +220,6 @@ dutT6ClubBundleDesc,items,Gun,,,"Contains a Club T6. Open to receive your reward
 
 
 
-// Yeni Zombi Zorluk Seviyeleri
 zombieArleneCorrupted,entities,Entity,,"Corrupted Arlene",,,,,,,,,,,"Bozulmuş Arlene",,
 zombieArleneApocalyptic,entities,Entity,,"Apocalyptic Arlene",,,,,,,,,,,"Kıyamet Arlene",,
 zombieBusinessManCorrupted,entities,Entity,,"Corrupted Businessman",,,,,,,,,,,"Bozulmuş İş Adamı",,
@@ -226,10 +232,8 @@ zombieSpiderCorrupted,entities,Entity,,"Corrupted Spider",,,,,,,,,,,"Bozulmuş �
 zombieSpiderApocalyptic,entities,Entity,,"Apocalyptic Spider",,,,,,,,,,,"Kıyamet Örümcek",,
 zombieSpiderLegendary,entities,Entity,,"Legendary Spider Boss",,,,,,,,,,,"Efsanevi Örümcek Boss",,
 
-// Zorluk Seviyesi Açıklamaları
 corruptedZombieDesc,entities,Entity,,"A zombie corrupted by dark energy, more dangerous than charged variants.",,,,,,,,,,,"Karanlık enerji tarafından bozulmuş zombi, şarjlı türlerden daha tehlikeli.",,
 apocalypticZombieDesc,entities,Entity,,"Pure red apocalyptic zombies, the ultimate threat before boss level.",,,,,,,,,,,"Saf kırmızı kıyamet zombileri, boss seviyesinden önceki en büyük tehdit.",,
 legendaryZombieDesc,entities,Entity,,"Golden legendary boss zombie, nearly indestructible and extremely dangerous.",,,,,,,,,,,"Altın efsanevi boss zombi, neredeyse yıkılmaz ve son derece tehlikeli.",,
 
-// Renk Açıklamaları
 zombieTierInfo,entities,Entity,,"Zombie Difficulty: Green > Blue > Yellow > Purple > Red > Golden",,,,,,,,,,,"Zombi Zorluk Seviyeleri: Yeşil > Mavi > Sarı > Mor > Kırmızı > Altın",,
