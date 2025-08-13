@@ -6,6 +6,7 @@
     <item name="dutT8Club">
       <property name="Extends" value="meleeWpnClubT3SteelClub"/>
 
+      <property name="HoldType" value="65"/>
       <property name="TintColor" value="239BA7"/>
       <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Bat/bat_Prefab.prefab"/>
       <property name="CustomIcon" value="meleeWpnClubT1BaseballBat"/>

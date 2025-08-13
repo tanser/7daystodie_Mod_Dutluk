@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configs>
+
   <append xpath="/items">
 
     <item name="dutT8Magnum">
-
       <property name="Extends" value="gunHandgunT3DesertVulture"/>
 
+      <property name="HoldType" value="44"/>
+      <property name="Weight" value="4"/>
       <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
       <property name="Material" value="MHandGunParts"/>
       <property name="TintColor" value="239BA7"/>
@@ -18,7 +20,6 @@
       <!-- prevent to sell or buy -->
       <property name="SellableToTrader" value="false"/>
       <property name="EconomicValue" value="0"/>
-      
 
       <effect_group name="dutT8Magnum">
 

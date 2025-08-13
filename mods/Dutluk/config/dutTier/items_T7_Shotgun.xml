@@ -7,6 +7,8 @@
     <item name="dutT7Shotgun">
       <property name="Extends" value="gunShotgunT3AutoShotgun"/>
 
+      <property name="DisplayType" value="rangedShotgunNoMag"/>
+      <property name="HoldType" value="56"/>
       <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
       <property name="Material" value="MShotgunParts"/>
       <property name="TintColor" value="F0E68C"/>

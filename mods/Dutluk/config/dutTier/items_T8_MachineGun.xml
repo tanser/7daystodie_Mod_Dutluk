@@ -3,10 +3,12 @@
 <configs>
 
   <append xpath="/items">
+  
     <item name="dutT8MachineGun">
-     
       <property name="Extends" value="gunMGT3M60"/>
 
+      <property name="DisplayType" value="rangedGun"/>
+      <property name="HoldType" value="48"/>
       <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/AK47/ak47Prefab.prefab"/>
       <property name="Material" value="MMachineGunParts"/>
       <property name="TintColor" value="239BA7"/>
