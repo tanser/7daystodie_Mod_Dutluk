@@ -6,7 +6,15 @@
 		<item name="dutResourceMythicParts" count="1,3" loot_prob_template="low" force_prob="true"/>
 	</append>
 
+	<append xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1']">
+		<item name="dutResourceMythicParts" count="1" loot_prob_template="veryLow" force_prob="true"/>
+	</append>
+
 	<append xpath="/lootcontainers/lootgroup[@name='groupBuriedWeaponChest']">
+		<item name="dutResourceMythicParts" count="1" loot_prob_template="low" force_prob="true"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']">
 		<item name="dutResourceMythicParts" count="1" loot_prob_template="low" force_prob="true"/>
 	</append>
 
