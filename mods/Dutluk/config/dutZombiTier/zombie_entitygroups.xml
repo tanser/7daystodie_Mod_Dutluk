@@ -7,41 +7,41 @@
 		
 		<!-- Corrupted (Mor) zombi grupları -->
 		<entitygroup name="zombieArleneCorrupted">
-			zombieArleneCorrupted
+			<entity name="zombieArleneCorrupted"/>
 		</entitygroup>
 		<entitygroup name="zombieBusinessManCorrupted">
-			zombieBusinessManCorrupted
+			<entity name="zombieBusinessManCorrupted"/>
 		</entitygroup>
 		<entitygroup name="zombieJoeCorrupted">
-			zombieJoeCorrupted
+			<entity name="zombieJoeCorrupted"/>
 		</entitygroup>
 		<entitygroup name="zombieBoeCorrupted">
-			zombieBoeCorrupted
+			<entity name="zombieBoeCorrupted"/>
 		</entitygroup>
 		<entitygroup name="zombieSpiderCorrupted">
-			zombieSpiderCorrupted
+			<entity name="zombieSpiderCorrupted"/>
 		</entitygroup>
 		
 		<!-- Apocalyptic (Kırmızı) zombi grupları -->
 		<entitygroup name="zombieArleneApocalyptic">
-			zombieArleneApocalyptic
+			<entity name="zombieArleneApocalyptic"/>
 		</entitygroup>
 		<entitygroup name="zombieBusinessManApocalyptic">
-			zombieBusinessManApocalyptic
+			<entity name="zombieBusinessManApocalyptic"/>
 		</entitygroup>
 		<entitygroup name="zombieJoeApocalyptic">
-			zombieJoeApocalyptic
+			<entity name="zombieJoeApocalyptic"/>
 		</entitygroup>
 		<entitygroup name="zombieBoeApocalyptic">
-			zombieBoeApocalyptic
+			<entity name="zombieBoeApocalyptic"/>
 		</entitygroup>
 		<entitygroup name="zombieSpiderApocalyptic">
-			zombieSpiderApocalyptic
+			<entity name="zombieSpiderApocalyptic"/>
 		</entitygroup>
 
 		<!-- Boss Level - Legendary Spider -->
 		<entitygroup name="zombieSpiderLegendary">
-			zombieSpiderLegendary
+			<entity name="zombieSpiderLegendary"/>
 		</entitygroup>
 
 		<!-- Karışık zorluk grupları - Yüksek game stage'ler için -->
@@ -63,7 +63,7 @@
 
 		<!-- Boss grupları - Legendary Boss'lar -->
 		<entitygroup name="bossSpiderGroup" count="1,1">
-			zombieSpiderLegendary
+			<entity name="zombieSpiderLegendary"/>
 		</entitygroup>
 
 		<!-- Karışık Boss Grubu -->
@@ -119,7 +119,7 @@
 
 		<!-- Ultimate Boss Challenge - Sadece boss'lar -->
 		<entitygroup name="ultimateBossChallenge" count="1,2">
-			zombieSpiderLegendary, 1
+			<entity name="zombieSpiderLegendary"/>
 		</entitygroup>
 
   </append>

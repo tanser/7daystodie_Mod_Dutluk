@@ -19,72 +19,83 @@
 		
 		<group name="zombieSpiderLegendary" spawner="zombieSpiderLegendary"/>
 
+		<!-- Karışık ve Boss grupları için tanımlamalar -->
+		<group name="mixedCorruptedGroup" spawner="EnhancedWanderingHorde"/>
+		<group name="mixedApocalypticGroup" spawner="EnhancedWanderingHorde"/>
+		<group name="progressiveHordeStageHigh" spawner="EnhancedWanderingHorde"/>
+		<group name="progressiveHordeStageExtreme" spawner="EnhancedWanderingHorde"/>
+		<group name="nightmareHorde" spawner="EnhancedWanderingHorde"/>
+		<group name="bossEncounterGroup" spawner="EnhancedWanderingHorde"/>
+		<group name="ultimateBossChallenge" spawner="EnhancedBloodMoonHorde"/>
+		<group name="bossSpiderGroup" spawner="BossChallenge"/>
+		<group name="mixedBossGroup" spawner="BossChallenge"/>
+
 		<!-- Yeni zorluk seviyeleri için bireysel spawner'lar -->
 		<!-- Corrupted (Mor) zombi spawner'ları -->
 		<spawner name="zombieArleneCorrupted">
-			<gamestage stage="1">
+			<gamestage stage="150">
 				<spawn group="zombieArleneCorrupted" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieBusinessManCorrupted">
-			<gamestage stage="1">
+			<gamestage stage="150">
 				<spawn group="zombieBusinessManCorrupted" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieJoeCorrupted">
-			<gamestage stage="1">
+			<gamestage stage="150">
 				<spawn group="zombieJoeCorrupted" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieBoeCorrupted">
-			<gamestage stage="1">
+			<gamestage stage="150">
 				<spawn group="zombieBoeCorrupted" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieSpiderCorrupted">
-			<gamestage stage="1">
+			<gamestage stage="150">
 				<spawn group="zombieSpiderCorrupted" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<!-- Apocalyptic (Kırmızı) zombi spawner'ları -->
 		<spawner name="zombieArleneApocalyptic">
-			<gamestage stage="1">
+			<gamestage stage="300">
 				<spawn group="zombieArleneApocalyptic" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieBusinessManApocalyptic">
-			<gamestage stage="1">
+			<gamestage stage="300">
 				<spawn group="zombieBusinessManApocalyptic" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieJoeApocalyptic">
-			<gamestage stage="1">
+			<gamestage stage="300">
 				<spawn group="zombieJoeApocalyptic" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieBoeApocalyptic">
-			<gamestage stage="1">
+			<gamestage stage="300">
 				<spawn group="zombieBoeApocalyptic" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<spawner name="zombieSpiderApocalyptic">
-			<gamestage stage="1">
+			<gamestage stage="300">
 				<spawn group="zombieSpiderApocalyptic" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<!-- Boss Level - Legendary Spider spawner -->
 		<spawner name="zombieSpiderLegendary">
-			<gamestage stage="1">
+			<gamestage stage="500">
 				<spawn group="zombieSpiderLegendary" duration="10"/>
 			</gamestage>
 		</spawner>
