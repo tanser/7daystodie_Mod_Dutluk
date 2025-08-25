@@ -32,7 +32,8 @@
     <!-- Helper bundle for random loot. This item is not visible to the player. -->
     <item name="dutGamblerRandomLootBundle">
       <property name="Extends" value="dutGamblerBox"/>
-      <property name="CustomIcon" value="dutGamblerBoxT1LB"/>
+      <property name="CustomIcon" value="questRewardDartTrapBundle"/>
+      <property name="CustomIconTint" value="239BA7"/>
       <property name="CreativeMode" value="Player"/>
       <property name="DescriptionKey" value="dutGamblerRandomLootBundleDesc" />
 
@@ -48,7 +49,7 @@
     <item name="dutGamblerBoxT1">
       <property name="Extends" value="dutGamblerBox"/>
       <property name="CustomIcon" value="dutGamblerBoxT1"/>
-      <property name="DescriptionKey" value="dutGamblerBoxDesc" />
+      <property name="DescriptionKey" value="dutGamblerBoxT1Desc" />
       <property class="Action0">
         <!-- 1% chance for dutResourceMythicParts, 99% chance for the random loot bundle -->
         <property name="Random_item" value="dutResourceMythicParts,resourceLegendaryParts,resourceLegendaryParts,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle"/>
@@ -61,7 +62,7 @@
     <item name="dutGamblerBoxT2">
       <property name="Extends" value="dutGamblerBox"/>
       <property name="CustomIcon" value="dutGamblerBoxT2"/>
-      <property name="DescriptionKey" value="dutGamblerBoxDesc" />
+      <property name="DescriptionKey" value="dutGamblerBoxT2Desc" />
       <property class="Action0">
         <property name="Random_item" value="dutResourceMythicParts,resourceLegendaryParts,plantedPotato1,plantedPotato1"/>
         <property name="Random_item_count" value="1,1,1,1"/>

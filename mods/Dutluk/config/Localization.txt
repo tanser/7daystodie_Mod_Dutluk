@@ -5,8 +5,9 @@ dutResourceMythicParts,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",
 dutResourceMythicPartsDesc,items,Item,,,"Mythic Parts",,,,,,,,,,,"Mistik Parçalar",,
 
 dutGamblerBoxT1,items,Item,,,"Gambler Box (T1)",,,,,,,,,,,"Kumarbaz Kutusu (T1)",,
+dutGamblerBoxT1Desc,items,Item,,,"Gambler Box",,,,,,,,,,,"Mistik için şansını dene, ha ha ha ha",,
 dutGamblerBoxT2,items,Item,,,"Gambler Box (T2)",,,,,,,,,,,"Kumarbaz Kutusu (T2)",,
-dutGamblerBoxDesc,items,Item,,,"Gambler Box",,,,,,,,,,,"Mistik için şansını dene, ha ha ha ha",,
+dutGamblerBoxT2Desc,items,Item,,,"Gambler Box",,,,,,,,,,,"Mistik için şansını dene, ha ha ha ha",,
 
 dutGamblerRandomLootBundle,items,Item,,,"Gambler Loot Bundle",,,,,,,,,,,"Kumarbaz Rastgele Yağma Kutusu",,
 dutGamblerRandomLootBundleDesc,items,Item,,,"Gambler Loot Bundle",,,,,,,,,,,"Kumarbaz Rastgele Yağma Kutusu. Açınca ödülünü alırsın",,
