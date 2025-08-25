@@ -44,6 +44,16 @@
 			<entity name="zombieSpiderLegendary"/>
 		</entitygroup>
 
+		<!-- Boss Level - Legendary Vulture -->
+		<entitygroup name="animalVultureLegendary">
+			<entity name="animalVultureLegendary"/>
+		</entitygroup>
+
+		<!-- Boss Level - Legendary Dire Wolf -->
+		<entitygroup name="animalDireWolfLegendary">
+			<entity name="animalDireWolfLegendary"/>
+		</entitygroup>
+
 		<!-- Karışık zorluk grupları - Yüksek game stage'ler için -->
 		<entitygroup name="mixedCorruptedGroup" count="3,5">
 			zombieArleneCorrupted, .2
@@ -61,21 +71,31 @@
 			zombieSpiderApocalyptic, .2
 		</entitygroup>
 
-		<!-- Boss grupları - Legendary Boss'lar -->
-		<entitygroup name="bossSpiderGroup" count="1,1">
-			<entity name="zombieSpiderLegendary"/>
-		</entitygroup>
-
 		<!-- Karışık Boss Grubu -->
-		<entitygroup name="mixedBossGroup" count="1,2">
+		<entitygroup name="mixedBossGroup" count="1,3">
 			zombieSpiderLegendary, 1
+			animalVultureLegendary, 1
+			animalDireWolfLegendary, 1
 		</entitygroup>
 
 		<!-- Boss encounter - Legendary Spider + destekçiler -->
-		<entitygroup name="bossEncounterGroup" count="3,5">
+		<entitygroup name="bossSpiderGroup" count="3,5">
 			zombieSpiderLegendary, .3
 			zombieSpiderApocalyptic, .4
 			zombieSpiderCorrupted, .3
+		</entitygroup>
+
+		<!-- Boss encounter - Legendary Vulture + destekçiler -->
+		<entitygroup name="bossVultureGroup" count="3,5">
+			animalVultureLegendary, .3
+			animalZombieVulture, .4
+			animalZombieVultureRadiated, .3
+		</entitygroup>
+
+		<!-- Boss encounter - Legendary Dire Wolf + destekçiler -->
+		<entitygroup name="bossDireWolfGroup" count="3,5">
+			animalDireWolfLegendary, .3
+			animalDireWolf, .4
 		</entitygroup>
 
 		<!-- Ultimate Boss Encounter - Her iki boss + destekçiler -->
@@ -118,8 +138,10 @@
 		</entitygroup>
 
 		<!-- Ultimate Boss Challenge - Sadece boss'lar -->
-		<entitygroup name="ultimateBossChallenge" count="1,2">
-			<entity name="zombieSpiderLegendary"/>
+		<entitygroup name="ultimateBossChallenge" count="1,3">
+			zombieSpiderLegendary
+			animalVultureLegendary
+			animalDireWolfLegendary
 		</entitygroup>
 
   </append>

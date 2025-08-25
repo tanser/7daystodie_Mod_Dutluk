@@ -18,6 +18,8 @@
 		<group name="zombieSpiderApocalyptic" spawner="zombieSpiderApocalyptic"/>
 		
 		<group name="zombieSpiderLegendary" spawner="zombieSpiderLegendary"/>
+		<group name="animalVultureLegendary" spawner="animalVultureLegendary"/>
+		<group name="animalDireWolfLegendary" spawner="animalDireWolfLegendary"/>
 
 		<!-- Karışık ve Boss grupları için tanımlamalar -->
 		<group name="mixedCorruptedGroup" spawner="EnhancedWanderingHorde"/>
@@ -25,9 +27,10 @@
 		<group name="progressiveHordeStageHigh" spawner="EnhancedWanderingHorde"/>
 		<group name="progressiveHordeStageExtreme" spawner="EnhancedWanderingHorde"/>
 		<group name="nightmareHorde" spawner="EnhancedWanderingHorde"/>
-		<group name="bossEncounterGroup" spawner="EnhancedWanderingHorde"/>
 		<group name="ultimateBossChallenge" spawner="EnhancedBloodMoonHorde"/>
 		<group name="bossSpiderGroup" spawner="BossChallenge"/>
+		<group name="bossVultureGroup" spawner="BossChallenge"/>
+		<group name="bossDireWolfGroup" spawner="BossChallenge"/>
 		<group name="mixedBossGroup" spawner="BossChallenge"/>
 
 		<!-- Yeni zorluk seviyeleri için bireysel spawner'lar -->
@@ -100,6 +103,20 @@
 			</gamestage>
 		</spawner>
 
+		<!-- Boss Level - Legendary Vulture spawner -->
+		<spawner name="animalVultureLegendary">
+			<gamestage stage="600">
+				<spawn group="animalVultureLegendary" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<!-- Boss Level - Legendary Dire Wolf spawner -->
+		<spawner name="animalDireWolfLegendary">
+			<gamestage stage="700">
+				<spawn group="animalDireWolfLegendary" duration="10"/>
+			</gamestage>
+		</spawner>
+
 		<!-- Gelişmiş Wandering Horde - Yeni zorluk seviyeleri ile -->
 		<spawner name="EnhancedWanderingHorde">
 			<!-- Orta seviye - Corrupted zombiler başlar -->
@@ -121,7 +138,13 @@
 			</gamestage>
 			<!-- Boss seviyesi -->
 			<gamestage stage="500">
-				<spawn group="bossEncounterGroup" num="4" maxAlive="15" duration="9"/>
+				<spawn group="bossSpiderGroup" num="4" maxAlive="15" duration="9"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="bossVultureGroup" num="4" maxAlive="15" duration="9"/>
+			</gamestage>
+			<gamestage stage="700">
+				<spawn group="bossDireWolfGroup" num="4" maxAlive="15" duration="9"/>
 			</gamestage>
 		</spawner>
 
@@ -157,16 +180,12 @@
 
 			<!-- Boss Blood Moon -->
 			<gamestage stage="500">
-				<spawn group="bossEncounterGroup" num="15" maxAlive="12" duration="3" interval="10"/>
-				<spawn group="ultimateBossChallenge" num="3" maxAlive="8" duration="4" interval="8"/>
-				<spawn group="bossEncounterGroup" num="200" maxAlive="15"/>
+				<spawn group="ultimateBossChallenge" num="3" maxAlive="1" duration="4" interval="8"/>
 			</gamestage>
 
 			<!-- Ultimate nightmare -->
 			<gamestage stage="750">
-				<spawn group="ultimateBossChallenge" num="10" maxAlive="15" duration="3" interval="5"/>
-				<spawn group="bossEncounterGroup" num="30" maxAlive="18" duration="3" interval="5"/>
-				<spawn group="ultimateBossChallenge" num="300" maxAlive="20"/>
+				<spawn group="ultimateBossChallenge" num="20" maxAlive="4"/>
 			</gamestage>
 		</spawner>
 
@@ -187,9 +206,6 @@
 			<gamestage stage="450">
 				<spawn group="nightmareHorde" num="6" maxAlive="10" duration="1"/>
 			</gamestage>
-			<gamestage stage="600">
-				<spawn group="bossEncounterGroup" num="3" maxAlive="6" duration="1"/>
-			</gamestage>
 			<gamestage stage="800">
 				<spawn group="ultimateBossChallenge" num="1" maxAlive="3" duration="1"/>
 			</gamestage>
@@ -201,10 +217,10 @@
 				<spawn group="bossSpiderGroup" num="1" maxAlive="1" duration="10"/>
 			</gamestage>
 			<gamestage stage="600">
-				<spawn group="mixedBossGroup" num="1" maxAlive="2" duration="10"/>
+				<spawn group="bossDireWolfGroup" num="1" maxAlive="2" duration="10"/>
 			</gamestage>
 			<gamestage stage="750">
-				<spawn group="ultimateBossChallenge" num="2" maxAlive="2" duration="10"/>
+				<spawn group="bossVultureGroup" num="2" maxAlive="2" duration="10"/>
 			</gamestage>
 		</spawner>
 

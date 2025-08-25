@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+
+	<append xpath="/lootcontainers">
+
+		<lootgroup name="groupZpackLegendary" count="all">
+			<item group="groupAmmoLarge" count="2"/>
+			<item group="groupZpackBoss01" count="2"/>
+			<item group="groupZpackBoss02" count="2"/>
+			<item group="groupZpackBoss03" count="1"/>
+			<item group="groupZpackBoss04" loot_prob_template="med" force_prob="true"/>
+			<item group="booksAllScaled" count="1" buffs="buffPerkBookwormSuccess">
+				<requirement class="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$perkBookwormChance"/>
+			</item>
+			<item name="dutResourceMythicParts" count="2,7" loot_prob_template="medLow" force_prob="true"/>
+			<item name="resourceRawDiamond" count="1,2" loot_prob_template="Low" force_prob="true"/>
+			<item name="resourceGoldNugget" count="2,5" loot_prob_template="Low" force_prob="true"/>
+			<item name="resourceSilverNugget" count="5,10" loot_prob_template="Low" force_prob="true"/>
+
+		</lootgroup>
+
+		<!-- EntityLootContainerBoss, rare random drop off bosses -->
+		<lootcontainer name="zPackLegendary" count="1" size="6,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true">
+			<item group="groupZpackLegendary"/>
+		</lootcontainer>
+
+	</append>
+
+
+</configs>

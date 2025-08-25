@@ -168,18 +168,98 @@
 			<property name="UserSpawnType" value="Menu"/>
 			<property name="MatColor" value="legendary"/>
 			<property name="Tags" value="entity,zombie,spider,allbiome,feral,legendary,boss"/>
-			<property name="ExperienceGain" value="5000"/><!-- XP Boss -->
 			<property name="HandItem" value="meleeHandZombieLegendary"/>
 			<property name="MoveSpeedAggro" value="5, 1.0, 1.5, .4, 1.5, .3, .2, 2.5"/>
 			<property name="JumpMaxDistance" value="8.0, 12.0"/> <!-- Boss seviyesi zıplama -->
 			<property name="SizeScale" value="2"/> <!-- %200 daha büyük -->
 			<property name="Mass" value="120"/> <!-- Daha ağır -->
 			
+			<property name="ExperienceGain" value="5000"/><!-- XP Boss -->
+			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
+			<property name="LootDropProb" value=".8"/> <!-- Dire Wolf -->
+
 			<effect_group>
 				<passive_effect name="HealthMax" operation="base_set" value="7500"/>
 				<!-- Boss özel yetenekleri -->
 				<passive_effect name="BuffResistance" operation="base_set" value=".85" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".80" tags="buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03"/>
+			</effect_group>
+		</entity_class>
+
+
+		<!-- BOSS LEVEL: Legendary Vulture - Altın renk, ultra güçlü -->
+		<entity_class name="animalVultureLegendary" extends="animalZombieVultureRadiated">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="MatColor" value="legendary"/>
+			<property name="Tags" value="entity,animal,zombie,zombieAnimal,hostile,vulture,legendary,boss"/>
+			<property name="HandItem" value="meleeHandAnimalZombieVultureRadiated"/>
+			<property name="SizeScale" value="3.5"/> <!-- %200 daha büyük -->
+			<property name="Mass" value="150"/>
+			<property name="SightRange" value="140"/>
+
+			<property name="MoveSpeed" value="1.2"/>
+			<property name="MoveSpeedAggro" value="2.5, 2.5"/> <!-- Used when player in vehicle -->
+			<property name="MaxTurnSpeed" value="200"/>
+
+			<property name="ExperienceGain" value="5000"/><!-- XP Boss -->
+			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
+			<property name="LootDropProb" value=".8"/> <!-- Dire Wolf -->
+
+			<property name="DeadBodyHitPoints" value="2000"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="10"/> <!-- animalZombieVultureRadiated -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="50"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceRawDiamond" tag="allToolsHarvest" count="1"/>
+			<drop event="Harvest" name="resourceGoldNugget" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="resourceSilverNugget" tag="allToolsHarvest" count="5"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1000"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2"/> <!-- Feral damage -->
+				<!-- Boss özel yetenekleri -->
+				<passive_effect name="BuffResistance" operation="base_set" value="7" tags="buffRadiationPool"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+			</effect_group>
+		</entity_class>
+
+		<!-- BOSS LEVEL: Legendary Dire Wolf - Altın renk, ultra güçlü -->
+		<entity_class name="animalDireWolfLegendary" extends="animalDireWolf">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="EntityFlags" value="animal,zombie"/>
+			<property name="MatColor" value="legendary"/>
+			<property name="Tags" value="entity,animal,zombie,zombieAnimal,hostile,wolf,perkAT05,legendary,boss"/>
+			<property name="HandItem" value="meleeHandAnimalDireWolf"/>
+			<property name="SizeScale" value="3.5"/> <!-- %200 daha büyük -->
+			<property name="Mass" value="300"/>
+			<property name="SightRange" value="140"/>
+
+			<property name="AISeeOffset" value="1.5"/>
+			<property name="AIPathCostScale" value=".35, .5"/>
+
+			<property name="MoveSpeedAggro" value="2, 2.1"/>
+			<property name="JumpMaxDistance" value="8, 12"/>
+
+
+			<property name="ExperienceGain" value="5000"/><!-- XP Boss -->
+			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
+			<property name="LootDropProb" value=".8"/> <!-- Dire Wolf -->
+
+
+			<property name="PainResistPerHit" value=".97"/>
+			<property name="DeadBodyHitPoints" value="2000"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="50"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="20"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="20"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="10000"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2"/> <!-- Feral damage -->
 			</effect_group>
 		</entity_class>
 
