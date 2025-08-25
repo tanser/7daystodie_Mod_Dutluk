@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+
+  <append xpath="/recipes">
+
+      <!-- Mythic Parts Bundle Box -->
+      <recipe name="dutGamblerBoxT1" count="1" craft_area="workbench" craft_time="10" tags="workbenchCrafting">
+          <ingredient name="casinoCoin" count="1000"/>
+      </recipe>
+
+      <!-- Mythic Parts Bundle Box -->
+      <recipe name="dutGamblerBoxT2" count="1" craft_area="workbench" craft_time="10" tags="workbenchCrafting">
+          <ingredient name="resourceRawDiamond" count="1"/>
+          <ingredient name="resourceGoldNugget" count="2"/>
+          <ingredient name="resourceSilverNugget" count="5"/>
+      </recipe>
+
+
+  </append>
+
+</configs>

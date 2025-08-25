@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <append xpath="/items/item[@name = 'foodCropGraceCorn']">
+	  <property name="EconomicValue" value="120"/>
+  </append>
+
+</configs>

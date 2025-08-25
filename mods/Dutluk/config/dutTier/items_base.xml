@@ -8,16 +8,7 @@
   <!-- T8: 239BA7 (mythic) -->
 
   <append xpath="/items">
-    <!-- dutResourceMythicParts -->
-    <item name="dutResourceMythicParts">
-      <property name="Extends" value="resourceLegendaryParts"/>
-      <property name="DescriptionKey" value="dutResourceMythicPartsDesc" />
-      <property name="CreativeMode" value="Player"/>
-      <property name="EconomicValue" value="10000" />
-      <property name="Group" value="Special Items"/>
-      <property name="CustomIcon" value="dutResourceMythicParts"/>
-    </item>
-
+   
     <!-- dutT7BundleBox -->
     <item name="dutT7BundleBox">
       <property name="CreativeMode" value="None"/>

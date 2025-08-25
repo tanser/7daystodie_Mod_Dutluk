@@ -10,9 +10,11 @@
     <include filename="dutRandomStat/recipes_T6_Armors.xml"/>
     <include filename="dutRandomStat/recipes_T6_Weapons.xml"/>
 
-
     <!-- *** NEW CURSED EVENT SYSTEM *** -->
     <include filename="dutCursedEvents/recipes_base.xml"/>
+
+    <!-- *** GAMBLER *** -->
+    <include filename="dutGambler/recipes_GamblerBox.xml"/>
 
 
 </configs>

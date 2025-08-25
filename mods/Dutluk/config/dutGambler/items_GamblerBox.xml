@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+  <!-- COLORS -->
+  <!-- T6: ff9f9f -->
+  <!-- T7: FFAF61 (legendary) -->
+  <!-- T8: 239BA7 (mythic) -->
+
+  <append xpath="/items">
+
+
+    <item name="dutGamblerBox">
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="resourcePaper"/>
+      <property name="CustomIconTint" value="FFAF61"/>
+      <property name="ItemTypeIcon" value="computer"/>
+      <property name="HoldType" value="45"/>
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mmetal"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="Weight" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="Group" value="Special Items"/>
+      <property class="Action0">
+        <property name="Class" value="OpenBundle"/>
+        <property name="Delay" value="0"/>
+      </property>
+    </item>
+
+    <!-- Helper bundle for random loot. This item is not visible to the player. -->
+    <item name="dutGamblerRandomLootBundle">
+      <property name="Extends" value="dutGamblerBox"/>
+      <property name="CustomIcon" value="dutGamblerBoxT1LB"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="dutGamblerRandomLootBundleDesc" />
+
+      <property class="Action0">
+        <property name="Random_item" value="gunPistol,gunPumpShotgun,gunHuntingRifle,ammo9mmBullet,ammoShotgunShell,ammo762mmBullet,foodCanChili,foodCanTuna,drinkJarBoiledWater,medicalFirstAidBandage,medicalBandage"/>
+        <property name="Random_item_count" value="1,1,1,15,10,10,1,1,1,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+
+    <!-- dutGamblerBox T1 -->
+    <item name="dutGamblerBoxT1">
+      <property name="Extends" value="dutGamblerBox"/>
+      <property name="CustomIcon" value="dutGamblerBoxT1"/>
+      <property name="DescriptionKey" value="dutGamblerBoxDesc" />
+      <property class="Action0">
+        <!-- 1% chance for dutResourceMythicParts, 99% chance for the random loot bundle -->
+        <property name="Random_item" value="dutResourceMythicParts,resourceLegendaryParts,resourceLegendaryParts,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle,dutGamblerRandomLootBundle"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+    
+
+    <!-- dutGamblerBox T2 -->
+    <item name="dutGamblerBoxT2">
+      <property name="Extends" value="dutGamblerBox"/>
+      <property name="CustomIcon" value="dutGamblerBoxT2"/>
+      <property name="DescriptionKey" value="dutGamblerBoxDesc" />
+      <property class="Action0">
+        <property name="Random_item" value="dutResourceMythicParts,resourceLegendaryParts,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="1,1,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+    
+
+
+  </append>
+
+</configs>

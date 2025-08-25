@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <!-- COLORS -->
+  <!-- T6: ff9f9f -->
+  <!-- T7: FFAF61 (legendary) -->
+  <!-- T8: 239BA7 (mythic) -->
+
+  <append xpath="/items">
+    <!-- dutResourceMythicParts -->
+    <item name="dutResourceMythicParts">
+      <property name="Extends" value="resourceLegendaryParts"/>
+      <property name="DescriptionKey" value="dutResourceMythicPartsDesc" />
+      <property name="CreativeMode" value="Player"/>
+      <property name="EconomicValue" value="10000" />
+      <property name="Group" value="Special Items"/>
+      <property name="CustomIcon" value="dutResourceMythicParts"/>
+    </item>
+
+  </append>
+
+</configs>
