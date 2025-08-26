@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <configs>
-  <append xpath="/entitygroups/entitygroup[@name = 'ZombiesDowntown']">
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesDowntown']">
 		zombieArleneCorrupted, .2
 		zombieBusinessManCorrupted, .2
 		zombieJoeCorrupted, .2
@@ -15,7 +15,7 @@
   </append>
 
 
-  <append xpath="/entitygroups/entitygroup[@name = 'ZombiesWastelandDowntown']">
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']">
 		zombieArleneCorrupted, .3
 		zombieBusinessManCorrupted, .3
 		zombieJoeCorrupted, .3

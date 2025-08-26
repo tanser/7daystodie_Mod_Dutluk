@@ -7,51 +7,51 @@
 		<entitygroup name="dutVultureBoss">dutVultureBoss</entitygroup>
 		<entitygroup name="dutDireWolfBoss">dutDireWolfBoss</entitygroup>
 
-		<!-- Spawning için tek boss grupları -->
+		<!-- Spawning için TEK boss grupları - SADECE 1 BOSS SPAWN OLACAK -->
 		<entitygroup name="dutSpiderBossGroup">dutSpiderBoss</entitygroup>
 		<entitygroup name="dutVultureBossGroup">dutVultureBoss</entitygroup>
 		<entitygroup name="dutDireWolfBossGroup">dutDireWolfBoss</entitygroup>
 
-		<!-- Karışık Boss Grubu -->
-		<entitygroup name="mixedBossGroup" count="1,3">
+		<!-- Karışık Boss Grubu - Sadece 1 boss seçilecek -->
+		<entitygroup name="mixedBossGroup" count="1,1">
 			dutSpiderBoss, 1
 			dutVultureBoss, 1
 			dutDireWolfBoss, 1
 		</entitygroup>
 
-		<!-- Boss encounter - Legendary Spider + destekçiler -->
-		<entitygroup name="bossSpiderGroup" count="3,5">
-			dutSpiderBoss, .3
-			zombieSpiderApocalyptic, .4
-			zombieSpiderCorrupted, .3
-		</entitygroup>
-
-		<!-- Boss encounter - Legendary Vulture + destekçiler -->
-		<entitygroup name="bossVultureGroup" count="3,5">
-			dutVultureBoss, .3
-			animalZombieVulture, .4
-			animalZombieVultureRadiated, .3
-		</entitygroup>
-
-		<!-- Boss encounter - Legendary Dire Wolf + destekçiler -->
-		<entitygroup name="bossDireWolfGroup" count="3,5">
-			dutDireWolfBoss, .3
-			animalDireWolf, .4
-		</entitygroup>
-
-		<!-- Ultimate Boss Encounter - Her iki boss + destekçiler -->
-		<entitygroup name="ultimateBossEncounter" count="4,6">
-			dutSpiderBoss, .2
+		<!-- Boss encounter - Legendary Spider + az destekçi -->
+		<entitygroup name="bossSpiderGroup" count="1,2">
+			dutSpiderBoss, .7
 			zombieSpiderApocalyptic, .2
-			zombieSpiderCorrupted, .2
-			zombieBusinessManApocalyptic, .2
+			zombieSpiderCorrupted, .1
 		</entitygroup>
 
-		<!-- Ultimate Boss Challenge - Sadece boss'lar -->
-		<entitygroup name="ultimateBossChallenge" count="1,3">
-			dutSpiderBoss
-			dutVultureBoss
-			dutDireWolfBoss
+		<!-- Boss encounter - Legendary Vulture + az destekçi -->
+		<entitygroup name="bossVultureGroup" count="1,2">
+			dutVultureBoss, .7
+			animalZombieVulture, .2
+			animalZombieVultureRadiated, .1
+		</entitygroup>
+
+		<!-- Boss encounter - Legendary Dire Wolf + az destekçi -->
+		<entitygroup name="bossDireWolfGroup" count="1,2">
+			dutDireWolfBoss, .7
+			animalDireWolf, .3
+		</entitygroup>
+
+		<!-- Ultimate Boss Encounter - 1 boss + destekçiler -->
+		<entitygroup name="ultimateBossEncounter" count="1,3">
+			dutSpiderBoss, .4
+			zombieSpiderApocalyptic, .3
+			zombieSpiderCorrupted, .2
+			zombieBusinessManApocalyptic, .1
+		</entitygroup>
+
+		<!-- Ultimate Boss Challenge - SADECE 1 BOSS -->
+		<entitygroup name="ultimateBossChallenge" count="1,1">
+			dutSpiderBoss, 1
+			dutVultureBoss, 1
+			dutDireWolfBoss, 1
 		</entitygroup>
 
   </append>

@@ -269,3 +269,6 @@ apocalypticZombieDesc,entities,Entity,,"Pure red apocalyptic zombies, the ultima
 legendaryZombieDesc,entities,Entity,,"Golden legendary boss zombie, nearly indestructible and extremely dangerous.",,,,,,,,,,,"Altın efsanevi boss zombi, neredeyse yıkılmaz ve son derece tehlikeli.",,
 
 zombieTierInfo,entities,Entity,,"Zombie Difficulty: Green > Blue > Yellow > Purple > Red > Golden",,,,,,,,,,,"Zombi Zorluk Seviyeleri: Yeşil > Mavi > Sarı > Mor > Kırmızı > Altın",,
+
+EntityLootContainerLegendary,entityclasses,Entity Info,,,Dropped Boss Loot,,Fallengelassene Beute,Botín abandonado,Butin abandonné,Bottino caduto,略奪品,떨어진 약탈품,Upuszczony łup,Espólio caído,Выпавшие вещи,Düşürülmüş Boss Ganimeti,掉落的战利品,掉落戰利品
+

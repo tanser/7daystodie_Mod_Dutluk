@@ -3,14 +3,14 @@
 <configs>
 	<append xpath="/gamestages/spawner[@name = 'BloodMoonHorde']">
 
-			<!-- Boss Blood Moon -->
+			<!-- Boss Blood Moon - SADECE 1 BOSS -->
 			<gamestage stage="300">
-				<spawn group="ultimateBossChallenge" num="3" maxAlive="1" duration="4" interval="8"/>
+				<spawn group="ultimateBossChallenge" num="1" maxAlive="1" duration="4" interval="30"/>
 			</gamestage>
 
-			<!-- Ultimate nightmare -->
+			<!-- Ultimate nightmare - SADECE 1 BOSS DAHA -->
 			<gamestage stage="500">
-				<spawn group="ultimateBossChallenge" num="20" maxAlive="4"/>
+				<spawn group="ultimateBossChallenge" num="1" maxAlive="1" duration="6" interval="60"/>
 			</gamestage>
 
   </append>

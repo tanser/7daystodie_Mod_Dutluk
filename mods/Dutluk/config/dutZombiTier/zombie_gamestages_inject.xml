@@ -1,35 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <configs>
-  <append xpath="/gamestages/spawner[@name = 'BloodMoonHorde']">
+	<!-- 120+ tüm stage'lere Corrupted zombiler ekleniyor -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 121]">
+		<spawn group="mixedCorruptedGroup" num="5" maxAlive="3" duration="3" interval="30"/>
+	</append>
+	
+	<!-- 180+ tüm stage'lere daha fazla Corrupted zombiler ekleniyor -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 181]">
+		<spawn group="mixedCorruptedGroup" num="10" maxAlive="5" duration="2" interval="25"/>
+	</append>
+	
+	<!-- 250+ tüm stage'lere Apocalyptic zombiler ekleniyor -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 255]">
+		<spawn group="mixedApocalypticGroup" num="8" maxAlive="4" duration="3" interval="20"/>
+	</append>
+	
+	<!-- 350+ tüm stage'lere daha fazla Apocalyptic zombiler ekleniyor -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 350]">
+		<spawn group="mixedApocalypticGroup" num="15" maxAlive="8" duration="2" interval="15"/>
+	</append>
+	
+	<!-- 500+ tüm stage'lere Nightmare zombiler ekleniyor -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 500]">
+		<spawn group="nightmareHorde" num="10" maxAlive="5" duration="2" interval="18"/>
+	</append>
+	
+	<!-- 700+ tüm stage'lere daha fazla Nightmare zombiler ekleniyor -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 700]">
+		<spawn group="nightmareHorde" num="20" maxAlive="10" duration="2" interval="12"/>
+	</append>
+	
+	<!-- 1000+ tüm stage'lere maksimum Nightmare zombiler ekleniyor -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 1000]">
+		<spawn group="nightmareHorde" num="30" maxAlive="15" duration="1" interval="8"/>
+	</append>
 
-    	<!-- Corrupted seviye başlangıcı -->
-			<gamestage stage="120">
-				<spawn group="progressiveHordeStageHigh" num="30" maxAlive="15" duration="2" interval="30"/>
-				<spawn group="mixedCorruptedGroup" num="20" maxAlive="10" duration="3" interval="25"/>
-				<spawn group="progressiveHordeStageHigh" num="100" maxAlive="8"/>
-			</gamestage>
-			
-			<!-- Corrupted dominant -->
-			<gamestage stage="180">
-				<spawn group="mixedCorruptedGroup" num="40" maxAlive="18" duration="2" interval="25"/>
-				<spawn group="progressiveHordeStageExtreme" num="30" maxAlive="12" duration="3" interval="20"/>
-				<spawn group="mixedCorruptedGroup" num="150" maxAlive="10"/>
-			</gamestage>
-
-			<!-- Apocalyptic başlangıcı -->
-			<gamestage stage="250">
-				<spawn group="progressiveHordeStageExtreme" num="50" maxAlive="22" duration="2" interval="20"/>
-				<spawn group="mixedApocalypticGroup" num="25" maxAlive="15" duration="3" interval="15"/>
-				<spawn group="progressiveHordeStageExtreme" num="200" maxAlive="12"/>
-			</gamestage>
-
-			<!-- Apocalyptic dominant -->
-			<gamestage stage="300">
-				<spawn group="mixedApocalypticGroup" num="35" maxAlive="20" duration="2" interval="15"/>
-				<spawn group="nightmareHorde" num="20" maxAlive="12" duration="4" interval="10"/>
-				<spawn group="mixedApocalypticGroup" num="250" maxAlive="15"/>
-			</gamestage>
-
-  </append>
+	<!-- Özel stage'ler - Büyük bonus dalga eklemeleri -->
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']">
+		<!-- Stage 122 - Corrupted Introduction -->
+		<gamestage stage="122">
+			<spawn group="progressiveHordeStageHigh" num="20" maxAlive="10" duration="2" interval="30"/>
+			<spawn group="mixedCorruptedGroup" num="25" maxAlive="12" duration="3" interval="25"/>
+		</gamestage>
+		
+		<!-- Stage 256 - Apocalyptic Introduction -->
+		<gamestage stage="256">
+			<spawn group="progressiveHordeStageExtreme" num="30" maxAlive="15" duration="2" interval="20"/>
+			<spawn group="mixedApocalypticGroup" num="20" maxAlive="10" duration="3" interval="15"/>
+		</gamestage>
+		
+		<!-- Stage 515 - Nightmare Introduction -->
+		<gamestage stage="515">
+			<spawn group="nightmareHorde" num="25" maxAlive="12" duration="2" interval="10"/>
+			<spawn group="mixedApocalypticGroup" num="35" maxAlive="18" duration="3" interval="15"/>
+		</gamestage>
+		
+		<!-- Stage 1047 - Ultimate Nightmare -->
+		<gamestage stage="1047">
+			<spawn group="nightmareHorde" num="50" maxAlive="25" duration="2" interval="6"/>
+		</gamestage>
+		
+		<!-- Stage 2000 - Extreme Challenge -->
+		<gamestage stage="2000">
+			<spawn group="nightmareHorde" num="75" maxAlive="40" duration="2" interval="4"/>
+		</gamestage>
+		
+		<!-- Stage 4500 - Final Boss Level -->
+		<gamestage stage="4500">
+			<spawn group="nightmareHorde" num="100" maxAlive="50" duration="1" interval="2"/>
+		</gamestage>
+	</append>
 </configs>

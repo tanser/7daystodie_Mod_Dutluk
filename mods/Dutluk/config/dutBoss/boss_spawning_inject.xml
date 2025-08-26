@@ -2,26 +2,24 @@
 
 <configs>
 	
-	<!-- Boss spawn garantisi için biome spawning'e ekleme -->
+	<!-- ALTERNATIVE: Boss spawning sadece belirli koşullarda -->
 	
-	<!-- Burnt Forest - dutVultureBoss kesin spawn -->
-	<append xpath="/spawning/biome[@name='burnt_forest']">
-		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutVultureBossGroup" tags="downtown" />
-	</append>
-
-	<!-- Desert - dutVultureBoss kesin spawn -->
-	<append xpath="/spawning/biome[@name='desert']">
-		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutVultureBossGroup" tags="downtown" />
-	</append>
-
-	<!-- Snow - dutSpiderBoss kesin spawn -->
-	<append xpath="/spawning/biome[@name='snow']">
-		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutSpiderBossGroup" tags="downtown" />
-	</append>
-
-	<!-- Wasteland - dutDireWolfBoss kesin spawn -->
-	<append xpath="/spawning/biome[@name='wasteland']">
-		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutDireWolfBossGroup" tags="downtown" />
+	<!-- Rare Boss Spawner - Çok nadir, sadece oyuncu yakınındayken -->
+	<append xpath="/spawning">
+		<entityspawner name="DutRareBoss">
+			<day value="*">
+				<property name="ResetToday" value="true" />
+				<property name="EntityGroupName" value="mixedBossGroup" />
+				<property name="Time" value="Night" />
+				<property name="DelayBetweenSpawns" value="1800" />
+				<property name="TotalAlive" value="1" />
+				<property name="TotalPerWave" value="1" />
+				<property name="DaysToRespawnIfPlayerLeft" value="14" />
+				<property name="AttackPlayerAtOnce" value="false" />
+				<property name="Territorial" value="true" />
+				<property name="TerritorialRange" value="1000" />
+			</day>
+		</entityspawner>
 	</append>
 	
 </configs>
