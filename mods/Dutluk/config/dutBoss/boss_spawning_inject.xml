@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	
+	<!-- Boss spawn garantisi için biome spawning'e ekleme -->
+	
+	<!-- Burnt Forest - dutVultureBoss kesin spawn -->
+	<append xpath="/spawning/biome[@name='burnt_forest']">
+		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutVultureBossGroup" tags="downtown" />
+	</append>
+
+	<!-- Desert - dutVultureBoss kesin spawn -->
+	<append xpath="/spawning/biome[@name='desert']">
+		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutVultureBossGroup" tags="downtown" />
+	</append>
+
+	<!-- Snow - dutSpiderBoss kesin spawn -->
+	<append xpath="/spawning/biome[@name='snow']">
+		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutSpiderBossGroup" tags="downtown" />
+	</append>
+
+	<!-- Wasteland - dutDireWolfBoss kesin spawn -->
+	<append xpath="/spawning/biome[@name='wasteland']">
+		<spawn id="nb01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="dutDireWolfBossGroup" tags="downtown" />
+	</append>
+	
+</configs>

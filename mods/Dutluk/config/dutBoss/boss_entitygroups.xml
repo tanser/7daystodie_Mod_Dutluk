@@ -7,6 +7,11 @@
 		<entitygroup name="dutVultureBoss">dutVultureBoss</entitygroup>
 		<entitygroup name="dutDireWolfBoss">dutDireWolfBoss</entitygroup>
 
+		<!-- Spawning için tek boss grupları -->
+		<entitygroup name="dutSpiderBossGroup">dutSpiderBoss</entitygroup>
+		<entitygroup name="dutVultureBossGroup">dutVultureBoss</entitygroup>
+		<entitygroup name="dutDireWolfBossGroup">dutDireWolfBoss</entitygroup>
+
 		<!-- Karışık Boss Grubu -->
 		<entitygroup name="mixedBossGroup" count="1,3">
 			dutSpiderBoss, 1
