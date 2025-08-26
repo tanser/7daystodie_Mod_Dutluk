@@ -25,20 +25,10 @@
 			</gamestage>
 
 			<!-- Apocalyptic dominant -->
-			<gamestage stage="350">
+			<gamestage stage="300">
 				<spawn group="mixedApocalypticGroup" num="35" maxAlive="20" duration="2" interval="15"/>
 				<spawn group="nightmareHorde" num="20" maxAlive="12" duration="4" interval="10"/>
 				<spawn group="mixedApocalypticGroup" num="250" maxAlive="15"/>
-			</gamestage>
-
-			<!-- Boss Blood Moon -->
-			<gamestage stage="500">
-				<spawn group="ultimateBossChallenge" num="3" maxAlive="1" duration="4" interval="8"/>
-			</gamestage>
-
-			<!-- Ultimate nightmare -->
-			<gamestage stage="750">
-				<spawn group="ultimateBossChallenge" num="20" maxAlive="4"/>
 			</gamestage>
 
   </append>

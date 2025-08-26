@@ -17,21 +17,12 @@
 		<group name="zombieBoeApocalyptic" spawner="zombieBoeApocalyptic"/>
 		<group name="zombieSpiderApocalyptic" spawner="zombieSpiderApocalyptic"/>
 		
-		<group name="zombieSpiderLegendary" spawner="zombieSpiderLegendary"/>
-		<group name="animalVultureLegendary" spawner="animalVultureLegendary"/>
-		<group name="animalDireWolfLegendary" spawner="animalDireWolfLegendary"/>
-
 		<!-- Karışık ve Boss grupları için tanımlamalar -->
 		<group name="mixedCorruptedGroup" spawner="EnhancedWanderingHorde"/>
 		<group name="mixedApocalypticGroup" spawner="EnhancedWanderingHorde"/>
 		<group name="progressiveHordeStageHigh" spawner="EnhancedWanderingHorde"/>
 		<group name="progressiveHordeStageExtreme" spawner="EnhancedWanderingHorde"/>
 		<group name="nightmareHorde" spawner="EnhancedWanderingHorde"/>
-		<group name="ultimateBossChallenge" spawner="BossChallenge"/>
-		<group name="bossSpiderGroup" spawner="BossSpiderGroup"/>
-		<group name="bossVultureGroup" spawner="BossVultureGroup"/>
-		<group name="bossDireWolfGroup" spawner="BossDireWolfGroup"/>
-		<group name="mixedBossGroup" spawner="MixedBossGroup"/>
 
 		<!-- Yeni zorluk seviyeleri için bireysel spawner'lar -->
 		<!-- Corrupted (Mor) zombi spawner'ları -->
@@ -96,26 +87,6 @@
 			</gamestage>
 		</spawner>
 
-		<!-- Boss Level - Legendary Spider spawner -->
-		<spawner name="zombieSpiderLegendary">
-			<gamestage stage="1">
-				<spawn group="zombieSpiderLegendary" duration="10"/>
-			</gamestage>
-		</spawner>
-
-		<!-- Boss Level - Legendary Vulture spawner -->
-		<spawner name="animalVultureLegendary">
-			<gamestage stage="1">
-				<spawn group="animalVultureLegendary" duration="10"/>
-			</gamestage>
-		</spawner>
-
-		<!-- Boss Level - Legendary Dire Wolf spawner -->
-		<spawner name="animalDireWolfLegendary">
-			<gamestage stage="1">
-				<spawn group="animalDireWolfLegendary" duration="10"/>
-			</gamestage>
-		</spawner>
 
 		<!-- Gelişmiş Wandering Horde - Yeni zorluk seviyeleri ile -->
 		<spawner name="EnhancedWanderingHorde">
@@ -133,21 +104,6 @@
 			<gamestage stage="400">
 				<spawn group="nightmareHorde" num="6" maxAlive="20" duration="9"/>
 			</gamestage>
-			<!-- Boss seviyesi -->
-			<gamestage stage="500">
-				<spawn group="bossSpiderGroup" num="4" maxAlive="15" duration="9"/>
-			</gamestage>
-			<gamestage stage="600">
-				<spawn group="bossVultureGroup" num="4" maxAlive="15" duration="9"/>
-			</gamestage>
-			<gamestage stage="700">
-				<spawn group="bossDireWolfGroup" num="4" maxAlive="15" duration="9"/>
-			</gamestage>
-		</spawner>
-
-		<!-- Gelişmiş Blood Moon Horde - Extreme zorluk -->
-		<spawner name="EnhancedBloodMoonHorde">
-
 		</spawner>
 
 		<!-- Gelişmiş Sleeper Horde - Yüksek game stage'ler için -->
@@ -166,40 +122,6 @@
 			</gamestage>
 			<gamestage stage="450">
 				<spawn group="nightmareHorde" num="6" maxAlive="10" duration="1"/>
-			</gamestage>
-			<gamestage stage="800">
-				<spawn group="ultimateBossChallenge" num="1" maxAlive="3" duration="1"/>
-			</gamestage>
-		</spawner>
-
-		<spawner name="BossSpiderGroup">
-			<gamestage stage="300">
-				<spawn group="bossSpiderGroup" num="1" maxAlive="1" duration="10"/>
-			</gamestage>
-		</spawner>
-
-		<spawner name="BossVultureGroup">
-			<gamestage stage="300">
-				<spawn group="bossVultureGroup" num="1" maxAlive="1" duration="10"/>
-			</gamestage>
-		</spawner>
-
-		<spawner name="BossDireWolfGroup">
-			<gamestage stage="300">
-				<spawn group="bossDireWolfGroup" num="1" maxAlive="1" duration="10"/>
-			</gamestage>
-		</spawner>
-
-		<!-- Boss Challenge Spawner - Özel boss etkinlikleri için -->
-		<spawner name="BossChallenge">
-			<gamestage stage="300">
-				<spawn group="bossSpiderGroup" num="1" maxAlive="1" duration="10"/>
-			</gamestage>
-			<gamestage stage="400">
-				<spawn group="bossVultureGroup" num="1" maxAlive="1" duration="10"/>
-			</gamestage>
-			<gamestage stage="500">
-				<spawn group="bossDireWolfGroup" num="1" maxAlive="1" duration="10"/>
 			</gamestage>
 		</spawner>
 

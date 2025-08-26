@@ -4,4 +4,6 @@
 
   <include filename="dutZombiTier/zombie_entityclasses.xml"/>
 
+  <include filename="dutBoss/boss_entityclasses.xml"/>
+
 </configs>

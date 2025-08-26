@@ -28,22 +28,4 @@
 		zombieSpiderApocalyptic, .2
   </append>
 
-	<!-- boss -->
-
-	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesBurntForestNight']">
-		animalVultureLegendary, .1
-	</append>
-
-	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesDesertNight']">
-		animalVultureLegendary, .1
-	</append>
-
-	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesSnowNight']">
-		zombieSpiderLegendary, .1
-	</append>
-
-	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesWastelandNight']">
-		animalDireWolfLegendary, .1
-	</append>
-
 </configs>

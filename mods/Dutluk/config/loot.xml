@@ -4,6 +4,6 @@
 
 	<include filename="dutTier/loot_T7T8.xml"/>
 
-	<include filename="dutZombiTier/loot_Boss.xml"/>
+	<include filename="dutBoss/boss_loot.xml"/>
 
 </configs>
