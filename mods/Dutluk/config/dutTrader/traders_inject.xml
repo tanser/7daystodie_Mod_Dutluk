@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+  <set xpath="/traders/trader_item_groups/trader_item_group[@name = 'rareMedicine']">
+    <item name="medicalFirstAidKit"/>
+    <item name="toolBeaker"/>
+    <item name="drugAntibiotics"/>
+    <item name="drugSteroids"/>
+  </set>
+
+  <set xpath="/traders/trader_item_groups/trader_item_group[@name = 'groupDrinksSpecial']">
+    <item name="drinkJarBlackStrapCoffee" count="1,2"/>
+    <item name="drinkCanMegaCrush" count="1,2"/>
+  </set>
+</configs>

@@ -6,53 +6,27 @@
 		<!-- Yeni zorluk seviyeleri için zombi grupları -->
 		
 		<!-- Corrupted (Mor) zombi grupları -->
-		<entitygroup name="zombieArleneCorrupted">
-			<entity name="zombieArleneCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieBusinessManCorrupted">
-			<entity name="zombieBusinessManCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieJoeCorrupted">
-			<entity name="zombieJoeCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieBoeCorrupted">
-			<entity name="zombieBoeCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieSpiderCorrupted">
-			<entity name="zombieSpiderCorrupted"/>
-		</entitygroup>
+		<entitygroup name="zombieArleneCorrupted">zombieArleneCorrupted</entitygroup>
+		<entitygroup name="zombieBusinessManCorrupted">zombieBusinessManCorrupted</entitygroup>
+		<entitygroup name="zombieJoeCorrupted">zombieJoeCorrupted</entitygroup>
+		<entitygroup name="zombieBoeCorrupted">zombieBoeCorrupted</entitygroup>
+		<entitygroup name="zombieSpiderCorrupted">zombieSpiderCorrupted</entitygroup>
 		
 		<!-- Apocalyptic (Kırmızı) zombi grupları -->
-		<entitygroup name="zombieArleneApocalyptic">
-			<entity name="zombieArleneApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieBusinessManApocalyptic">
-			<entity name="zombieBusinessManApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieJoeApocalyptic">
-			<entity name="zombieJoeApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieBoeApocalyptic">
-			<entity name="zombieBoeApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieSpiderApocalyptic">
-			<entity name="zombieSpiderApocalyptic"/>
-		</entitygroup>
+		<entitygroup name="zombieArleneApocalyptic">zombieArleneApocalyptic</entitygroup>
+		<entitygroup name="zombieBusinessManApocalyptic">zombieBusinessManApocalyptic</entitygroup>
+		<entitygroup name="zombieJoeApocalyptic">zombieJoeApocalyptic</entitygroup>
+		<entitygroup name="zombieBoeApocalyptic">zombieBoeApocalyptic</entitygroup>
+		<entitygroup name="zombieSpiderApocalyptic">zombieSpiderApocalyptic</entitygroup>
 
 		<!-- Boss Level - Legendary Spider -->
-		<entitygroup name="zombieSpiderLegendary">
-			<entity name="zombieSpiderLegendary"/>
-		</entitygroup>
+		<entitygroup name="zombieSpiderLegendary">zombieSpiderLegendary</entitygroup>
 
 		<!-- Boss Level - Legendary Vulture -->
-		<entitygroup name="animalVultureLegendary">
-			<entity name="animalVultureLegendary"/>
-		</entitygroup>
+		<entitygroup name="animalVultureLegendary">animalVultureLegendary</entitygroup>
 
 		<!-- Boss Level - Legendary Dire Wolf -->
-		<entitygroup name="animalDireWolfLegendary">
-			<entity name="animalDireWolfLegendary"/>
-		</entitygroup>
+		<entitygroup name="animalDireWolfLegendary">animalDireWolfLegendary</entitygroup>
 
 		<!-- Karışık zorluk grupları - Yüksek game stage'ler için -->
 		<entitygroup name="mixedCorruptedGroup" count="3,5">

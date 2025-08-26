@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+  <append xpath="/gamestages/spawner[@name = 'BloodMoonHorde']">
+
+    	<!-- Corrupted seviye başlangıcı -->
+			<gamestage stage="120">
+				<spawn group="progressiveHordeStageHigh" num="30" maxAlive="15" duration="2" interval="30"/>
+				<spawn group="mixedCorruptedGroup" num="20" maxAlive="10" duration="3" interval="25"/>
+				<spawn group="progressiveHordeStageHigh" num="100" maxAlive="8"/>
+			</gamestage>
+			
+			<!-- Corrupted dominant -->
+			<gamestage stage="180">
+				<spawn group="mixedCorruptedGroup" num="40" maxAlive="18" duration="2" interval="25"/>
+				<spawn group="progressiveHordeStageExtreme" num="30" maxAlive="12" duration="3" interval="20"/>
+				<spawn group="mixedCorruptedGroup" num="150" maxAlive="10"/>
+			</gamestage>
+
+			<!-- Apocalyptic başlangıcı -->
+			<gamestage stage="250">
+				<spawn group="progressiveHordeStageExtreme" num="50" maxAlive="22" duration="2" interval="20"/>
+				<spawn group="mixedApocalypticGroup" num="25" maxAlive="15" duration="3" interval="15"/>
+				<spawn group="progressiveHordeStageExtreme" num="200" maxAlive="12"/>
+			</gamestage>
+
+			<!-- Apocalyptic dominant -->
+			<gamestage stage="350">
+				<spawn group="mixedApocalypticGroup" num="35" maxAlive="20" duration="2" interval="15"/>
+				<spawn group="nightmareHorde" num="20" maxAlive="12" duration="4" interval="10"/>
+				<spawn group="mixedApocalypticGroup" num="250" maxAlive="15"/>
+			</gamestage>
+
+			<!-- Boss Blood Moon -->
+			<gamestage stage="500">
+				<spawn group="ultimateBossChallenge" num="3" maxAlive="1" duration="4" interval="8"/>
+			</gamestage>
+
+			<!-- Ultimate nightmare -->
+			<gamestage stage="750">
+				<spawn group="ultimateBossChallenge" num="20" maxAlive="4"/>
+			</gamestage>
+
+  </append>
+</configs>

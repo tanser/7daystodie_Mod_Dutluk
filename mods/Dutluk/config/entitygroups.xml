@@ -3,5 +3,6 @@
 <configs>
 
   <include filename="dutZombiTier/zombie_entitygroups.xml"/>
+  <include filename="dutZombiTier/zombie_entitygroups_inject.xml"/>
 
 </configs>

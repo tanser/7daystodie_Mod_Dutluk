@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+  <append xpath="/entitygroups/entitygroup[@name = 'ZombiesDowntown']">
+		zombieArleneCorrupted, .2
+		zombieBusinessManCorrupted, .2
+		zombieJoeCorrupted, .2
+		zombieBoeCorrupted, .2
+		zombieSpiderCorrupted, .2
+		zombieArleneApocalyptic, .1
+		zombieBusinessManApocalyptic, .1
+		zombieJoeApocalyptic, .1
+		zombieBoeApocalyptic, .1
+		zombieSpiderApocalyptic, .1
+  </append>
+
+
+  <append xpath="/entitygroups/entitygroup[@name = 'ZombiesWastelandDowntown']">
+		zombieArleneCorrupted, .3
+		zombieBusinessManCorrupted, .3
+		zombieJoeCorrupted, .3
+		zombieBoeCorrupted, .3
+		zombieSpiderCorrupted, .3
+		zombieArleneApocalyptic, .2
+		zombieBusinessManApocalyptic, .2
+		zombieJoeApocalyptic, .2
+		zombieBoeApocalyptic, .2
+		zombieSpiderApocalyptic, .2
+  </append>
+
+	<!-- boss -->
+
+	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesBurntForestNight']">
+		animalVultureLegendary, .1
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesDesertNight']">
+		animalVultureLegendary, .1
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesSnowNight']">
+		zombieSpiderLegendary, .1
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesWastelandNight']">
+		animalDireWolfLegendary, .1
+	</append>
+
+</configs>
