@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+  <append xpath="/entitygroups">
+
+		<entitygroup name="dutSpiderBoss">dutSpiderBoss</entitygroup>
+		<entitygroup name="dutVultureBoss">dutVultureBoss</entitygroup>
+		<entitygroup name="dutDireWolfBoss">dutDireWolfBoss</entitygroup>
+
+		<!-- Karışık Boss Grubu -->
+		<entitygroup name="mixedBossGroup" count="1,3">
+			dutSpiderBoss, 1
+			dutVultureBoss, 1
+			dutDireWolfBoss, 1
+		</entitygroup>
+
+		<!-- Boss encounter - Legendary Spider + destekçiler -->
+		<entitygroup name="bossSpiderGroup" count="3,5">
+			dutSpiderBoss, .3
+			zombieSpiderApocalyptic, .4
+			zombieSpiderCorrupted, .3
+		</entitygroup>
+
+		<!-- Boss encounter - Legendary Vulture + destekçiler -->
+		<entitygroup name="bossVultureGroup" count="3,5">
+			dutVultureBoss, .3
+			animalZombieVulture, .4
+			animalZombieVultureRadiated, .3
+		</entitygroup>
+
+		<!-- Boss encounter - Legendary Dire Wolf + destekçiler -->
+		<entitygroup name="bossDireWolfGroup" count="3,5">
+			dutDireWolfBoss, .3
+			animalDireWolf, .4
+		</entitygroup>
+
+		<!-- Ultimate Boss Encounter - Her iki boss + destekçiler -->
+		<entitygroup name="ultimateBossEncounter" count="4,6">
+			dutSpiderBoss, .2
+			zombieSpiderApocalyptic, .2
+			zombieSpiderCorrupted, .2
+			zombieBusinessManApocalyptic, .2
+		</entitygroup>
+
+		<!-- Ultimate Boss Challenge - Sadece boss'lar -->
+		<entitygroup name="ultimateBossChallenge" count="1,3">
+			dutSpiderBoss
+			dutVultureBoss
+			dutDireWolfBoss
+		</entitygroup>
+
+  </append>
+</configs>

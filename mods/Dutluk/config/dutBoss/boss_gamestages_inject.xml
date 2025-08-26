@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<append xpath="/gamestages/spawner[@name = 'BloodMoonHorde']">
+
+			<!-- Boss Blood Moon -->
+			<gamestage stage="300">
+				<spawn group="ultimateBossChallenge" num="3" maxAlive="1" duration="4" interval="8"/>
+			</gamestage>
+
+			<!-- Ultimate nightmare -->
+			<gamestage stage="500">
+				<spawn group="ultimateBossChallenge" num="20" maxAlive="4"/>
+			</gamestage>
+
+  </append>
+
+</configs>

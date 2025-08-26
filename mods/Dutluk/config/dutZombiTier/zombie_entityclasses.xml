@@ -10,12 +10,6 @@
 		<!-- Red (Kırmızı) - En güçlü seviye (Infernal yerine gerçek kırmızı) -->
 		<color name="apocalyptic" value="3,0,0, .9"/> <!-- Pure Red, emissive power .9 -->
 
-		<!-- Boss seviyesi - Altın sarı renk -->
-		<color name="legendary" value="3,2.5,0, 1.0"/> <!-- Golden, maximum emissive power -->
-
-
-
-
 
 		<!-- Örnek zombi türleri için yeni zorluk varyantları -->
 		
@@ -160,26 +154,6 @@
 			
 			<effect_group>
 				<passive_effect name="HealthMax" operation="base_set" value="3575"/>
-			</effect_group>
-		</entity_class>
-
-		<!-- BOSS LEVEL: Legendary Spider - Altın renk, ultra güçlü -->
-		<entity_class name="zombieSpiderLegendary" extends="zombieSpiderApocalyptic">
-			<property name="UserSpawnType" value="Menu"/>
-			<property name="MatColor" value="legendary"/>
-			<property name="Tags" value="entity,zombie,spider,allbiome,feral,legendary,boss"/>
-			<property name="ExperienceGain" value="5000"/><!-- XP Boss -->
-			<property name="HandItem" value="meleeHandZombieLegendary"/>
-			<property name="MoveSpeedAggro" value="5, 1.0, 1.5, .4, 1.5, .3, .2, 2.5"/>
-			<property name="JumpMaxDistance" value="8.0, 12.0"/> <!-- Boss seviyesi zıplama -->
-			<property name="SizeScale" value="2"/> <!-- %200 daha büyük -->
-			<property name="Mass" value="120"/> <!-- Daha ağır -->
-			
-			<effect_group>
-				<passive_effect name="HealthMax" operation="base_set" value="7500"/>
-				<!-- Boss özel yetenekleri -->
-				<passive_effect name="BuffResistance" operation="base_set" value=".85" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
-				<passive_effect name="BuffResistance" operation="base_set" value=".80" tags="buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03"/>
 			</effect_group>
 		</entity_class>
 

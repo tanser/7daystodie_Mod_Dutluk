@@ -6,43 +6,18 @@
 		<!-- Yeni zorluk seviyeleri için zombi grupları -->
 		
 		<!-- Corrupted (Mor) zombi grupları -->
-		<entitygroup name="zombieArleneCorrupted">
-			<entity name="zombieArleneCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieBusinessManCorrupted">
-			<entity name="zombieBusinessManCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieJoeCorrupted">
-			<entity name="zombieJoeCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieBoeCorrupted">
-			<entity name="zombieBoeCorrupted"/>
-		</entitygroup>
-		<entitygroup name="zombieSpiderCorrupted">
-			<entity name="zombieSpiderCorrupted"/>
-		</entitygroup>
+		<entitygroup name="zombieArleneCorrupted">zombieArleneCorrupted</entitygroup>
+		<entitygroup name="zombieBusinessManCorrupted">zombieBusinessManCorrupted</entitygroup>
+		<entitygroup name="zombieJoeCorrupted">zombieJoeCorrupted</entitygroup>
+		<entitygroup name="zombieBoeCorrupted">zombieBoeCorrupted</entitygroup>
+		<entitygroup name="zombieSpiderCorrupted">zombieSpiderCorrupted</entitygroup>
 		
 		<!-- Apocalyptic (Kırmızı) zombi grupları -->
-		<entitygroup name="zombieArleneApocalyptic">
-			<entity name="zombieArleneApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieBusinessManApocalyptic">
-			<entity name="zombieBusinessManApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieJoeApocalyptic">
-			<entity name="zombieJoeApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieBoeApocalyptic">
-			<entity name="zombieBoeApocalyptic"/>
-		</entitygroup>
-		<entitygroup name="zombieSpiderApocalyptic">
-			<entity name="zombieSpiderApocalyptic"/>
-		</entitygroup>
-
-		<!-- Boss Level - Legendary Spider -->
-		<entitygroup name="zombieSpiderLegendary">
-			<entity name="zombieSpiderLegendary"/>
-		</entitygroup>
+		<entitygroup name="zombieArleneApocalyptic">zombieArleneApocalyptic</entitygroup>
+		<entitygroup name="zombieBusinessManApocalyptic">zombieBusinessManApocalyptic</entitygroup>
+		<entitygroup name="zombieJoeApocalyptic">zombieJoeApocalyptic</entitygroup>
+		<entitygroup name="zombieBoeApocalyptic">zombieBoeApocalyptic</entitygroup>
+		<entitygroup name="zombieSpiderApocalyptic">zombieSpiderApocalyptic</entitygroup>
 
 		<!-- Karışık zorluk grupları - Yüksek game stage'ler için -->
 		<entitygroup name="mixedCorruptedGroup" count="3,5">
@@ -59,31 +34,6 @@
 			zombieJoeApocalyptic, .2
 			zombieBoeApocalyptic, .2
 			zombieSpiderApocalyptic, .2
-		</entitygroup>
-
-		<!-- Boss grupları - Legendary Boss'lar -->
-		<entitygroup name="bossSpiderGroup" count="1,1">
-			<entity name="zombieSpiderLegendary"/>
-		</entitygroup>
-
-		<!-- Karışık Boss Grubu -->
-		<entitygroup name="mixedBossGroup" count="1,2">
-			zombieSpiderLegendary, 1
-		</entitygroup>
-
-		<!-- Boss encounter - Legendary Spider + destekçiler -->
-		<entitygroup name="bossEncounterGroup" count="3,5">
-			zombieSpiderLegendary, .3
-			zombieSpiderApocalyptic, .4
-			zombieSpiderCorrupted, .3
-		</entitygroup>
-
-		<!-- Ultimate Boss Encounter - Her iki boss + destekçiler -->
-		<entitygroup name="ultimateBossEncounter" count="4,6">
-			zombieSpiderLegendary, .2
-			zombieSpiderApocalyptic, .2
-			zombieSpiderCorrupted, .2
-			zombieBusinessManApocalyptic, .2
 		</entitygroup>
 
 		<!-- Aşamalı zorluk grupları - Farklı zorlukları karıştıran gruplar -->
@@ -115,11 +65,6 @@
 			zombieBusinessManApocalyptic, .25
 			zombieBoeApocalyptic, .25
 			zombieSpiderApocalyptic, .25
-		</entitygroup>
-
-		<!-- Ultimate Boss Challenge - Sadece boss'lar -->
-		<entitygroup name="ultimateBossChallenge" count="1,2">
-			<entity name="zombieSpiderLegendary"/>
 		</entitygroup>
 
   </append>

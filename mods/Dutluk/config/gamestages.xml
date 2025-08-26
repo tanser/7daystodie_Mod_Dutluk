@@ -3,5 +3,9 @@
 <configs>
 
   <include filename="dutZombiTier/zombie_gamestages.xml"/>
+  <include filename="dutZombiTier/zombie_gamestages_inject.xml"/>
+
+  <include filename="dutBoss/boss_gamestages.xml"/>
+  <include filename="dutBoss/boss_gamestages_inject.xml"/>
 
 </configs>

@@ -60,7 +60,7 @@ Her yeni zorluk seviyesi için aşağıdaki zombi türleri eklenmiştir:
 - `zombieSpiderApocalyptic` - Kıyamet Örümcek
 
 ### Boss Level:
-- `zombieSpiderLegendary` - Efsanevi Örümcek Boss
+- `dutSpiderBoss` - Efsanevi Örümcek Boss
 
 ## Spawn Sistemi
 

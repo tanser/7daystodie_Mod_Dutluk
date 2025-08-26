@@ -262,7 +262,7 @@ zombieBoeCorrupted,entities,Entity,,"Corrupted Boe",,,,,,,,,,,"Bozulmuş Boe",,
 zombieBoeApocalyptic,entities,Entity,,"Apocalyptic Boe",,,,,,,,,,,"Kıyamet Boe",,
 zombieSpiderCorrupted,entities,Entity,,"Corrupted Spider",,,,,,,,,,,"Bozulmuş Örümcek",,
 zombieSpiderApocalyptic,entities,Entity,,"Apocalyptic Spider",,,,,,,,,,,"Kıyamet Örümcek",,
-zombieSpiderLegendary,entities,Entity,,"Legendary Spider Boss",,,,,,,,,,,"Efsanevi Örümcek Boss",,
+dutSpiderBoss,entities,Entity,,"Legendary Spider Boss",,,,,,,,,,,"Efsanevi Örümcek Boss",,
 
 corruptedZombieDesc,entities,Entity,,"A zombie corrupted by dark energy, more dangerous than charged variants.",,,,,,,,,,,"Karanlık enerji tarafından bozulmuş zombi, şarjlı türlerden daha tehlikeli.",,
 apocalypticZombieDesc,entities,Entity,,"Pure red apocalyptic zombies, the ultimate threat before boss level.",,,,,,,,,,,"Saf kırmızı kıyamet zombileri, boss seviyesinden önceki en büyük tehdit.",,
