@@ -38,7 +38,7 @@
 			<property name="LootDropProb" value=".8"/> 
 
 			<effect_group>
-				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
 				<!-- Boss özel yetenekleri -->
 				<passive_effect name="BuffResistance" operation="base_set" value=".85" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".80" tags="buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03"/>
@@ -72,7 +72,7 @@
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 			</effect_group>
@@ -138,7 +138,7 @@
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
 			</effect_group>
 
 			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_direwolf,clear_sleeper"/>
