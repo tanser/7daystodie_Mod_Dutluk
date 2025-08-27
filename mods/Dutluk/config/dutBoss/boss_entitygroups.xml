@@ -14,9 +14,9 @@
 
 		<!-- Karışık Boss Grubu - Sadece 1 boss seçilecek -->
 		<entitygroup name="mixedBossGroup" count="1,1">
-			dutSpiderBoss, 1
-			dutVultureBoss, 1
-			dutDireWolfBoss, 1
+			dutSpiderBoss
+			dutVultureBoss
+			dutDireWolfBoss
 		</entitygroup>
 
 		<!-- Boss encounter - Legendary Spider + az destekçi -->
