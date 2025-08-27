@@ -6,18 +6,13 @@
 	
 	<!-- Rare Boss Spawner - Çok nadir, sadece oyuncu yakınındayken -->
 	<append xpath="/spawning">
-		<entityspawner name="DutRareBoss">
+		<entityspawner name="DutRareBoss" dynamic="true" wrapMode="wrap">
 			<day value="*">
 				<property name="ResetToday" value="true" />
-				<property name="EntityGroupName" value="mixedBossGroup" />
-				<property name="Time" value="Night" />
-				<property name="DelayBetweenSpawns" value="1800" />
+				<property name="EntityGroupName" value="dutDireWolfBossGroup" />
+				<property name="DelayBetweenSpawns" value="1" />
 				<property name="TotalAlive" value="1" />
 				<property name="TotalPerWave" value="1" />
-				<property name="DaysToRespawnIfPlayerLeft" value="14" />
-				<property name="AttackPlayerAtOnce" value="false" />
-				<property name="Territorial" value="true" />
-				<property name="TerritorialRange" value="1000" />
 			</day>
 		</entityspawner>
 	</append>
