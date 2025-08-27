@@ -11,7 +11,7 @@
 				<property name="ResetToday" value="true" />
 				<property name="EntityGroupName" value="mixedBossGroup" />
 				<property name="Time" value="Night" />
-				<property name="DelayBetweenSpawns" value="1800" />
+				<property name="DelayBetweenSpawns" value="180" />
 				<property name="TotalAlive" value="1" />
 				<property name="TotalPerWave" value="1" />
 				<property name="DaysToRespawnIfPlayerLeft" value="14" />

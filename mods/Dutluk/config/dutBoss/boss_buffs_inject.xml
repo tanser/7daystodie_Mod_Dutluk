@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+    <append xpath="/buffs">
+        <!-- Applies a global nav marker for the boss location while active -->
+    <buff name="dut_boss_marker">
+            <stack_type value="replace"/>
+            <!-- Timeout to auto-clear marker if boss persists too long -->
+            <duration value="3600"/>
+
+            <effect_group>
+                <!-- Show marker when buff is applied; remove when it is removed -->
+                <triggered_effect trigger="onSelfBuffStart" action="SetNavObject" nav_object="dut_boss" add="true" />
+                <triggered_effect trigger="onSelfBuffRemove" action="SetNavObject" nav_object="dut_boss" add="false" />
+            </effect_group>
+        </buff>
+    </append>
+</configs>

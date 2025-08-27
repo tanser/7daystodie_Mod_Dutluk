@@ -1,0 +1,61 @@
+# BOSS TESTING COMMANDS - Console'a yazabilirsin
+
+# 1. Debug Mode Aç
+dm
+
+# 2. Manuel Boss Spawn Komutları
+se dutSpiderBoss
+se dutVultureBoss  
+se dutDireWolfBoss
+
+# 3. Entity Group Test
+seg mixedBossGroup
+
+# 4. Spawning Debug Bilgisi
+spawning
+
+# 5. Oyuncu Etrafındaki Entityleri Listele
+le
+
+# 6. BOSS TEMİZLEME KOMUTLARI
+
+# Tüm zombileri öldür (boss'lar dahil)
+killall
+
+# Sadece boss'ları öldür (entity ismine göre)
+killall dutSpiderBoss
+killall dutVultureBoss  
+killall dutDireWolfBoss
+
+# Belirli mesafedeki tüm entity'leri öldür (500 blok)
+killall 500
+
+# Oyuncu etrafındaki tüm hostile'ları öldür
+killall hostile
+
+# 7. Zaman Hızlandır (Gün/Gece Döngüsü)
+st 22000
+# veya
+settime 22 0
+
+# 8. Boss'u Zorla Spawn Et (Koordinatla)
+se dutSpiderBoss 100 50 100
+
+# 9. SPAWNING KONTROL KOMUTLARI
+
+# Spawning'i geçici olarak durdur
+spawning off
+
+# Spawning'i tekrar aç
+spawning on
+
+# Spawning bilgilerini göster
+spawning
+
+# TEST SENARYOSU:
+# 1. dm - Debug aç
+# 2. killall - Tümünü temizle  
+# 3. se dutSpiderBoss - Spawn et
+# 4. Haritaya bak - Kırmızı nokta görmen gerek
+# 5. Compass'a bak - Boss göstermeli
+# 6. killall dutSpiderBoss - Sadece spider'ı temizle

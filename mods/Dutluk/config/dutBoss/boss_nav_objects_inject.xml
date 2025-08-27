@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<append xpath="/nav_object_classes">
+
+		<!-- Generic Boss Navigation Object (for mixed groups) -->
+		<nav_object_class name="dut_boss">
+
+			<inactive_map_settings>
+				<property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="color" value="255,255,255,255"/>
+				<property name="has_pulse" value="true"/>
+			</inactive_map_settings>
+
+			<map_settings>
+				<property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="color" value="255,0,0,255"/>
+				<property name="has_pulse" value="true"/>
+			</map_settings>
+			
+			<inactive_compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
+				<property name="min_distance" value="10"/>
+				<property name="max_distance" value="1024"/>
+				<property name="color" value="200,200,200,255"/>
+				<property name="has_pulse" value="false"/>
+				<property name="icon_clamped" value="false" />
+			</inactive_compass_settings>
+
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
+				<property name="up_sprite_name" value="ui_game_symbol_enemy_dot_up"/>
+				<property name="down_sprite_name" value="ui_game_symbol_enemy_dot_down"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="2048"/>
+				<property name="color" value="255,0,0,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
+				<property name="min_distance" value="10"/>
+				<property name="max_distance" value="-1"/>
+				<property name="color" value="255,180,0,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="show_distance" value="false"/>
+				<property name="offset" value="0,1.0,0" />
+			</onscreen_settings>
+
+		</nav_object_class>
+
+	</append>
+</configs>

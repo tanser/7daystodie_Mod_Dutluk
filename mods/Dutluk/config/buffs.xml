@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+    <!-- Aggregate Dutluk custom buffs -->
+    <include filename="dutBoss/boss_buffs_inject.xml"/>
+</configs>

@@ -4,7 +4,7 @@
   <append xpath="/entity_classes">
 
 		<!-- Boss seviyesi - Altın sarı renk -->
-		<color name="dutBoss" value="3,2.5,0, 1.0"/> <!-- Golden, maximum emissive power -->
+		<color name="dutBossColor" value="3,2.5,0, 1.0"/> <!-- Golden, maximum emissive power -->
 
 
 		<!-- *** BOSS_LOOT_BAG__RED -->
@@ -25,8 +25,10 @@
 		<!-- BOSS LEVEL: Legendary Spider - Altın renk, ultra güçlü -->
 		<entity_class name="dutSpiderBoss" extends="zombieSpiderInfernal">
 			<property name="UserSpawnType" value="Menu"/>
-			<property name="MatColor" value="dutBoss"/>
+			<property name="MatColor" value="dutBossColor"/>
 			<property name="Tags" value="entity,zombie,spider,allbiome,feral"/>
+			<!-- Apply boss marker buff so a nav marker appears for players -->
+			<property name="Buffs" value="dut_boss_marker"/>
 			<property name="HandItem" value="meleeHandZombieInfernal"/>
 			<property name="MoveSpeedAggro" value="5, 1.0, 1.5, .4, 1.5, .3, .2, 2.5"/>
 			<property name="JumpMaxDistance" value="8.0, 12.0"/> <!-- Boss seviyesi zıplama -->
@@ -37,8 +39,10 @@
 			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
 			<property name="LootDropProb" value=".8"/> 
 
+			<property name="NavObject" value="dut_boss"/>
+
 			<effect_group>
-				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="150000"/>
 				<!-- Boss özel yetenekleri -->
 				<passive_effect name="BuffResistance" operation="base_set" value=".85" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".80" tags="buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03"/>
@@ -50,6 +54,8 @@
 		<entity_class name="dutVultureBoss" extends="animalZombieVulture">
 			<property name="UserSpawnType" value="Menu"/>
 			<property name="Tags" value="entity,animal,zombie,zombieAnimal,hostile,radiated,vulture"/>
+			<!-- Apply boss marker buff so a nav marker appears for players -->
+			<property name="Buffs" value="dut_boss_marker"/>
 			<property name="Mass" value="150"/>
 			<property name="SizeScale" value="3.5"/>
 			<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
@@ -71,8 +77,10 @@
 			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="16"/>
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
 
+			<property name="NavObject" value="dut_boss"/>
+
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="150000"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 			</effect_group>
@@ -83,6 +91,8 @@
 			<property name="UserSpawnType" value="Menu"/>
 			<property name="EntityFlags" value="animal,zombie"/>
 			<property name="Tags" value="entity,animal,zombie,zombieAnimal,hostile,wolf,perkAT05"/>
+			<!-- Apply boss marker buff so a nav marker appears for players -->
+			<property name="Buffs" value="dut_boss_marker"/>
 			<property name="PhysicsBody" value="AWolf"/>
 			<property name="Mass" value="300"/>
 			<property name="Prefab" value="@:Entities/Animals/DireWolf/animalDireWolfPrefab.prefab"/>
@@ -138,10 +148,11 @@
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="50000"/>
+				<passive_effect name="HealthMax" operation="base_set" value="150000"/>
 			</effect_group>
 
-			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_direwolf,clear_sleeper"/>
+			<property name="NavObject" value="dut_boss"/>
+			<!-- NavObject handled by dut_boss_marker buff for consistency across bosses -->
 		</entity_class>
 
 

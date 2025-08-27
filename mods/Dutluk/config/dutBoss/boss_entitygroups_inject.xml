@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <configs>
-  
+<!--   
 	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesBurntForestNight']">
 		dutVultureBoss, .1
 	</append>
@@ -17,5 +17,5 @@
 	<append xpath="/entitygroups/entitygroup[@name = 'ZombiesWastelandNight']">
 		dutDireWolfBoss, .1
 	</append>
-	
+	 -->
 </configs>
