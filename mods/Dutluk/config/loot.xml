@@ -6,4 +6,6 @@
 
 	<include filename="dutBoss/boss_loot.xml"/>
 
+	<include filename="dutTrader/loot_inject.xml"/>
+
 </configs>
