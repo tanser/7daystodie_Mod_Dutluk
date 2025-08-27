@@ -18,21 +18,21 @@
 		<!-- Boss Level - Legendary Spider spawner -->
 		<spawner name="dutSpiderBoss">
 			<gamestage stage="1">
-				<spawn group="dutSpiderBoss" duration="10"/>
+				<spawn group="dutSpiderBoss" num="1" maxAlive="1" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<!-- Boss Level - Legendary Vulture spawner -->
 		<spawner name="dutVultureBoss">
 			<gamestage stage="1">
-				<spawn group="dutVultureBoss" duration="10"/>
+				<spawn group="dutVultureBoss" num="1" maxAlive="1" duration="10"/>
 			</gamestage>
 		</spawner>
 
 		<!-- Boss Level - Legendary Dire Wolf spawner -->
 		<spawner name="dutDireWolfBoss">
 			<gamestage stage="1">
-				<spawn group="dutDireWolfBoss" duration="10"/>
+				<spawn group="dutDireWolfBoss" num="1" maxAlive="1" duration="10"/>
 			</gamestage>
 		</spawner>
 

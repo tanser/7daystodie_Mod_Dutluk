@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+
+	<append xpath="/nav_object_classes">
+        <!-- Nav object for the Dutluk boss location marker -->
+
+		<nav_object_class name="dut_boss">
+
+			<inactive_map_settings>
+				<property name="sprite_name" value="ui_game_symbol_zombie"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+                <property name="color" value="255,0,255,255"/>
+				<property name="has_pulse" value="true"/>
+			</inactive_map_settings>
+
+			<map_settings>
+				<property name="sprite_name" value="ui_game_symbol_zombie"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+                <property name="color" value="255,0,255,255"/>
+				<property name="has_pulse" value="true"/>
+			</map_settings>
+
+			<inactive_compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_zombie"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="1024"/>
+                <property name="color" value="255,0,255,255"/>
+				<property name="min_fade_percent" value="0.65" />
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</inactive_compass_settings>
+
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_zombie"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="4096"/>
+				<property name="max_scale_distance" value="1024"/>
+                <property name="color" value="255,0,255,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_zombie"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="500"/>
+                <property name="color" value="255,0,255,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+
+	</append>
+
+
+</configs>

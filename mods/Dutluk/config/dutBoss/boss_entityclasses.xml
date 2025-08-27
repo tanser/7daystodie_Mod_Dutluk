@@ -141,7 +141,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
 			</effect_group>
 
-			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_direwolf,clear_sleeper"/>
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,dut_boss"/>
 		</entity_class>
 
 
