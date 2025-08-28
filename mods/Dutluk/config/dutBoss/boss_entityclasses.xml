@@ -33,7 +33,7 @@
 			<property name="SizeScale" value="2"/> <!-- %200 daha büyük -->
 			<property name="Mass" value="120"/> <!-- Daha ağır -->
 			
-			<property name="ExperienceGain" value="50000"/><!-- XP Boss -->
+			<property name="ExperienceGain" value="70000"/><!-- XP Boss -->
 			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
 			<property name="LootDropProb" value=".8"/> 
 
@@ -60,7 +60,7 @@
 
 			<property name="HandItem" value="meleeHandAnimalZombieVultureRadiated"/>
 
-			<property name="ExperienceGain" value="50000"/><!-- XP Vulture Radiated -->
+			<property name="ExperienceGain" value="70000"/><!-- XP Vulture Radiated -->
 			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
 			<property name="LootDropProb" value=".8"/> <!-- Dire Wolf -->
 
@@ -126,7 +126,7 @@
 			<property name="PainResistPerHit" value=".95"/>
 			<property name="DeadBodyHitPoints" value="450"/>
 
-			<property name="ExperienceGain" value="50000"/><!-- XP Dire Wolf -->
+			<property name="ExperienceGain" value="70000"/><!-- XP Dire Wolf -->
 			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
 			<property name="LootDropProb" value=".8"/> <!-- Dire Wolf -->
 

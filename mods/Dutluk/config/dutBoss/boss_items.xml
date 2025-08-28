@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+  <append xpath="/items">
+    <item name="qt_dut_boss">
+      <property name="Extends" value="treasureQuestMaster"/>
+      <property name="SoundPickup" value="map_grab"/>
+      <property name="SoundPlace" value="map_place"/>
+      <property class="Action0">
+        <property name="QuestGiven" value="treasure_dut_boss"/>
+      </property>
+    </item>
+  </append>
+
+</configs>
+

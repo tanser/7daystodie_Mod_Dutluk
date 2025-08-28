@@ -57,14 +57,25 @@
 			zombieBusinessManApocalyptic, .1
 			zombieJoeApocalyptic, .1
 			zombieBoeApocalyptic, .1
+			zombieArleneApocalyptic, .05
+			zombieBusinessManApocalyptic, .05
+			zombieBoeApocalyptic, .05
+			zombieSpiderApocalyptic, .05
 		</entitygroup>
 
 		<!-- Nightmare mod için ultra zorluk grubu -->
-		<entitygroup name="nightmareHorde" count="2,3">
+		<entitygroup name="nightmareHorde" count="4,8">
 			zombieArleneApocalyptic, .25
 			zombieBusinessManApocalyptic, .25
 			zombieBoeApocalyptic, .25
 			zombieSpiderApocalyptic, .25
+			zombieArleneCorrupted, .15
+			zombieBusinessManCorrupted, .15
+			zombieJoeCorrupted, .15
+			zombieBoeCorrupted, .15
+			zombieArleneApocalyptic, .1
+			zombieBusinessManApocalyptic, .1
+			zombieJoeApocalyptic, .1
 		</entitygroup>
 
   </append>

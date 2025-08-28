@@ -45,4 +45,7 @@
   <!-- *** GAMBLER *** -->
   <include filename="dutGambler/items_GamblerBox.xml"/>
 
+  <!-- *** BOSS *** -->
+  <include filename="dutBoss/boss_items.xml"/>
+  
 </configs>

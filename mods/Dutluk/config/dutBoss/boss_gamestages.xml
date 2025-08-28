@@ -12,7 +12,14 @@
 		<group name="bossSpiderGroup" spawner="BossSpiderGroup"/>
 		<group name="bossVultureGroup" spawner="BossVultureGroup"/>
 		<group name="bossDireWolfGroup" spawner="BossDireWolfGroup"/>
-		<group name="mixedBossGroup" spawner="BossChallenge"/>
+		<group name="mixedBossGroup" spawner="mixedBossGroup"/>
+		
+			<!-- Boss Level - Legendary Spider spawner -->
+		<spawner name="mixedBossGroup">
+			<gamestage stage="1">
+				<spawn group="mixedBossGroup" num="1" maxAlive="1" duration="10"/>
+			</gamestage>
+		</spawner>
 
 
 		<!-- Boss Level - Legendary Spider spawner -->
@@ -65,6 +72,12 @@
 			</gamestage>
 			<gamestage stage="500">
 				<spawn group="bossDireWolfGroup" num="1" maxAlive="1" duration="10"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="WanderingBossHorde">
+			<gamestage stage="200">
+				<spawn group="mixedBossGroup" num="1" maxAlive="1" duration="10"/>
 			</gamestage>
 		</spawner>
 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+  <append xpath="/quests">
+
+    <quest id="treasure_dut_boss">
+      <property name="name_key" value="treasure_dut_boss" param1="name"/>
+      <property name="subtitle_key" value="treasure_dut_boss" param1="name"/>
+      <property name="description_key" value="treasure_dut_boss_offer" param1="offer"/>
+      <property name="icon" value="ui_game_symbol_map"/>
+      <property name="repeatable" value="true"/>
+      <property name="category_key" value="treasure"/>
+      <property name="offer_key" value="treasure_dut_boss_offer" param1="offer"/>
+      <property name="add_to_tier_complete" value="false"/>
+      <property name="shareable" value="true"/>
+
+    
+      <objective type="TreasureChest">
+			  <property name="phase" value="1"/>
+        <property name="block" value="cntBuriedLootStashChestInsecure" param1="container"/>
+			  <property name="container_type" value="Supplies"/>
+        <property name="distance" value="500-1250"/>
+			  <property name="default_radius" value="9" param1="radius"/>
+        <property name="nav_object" value="treasure"/>
+        <property name="direct_nav_object" value="treasure_direct"/>
+        <property name="blocks_per_reduction" value="10"/>
+          <!-- Perk/item can reduce this by 8. Change perk/item to a % based effect if a blocks_per_reduction less than 10 that is desired. -->
+        <property name="radius_reduction_sound" value="ui_radius_shrink"/>
+        <property name="explosion_event" value="quest_treasure_explosion_horde"/>
+      </objective>
+
+      <event type="TreasureRadiusReduction">
+        <property name="chance" value="0.25" param1="spawn_chance"/>
+        <action type="SpawnGSEnemy">
+          <property name="gamestage_list" value="EnhancedWanderingHorde"/>
+          <property name="count" value="2-4" param1="spawn_count"/>
+        </action>
+      </event>
+
+      <objective type="FetchFromTreasure">
+			  <property name="phase" value="2"/>
+        <property name="block" value="cntBuriedLootStashChestInsecure" param1="container"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+      </objective>
+
+      <action type="SpawnGSEnemy">
+			  <property name="phase" value="2"/>
+        <property name="gamestage_list" value="WanderingBossHorde"/>
+        <property name="count" value="1" param1="finish_spawn_count"/>
+      </action>
+
+    </quest>
+    
+  </append>
+
+</configs>
+

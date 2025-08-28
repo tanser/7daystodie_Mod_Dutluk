@@ -18,11 +18,11 @@
 		<group name="zombieSpiderApocalyptic" spawner="zombieSpiderApocalyptic"/>
 		
 		<!-- Karışık ve Boss grupları için tanımlamalar -->
-		<group name="mixedCorruptedGroup" spawner="EnhancedWanderingHorde"/>
-		<group name="mixedApocalypticGroup" spawner="EnhancedWanderingHorde"/>
-		<group name="progressiveHordeStageHigh" spawner="EnhancedWanderingHorde"/>
-		<group name="progressiveHordeStageExtreme" spawner="EnhancedWanderingHorde"/>
-		<group name="nightmareHorde" spawner="EnhancedWanderingHorde"/>
+		<group name="mixedCorruptedGroup" spawner="mixedCorruptedGroup"/>
+		<group name="mixedApocalypticGroup" spawner="mixedApocalypticGroup"/>
+		<group name="progressiveHordeStageHigh" spawner="progressiveHordeStageHigh"/>
+		<group name="progressiveHordeStageExtreme" spawner="progressiveHordeStageExtreme"/>
+		<group name="nightmareHorde" spawner="nightmareHorde"/>
 
 		<!-- Yeni zorluk seviyeleri için bireysel spawner'lar -->
 		<!-- Corrupted (Mor) zombi spawner'ları -->
@@ -86,6 +86,37 @@
 				<spawn group="zombieSpiderApocalyptic" duration="10"/>
 			</gamestage>
 		</spawner>
+
+		<spawner name="mixedCorruptedGroup">
+			<gamestage stage="1">
+				<spawn group="mixedCorruptedGroup" num="10" maxAlive="30" duration="9"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="mixedApocalypticGroup">
+			<gamestage stage="1">
+				<spawn group="mixedApocalypticGroup" num="10" maxAlive="30" duration="9"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="progressiveHordeStageHigh">
+			<gamestage stage="1">
+				<spawn group="progressiveHordeStageHigh" num="10" maxAlive="30" duration="9"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="progressiveHordeStageExtreme">
+			<gamestage stage="1">
+				<spawn group="progressiveHordeStageExtreme" num="10" maxAlive="30" duration="9"/>
+			</gamestage>
+		</spawner>
+
+		<spawner name="nightmareHorde">
+			<gamestage stage="1">
+				<spawn group="nightmareHorde" num="10" maxAlive="30" duration="9"/>
+			</gamestage>
+		</spawner>
+
 
 
 		<!-- Gelişmiş Wandering Horde - Yeni zorluk seviyeleri ile -->
