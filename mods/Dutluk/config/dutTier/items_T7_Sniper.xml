@@ -65,7 +65,6 @@
         <passive_effect name="EntityDamage" operation="perc_add" value=".35,1.2"/>
         <passive_effect name="WeaponHandling" operation="perc_add" value=".35,1.2"/>
         <passive_effect name="DegradationMax" operation="perc_add" value=".35,1.2"/>
-        <passive_effect name="MagazineSize" operation="base_add" value="0, 10"/>
         <passive_effect name="DamageModifier" operation="base_add" value="50" tags="head"/>
 
       </effect_group>

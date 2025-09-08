@@ -62,6 +62,8 @@
         <passive_effect name="DegradationMax" operation="perc_add" value="1.1,2"/>
         <passive_effect name="DamageFalloffRange" operation="perc_add" value="1.1,2"/>
         <passive_effect name="ProjectileVelocity" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="2,3"/>
+        <passive_effect name="MaxRange" operation="perc_add" value="1.1,2"/>
         
       </effect_group>
 

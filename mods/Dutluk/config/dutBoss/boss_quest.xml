@@ -12,7 +12,7 @@
       <property name="category_key" value="treasure"/>
       <property name="offer_key" value="treasure_dut_boss_offer" param1="offer"/>
       <property name="add_to_tier_complete" value="false"/>
-      <property name="shareable" value="true"/>
+      <property name="shareable" value="false"/>
 
     
       <objective type="TreasureChest">
