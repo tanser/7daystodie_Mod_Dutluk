@@ -6,22 +6,28 @@
 
   <include filename="dutTier/items_base.xml"/>
   <include filename="dutTier/items_MythicParts.xml"/>
-  <include filename="dutTier/items_T7_MachineGun.xml"/>
-  <include filename="dutTier/items_T8_MachineGun.xml"/>
-  <include filename="dutTier/items_T7_Bow.xml"/>
-  <include filename="dutTier/items_T8_Bow.xml"/>
-  <include filename="dutTier/items_T7_Shotgun.xml"/>
-  <include filename="dutTier/items_T8_Shotgun.xml"/>
-  <include filename="dutTier/items_T7_Sniper.xml"/>
-  <include filename="dutTier/items_T8_Sniper.xml"/>
-  <include filename="dutTier/items_T7_Machete.xml"/>
-  <include filename="dutTier/items_T8_Machete.xml"/>
-  <include filename="dutTier/items_T7_Club.xml"/>
-  <include filename="dutTier/items_T8_Club.xml"/>
-  <include filename="dutTier/items_T7_Magnum.xml"/>
-  <include filename="dutTier/items_T8_Magnum.xml"/>
-  <include filename="dutTier/items_T7_SMG.xml"/>
-  <include filename="dutTier/items_T8_SMG.xml"/>
+  <include filename="dutTier/items_MachineGun_T7.xml"/>
+  <include filename="dutTier/items_MachineGun_T8.xml"/>
+  <include filename="dutTier/items_Bow_T7.xml"/>
+  <include filename="dutTier/items_Bow_T8.xml"/>
+  <include filename="dutTier/items_Shotgun_T7.xml"/>
+  <include filename="dutTier/items_Shotgun_T8.xml"/>
+  <include filename="dutTier/items_Sniper_T7.xml"/>
+  <include filename="dutTier/items_Sniper_T8.xml"/>
+  <include filename="dutTier/items_Machete_T7.xml"/>
+  <include filename="dutTier/items_Machete_T8.xml"/>
+  <include filename="dutTier/items_Club_T7.xml"/>
+  <include filename="dutTier/items_Club_T8.xml"/>
+  <include filename="dutTier/items_Magnum_T7.xml"/>
+  <include filename="dutTier/items_Magnum_T8.xml"/>
+  <include filename="dutTier/items_SMG_T7.xml"/>
+  <include filename="dutTier/items_SMG_T8.xml"/>
+  <include filename="dutTier/items_Axe_T7.xml"/>
+  <include filename="dutTier/items_Axe_T8.xml"/>
+  <include filename="dutTier/items_Pickaxe_T7.xml"/>
+  <include filename="dutTier/items_Pickaxe_T8.xml"/>
+  <include filename="dutTier/items_Spear_T7.xml"/>
+  <include filename="dutTier/items_Spear_T8.xml"/>
 
   <!-- *** NEW CURSED EVENT SYSTEM *** -->
 

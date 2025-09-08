@@ -76,8 +76,8 @@
       <property name="DescriptionKey" value="dutT8SMGBundleDesc"/>
       <property name="UnlockedBy" value="craftingHandguns"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8SMG,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
-        <property name="Random_item_count" value="6,2,1,1"/>
+        <property name="Random_item" value="dutT8SMG,dutResourceMythicParts,plantedPotato1,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>

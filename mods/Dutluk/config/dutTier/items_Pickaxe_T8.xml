@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <append xpath="/items">
+
+    <item name="dutT8Pickaxe">
+      <property name="Extends" value="meleeToolPickT2SteelPickaxe"/>
+
+      <property name="HoldType" value="4"/>
+      <property name="TintColor" value="239BA7"/>
+      <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe"/>
+      <property name="CustomIconTint" value="239BA7"/>
+      <property name="ShowQuality" value="false"/>
+      <property name="CreativeMode" value="Player"/>
+      
+      <effect_group name="dutT8Pickaxe">
+
+        <!-- orginal values -->
+      	<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkMiner69r"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="26.4" tags="primary"/>
+        <passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6" tags="perkMiner69r"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+        <passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkMiner69r"/>
+        <passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
+        <passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,4" tier="1,2,3,4,5,6"/>
+        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+        <passive_effect name="EntityDamage" operation="base_set" value="23.2" tags="perkMiner69r"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkMiner69r"/> <!-- random EntityDmg -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
+        <passive_effect name="BlockDamage" operation="base_set" value="85" tags="perkMiner69r,miningTool"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkMiner69r"/> <!-- random BlockDmg -->
+        <passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
+        <passive_effect name="PlayerExpGain" operation="perc_add" value="-.1" tags="Harvesting"/>
+        <!-- <passive_effect name="DegradationMax" operation="perc_add" value="-.08,.08" tier="1,6" tags="perkMiner69r"/> --> <!-- random DegMax -->
+        <!-- <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/> --> <!-- random APM -->
+        <!-- <passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/> --> <!-- random StamLoss -->
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.6" tags="earth"/>
+        <passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="stone"/>
+        <passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="terrGravel"/>
+        <!-- /orginal values -->
+
+        <!-- custom values for T8 -->
+        <passive_effect name="AttacksPerMinute" operation="perc_add" value=".8,1.2"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="2,3"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="2,3"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="2,3"/>
+        
+      </effect_group>
+      
+      <!-- custom values for T8 -->
+      <effect_group name="Power Attack">
+        <passive_effect name="EntityDamage" operation="perc_add" value="2,3" tags="secondary"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="2,3" tags="secondary"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="52.7" tags="secondary"/>
+      </effect_group>
+
+    </item>
+
+    <item name="dutT8PickaxeBundle">
+      <property name="Extends" value="dutT8BundleBox"/>
+      <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe"/>
+      <property name="DescriptionKey" value="dutT8PickaxeBundleDesc"/>
+      <property name="UnlockedBy" value="craftingHarvestingTools"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT8Pickaxe,dutResourceMythicParts,plantedPotato1,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+  </append>
+
+
+</configs>

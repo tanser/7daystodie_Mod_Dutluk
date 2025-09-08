@@ -91,4 +91,28 @@
         <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7SMGBundle,dutT8SMGBundle"/>
     </append>
 
+    <!-- T7 - T8 Axe, Pickaxe -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']">
+        <display_entry item="dutT7AxeBundle" unlock_level="100"/>
+        <display_entry item="dutT8AxeBundle" unlock_level="100"/>
+        <display_entry item="dutT7PickaxeBundle" unlock_level="100"/>
+        <display_entry item="dutT8PickaxeBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT7AxeBundle,dutT8AxeBundle,dutT7PickaxeBundle,dutT8PickaxeBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT7AxeBundle,dutT8AxeBundle,dutT7PickaxeBundle,dutT8PickaxeBundle"/>
+    </append>
+
+    <!-- T7 - T8 Spear -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']">
+        <display_entry item="dutT7SpearBundle" unlock_level="75"/>
+        <display_entry item="dutT8SpearBundle" unlock_level="75"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75" value="1" tags="dutT7SpearBundle,dutT8SpearBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT7SpearBundle,dutT8SpearBundle"/>
+    </append>
+
 </configs>

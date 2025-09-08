@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <append xpath="/items">
+
+    <item name="dutT8Spear">
+      <property name="Extends" value="meleeWpnSpearT3SteelSpear"/>
+
+      <property name="TintColor" value="239BA7"/>
+      <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear"/>
+      <property name="CustomIconTint" value="239BA7"/>
+      <property name="ShowQuality" value="false"/>
+      <property name="CreativeMode" value="Player"/>
+      
+      <effect_group name="dutT8Spear">
+
+        <!-- orginal values -->
+        <passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkJavelinMaster"/>
+        <display_value name="dTargetArmor" value="-.5"/>
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkJavelinMaster,perkFlurryOfPerception"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="22.4" tags="primary"/>
+        <passive_effect name="DegradationMax" operation="base_set" value="400,800" tier="1,6" tags="perkJavelinMaster"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
+        <passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
+        <passive_effect name="ModSlots" operation="base_set" value="3,3,3,4,4,4" tier="1,2,3,4,5,6"/>
+        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+        <passive_effect name="EntityDamage" operation="base_set" value="33" tags="perkJavelinMaster"/> <!-- meleeWpnSpearT3SteelSpear -->
+        <passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkJavelinMaster"/> <!-- random EntityDmg -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+        <passive_effect name="BlockDamage" operation="base_set" value="15" tags="perkJavelinMaster"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkJavelinMaster"/> <!-- random BlockDmg -->
+        <passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/> <!-- tier bonus -->
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+        <passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+        <passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+        <passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+        <!-- /orginal values -->
+
+        <!-- custom values for T8 -->
+        <passive_effect name="AttacksPerMinute" operation="perc_add" value=".8,1.2"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="2,3"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="2,3"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="2,3"/>
+        <passive_effect name="HarvestCount" operation="perc_add" value="2,3"/>
+        
+      </effect_group>
+
+      <!-- custom values for T8 -->
+      <effect_group name="Power Attack">
+        <passive_effect name="EntityDamage" operation="perc_add" value="2,3" tags="secondary"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="2,3" tags="secondary"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="40.3" tags="secondary"/>
+
+        <passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkJavelinMaster">
+          <requirement name="ItemHasTags" tags="perkJavelinMaster"/>
+          <requirement name="IsSecondaryAttack"/>
+          <requirement name="ProgressionLevel" progression_name="perkSpearHunter6PenetratingShaft" operation="Equals" value="1"/>
+        </passive_effect>
+
+        <passive_effect name="BlockPenetrationFactor" operation="base_set" value="10000" tags="perkJavelinMaster"/>
+      </effect_group>
+    </item>
+
+    <item name="dutT8SpearBundle">
+      <property name="Extends" value="dutT8BundleBox"/>
+      <property name="CustomIcon" value="meleeWpnSpearT3SteelSpear"/>
+      <property name="DescriptionKey" value="dutT8SpearBundleDesc"/>
+      <property name="UnlockedBy" value="craftingSpears"/>
+      <property class="Action0">
+        <property name="Random_item" value="dutT8Spear,dutResourceMythicParts,plantedPotato1,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1,1"/>
+        <property name="Random_count" value="1"/>
+      </property>
+    </item>
+
+  </append>
+
+
+</configs>

@@ -191,5 +191,20 @@
         <passive_effect name="CraftingTier" operation="base_add" level="75" value="1" tags="dutT6ClubBundle"/>
     </append>
 
+    <!-- T6 Axe, Pickaxe -->
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']">
+        <display_entry item="dutT6AxeBundle" unlock_level="100"/>
+        <display_entry item="dutT6PickaxeBundle" unlock_level="100"/>
+    </append>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6AxeBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6AxeBundle"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="dutT6PickaxeBundle"/>
+        <passive_effect name="CraftingTier" operation="base_add" level="100" value="1" tags="dutT6PickaxeBundle"/>
+    </append>
+
+
+
 </configs>
 

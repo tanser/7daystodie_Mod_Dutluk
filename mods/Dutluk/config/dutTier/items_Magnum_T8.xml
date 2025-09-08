@@ -78,8 +78,8 @@
       <property name="DescriptionKey" value="dutT8MagnumBundleDesc"/>
       <property name="UnlockedBy" value="craftingShotguns"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8Magnum,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
-        <property name="Random_item_count" value="6,2,1,1"/>
+        <property name="Random_item" value="dutT8Magnum,dutResourceMythicParts,plantedPotato1,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>

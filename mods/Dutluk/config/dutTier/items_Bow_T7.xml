@@ -3,16 +3,16 @@
 <configs>
   <append xpath="/items">
 
-    <item name="dutT8Bow">
+    <item name="dutT7Bow">
       <property name="Extends" value="gunBowT3CompoundBow"/>
 
-      <property name="TintColor" value="239BA7"/>
+      <property name="TintColor" value="F0E68C"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
-      <property name="CustomIconTint" value="239BA7"/>
+      <property name="CustomIconTint" value="F0E68C"/>
       <property name="ShowQuality" value="false"/>
       <property name="CreativeMode" value="Player"/>
 
-      <effect_group name="dutT8Bow">
+      <effect_group name="dutT7Bow">
        
         <!-- orginal values -->
         <passive_effect name="ProjectileVelocity" operation="perc_add" value=".2" tags="perkArchery"/>
@@ -56,14 +56,13 @@
         <!-- /orginal values -->
 
 
-        <!-- custom values for T8 -->
-        <passive_effect name="EntityDamage" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="DegradationMax" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="DamageFalloffRange" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="ProjectileVelocity" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="2,3"/>
-        <passive_effect name="MaxRange" operation="perc_add" value="1.1,2"/>
+        <!-- custom values for T7 -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="DamageFalloffRange" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="ProjectileVelocity" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="1,2"/>
         
       </effect_group>
 
@@ -71,9 +70,9 @@
       <effect_group name="sneak damage bonus">
         <requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
         <requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
-        <passive_effect name="DamageBonus" operation="base_add" value="4"/>
-        <passive_effect name="EntityDamage" operation="perc_add" value="4" tags="perkArchery"/>
-        <display_value name="dEntityDamageSneak" value="4"/>
+        <passive_effect name="DamageBonus" operation="base_add" value="3"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="3" tags="perkArchery"/>
+        <display_value name="dEntityDamageSneak" value="3"/>
       </effect_group>
 
       <!-- custom values for T7 -->
@@ -83,16 +82,14 @@
       </effect_group>
     </item>
 
-
-    <item name="dutT8BowBundle">
-      <property name="Extends" value="dutT8BundleBox"/>
-      <property name="CreativeMode" value="Player"/>
+    <item name="dutT7BowBundle">
+      <property name="Extends" value="dutT7BundleBox"/>
       <property name="CustomIcon" value="gunBowT3CompoundBow"/>
-      <property name="DescriptionKey" value="dutT8BowBundleDesc"/>
+      <property name="DescriptionKey" value="dutT7BowBundleDesc"/>
       <property name="UnlockedBy" value="craftingBows"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8Bow,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
-        <property name="Random_item_count" value="6,2,1,1"/>
+        <property name="Random_item" value="dutT7Bow,dutT7Bow,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,6,1,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>

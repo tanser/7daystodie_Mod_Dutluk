@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configs>
-
   <append xpath="/items">
 
-    <item name="dutT7Shotgun">
+    <item name="dutT8Shotgun">
       <property name="Extends" value="gunShotgunT3AutoShotgun"/>
 
       <property name="DisplayType" value="rangedShotgunNoMag"/>
       <property name="HoldType" value="56"/>
       <property name="Meshfile" value="@:Other/Items/Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
       <property name="Material" value="MShotgunParts"/>
-      <property name="TintColor" value="F0E68C"/>
+      <property name="TintColor" value="239BA7"/>
       <property name="CustomIcon" value="gunShotgunT1DoubleBarrel"/>
-      <property name="CustomIconTint" value="F0E68C"/>
+      <property name="CustomIconTint" value="239BA7"/>
       <property name="ShowQuality" value="false"/>
       <property name="CreativeMode" value="Player"/>
 
       <!-- prevent to sell or buy -->
       <property name="SellableToTrader" value="false"/>
       <property name="EconomicValue" value="0"/>
+      
 
-      <effect_group name="dutT7Shotgun">
+      <effect_group name="dutT8Shotgun">
 
         <!-- orginal values -->
         <passive_effect name="RoundsPerMinute" operation="base_set" value="70" tags="perkBoomstick"/>
@@ -54,26 +54,28 @@
         <display_value name="dStatStunEffect" value="4"/>
         <!-- /orginal values -->
 
-        <!-- custom values for T7 -->
-        <passive_effect name="EntityDamage" operation="perc_add" value=".15,.8"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value=".35,1.2"/>
-        <passive_effect name="DegradationMax" operation="perc_add" value=".35,1.2"/>
+        <!-- custom values for T8 -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".8,1.4"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="1.1,2"/>
 
       </effect_group>
+
     </item>
 
-    <item name="dutT7ShotgunBundle">
-      <property name="Extends" value="dutT7BundleBox"/>
+    <item name="dutT8ShotgunBundle">
+      <property name="Extends" value="dutT8BundleBox"/>
       <property name="CustomIcon" value="gunShotgunT1DoubleBarrel"/>
-      <property name="DescriptionKey" value="dutT7ShotgunBundleDesc"/>
+      <property name="DescriptionKey" value="dutT8ShotgunBundleDesc"/>
       <property name="UnlockedBy" value="craftingShotguns"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT7Shotgun,dutT7Shotgun,dutResourceMythicParts,plantedPotato1"/>
-        <property name="Random_item_count" value="6,6,1,1"/>
+        <property name="Random_item" value="dutT8Shotgun,dutResourceMythicParts,plantedPotato1,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>
-
+      
   </append>
+
 
 </configs>
