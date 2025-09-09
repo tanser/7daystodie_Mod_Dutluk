@@ -770,7 +770,6 @@ Description of Options:
 
 		<!-- *** Burnt Forest: Block Layers -->
 		<layers>
-			<layer filluptorg="60" blockname="water"/>
 			<layer depth="1" blockname="terrBurntForestGround"/>
 			<layer depth="3" blockname="terrDirt"/>
 			<layer depth="*" blockname="terrStone"/>
@@ -1103,7 +1102,6 @@ Description of Options:
 
 		<!-- *** Desert: Block Layers -->
 		<layers>
-			<layer filluptorg="60" blockname="water"/>
 			<layer depth="4" blockname="terrDesertGround"/>
 			<layer depth="*" blockname="terrSandStone"/>
 			<layer depth="1" blockname="terrSandStone"/>
@@ -1792,7 +1790,6 @@ Description of Options:
 
 		<!-- *** Wasteland: Block Layers -->
 		<layers>
-			<layer filluptorg="60" blockname="water"/>
 			<layer depth="2" blockname="terrDestroyedStone,terrDestroyedGrass"/>
 			<layer depth="2" blockname="terrDirt"/>
 			<layer depth="*" blockname="terrStone"/>

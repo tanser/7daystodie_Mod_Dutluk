@@ -63,16 +63,20 @@
 
 <!-- *** PAGE_03_BIOMES_GROUPS -->
 	<challenge_group category="Biome Progression" name="Burnt Survival" title_key="challengeGroupBurntSurvival"
-	reward_text_key="challengeRewardBonusBurntForestReward" reward_event="challenge_group_reward_burnt" link_challenges="true" hidden_by="Basics"/>
+	reward_text_key="challengeRewardBonusBurntForestReward" reward_event="challenge_group_reward_burnt" link_challenges="true"
+	objective_text="Research the biome and unlock Smoke Gear." hidden_by="Basics"/>
 
 	<challenge_group category="Biome Progression" name="Desert Survival" title_key="challengeGroupDesertSurvival"
-	reward_text_key="challengeRewardBonusDesertReward" reward_event="challenge_group_reward_desert" link_challenges="true" hidden_by="Basics"/>
+	reward_text_key="challengeRewardBonusDesertReward" reward_event="challenge_group_reward_desert" link_challenges="true"
+	objective_text="Research the biome and unlock Desert Gear." hidden_by="Basics"/>
 
 	<challenge_group category="Biome Progression" name="Snow Survival" title_key="challengeGroupSnowSurvival"
-	reward_text_key="challengeRewardBonusSnowReward" reward_event="challenge_group_reward_snow" link_challenges="true" hidden_by="Basics"/>
+	reward_text_key="challengeRewardBonusSnowReward" reward_event="challenge_group_reward_snow" link_challenges="true"
+	objective_text="Research the biome and unlock Snow Gear." hidden_by="Basics"/>
 
 	<challenge_group category="Biome Progression" name="Wasteland Survival" title_key="challengeGroupWastelandSurvival"
-	reward_text_key="challengeRewardBonusWasteleandReward" reward_event="challenge_group_reward_wasteland" link_challenges="true" hidden_by="Basics"/>
+	reward_text_key="challengeRewardBonusWasteleandReward" reward_event="challenge_group_reward_wasteland" link_challenges="true"
+	objective_text="Research the biome and unlock Radiation Gear." hidden_by="Basics"/>
 
 
 <!-- *** PAGE_04_TWITCH_GROUPS -->
@@ -414,7 +418,7 @@
 	<challenge name="harvestHoney" title_key="challengeHarvestHoney" icon="ui_game_symbol_challenge_harvesting_honey" group="Harvesting"
 		short_description_key="challengeHarvestHoneyShort" description_key="challengeHarvestHoneyDesc"
 		reward_text_key="challenge_reward_2000xp" reward_event="challenge_reward_2000">
-		<objective type="Harvest" item="foodHoney" count="5" block_tag="challenge_stump" override_tracker_index="challenge_stump" track_distance="50"/>
+		<objective type="ChallengeStatAwarded" challenge_stat="harvestHoneyStat" count="5" stat_text_key="challengeStatHarvestHoney" block_tag="challenge_stump" tracker_index="challenge_stump" track_distance="50"/>
 	</challenge>
 
 	<challenge name="harvestCobblestone" title_key="challengeHarvestCobblestone" icon="ui_game_symbol_challenge_harvesting_cobblestone" group="Harvesting"
@@ -852,12 +856,12 @@
 <!-- *** PAGE_03_BIOME_CHALLENGES -->
 
 	<!-- *** BURNT_FOREST_CHALLENGES -->
-		<!-- *** 01_WEAR_ARMOR_ITEM -->
-	<challenge name="burntSurvivalWearArmor" title_key="challengeBurntWearArmor" icon="ui_game_symbol_armor_iron" group="Burnt Survival"
-		short_description_key="challengeBurntWearArmorShort" description_key="challengeBurntWearArmorDesc"
-		hint="challengeBurntWearArmorHint1"
+		<!-- *** 01_FIND_OR_BUILD_SHELTER -->
+	<challenge name="burntSurvivalShelter" title_key="challengeBurntShelter" icon="ui_game_symbol_map_house" group="Burnt Survival"
+		short_description_key="challengeBurntShelterShort" description_key="challengeBurntShelterDesc"
+		hint="challengeBurntShelterHint1"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Wear" wear_name_key="burntWearAnyArmor" tags="biomeChallenge"/>
+		<objective type="ChallengeStatAwarded" challenge_stat="challengeStatBurntShelter" count="1" stat_text_key="challengeStatBurntShelterDesc"/>
 	</challenge>
 
 		<!-- *** 02_HARVEST_CROP_IN_BIOME -->
@@ -868,17 +872,17 @@
 	</challenge>
 
 		<!-- *** 03_CRAFT_HARZARD_REDUCER -->
-	<challenge name="burntSurvivalUseReducer" title_key="challengeBurntUseReducer" icon="ui_game_symbol_cookware" group="Burnt Survival"
-		short_description_key="challengeBurntUseReducerShort" description_key="challengeBurntUseReducerDesc"
+	<challenge name="burntSurvivalCraftReducer" title_key="challengeBurntCraftReducer" icon="ui_game_symbol_cookware" group="Burnt Survival"
+		short_description_key="challengeBurntCraftReducerShort" description_key="challengeBurntCraftReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
 		<objective type="Craft" item="foodBurntSmoothie" count="1"/>
 	</challenge>
 
-		<!-- *** 04_HARVEST_ORE_IN_BIOME -->
-	<challenge name="burntSurvivalHarvestOre" title_key="challengeBurntHarvestOre" icon="ui_game_symbol_mining" group="Burnt Survival"
-		short_description_key="challengeBurntHarvestOreShort" description_key="challengeBurntHarvestOreDesc"
+		<!-- *** 04_USE_HARZARD_REDUCER -->
+	<challenge name="burntSurvivalUseReducer" title_key="challengeBurntUseReducer" icon="ui_game_symbol_steroids" group="Burnt Survival"
+		short_description_key="challengeBurntUseReducerShort" description_key="challengeBurntUseReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Harvest" item="resourcePotassiumNitratePowder" count="500" biome="burnt_forest"/>
+		<objective type="UseItem" item="foodBurntSmoothie" count="1"/>
 	</challenge>
 
 		<!-- *** 05_KILL_ZOMBIE_IN_BIOME -->
@@ -889,49 +893,53 @@
 		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,desert,snow,wasteland" target_name_key="xuiZombies" count="5" biome="burnt_forest"/>
 	</challenge>
 
-		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->
-	<challenge name="burntSurvivalLoot" title_key="challengeBurntLoot" icon="ui_game_symbol_loot_sack" group="Burnt Survival"
-		short_description_key="challengeBurntLootShort" description_key="challengeBurntLootDesc"
+		<!-- *** 06_HARVEST_ORE_IN_BIOME -->
+	<challenge name="burntSurvivalHarvestOre" title_key="challengeBurntHarvestOre" icon="ui_game_symbol_mining" group="Burnt Survival"
+		short_description_key="challengeBurntHarvestOreShort" description_key="challengeBurntHarvestOreDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="LootContainer" count="5" biome="burnt_forest"/>
+		<objective type="Harvest" item="resourcePotassiumNitratePowder" count="250" biome="burnt_forest"/>
 	</challenge>
 
-		<!-- *** 07_SURVIVE_MINUTES_IN_BIOME -->
-	<challenge name="burntSurvivalMinutes" title_key="challengeBurntSurvivalMinutes" icon="ui_game_symbol_clock" group="Burnt Survival"
-		short_description_key="challengeBurntSurvivalMinutesShort" description_key="challengeBurntSurvivalMinutesDesc"
-		reward_text_key="challenge_reward_10000xp" reward_event="challenge_reward_10000">
-		<objective type="Time" max_time="900" biome="burnt_forest"/>
+		<!-- *** 07_GATHER_FOR_GEAR -->
+	<challenge name="burntSurvivalGatherGear" title_key="challengeBurntGatherGear" icon="ui_game_symbol_assemble" group="Burnt Survival"
+		short_description_key="challengeBurntGatherGearShort" description_key="challengeBurntGatherGearDesc"
+		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
+		<objective type="Gather" item="resourceArmorCraftingKit" count="1"/>
+		<objective type="Gather" item="resourceScrapPolymers" count="20"/>
+		<objective type="Gather" item="resourceCloth" count="20"/>
+		<objective type="Gather" item="resourceLeather" count="10"/>
+		<objective type="Gather" item="resourceCoal" count="50"/>
 	</challenge>
 
 
 	<!-- *** DESERT_CHALLENGES -->
-		<!-- *** 01_WEAR_ARMOR_ITEM -->
-	<challenge name="desertSurvivalWearArmor" title_key="challengeDesertWearArmor" icon="ui_game_symbol_armor_iron" group="Desert Survival"
-		short_description_key="challengeDesertWearArmorShort" description_key="challengeDesertWearArmorDesc"
-		hint="challengeDesertWearArmorHint1"
+		<!-- *** 01_FIND_OR_BUILD_SHELTER -->
+	<challenge name="desertSurvivalShelter" title_key="challengeDesertShelter" icon="ui_game_symbol_map_house" group="Desert Survival"
+		short_description_key="challengeDesertShelterShort" description_key="challengeDesertShelterDesc"
+		hint="challengeDesertShelterHint1"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Wear" wear_name_key="biomeBadge1" tags="biomeBadge1"/>
+		<objective type="ChallengeStatAwarded" challenge_stat="challengeStatDesertShelter" count="1" stat_text_key="challengeStatDesertShelterDesc"/>
 	</challenge>
 
 		<!-- *** 02_HARVEST_CROP_IN_BIOME -->
 	<challenge name="desertSurvivalHarvestCrop" title_key="challengeDesertHarvestCrop" icon="ui_game_symbol_crops" group="Desert Survival"
 		short_description_key="challengeDesertHarvestCropShort" description_key="challengeDesertHarvestCropDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Harvest" item="resourceCropAloeLeaf" count="10" biome="desert"/>
+		<objective type="Harvest" item="resourceCropAloeLeaf" count="5" biome="desert"/>
 	</challenge>
 
 		<!-- *** 03_CRAFT_HARZARD_REDUCER -->
-	<challenge name="desertSurvivalUseReducer" title_key="challengeDesertUseReducer" icon="ui_game_symbol_cookware" group="Desert Survival"
-		short_description_key="challengeDesertUseReducerShort" description_key="challengeDesertUseReducerDesc"
+	<challenge name="desertSurvivalCraftReducer" title_key="challengeDesertCraftReducer" icon="ui_game_symbol_cookware" group="Desert Survival"
+		short_description_key="challengeDesertCraftReducerShort" description_key="challengeDesertCraftReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
 		<objective type="Craft" item="foodOasisSmoothie" count="1"/>
 	</challenge>
 
-		<!-- *** 04_HARVEST_ORE_IN_BIOME -->
-	<challenge name="desertSurvivalHarvestOre" title_key="challengeDesertHarvestOre" icon="ui_game_symbol_mining" group="Desert Survival"
-		short_description_key="challengeDesertHarvestOreShort" description_key="challengeDesertHarvestOreDesc"
+		<!-- *** 04_USE_HARZARD_REDUCER -->
+	<challenge name="desertSurvivalUseReducer" title_key="challengeDesertUseReducer" icon="ui_game_symbol_thirst" group="Desert Survival"
+		short_description_key="challengeDesertUseReducerShort" description_key="challengeDesertUseReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Harvest" item="resourceOilShale" count="500" block_tag="ore" biome="desert"/>
+		<objective type="UseItem" item="foodOasisSmoothie" count="1"/>
 	</challenge>
 
 		<!-- *** 05_KILL_ZOMBIE_IN_BIOME -->
@@ -942,49 +950,52 @@
 		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,burnt,snow,wasteland" target_name_key="xuiZombies" count="10" biome="desert"/>
 	</challenge>
 
-		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->
-	<challenge name="desertSurvivalLoot" title_key="challengeDesertLoot" icon="ui_game_symbol_loot_sack" group="Desert Survival"
-		short_description_key="challengeDesertLootShort" description_key="challengeDesertLootDesc"
+		<!-- *** 06_HARVEST_ORE_IN_BIOME -->
+	<challenge name="desertSurvivalHarvestOre" title_key="challengeDesertHarvestOre" icon="ui_game_symbol_mining" group="Desert Survival"
+		short_description_key="challengeDesertHarvestOreShort" description_key="challengeDesertHarvestOreDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="LootContainer" count="10" biome="desert"/>
+		<objective type="Harvest" item="resourceOilShale" count="250" biome="desert"/>
 	</challenge>
 
-		<!-- *** 07_SURVIVE_MINUTES_IN_BIOME -->
-	<challenge name="desertSurvivalMinutes" title_key="challengeDesertSurvivalMinutes" icon="ui_game_symbol_clock" group="Desert Survival"
-		short_description_key="challengeDesertSurvivalMinutesShort" description_key="challengeDesertSurvivalMinutesDesc"
-		reward_text_key="challenge_reward_10000xp" reward_event="challenge_reward_10000">
-		<objective type="Time" max_time="1200" biome="desert"/>
+		<!-- *** 07_GATHER_FOR_GEAR -->
+	<challenge name="desertSurvivalGatherGear" title_key="challengeDesertGatherGear" icon="ui_game_symbol_assemble" group="Desert Survival"
+		short_description_key="challengeDesertGatherGearShort" description_key="challengeDesertGatherGearDesc"
+		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
+		<objective type="Gather" item="resourceArmorCraftingKit" count="1"/>
+		<objective type="Gather" item="resourceScrapPolymers" count="20"/>
+		<objective type="Gather" item="resourceCloth" count="20"/>
+		<objective type="Gather" item="resourceLeather" count="10"/>
+		<objective type="Gather" item="resourceScopeLens" count="2"/>
 	</challenge>
-
 
 	<!-- *** SNOW_CHALLENGES -->
-		<!-- *** 01_WEAR_ARMOR_ITEM -->
-	<challenge name="snowSurvivalWearArmor" title_key="challengeSnowWearArmor" icon="ui_game_symbol_armor_iron" group="Snow Survival"
-		short_description_key="challengeSnowWearArmorShort" description_key="challengeSnowWearArmorDesc"
-		hint="challengeSnowWearArmorHint1"
+		<!-- *** 01_FIND_OR_BUILD_SHELTER -->
+	<challenge name="snowSurvivalShelter" title_key="challengeSnowShelter" icon="ui_game_symbol_map_house" group="Snow Survival"
+		short_description_key="challengeSnowShelterShort" description_key="challengeSnowShelterDesc"
+		hint="challengeSnowShelterHint1"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Wear" wear_name_key="biomeBadge2" tags="biomeBadge2"/>
+		<objective type="ChallengeStatAwarded" challenge_stat="challengeStatSnowShelter" count="1" stat_text_key="challengeStatSnowShelterDesc"/>
 	</challenge>
 
 		<!-- *** 02_HARVEST_CROP_IN_BIOME -->
 	<challenge name="snowSurvivalHarvestCrop" title_key="challengeSnowHarvestCrop" icon="ui_game_symbol_crops" group="Snow Survival"
 		short_description_key="challengeSnowHarvestCropShort" description_key="challengeSnowHarvestCropDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Harvest" item="foodCropBlueberries" count="15" biome="snow"/>
+		<objective type="Harvest" item="foodCropBlueberries" count="5" biome="snow"/>
 	</challenge>
 
 		<!-- *** 03_CRAFT_HARZARD_REDUCER -->
-	<challenge name="snowSurvivalUseReducer" title_key="challengeSnowUseReducer" icon="ui_game_symbol_cookware" group="Snow Survival"
-		short_description_key="challengeSnowUseReducerShort" description_key="challengeSnowUseReducerDesc"
+	<challenge name="snowSurvivalCraftReducer" title_key="challengeSnowCraftReducer" icon="ui_game_symbol_cookware" group="Snow Survival"
+		short_description_key="challengeSnowCraftReducerShort" description_key="challengeSnowCraftReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
 		<objective type="Craft" item="foodFrostbiteSmoothie" count="1"/>
 	</challenge>
 
-		<!-- *** 04_HARVEST_ORE_IN_BIOME -->
-	<challenge name="snowSurvivalHarvestOre" title_key="challengeSnowHarvestOre" icon="ui_game_symbol_mining" group="Snow Survival"
-		short_description_key="challengeSnowHarvestOreShort" description_key="challengeSnowHarvestOreDesc"
+		<!-- *** 04_USE_HARZARD_REDUCER -->
+	<challenge name="snowSurvivalUseReducer" title_key="challengeSnowUseReducer" icon="ui_game_symbol_hunger" group="Snow Survival"
+		short_description_key="challengeSnowUseReducerShort" description_key="challengeSnowUseReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Harvest" item="resourceCoal" count="500" block_tag="ore" biome="snow"/>
+		<objective type="UseItem" item="foodFrostbiteSmoothie" count="1"/>
 	</challenge>
 
 		<!-- *** 05_KILL_ZOMBIE_IN_BIOME -->
@@ -995,49 +1006,53 @@
 		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,burnt,desert,wasteland" target_name_key="xuiZombies" count="15" biome="snow"/>
 	</challenge>
 
-		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->
-	<challenge name="snowSurvivalLoot" title_key="challengeSnowLoot" icon="ui_game_symbol_loot_sack" group="Snow Survival"
-		short_description_key="challengeSnowLootShort" description_key="challengeSnowLootDesc"
+		<!-- *** 06_HARVEST_ORE_IN_BIOME -->
+	<challenge name="snowSurvivalHarvestOre" title_key="challengeSnowHarvestOre" icon="ui_game_symbol_mining" group="Snow Survival"
+		short_description_key="challengeSnowHarvestOreShort" description_key="challengeSnowHarvestOreDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="LootContainer" count="15" biome="snow"/>
+		<objective type="Harvest" item="resourceCoal" count="250" biome="snow"/>
 	</challenge>
 
-		<!-- *** 07_SURVIVE_MINUTES_IN_BIOME -->
-	<challenge name="snowSurvivalMinutes" title_key="challengeSnowSurvivalMinutes" icon="ui_game_symbol_clock" group="Snow Survival"
-		short_description_key="challengeSnowSurvivalMinutesShort" description_key="challengeSnowSurvivalMinutesDesc"
-		reward_text_key="challenge_reward_10000xp" reward_event="challenge_reward_10000">
-		<objective type="Time" max_time="1500" biome="snow"/>
+		<!-- *** 07_GATHER_FOR_GEAR -->
+	<challenge name="snowSurvivalGatherGear" title_key="challengeSnowGatherGear" icon="ui_game_symbol_assemble" group="Snow Survival"
+		short_description_key="challengeSnowGatherGearShort" description_key="challengeSnowGatherGearDesc"
+		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
+		<objective type="Gather" item="resourceArmorCraftingKit" count="1"/>
+		<objective type="Gather" item="resourceScrapPolymers" count="20"/>
+		<objective type="Gather" item="resourceCloth" count="20"/>
+		<objective type="Gather" item="resourceLeather" count="10"/>
+		<objective type="Gather" item="resourceCropCottonPlant" count="50"/>
 	</challenge>
 
 
 	<!-- *** WASTELAND_CHALLENGES -->
-		<!-- *** 01_WEAR_ARMOR_ITEM -->
-	<challenge name="wastelandSurvivalWearArmor" title_key="challengeWastelandWearArmor" icon="ui_game_symbol_armor_iron" group="Wasteland Survival"
-		short_description_key="challengeWastelandWearArmorShort" description_key="challengeWastelandWearArmorDesc"
-		hint="challengeWastelandWearArmorHint1"
+		<!-- *** 01_FIND_OR_BUILD_SHELTER -->
+	<challenge name="wastelandSurvivalShelter" title_key="challengeWastelandShelter" icon="ui_game_symbol_map_house" group="Wasteland Survival"
+		short_description_key="challengeWastelandShelterShort" description_key="challengeWastelandShelterDesc"
+		hint="challengeWastelandShelterHint1"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Wear" wear_name_key="biomeBadge3" tags="biomeBadge3"/>
+		<objective type="ChallengeStatAwarded" challenge_stat="challengeStatWastelandShelter" count="1" stat_text_key="challengeStatWastelandShelterDesc"/>
 	</challenge>
 
 		<!-- *** 02_HARVEST_CROP_IN_BIOME -->
 	<challenge name="wastelandSurvivalHarvestCrop" title_key="challengeWastelandHarvestCrop" icon="ui_game_symbol_crops" group="Wasteland Survival"
 		short_description_key="challengeWastelandHarvestCropShort" description_key="challengeWastelandHarvestCropDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Harvest" item="foodCropMushroomsRadiated" count="20" biome="wasteland"/>
+		<objective type="Harvest" item="foodCropMushroomsRadiated" count="5" biome="wasteland"/>
 	</challenge>
 
 		<!-- *** 03_CRAFT_HARZARD_REDUCER -->
-	<challenge name="wastelandSurvivalUseReducer" title_key="challengeWastelandUseReducer" icon="ui_game_symbol_cookware" group="Wasteland Survival"
-		short_description_key="challengeWastelandUseReducerShort" description_key="challengeWastelandUseReducerDesc"
+	<challenge name="wastelandSurvivalCraftReducer" title_key="challengeWastelandCraftReducer" icon="ui_game_symbol_cookware" group="Wasteland Survival"
+		short_description_key="challengeWastelandCraftReducerShort" description_key="challengeWastelandCraftReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
 		<objective type="Craft" item="foodAtomicSmoothie" count="1"/>
 	</challenge>
 
-		<!-- *** 04_HARVEST_ORE_IN_BIOME -->
-	<challenge name="wastelandSurvivalHarvestOre" title_key="challengeWastelandHarvestOre" icon="ui_game_symbol_mining" group="Wasteland Survival"
-		short_description_key="challengeWastelandHarvestOreShort" description_key="challengeWastelandHarvestOreDesc"
+		<!-- *** 04_USE_HARZARD_REDUCER -->
+	<challenge name="wastelandSurvivalUseReducer" title_key="challengeWastelandUseReducer" icon="ui_game_symbol_steroids" group="Wasteland Survival"
+		short_description_key="challengeWastelandUseReducerShort" description_key="challengeWastelandUseReducerDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Harvest" item="resourceScrapLead" count="500" block_tag="ore" biome="wasteland"/>
+		<objective type="UseItem" item="foodAtomicSmoothie" count="1"/>
 	</challenge>
 
 		<!-- *** 05_KILL_ZOMBIE_IN_BIOME -->
@@ -1048,18 +1063,22 @@
 		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,burnt,desert,snow" target_name_key="xuiZombies" count="20" biome="wasteland"/>
 	</challenge>
 
-		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->
-	<challenge name="wastelandSurvivalLoot" title_key="challengeWastelandLoot" icon="ui_game_symbol_loot_sack" group="Wasteland Survival"
-		short_description_key="challengeWastelandLootShort" description_key="challengeWastelandLootDesc"
+		<!-- *** 06_HARVEST_ORE_IN_BIOME -->
+	<challenge name="wastelandSurvivalHarvestOre" title_key="challengeWastelandHarvestOre" icon="ui_game_symbol_mining" group="Wasteland Survival"
+		short_description_key="challengeWastelandHarvestOreShort" description_key="challengeWastelandHarvestOreDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="LootContainer" count="20" biome="wasteland"/>
+		<objective type="Harvest" item="resourceScrapLead" count="250" biome="wasteland"/>
 	</challenge>
 
-		<!-- *** 07_SURVIVE_MINUTES_IN_BIOME -->
-	<challenge name="wastelandSurvivalMinutes" title_key="challengeWastelandSurvivalMinutes" icon="ui_game_symbol_clock" group="Wasteland Survival"
-		short_description_key="challengeWastelandSurvivalMinutesShort" description_key="challengeWastelandSurvivalMinutesDesc"
-		reward_text_key="challenge_reward_10000xp" reward_event="challenge_reward_10000">
-		<objective type="Time" max_time="1800" biome="wasteland"/>
+		<!-- *** 07_GATHER_FOR_GEAR -->
+	<challenge name="wastelandSurvivalGatherGear" title_key="challengeWastelandGatherGear" icon="ui_game_symbol_assemble" group="Wasteland Survival"
+		short_description_key="challengeWastelandGatherGearShort" description_key="challengeWastelandGatherGearDesc"
+		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
+		<objective type="Gather" item="resourceArmorCraftingKit" count="1"/>
+		<objective type="Gather" item="resourceScrapPolymers" count="20"/>
+		<objective type="Gather" item="resourceCloth" count="20"/>
+		<objective type="Gather" item="resourceLeather" count="10"/>
+		<objective type="Gather" item="resourceForgedSteel" count="10"/>
 	</challenge>
 
 

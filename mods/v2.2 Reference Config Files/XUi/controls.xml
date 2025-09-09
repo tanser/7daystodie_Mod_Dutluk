@@ -256,15 +256,15 @@
 	</equipment_stack_sdcs>
 
 	<equipment_weather_stack>
-		<rect depth="1" controller="EquipmentStack" style="itemStack, hover" tooltip="test" allow_remove_item="false">
-			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="83" height="83" color="[black]" type="sliced" fillcenter="false"/>
-			<sprite depth="3" name="background" sprite="menu_empty3px" width="78" height="78" color="{selectionbordercolor}" type="sliced" fillcenter="false"/>
-			<sprite depth="2" name="highlightOverlay" width="76" height="76" color="[mediumGrey]" pos="1,-1" type="sliced" globalopacity="true"/>
-			<sprite depth="8" name="itemIcon" width="74" height="74" atlas="ItemIconAtlas" sprite="campfire" pos="39,-39" pivot="center" foregroundlayer="true"/>
-			<sprite depth="8" name="lockTypeIcon" width="34" height="34" sprite="" pos="2,-12" foregroundlayer="true"/>
-			<sprite depth="3" name="durabilityBackground" width="74" height="10" color="[darkGrey]" type="sliced" pos="2, -66" foregroundlayer="true"/>
-			<filledsprite depth="4" name="durability" width="74" height="10" color="[transparent]" type="filled" pos="2, -66" foregroundlayer="true"/>
-			<label depth="7" name="stackValue" pos="0,-50" width="78" height="28" text="" font_size="26" justify="center"/>
+		<rect depth="1" controller="EquipmentStack" style="itemStack, hover" tooltip="test" allow_remove_item="true" width="43" height="43" pos="0,-41">
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="43" height="43" color="[black]" type="sliced" fillcenter="false"/>
+			<sprite depth="3" name="background" sprite="menu_empty3px" width="38" height="38" color="{selectionbordercolor}" type="sliced" fillcenter="false"/>
+			<sprite depth="2" name="highlightOverlay" width="36" height="36" color="[mediumGrey]" pos="1,-1" type="sliced" globalopacity="true"/>
+			<sprite depth="8" name="itemIcon" width="34" height="34" atlas="ItemIconAtlas" sprite="campfire" pos="18,-18" pivot="center" foregroundlayer="true"/>
+			<sprite depth="8" name="lockTypeIcon" width="17" height="17" sprite="" pos="2,-12" foregroundlayer="true"/>
+			<sprite depth="3" name="durabilityBackground" width="34" height="10" color="[darkGrey]" type="sliced" pos="2, -33" foregroundlayer="true"/>
+			<filledsprite depth="4" name="durability" width="34" height="10" color="[transparent]" type="filled" pos="2, -33" foregroundlayer="true"/>
+			<label depth="7" name="stackValue" pos="0,-50" width="38" height="28" text="" font_size="26" justify="center"/>
 		</rect>
 	</equipment_weather_stack>
 
@@ -751,14 +751,14 @@
 	</challenge_entry>
 	
 	<weather_challenge_entry>
-		<rect width="58" height="58" style="itemStack, hover, scroll" collider_scale="1.0" sound_play_on_hover="[default_hover]" controller="ChallengeEntry" enabled_color="[labelColor]" disabled_color="[disabledLabelColor]" failed_color="255,0,0,255" row_color="[mediumGrey]" hover_color="[lightGrey]" selected_color="222,206,163,255" > <!-- visible="{hasentry}" -->
-			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-1,1" width="60" height="60" color="[black]" type="sliced" fillcenter="false" />
-			<sprite depth="2" name="highlightOverlay" width="54" height="54" color="[mediumGrey]" pos="2,-2" type="sliced" globalopacity="true"/>
-			<sprite depth="3" name="background" sprite="menu_empty3px" width="54" height="54" pos="2,-2" color="{rowstatecolor}" type="sliced" globalopacity="true" fillcenter="false"/> 
+		<rect width="68" height="68" style="itemStack, hover, scroll" collider_scale="1.0" sound_play_on_hover="[default_hover]" controller="ChallengeEntry" enabled_color="[labelColor]" disabled_color="[disabledLabelColor]" failed_color="255,0,0,255" row_color="[mediumGrey]" hover_color="[lightGrey]" selected_color="222,206,163,255" > <!-- visible="{hasentry}" -->
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-1,1" width="70" height="70" color="[black]" type="sliced" fillcenter="false" />
+			<sprite depth="2" name="highlightOverlay" width="64" height="64" color="[mediumGrey]" pos="2,-2" type="sliced" globalopacity="true"/>
+			<sprite depth="3" name="background" sprite="menu_empty3px" width="64" height="64" pos="2,-2" color="{rowstatecolor}" type="sliced" globalopacity="true" fillcenter="false"/> 
 			
-			<sprite depth="6" name="itemIcon" width="48" height="48" sprite="{iconname}" color="{iconcolor}" pos="30,-30" pivot="center" foregroundlayer="true"/>
+			<sprite depth="6" name="itemIcon" width="58" height="58" sprite="{iconname}" color="{iconcolor}" pos="35,-35" pivot="center" foregroundlayer="true"/>
 
-			<rect width="60" height="6" pos="-1,-58" visible="{fillactive}"  > 
+			<rect width="70" height="6" pos="-1,-68" visible="{fillactive}"  > 
 				<sprite depth="1" name="border" color="0,0,0,150" type="sliced" />
 				<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 				
@@ -770,14 +770,15 @@
 	</weather_challenge_entry>
 	
 	<weather_challenge_entry2>
-		<rect width="78" height="78" style="itemStack, hover, scroll" collider_scale="1.0" sound_play_on_hover="[default_hover]" controller="ChallengeEntry" enabled_color="[labelColor]" disabled_color="[disabledLabelColor]" failed_color="255,0,0,255" row_color="[mediumGrey]" hover_color="[lightGrey]" selected_color="222,206,163,255" > <!-- visible="{hasentry}" -->
-			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-1,1" width="80" height="80" color="[black]" type="sliced" fillcenter="false" />
-			<sprite depth="2" name="highlightOverlay" width="74" height="74" color="[mediumGrey]" pos="2,-2" type="sliced" globalopacity="true"/>
-			<sprite depth="3" name="background" sprite="menu_empty3px" width="74" height="74" pos="2,-2" color="{rowstatecolor}" type="sliced" globalopacity="true" fillcenter="false"/> 
+	
+		<rect width="58" height="58" style="itemStack, hover, scroll" collider_scale="1.0" sound_play_on_hover="[default_hover]" controller="ChallengeEntry" enabled_color="[labelColor]" disabled_color="[disabledLabelColor]" failed_color="255,0,0,255" row_color="[mediumGrey]" hover_color="[lightGrey]" selected_color="222,206,163,255" > <!-- visible="{hasentry}" -->
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-1,1" width="60" height="60" color="[black]" type="sliced" fillcenter="false" />
+			<sprite depth="2" name="highlightOverlay" width="54" height="54" color="[mediumGrey]" pos="2,-2" type="sliced" globalopacity="true"/>
+			<sprite depth="3" name="background" sprite="menu_empty3px" width="54" height="54" pos="2,-2" color="{rowstatecolor}" type="sliced" globalopacity="true" fillcenter="false"/> 
 			
-			<sprite depth="6" name="itemIcon" width="68" height="68" sprite="{iconname}" color="{iconcolor}" pos="40,-40" pivot="center" foregroundlayer="true"/>
+			<sprite depth="6" name="itemIcon" width="48" height="48" sprite="{iconname}" color="{iconcolor}" pos="30,-30" pivot="center" foregroundlayer="true"/>
 
-			<rect width="80" height="6" pos="-1,-78" visible="{fillactive}"  > 
+			<rect width="60" height="6" pos="-1,-58" visible="{fillactive}"  > 
 				<sprite depth="1" name="border" color="0,0,0,150" type="sliced" />
 				<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 				
@@ -815,9 +816,11 @@
 			<label depth="4" pos="300,-8" width="330" height="40" text="{groupreward}" color="[selectedColor]" justify="right" />
 			
 			
-			<grid depth="6" name="newList" rows="1" cols="7" pos="35,-55" width="650" height="80" cell_width="83" cell_height="83" repeat_content="true" arrangement="horizontal" controller="ChallengeEntryList">
+			<grid depth="6" name="newList" rows="1" cols="7" pos="35,-50" width="650" height="80" cell_width="83" cell_height="83" repeat_content="true" arrangement="horizontal" controller="ChallengeEntryList">
 				<weather_challenge_entry name="0" />
 			</grid>
+			
+			<label depth="4" pos="10,-133" width="630" height="40" text="{groupobjective}" color="[disabledLabelColor]" />
 		</rect>
 	</weather_challenge_list_entry>
 	

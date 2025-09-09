@@ -180,8 +180,8 @@
 		</panel>
 	</confirmation_prompt>
 	
-	<player_name width="175" height="46">
-		<rect controller="PlayerName" name="playerName" pos="0,0" width="${width}" height="${height}" on_press="true" disablefallthrough="true">
+	<player_name width="175" height="46" pos="0,0">
+		<rect controller="PlayerName" name="playerName" pos="${pos}" width="${width}" height="${height}" on_press="true" disablefallthrough="true">
 			<label depth="1" name="name" pos="5,-23" width="${width}" height="${height}" text="" font_size="26" pivot="left" justify="left"/>
 			<sprite name="iconCrossplay" depth="50" width="25" height="25" pos="5,-10" globalopacity="false"/>
 			<label depth="1" name="nameCrossplay" pos="40,-23" width="${width-40}" height="${height}" text="" font_size="26" pivot="left" justify="left" />

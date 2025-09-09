@@ -135,6 +135,17 @@
 			<property name="text" value="Your Player challenges have been reset!" />
 		</action>
 	</action_sequence>
+	
+	<action_sequence name="game_player_skip_tutorial_challenges">
+		<action class="CompleteChallenge">
+			<property name="challenges" value="redeemChallenge,gatherResources,craftStoneAxe,gatherResourcesStoneAxe,craftClothes,wearClothes,craftWoodClub,craftBow,craftArrows,groupCompleteChallenge" />
+			<property name="force_redeem" value="true" />
+		</action>
+
+		<action class="BeltTooltip">
+			<property name="text" value="Skipped the tutorial!" />
+		</action>
+	</action_sequence>
 
 	<!-- *** GAME_ON_SPAWN -->
 	<!-- Trigger events when the player spawns in-game each time -->
@@ -932,23 +943,37 @@
 <!-- **** PAGE_03_BIOMES_CHALLENGE_REWARDS -->
 
 	<!-- *** BURNT_FOREST_REWARD -->
-	<action_sequence name="challenge_group_reward_burnt" template="challenge_group_reward_homesteading">
-		<variable name="quest" value="challengegroup_reward_burnt" />
+	<action_sequence name="challenge_group_reward_burnt">
+		<property name="action_type" value="Game" />
+
+		<action class="ModifyCVar">
+			<property name="cvar" value="biomeWeatherItem1" param1="cvar" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+
+		<action class="BeltTooltip">
+			<property name="text_key" value="challengeBiomeRewardTooltip" />
+		</action>
+
+		<action class="AddXP">
+			<property name="xp_amount" value="10000" />
+		</action>
 	</action_sequence>
 
 	<!-- *** DESERT_REWARD -->
-	<action_sequence name="challenge_group_reward_desert" template="challenge_group_reward_homesteading">
-		<variable name="quest" value="challengegroup_reward_desert" />
+	<action_sequence name="challenge_group_reward_desert" template="challenge_group_reward_burnt">
+		<variable name="cvar" value="biomeWeatherItem2" />
 	</action_sequence>
 
 	<!-- *** SNOW_REWARD -->
-	<action_sequence name="challenge_group_reward_snow" template="challenge_group_reward_homesteading">
-		<variable name="quest" value="challengegroup_reward_snow" />
+	<action_sequence name="challenge_group_reward_snow" template="challenge_group_reward_burnt">
+		<variable name="cvar" value="biomeWeatherItem3" />
 	</action_sequence>
 
 	<!-- *** WASTELAND_REWARD -->
-	<action_sequence name="challenge_group_reward_wasteland" template="challenge_group_reward_homesteading">
-		<variable name="quest" value="challengegroup_reward_wasteland" />
+	<action_sequence name="challenge_group_reward_wasteland" template="challenge_group_reward_burnt">
+		<variable name="cvar" value="biomeWeatherItem4" />
 	</action_sequence>
 
 
@@ -1147,7 +1172,7 @@
 	</action_sequence>
 
 	<!-- *** BLOCK_TREE_STUMP_BEES -->
-	<!-- Use on the tree stumps -->
+	<!-- Used on tree stumps -->
 	<action_sequence name="block_tree_stump_bees">
 		<property name="action_type" value="Game"/>
 		<property name="target_type" value="Block"/>
@@ -1155,20 +1180,36 @@
 		<requirement class="RandomRoll">
 			<property name="min_max" value="0,100"/>
 			<property name="operation" value="LTE"/>
-			<property name="value" value="10"/>
+			<property name="value" value="20"/>
 		</requirement>
-		<action class="SpawnEntity">
-			<property name="entity_names" value="animalInsectSwarm"/>
-			<property name="single_choice" value="true"/>
-			<property name="spawn_count" value="1"/>
-			<property name="phase" value="0"/>
-			<property name="add_to_group" value="zombies"/>
-			<property name="safe_spawn" value="true"/>
-			<property name="min_distance" value="2"/>
-			<property name="max_distance" value="3"/>
-			<property name="spawn_type" value="Position"/>
-			<property name="is_aggressive" value="true"/>
-		</action>
+
+			<action class="SpawnEntity">
+				<property name="entity_names" value="animalBeeSwarm"/>
+				<property name="single_choice" value="true"/>
+				<property name="spawn_count" value="1"/>
+				<property name="phase" value="0"/>
+				<property name="add_to_group" value="zombies"/>
+				<property name="safe_spawn" value="true"/>
+				<property name="min_distance" value="2"/>
+				<property name="max_distance" value="3"/>
+				<property name="spawn_type" value="Position"/>
+				<property name="is_aggressive" value="true"/>
+
+				<requirement class="RandomRoll">
+					<property name="min_max" value="0,100"/>
+					<property name="operation" value="LTE"/>
+					<property name="value" value="80"/>
+				</requirement>
+			</action>
+
+			<action class="AddItems">
+				<property name="added_items" value="foodHoney"/>
+				<property name="added_item_counts" value="1"/>
+			</action>
+
+			<action class="AddBuff">
+				<property name="buff_name" value="buffHarvestHoney"/>
+			</action>
 	</action_sequence>
 
 	<!-- *** ZOMBIE_SPAWN_BLOCK -->
@@ -1261,7 +1302,7 @@
 			<property name="phase" value="1" />
 		</action>
 	</action_sequence>
-
+	
 	<!-- *** SPAWN_GROUP_TEMPLATE -->
 	<!-- Spawns a group -->
 	<action_sequence name="spawn_group">
@@ -1627,7 +1668,7 @@
 
 		<action class="SpawnEntity">
 			<property name="entity_names" value="animalCoyote" param1="zombiename" />
-			<property name="spawn_count" value="1" />
+			<property name="spawn_count" value="1" param1="spawncount1" />
 
 			<requirement class="Gamestage">
 				<property name="operation" value="GT" />
@@ -1637,7 +1678,7 @@
 
 		<action class="SpawnEntity">
 			<property name="entity_names" value="animalCoyote" param1="zombiename" />
-			<property name="spawn_count" value="1" />
+			<property name="spawn_count" value="1" param1="spawncount2" />
 
 			<requirement class="Gamestage">
 				<property name="operation" value="GTE" />
@@ -1796,6 +1837,39 @@
 		<action class="PlaySound">
 			<property name="sound" value="twitch_good_spawn" />
 			<property name="phase" value="1" />
+		</action>
+	</action_sequence>
+	
+	<!-- *** SPAWN_BOXSPAWNS_TEMPLATE -->
+	<action_sequence name="spawn_boxspawns_template">
+		<property name="allow_user_trigger" value="false" />
+		<property name="category" value="twitch_actions" />
+
+		<action class="Delay">
+			<property name="time" value=".5" />
+		</action>
+
+		<action class="CloseWindow">
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalBear" param1="zombiename" />
+			<property name="spawn_count" value="1" param1="spawncount" />
+			<property name="air_spawn" value="false" param1="airspawn" />
+			<property name="min_distance" value="2" />
+			<property name="max_distance" value="4" />
+			<property name="phase" value="2" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="twitch_bad_spawn" />
+			<property name="phase" value="3" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="bearalert" param1="alertsound" />
+			<property name="phase" value="3" />
 		</action>
 	</action_sequence>
 
@@ -2460,6 +2534,25 @@
 		<variable name="alertsound" value="Animals/Chicken/chickenpain" />
 		<variable name="gamestage1" value="55" />
 		<variable name="gamestage2" value="125" />
+	</action_sequence>
+	
+	<!-- *** SPAWN_BEAR -->
+	<action_sequence name="spawn_bear_box" template="spawn_boxspawns_template">
+		<variable name="zombiename" value="animalBear" />
+		<variable name="alertsound" value="bearalert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_chicken_box" template="spawn_boxspawns_template">
+		<variable name="zombiename" value="animalChickenHostile" />
+		<variable name="alertsound" value="Animals/Chicken/chickenpain" />
+		<variable name="spawncount" value="3" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_vulture_box" template="spawn_boxspawns_template">
+		<variable name="zombiename" value="animalZombieVulture" />
+		<variable name="alertsound" value="vulturealert" />
+		<variable name="airspawn" value="true" />
+		<variable name="spawncount" value="3" />
 	</action_sequence>
 	
 	 <!-- Trio Spawns -->
@@ -3515,9 +3608,6 @@
 		<variable name="override_name" value="TwitchAction_SupplyDrinkLarge" />
 		<variable name="override_loot_list" value="twitch_bitonlydrinklarge" />
 	</action_sequence>
-	
-	
-	
 	
 		<!-- *** SPAWN_OTHER BIT ONLY -->
 	
@@ -11515,6 +11605,22 @@
 			<property name="sound" value="twitch_weather_fog" />
 		</action>
 	</action_sequence>
+	
+	<!-- *** ACTION_STORM_BREWING -->
+	<action_sequence name="action_storm_brewing">
+		<requirement class="IsWeatherGracePeriod">
+			<property name="invert" value="true" />
+		</requirement>
+
+		<action class="SetStorm">
+			<property name="time" value="2" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="phase" value="1" />
+			<property name="sound" value="twitch_weather_rain" />
+		</action>
+	</action_sequence>
 
 <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- **** TWITCH_EVENT_SYSTEM_EXAMPLES -->
@@ -12748,6 +12854,10 @@
 			items - Comma delimited list for items to be added. Must have matching entry in the item_counts.
 			item_counts - Comma delimited list for item counts to be added. Must have matching entry in the items.
 			slot_numbers - Comma delimited list for slot numbers. Must have matching entry in the items.
+
+		SetInvestigationPosition - Sets a position for a targeted zombie to investigate.
+			time - Time in seconds to investigate.
+			is_alert - If the zombie should be marked alerted.
 
 		SetWeather - Sets the global weather to the defined weather group.
 			weather_group - The weather group to set the world to.

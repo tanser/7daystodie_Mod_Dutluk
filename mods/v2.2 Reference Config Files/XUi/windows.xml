@@ -1115,7 +1115,12 @@
 					<texture depth="2" name="playerPreviewSDCS" material="Materials/Transparent Colored" size="327,622" globalopacity="false"/>
 				</rect>
 				<rect pos="3,-3">
-					<equipment_weather_stack name="biomeBadgeSlot" />
+					<grid depth="0" pos="0,0" width="41" cols="2" cell_width="41" cell_height="41" repeat_content="false" arrangement="horizontal">
+						<equipment_weather_stack name="biomeBadgeSlot1" />
+						<equipment_weather_stack name="biomeBadgeSlot2" />
+						<equipment_weather_stack name="biomeBadgeSlot3" />
+						<equipment_weather_stack name="biomeBadgeSlot4" />
+					</grid>
 				</rect>
 				<rect name="btnCosmetic" pos="243,0" depth="3" height="83" width="83">
 					<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" width="83" color="[black]" type="sliced" fillcenter="false" />
@@ -1391,10 +1396,10 @@
 		</panel>
 	</window>
 
-	<window name="mapAreaChooseWaypoint" depth="7" pos="200,-200" width="52" height="436" cursor_area="true" >
+	<window name="mapAreaChooseWaypoint" depth="7" pos="200,-200" width="104" height="436" cursor_area="true" >
 		<panel name="content" depth="0" pos="0,0" height="436" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
-			<grid name="list" rows="10" cols="1" pos="3,-3" width="46" height="430" cell_width="52" cell_height="43" repeat_content="true" arrangement="vertical" controller="MapSubPopupList">
+			<grid name="list" rows="10" cols="2" pos="3,-3" width="46" height="430" cell_width="52" cell_height="43" repeat_content="true" arrangement="vertical" controller="MapSubPopupList">
 				<map_popup_sub_line name="0"/>
 			</grid>
 		</panel>
@@ -3142,7 +3147,7 @@
 				<label depth="2" name="descriptionText" pos="10,-6" width="538" height="172" font_size="22" text="{entryshortdescription}" parse_actions="true" actions_default_format="( [e61a16]###[-] )"/>
 			</rect>
 
-			<grid name="objectives" pos="0,-173" rows="8" width="520" height="520" cell_width="520" cell_height="40" arrangement="vertical">
+			<grid name="objectives" pos="0,-173" rows="12" width="520" height="520" cell_width="520" cell_height="40" arrangement="vertical">
 			
 				<rect depth="2" width="520" height="30" visible="{hasobjective1}">
 					<rect pos="15,0">
@@ -3185,12 +3190,50 @@
 						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
 					</rect>
 				</rect>
+				<rect depth="2" width="520" height="30" visible="{hasobjective4}" >
+					<rect pos="15,0">
+						<sprite depth="1" name="border" color="0,0,0,150" height="30" type="sliced" />
+						<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+
+						<filledsprite depth="3" name="background" color="110,110,110,128" type="filled" fill="1" />
+
+						<filledsprite depth="4" name="BarContent" color="0,128,128,255" type="filled" fill="{objectivefill4}" />
+						<label depth="6" name="TextContent" pos="0,-4" font_size="20" color="[white]" justify="center" text="{objective4}"/>
+
+						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					</rect>
+				</rect>
+				<rect depth="2" width="520" height="30" visible="{hasobjective5}" >
+					<rect pos="15,0">
+						<sprite depth="1" name="border" color="0,0,0,150" height="30" type="sliced" />
+						<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+
+						<filledsprite depth="3" name="background" color="110,110,110,128" type="filled" fill="1" />
+
+						<filledsprite depth="4" name="BarContent" color="0,128,128,255" type="filled" fill="{objectivefill5}" />
+						<label depth="6" name="TextContent" pos="0,-4" font_size="20" color="[white]" justify="center" text="{objective5}"/>
+
+						<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					</rect>
+				</rect>
 			
 			
 				<rect name="rewardBox" depth="1" pos="0,-300" width="553" height="50" >
 					<!-- <sprite depth="1" name="background" color="[mediumGrey]" type="sliced"/> -->
 					<!-- <sprite depth="6" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="453" height="182" color="[black]" type="sliced" fillcenter="false" /> -->
 					<label depth="2" name="descriptionText" pos="10,-3" width="538" height="172" justify="center" font_size="22" text="{rewardtitle}: [DECEA3]{rewardtext}[-]" visible="{hasreward}"/>
+				</rect>
+				
+				<rect name="ChallengeBox5" depth="1" pos="0,-383" width="553" height="216" visible="{has5objective}" >
+					<sprite depth="1" name="background" color="0,0,0,145" type="sliced"/>
+					<sprite depth="6" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="553" height="216" color="[black]" type="sliced" fillcenter="false" />
+					<label depth="3" pos="9, -6" text="{entrydescription}"  width="530" height="213" font_size="26" parse_actions="true" actions_default_format="( [e61a16]###[-] )" />
+				</rect>
+				
+				<rect name="ChallengeBox4" depth="1" pos="0,-383" width="553" height="256" visible="{has4objective}" >
+					<sprite depth="1" name="background" color="0,0,0,145" type="sliced"/>
+					<sprite depth="6" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="553" height="256" color="[black]" type="sliced" fillcenter="false" />
+					<label depth="3" pos="9, -6" text="{entrydescription}"  width="530" height="253" font_size="26" parse_actions="true" actions_default_format="( [e61a16]###[-] )" />
 				</rect>
 
 				<rect name="ChallengeBox3" depth="1" pos="0,-383" width="553" height="296" visible="{has3objective}" >

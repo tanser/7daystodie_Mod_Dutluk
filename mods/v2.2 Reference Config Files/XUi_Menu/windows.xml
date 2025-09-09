@@ -1506,8 +1506,11 @@
 						<rect visible="{upscaler_mode_scale}">
 							<videooption name="DyScale" type="ComboBoxFloat" value_increment="0.05" value_wrap="false" format_string="0%" />
 						</rect>
-						<rect visible="{upscaler_mode_fsr}">
+						<rect name="upscaler_mode_fsr" visible="{upscaler_mode_fsr}">
 							<videooption name="FSRPreset" type="ComboBoxList`1[System.String]" values="UltraPerformance,Performance,Balanced,Quality,UltraQuality,NativeAA" localization_prefix="xuiOptionsVideoFSRPreset" value_wrap="false" format_string="0%" />
+						</rect>
+						<rect name="upscaler_mode_dlss" visible="{upscaler_mode_dlss}">
+							<videooption name="DLSSPreset" type="ComboBoxList`1[System.String]" values="UltraPerformance,Performance,Balanced,Quality,UltraQuality,DLAA" localization_prefix="xuiOptionsVideoFSRPreset" value_wrap="false" format_string="0%" />
 						</rect>
 
 						<videooption name="VSync" type="ComboBoxList`1[System.String]" values="Off,On,Half" localization_prefix="xuiOptionsVideoVsync" value_wrap="false" />

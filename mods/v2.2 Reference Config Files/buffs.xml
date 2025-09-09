@@ -82,6 +82,7 @@
 			<!-- Clear buff related CVars -->
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveCVar" cvar="healAbrasionMult,medicalRegHealthAmount,foodHealthAmount,$abrasionHealthMaxBlockage,$abrasionCounter,abrasionZombieHit,$buffDrugVitaminsDuration,$buffDrugPainkillersDuration,$buffDrugSteroidsDuration,$buffDrugRecogDuration,$buffDrugFortBitesDuration,$buffDrugAtomJunkiesDuration,$buffDrugCovertCatsDuration,$buffDrugEyeKandyDuration,$buffDrugHackersDuration,$buffDrugHealthBarDuration,$buffDrugJailBreakersDuration,$buffDrugNerdTatsDuration,$buffDrugOhShitzDropsDuration,$buffDrugRockBustersDuration,$buffDrugSkullCrushersDuration,$buffDrugSugarButtsDuration,$buffShamChowderDuration,$buffPumpkinCheesecakeDuration,$buffRedTeaDuration,$buffYuccaJuiceSmoothieDuration,$buffMegaCrushDuration,$buffCoffeeDuration,$buffCoffeeBSDuration,$buffBeerDuration,$buffGrandpasMoonshineDuration,$buffGrandpasAwesomeSauceDuration,$buffGrandpasLearningElixirDuration,$foodAmountAdd,$waterAmountAdd,$divideBlocker,$divideHealthBar"/>
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveCVar" cvar="$buffBurntSmoothieRunDuration,$buffOasisSmoothieRunDuration,$buffFrostbiteSmoothieRunDuration,$buffAtomicSmoothieRunDuration"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveCVar" cvar="$BurntStage01DMG,$BurntStage02DMG"/>
 
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffCountHits,buffFoodStaminaBonus,buffTrippy,buffInfectionImmunity,buffSpectersGrace"/>
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffBurntSmoothieRun,buffOasisSmoothieRun,buffFrostbiteSmoothieRun,buffAtomicSmoothieRun"/>
@@ -691,7 +692,7 @@
 		</effect_group>
 
 		<effect_group name="Loot Caps">
-			<!-- No longer used. Keep for modding use? -->
+			<!-- No longer used. Keep for modding use. -->
 			<!-- <triggered_effect trigger="onSelfBiomeLootStageMaxEntered" action="AddBuff" buff="buffLootStageCap"></triggered_effect> -->
 			<!-- <triggered_effect trigger="onSelfBiomeLootStageMaxExited" action="RemoveBuff" buff="buffLootStageCap"></triggered_effect> -->
 			
@@ -711,6 +712,22 @@
 
 		<effect_group>
 			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveCVar" cvar=".ArmorMediumWorn,.ArmorHeavyWorn,.ArmorLightWorn,.ArmorLightLevel"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveCVar" cvar="$BiomeBadgeLevel"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BiomeBadgeLevel" operation="set" value="1">
+				<requirement name="WornItems" tags="biomeBadge1" operation="GTE" value="1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BiomeBadgeLevel" operation="set" value="2">
+				<requirement name="WornItems" tags="biomeBadge2" operation="GTE" value="1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BiomeBadgeLevel" operation="set" value="3">
+				<requirement name="WornItems" tags="biomeBadge3" operation="GTE" value="1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BiomeBadgeLevel" operation="set" value="4">
+				<requirement name="WornItems" tags="biomeBadge4" operation="GTE" value="1"/>
+			</triggered_effect>
 		</effect_group>
 
 		<effect_group>
@@ -1436,6 +1453,18 @@
 	<!-- No longer used. Keep for old V2.1 B9 save game cleanup -->
 	<buff name="buffLootStageCap" name_key="buffLootStageCapName" description_key="buffLootStageCapDesc" icon="ui_game_loot_stage_bad" showonhud="false">
 		<stack_type value="ignore"/>
+	</buff>
+
+	<!-- *** buffHarvestHoney -->
+	<!-- TRIGGERED_BY: Game Event -->
+	<!-- Give challenge credit for harvesting honey with the tree stump game event -->
+	<buff name="buffHarvestHoney" name_key="buffHarvestHoneyName" description_key="buffHarvestHoneyDesc" icon="ui_game_symbol_challenge_harvesting_honey" icon_color="0,255,0" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+
+		<effect_group name="Honey Challenge">
+			<triggered_effect trigger="onSelfBuffStart" action="AwardChallenge" challenge_stat="harvestHoneyStat" count="1"/>
+		</effect_group>
 	</buff>
 
 <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -8762,6 +8791,14 @@
 		<duration value="0"/>
 	</buff>
 
+	<!-- *** buffInsulatedLiner -->
+	<!-- TRIGGERED_BY: item_modifiers = modArmorInsulatedLinerT1, 2, or 3 -->
+	<!-- Used as a requirement to test that the item is installed -->
+	<buff name="buffInsulatedLiner" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+	</buff>
+
 	<!-- *** buffJumpJetsAirborne -->
 	<!-- TRIGGERED_BY: item_modifiers = modArmorJumpJets -->
 	<!-- Admin item that increases run/walk speed while jumping in the air -->
@@ -10148,6 +10185,11 @@
 <!-- **** Biome Storm Buffs -->
 <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
+	<!-- *** Burnt Forest Storms -->
+
+	<!-- *** buffBurnt_Storm -->
+	<!-- TRIGGERED_BY: Biome -->
+	<!-- Burnt Forest storm handler -->
 	<buff name="buffBurnt_Storm" name_key="buffBurnt_StormName" description_key="buffBurnt_StormDesc" icon="ui_game_symbol_storm" icon_color="150,100,50" icon_blink="true">
 		<damage_type value="weather"/>
 		<update_rate value="1"/>
@@ -10197,7 +10239,12 @@
 		</effect_group>
 	</buff>
 
-	<buff name="buffDesert_Storm" name_key="buffDesert_StormName" description_key="buffDesert_StormDesc" icon="ui_game_symbol_storm" icon_color="200,200,100" icon_blink="true">
+	<!-- *** Desert Storms -->
+
+	<!-- *** buffDesert_Storm -->
+	<!-- TRIGGERED_BY: Biome -->
+	<!-- Desert storm handler -->
+	<buff name="buffDesert_Storm" name_key="buffDesert_StormName" description_key="buffDesert_StormDesc" icon="ui_game_symbol_storm" icon_color="200,200,0" icon_blink="true">
 		<damage_type value="weather"/>
 		<update_rate value="1"/>
 		<display_value value=".StormTimerDisplay"/>
@@ -10246,6 +10293,11 @@
 		</effect_group>
 	</buff>
 
+	<!-- *** Snow Storms -->
+
+	<!-- *** buffSnow_Storm -->
+	<!-- TRIGGERED_BY: Biome -->
+	<!-- Snow storm handler -->
 	<buff name="buffSnow_Storm" name_key="buffSnow_StormName" description_key="buffSnow_StormDesc" icon="ui_game_symbol_storm" icon_color="179,255,255" icon_blink="true">
 		<damage_type value="weather"/>
 		<update_rate value="1"/>
@@ -10295,6 +10347,11 @@
 		</effect_group>
 	</buff>
 
+	<!-- *** Wasteland Storms -->
+
+	<!-- *** buffWasteland_Storm -->
+	<!-- TRIGGERED_BY: Biome -->
+	<!-- Wasteland storm handler -->
 	<buff name="buffWasteland_Storm" name_key="buffWasteland_StormName" description_key="buffWasteland_StormDesc" icon="ui_game_symbol_storm" icon_color="100,255,100" icon_blink="true">
 		<damage_type value="weather"/>
 		<update_rate value="1"/>
@@ -10493,6 +10550,12 @@
 	<buff name="buffBurnt_Hazard" hidden="true" icon_color="150,100,50" required_game_stat="BiomeProgression">
 		<duration value="0"/>
 
+		<effect_group name="Shelter Challenge">
+			<requirement name="InBiome" biome="9"/><!-- burnt_forest -->
+			<requirement name="IsSheltered"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AwardChallenge" challenge_stat="challengeStatBurntShelter" count="1"/>
+		</effect_group>
+
 		<effect_group name="Remove Buffs">
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffBurnt_Hazard_Recover"/>
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffForest_Hazard,buffDesert_Hazard,buffSnow_Hazard,buffWasteland_Hazard"/>
@@ -10507,11 +10570,19 @@
 				<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="GT" value="@$BurntHazardTimerMax"/>
 			</triggered_effect>
 
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffBurnt_Hazard_Recover">
+				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="IsSheltered"/>
+				<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax"/>
+			</triggered_effect>
+
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffBurnt_Hazard01">
 				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="!IsSheltered"/>
 				<requirement name="CVarCompare" cvar="$BurntHazardTimerMax" operation="GT" value="0"/>
 				<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LTE" value="@$BurntHazardTimerMax"/>
 				<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="GT" value="0"/>
+				<requirement name="WornItems" tags="biomeBadge1" operation="LT" value="1"/>
 			</triggered_effect>
 
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffBurnt_Hazard02">
@@ -10524,10 +10595,43 @@
 			<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffBurnt_Hazard02"/>
 		</effect_group>
 
+		<effect_group name="Recover Burnt In Shelter">
+			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimer"/>
+		</effect_group>
+
+		<effect_group name="Recover Burnt Over">
+			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="GT" value="@$BurntHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffBurnt_Hazard_Over">
+					<requirement name="CVarCompare" cvar="$BurntHazardTimerMax" operation="GT" value="0"/>
+				</triggered_effect>
+		</effect_group>
+
+		<effect_group name="Recover Burnt Done">
+			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="GTE" value="@$BurntHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurnt_Hazard_Recover"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffBurnt_Hazard_Recover"/>
+		</effect_group>
+
+		<effect_group name="Reset Timer and Display Burnt Done">
+			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="GTE" value="@$BurntHazardTimerMax"/>
+			<requirement name="!HasBuff" buff="buffBurnt_Hazard_Over"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="set" value="@$BurntHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimerMax"/>
+		</effect_group>
+
 		<effect_group name="Update Time">
 			<requirement name="!HasBuff" buff="god"/>
+			<requirement name="!IsSheltered"/>
 			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="GT" value="0"/>
 			<requirement name="CVarCompare" cvar="$BurntHazardTimerMax" operation="GT" value="0"/>
+			<requirement name="WornItems" tags="biomeBadge1" operation="LT" value="1"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="subtract" value="1"/>
 		</effect_group>
 
@@ -10725,6 +10829,12 @@
 	<buff name="buffDesert_Hazard" hidden="true" icon_color="200,200,0" required_game_stat="BiomeProgression">
 		<duration value="0"/>
 
+		<effect_group name="Shelter Challenge">
+			<requirement name="InBiome" biome="5"/><!-- desert -->
+			<requirement name="IsSheltered"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AwardChallenge" challenge_stat="challengeStatDesertShelter" count="1"/>
+		</effect_group>
+
 		<effect_group name="Remove Buffs">
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffDesert_Hazard_Recover"/>
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffForest_Hazard,buffBurnt_Hazard,buffSnow_Hazard,buffWasteland_Hazard"/>
@@ -10739,11 +10849,19 @@
 				<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="@$DesertHazardTimerMax"/>
 			</triggered_effect>
 
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffDesert_Hazard_Recover">
+				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="IsSheltered"/>
+				<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="LT" value="@$DesertHazardTimerMax"/>
+			</triggered_effect>
+
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffDesert_Hazard01">
 				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="!IsSheltered"/>
 				<requirement name="CVarCompare" cvar="$DesertHazardTimerMax" operation="GT" value="0"/>
 				<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="LTE" value="@$DesertHazardTimerMax"/>
 				<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="0"/>
+				<requirement name="WornItems" tags="biomeBadge2" operation="LT" value="1"/>
 			</triggered_effect>
 
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffDesert_Hazard02">
@@ -10756,12 +10874,52 @@
 			<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffDesert_Hazard02"/>
 		</effect_group>
 
+		<effect_group name="Recover Desert In Shelter">
+			<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="LT" value="@$DesertHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimer"/>
+		</effect_group>
+
+		<effect_group name="Recover Desert Over">
+			<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="@$DesertHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDesert_Hazard_Over">
+					<requirement name="CVarCompare" cvar="$DesertHazardTimerMax" operation="GT" value="0"/>
+				</triggered_effect>
+		</effect_group>
+
+		<effect_group name="Recover Desert Done">
+			<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GTE" value="@$DesertHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffDesert_Hazard_Recover"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffDesert_Hazard_Recover"/>
+		</effect_group>
+
+		<effect_group name="Reset Timer and Display Desert Done">
+			<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GTE" value="@$DesertHazardTimerMax"/>
+			<requirement name="!HasBuff" buff="buffDesert_Hazard_Over"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="set" value="@$DesertHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimerMax"/>
+		</effect_group>
+
 		<effect_group name="Update Time">
 			<requirement name="!HasBuff" buff="god"/>
 			<requirement name="!HasBuff" buff="buffDesert_Hazard_Over"/>
+			<requirement name="!IsSheltered"/>
 			<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="0"/>
 			<requirement name="CVarCompare" cvar="$DesertHazardTimerMax" operation="GT" value="0"/>
+			<requirement name="WornItems" tags="biomeBadge2" operation="LT" value="1"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1"/>
+		</effect_group>
+
+		<effect_group name="Recover Burnt Start">
+			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffBurnt_Hazard_Recover"/>
 		</effect_group>
 
 		<effect_group name="Recover Burnt Over">
@@ -10970,6 +11128,12 @@
 	<buff name="buffSnow_Hazard" hidden="true" icon_color="179,255,255" required_game_stat="BiomeProgression">
 		<duration value="0"/>
 
+		<effect_group name="Shelter Challenge">
+			<requirement name="InBiome" biome="1"/><!-- snow -->
+			<requirement name="IsSheltered"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AwardChallenge" challenge_stat="challengeStatSnowShelter" count="1"/>
+		</effect_group>
+
 		<effect_group name="Remove Buffs">
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSnow_Hazard_Recover"/>
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffForest_Hazard,buffBurnt_Hazard,buffDesert_Hazard,buffWasteland_Hazard"/>
@@ -10984,11 +11148,19 @@
 				<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="@$SnowHazardTimerMax"/>
 			</triggered_effect>
 
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffSnow_Hazard_Recover">
+				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="IsSheltered"/>
+				<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="LT" value="@$SnowHazardTimerMax"/>
+			</triggered_effect>
+
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffSnow_Hazard01">
 				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="!IsSheltered"/>
 				<requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0"/>
 				<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="LTE" value="@$SnowHazardTimerMax"/>
 				<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="0"/>
+				<requirement name="WornItems" tags="biomeBadge3" operation="LT" value="1"/>
 			</triggered_effect>
 
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffSnow_Hazard02">
@@ -11001,12 +11173,52 @@
 			<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffSnow_Hazard02"/>
 		</effect_group>
 
+		<effect_group name="Recover Snow In Shelter">
+			<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="LT" value="@$SnowHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".SnowHazardTimerDisplay" operation="set" value="@$SnowHazardTimer"/>
+		</effect_group>
+
+		<effect_group name="Recover Snow Over">
+			<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="@$SnowHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".SnowHazardTimerDisplay" operation="set" value="@$SnowHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffSnow_Hazard_Over">
+					<requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0"/>
+				</triggered_effect>
+		</effect_group>
+
+		<effect_group name="Recover Snow Done">
+			<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GTE" value="@$SnowHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffSnow_Hazard_Recover"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffSnow_Hazard_Recover"/>
+		</effect_group>
+
+		<effect_group name="Reset Timer and Display Snow Done">
+			<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GTE" value="@$SnowHazardTimerMax"/>
+			<requirement name="!HasBuff" buff="buffSnow_Hazard_Over"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="set" value="@$SnowHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".SnowHazardTimerDisplay" operation="set" value="@$SnowHazardTimerMax"/>
+		</effect_group>
+
 		<effect_group name="Update Time">
 			<requirement name="!HasBuff" buff="god"/>
 			<requirement name="!HasBuff" buff="buffSnow_Hazard_Over"/>
+			<requirement name="!IsSheltered"/>
 			<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="0"/>
 			<requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0"/>
+			<requirement name="WornItems" tags="biomeBadge3" operation="LT" value="1"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1"/>
+		</effect_group>
+
+		<effect_group name="Recover Burnt Start">
+			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffBurnt_Hazard_Recover"/>
 		</effect_group>
 
 		<effect_group name="Recover Burnt Over">
@@ -11029,6 +11241,13 @@
 			<requirement name="!HasBuff" buff="buffBurnt_Hazard_Over"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="set" value="@$BurntHazardTimerMax"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimerMax"/>
+		</effect_group>
+
+		<effect_group name="Recover Desert Start">
+			<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="LT" value="@$DesertHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDesert_Hazard_Recover"/>
 		</effect_group>
 
 		<effect_group name="Recover Desert Over">
@@ -11210,6 +11429,12 @@
 	<buff name="buffWasteland_Hazard" hidden="true" icon_color="100,255,100" required_game_stat="BiomeProgression">
 		<duration value="0"/>
 
+		<effect_group name="Shelter Challenge">
+			<requirement name="InBiome" biome="8"/><!-- wasteland -->
+			<requirement name="IsSheltered"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AwardChallenge" challenge_stat="challengeStatWastelandShelter" count="1"/>
+		</effect_group>
+
 		<effect_group name="Remove Buffs">
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffWasteland_Hazard_Recover"/>
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffForest_Hazard,buffBurnt_Hazard,buffDesert_Hazard,buffSnow_Hazard"/>
@@ -11224,11 +11449,19 @@
 				<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="@$WastelandHazardTimerMax"/>
 			</triggered_effect>
 
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffWasteland_Hazard_Recover">
+				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="IsSheltered"/>
+				<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="LT" value="@$WastelandHazardTimerMax"/>
+			</triggered_effect>
+
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffWasteland_Hazard01">
 				<requirement name="!HasBuff" buff="god"/>
+				<requirement name="!IsSheltered"/>
 				<requirement name="CVarCompare" cvar="$WastelandHazardTimerMax" operation="GT" value="0"/>
 				<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="LTE" value="@$WastelandHazardTimerMax"/>
 				<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="0"/>
+				<requirement name="WornItems" tags="biomeBadge4" operation="LT" value="1"/>
 			</triggered_effect>
 
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddOrRemoveBuff" buff="buffWasteland_Hazard02">
@@ -11241,11 +11474,51 @@
 			<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffWasteland_Hazard02"/>
 		</effect_group>
 
+		<effect_group name="Recover Wasteland In Shelter">
+			<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="LT" value="@$WastelandHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".WastelandHazardTimerDisplay" operation="set" value="@$WastelandHazardTimer"/>
+		</effect_group>
+
+		<effect_group name="Recover Wasteland Over">
+			<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="@$WastelandHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".WastelandHazardTimerDisplay" operation="set" value="@$WastelandHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffWasteland_Hazard_Over">
+					<requirement name="CVarCompare" cvar="$WastelandHazardTimerMax" operation="GT" value="0"/>
+				</triggered_effect>
+		</effect_group>
+
+		<effect_group name="Recover Wasteland Done">
+			<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GTE" value="@$WastelandHazardTimerMax"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffWasteland_Hazard_Recover"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffWasteland_Hazard_Recover"/>
+		</effect_group>
+
+		<effect_group name="Reset Timer and Display Wasteland Done">
+			<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GTE" value="@$WastelandHazardTimerMax"/>
+			<requirement name="!HasBuff" buff="buffWasteland_Hazard_Over"/>
+			<requirement name="IsSheltered"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="set" value="@$WastelandHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".WastelandHazardTimerDisplay" operation="set" value="@$WastelandHazardTimerMax"/>
+		</effect_group>
+
 		<effect_group name="Update Time">
 			<requirement name="!HasBuff" buff="god"/>
+			<requirement name="!IsSheltered"/>
 			<requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="0"/>
 			<requirement name="CVarCompare" cvar="$WastelandHazardTimerMax" operation="GT" value="0"/>
+			<requirement name="WornItems" tags="biomeBadge4" operation="LT" value="1"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1"/>
+		</effect_group>
+
+		<effect_group name="Recover Burnt Start">
+			<requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffBurnt_Hazard_Recover"/>
 		</effect_group>
 
 		<effect_group name="Recover Burnt Over">
@@ -11268,6 +11541,13 @@
 			<requirement name="!HasBuff" buff="buffBurnt_Hazard_Over"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$BurntHazardTimer" operation="set" value="@$BurntHazardTimerMax"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BurntHazardTimerDisplay" operation="set" value="@$BurntHazardTimerMax"/>
+		</effect_group>
+
+		<effect_group name="Recover Desert Start">
+			<requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="LT" value="@$DesertHazardTimerMax"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimer"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDesert_Hazard_Recover"/>
 		</effect_group>
 
 		<effect_group name="Recover Desert Over">
@@ -11299,6 +11579,13 @@
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffSnow_Hazard_Over">
 					<requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0"/>
 				</triggered_effect>
+		</effect_group>
+
+		<effect_group name="Recover Snow Start">
+			<requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="LT" value="@$SnowHazardTimerMax"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="add" value="3"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".SnowHazardTimerDisplay" operation="set" value="@$SnowHazardTimer"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffSnow_Hazard_Recover"/>
 		</effect_group>
 
 		<effect_group name="Recover Snow Done">
@@ -15002,7 +15289,8 @@ invert				boolean, inverts the condition
 				Not all triggers work with this. onSelfPrimaryActionRayHit did not, onSelfAttackedOther did.
 	RoundsInMagazine
 	RecipeUnlocked
-	WornItems
+	WornItems - A requirement that counts the tags of armor and returns the number. Used with buffs that observe the number of armor pieces of a given armor class that are being worn by the player.
+	WornItemMods - A requirement that counts the tags of armor mods and returns the number. Used with buffs that observe the number of armor mods being worn by the player.
 	EntityHasMovementTag
 		running/walking/idle: only while on land
 		floating/swimming: in water

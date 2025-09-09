@@ -4627,7 +4627,7 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 <block name="cntFootlockerClosedBlack">
 	<property name="Extends" value="cntFootlockerClosedWhite"/>
 	<property name="CustomIcon" value="cntFootlockerClosedWhite"/>
-	<property name="CustomIconTint" value="000000"/>
+	<property name="CustomIconTint" value="444444"/>
 	<property name="TintColor" value="000000"/>
 	<property name="DowngradeBlock" value="cntFootlockerOpenBlack"/>
 	<property name="SortOrder2" value="0009"/>
@@ -4741,7 +4741,7 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 <block name="cntFootlockerOpenBlack">
 	<property name="Extends" value="cntFootlockerOpenWhite"/>
 	<property name="CustomIcon" value="cntFootlockerOpenWhite"/>
-	<property name="CustomIconTint" value="000000"/>
+	<property name="CustomIconTint" value="444444"/>
 	<property name="TintColor" value="000000"/>
 	<property name="SortOrder2" value="0109"/>
 </block>
@@ -13442,6 +13442,8 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="@:Entities/Lighting/trackLightPrefab.prefab"/>
 	<property name="MultiBlockDim" value="1,1,3"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="AllowedRotations" value="No45"/>
 	<property name="SortOrder2" value="0700"/>
 </block>
 
@@ -26421,7 +26423,7 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="MaxDamage" value="200"/>
-	<property name="HeatMapStrength" value="2"/>
+	<property name="HeatMapStrength" value=".8"/>
 	<property name="HeatMapTime" value="5000"/>
 	<property name="HeatMapFrequency" value="1000"/>
 	<property class="RepairItems">
@@ -26978,9 +26980,6 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 	<property class="RepairItems">
 		<property name="resourceForgedSteel" value="9"/>
 	</property>
-	<property class="RepairItemsMeshDamage">
-		<property name="resourceForgedSteel" value="2"/>
-	</property>
 	<drop event="Harvest" name="resourceScrapIron" count="4,10" tag="allHarvest,perkJunkMiner"/>
 	<drop event="Destroy" name="resourceScrapIron" count="10" tag="allHarvest,perkJunkMiner"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
@@ -27077,9 +27076,6 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 		"/>
 	<property class="RepairItems">
 		<property name="resourceForgedSteel" value="9"/>
-	</property>
-	<property class="RepairItemsMeshDamage">
-		<property name="resourceForgedSteel" value="2"/>
 	</property>
 	<drop event="Harvest" name="resourceScrapIron" count="4,10" tag="allHarvest,perkJunkMiner"/>
 	<drop event="Destroy" name="resourceScrapIron" count="10" tag="allHarvest,perkJunkMiner"/>
@@ -70498,7 +70494,7 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 	<property name="IsPlant" value="true"/> <!-- it shall never be placed on rocks -->
 	<property name="IndexName" value="challenge_stump"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/StumpHolePrefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="WaterFlow" value="permitted"/>
@@ -70506,8 +70502,8 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="StabilitySupport" value="false"/>
-	<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest,lumberjackHarvest"/>
-	<drop event="Destroy" name="foodHoney" count="1" prob=".2"/>
+	<drop event="Harvest" name="resourceWood" count="10,15" tag="oreWoodHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" name="resourceWood" count="10,15"/>
 	<property name="SortOrder1" value="B907"/>
 	<property name="SortOrder2" value="0000"/>
 	<property name="Tags" value="wood,challenge_stump"/>
@@ -70530,8 +70526,8 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 	<property name="Path" value="solid"/>
 	<property name="BigDecorationRadius" value="3"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest,lumberjackHarvest"/>
-	<drop event="Destroy" name="foodHoney" count="1" prob=".2"/>
+	<drop event="Harvest" name="resourceWood" count="10,15" tag="oreWoodHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" name="resourceWood" count="10,15"/>
 	<property name="SortOrder1" value="B907"/>
 	<property name="SortOrder2" value="0001"/>
 	<property name="Tags" value="wood,challenge_stump"/>
@@ -75080,6 +75076,15 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 	<property name="Model" value="@:Shapes/poi_part_helper.fbx"/>
 	<property name="Texture" value="8,8,539,8,537,8"/>
 	<property name="DestroyOnEvent" value="false"/>
+	
+	<property name="CustomCommandName1" value="Spawn Zombie" />
+	<property name="CustomCommandIcon1" value="ui_game_symbol_zombie" />
+	<property name="CustomCommandEvent1" value="spawn_standard" />
+	
+	<property name="CustomCommandName2" value="Spawn Vulture" />
+	<property name="CustomCommandIcon2" value="ui_game_symbol_hand" />
+	<property name="CustomCommandEvent2" value="spawn_vulture" />
+	
 </block>
 
 <block name="testZombieSpawnBlock">

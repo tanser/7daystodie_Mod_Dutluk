@@ -20,7 +20,7 @@
 	<!-- *** Weapon_Attachments -->
 
 	<!-- <item_modifier name="modGunSoundSuppressorSilencer" installable_tags="gun" modifier_tags="barrelAttachment" blocked_tags="noMods,noSilencer" type="attachment"> -->
-	<!-- A  type="attachment"  can be taken back out of an item after it has been installed. A type="mod" can not be removed. -->
+	<!-- A  type="attachment"  can be taken back out of an item after it has been installed. A type="mod" cannot be removed. -->
 
 	<item_modifier name="modGunBarrelExtender" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods,shotgun" type="attachment">
 		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
@@ -1482,7 +1482,48 @@
 
 	<!-- *** Armor_Mods -->
 
-	<!--Clothing Attachments-->
+	<item_modifier name="modArmorInsulatedLinerT1" installable_tags="armorChest" modifier_tags="thermal" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<!-- <property name="UnlockedBy" value="modArmorInsulatedLinerSchematic"/> -->
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="Material" value="Mcloth"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$stormTimeMod" operation="set" value="2"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffInsulatedLiner"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveCVar" cvar="$stormTimeMod"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffInsulatedLiner"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="modArmorInsulatedLinerT2" installable_tags="armorChest" modifier_tags="thermal" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<!-- <property name="UnlockedBy" value="modArmorInsulatedLinerSchematic"/> -->
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="Material" value="Mcloth"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$stormTimeMod" operation="set" value="3"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffInsulatedLiner"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveCVar" cvar="$stormTimeMod"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffInsulatedLiner"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="modArmorInsulatedLinerT3" installable_tags="armorChest" modifier_tags="thermal" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<!-- <property name="UnlockedBy" value="modArmorInsulatedLinerSchematic"/> -->
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="Material" value="Mcloth"/>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$stormTimeMod" operation="set" value="4"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffInsulatedLiner"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveCVar" cvar="$stormTimeMod"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffInsulatedLiner"/>
+		</effect_group>
+	</item_modifier>
+
 	<item_modifier name="modArmorBandolier" installable_tags="armorChest" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
 		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
 		<property name="UnlockedBy" value="modArmorBandolierSchematic"/>
@@ -1680,7 +1721,7 @@
 		</effect_group>
 	</item_modifier>
 
-	<item_modifier name="modArmorStealthBoots" installable_tags="armorFeet" modifier_tags="stealth" blocked_tags="noMods,lightArmor,assassin" type="attachment">
+	<item_modifier name="modArmorStealthBoots" installable_tags="armorFeet" modifier_tags="stealth" blocked_tags="noMods,lightArmor" type="attachment">
 		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
 		<property name="UnlockedBy" value="perkUrbanCombatLanding"/>
 		<property name="TraderStageTemplate" value="modsTier2"/>
@@ -1915,7 +1956,8 @@
 	<item_modifier name="modDyeYellow" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye,modDyeYellow" type="attachment" cosmetic_install_chance=".1">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="DescriptionKey" value="modDyeGroupDesc"/>
-		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="218,200,135"/>
+		<property name="CustomIcon" value="modDyeWhite"/>
+		<property name="CustomIconTint" value="218,200,135"/>
 		<property name="Material" value="Mpaint"/>
 		<property name="Weight" value="20"/>
 		<property name="EconomicValue" value="50"/>
@@ -1965,7 +2007,8 @@
 	<item_modifier name="modDyePurple" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye,modDyePurple" type="attachment" cosmetic_install_chance=".1">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="DescriptionKey" value="modDyeGroupDesc"/>
-		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="113,97,129"/>
+		<property name="CustomIcon" value="modDyeWhite"/>
+		<property name="CustomIconTint" value="113,97,129"/>
 		<property name="Material" value="Mpaint"/>
 		<property name="Weight" value="20"/>
 		<property name="EconomicValue" value="50"/>
@@ -1998,7 +2041,8 @@
 	<item_modifier name="modDyePink" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye,modDyePink" type="attachment" cosmetic_install_chance=".1">
 		<property name="Extends" value="modGeneralMaster"/>
 		<property name="DescriptionKey" value="modDyeGroupDesc"/>
-		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="240,162,251"/>
+		<property name="CustomIcon" value="modDyeWhite"/>
+		<property name="CustomIconTint" value="240,162,251"/>
 		<property name="Material" value="Mpaint"/>
 		<property name="Weight" value="20"/>
 		<property name="EconomicValue" value="50"/>

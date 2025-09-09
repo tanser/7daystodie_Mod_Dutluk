@@ -56,7 +56,8 @@
 	</actions_preset>
 	
 	<!-- This is not ready for use. You can enable it but it is not balanced. USE AT YOUR OWN RISK -->
-	<actions_preset name="bits_only" title_key="Bits Only" description_key="Bits Only Description" allow_point_generation="false" enabled="false" />
+	<actions_preset name="bits_only" title_key="Bits Only" description_key="Bits Only Description" allow_point_generation="false" enabled="false" use_helper_reward="false"
+		show_new_commands="false" />
 	
 	<!-- Twitch Command Permission Overrides
 		command_permission example:
@@ -1056,6 +1057,17 @@
 		<property name="event_name" value="spawn_books3" />
 		<property name="default_cost" value="300" />
 		<property name="cooldown" value="900" />
+	</action>
+	
+	<action name="twitch_spawnMystery1" extends="twitch_spawnWeapon1">
+		<property name="command" value="#supply_mystery" />
+		<!-- <property name="command_key" value="TwitchAction_SupplyBooksCommand" /> -->
+		<property name="title_key" value="Mystery Box" />
+		<property name="description_key" value="TwitchAction_SupplyBooks1Desc" />
+		<property name="start_gamestage" value="12" />
+		<property name="event_name" value="spawn_mysterybox1" />
+		<property name="default_cost" value="200" />
+		<property name="cooldown" value="600" />
 	</action>
 	
 	<action name="twitch_spawnBicycle" extends="twitch_spawnWeapon1">
@@ -3563,7 +3575,7 @@
 		<cooldown_addition name="twitch_WeatherThunderstorm" time="300" />
 		<cooldown_addition name="twitch_WeatherSnow" time="300" />
 		<cooldown_addition name="twitch_WeatherFog" time="300" />
-		
+		<cooldown_addition name="twitch_WeatherStorm" time="300" />
 	</action>
 	
 	<action name="twitch_WeatherThunderstorm" extends="twitch_WeatherRain">
@@ -3576,6 +3588,7 @@
 		<cooldown_addition name="twitch_WeatherRain" time="300" />
 		<cooldown_addition name="twitch_WeatherSnow" time="300" />
 		<cooldown_addition name="twitch_WeatherFog" time="300" />
+		<cooldown_addition name="twitch_WeatherStorm" time="300" />
 	</action>
 	
 	<action name="twitch_WeatherSnow" extends="twitch_WeatherRain">
@@ -3588,6 +3601,7 @@
 		<cooldown_addition name="twitch_WeatherRain" time="300" />
 		<cooldown_addition name="twitch_WeatherThunderstorm" time="300" />
 		<cooldown_addition name="twitch_WeatherFog" time="300" />
+		<cooldown_addition name="twitch_WeatherStorm" time="300" />
 	</action>
 	
 	<action name="twitch_WeatherFog" extends="twitch_WeatherRain">
@@ -3604,6 +3618,24 @@
 		<cooldown_addition name="twitch_WeatherRain" time="300" />
 		<cooldown_addition name="twitch_WeatherThunderstorm" time="300" />
 		<cooldown_addition name="twitch_WeatherSnow" time="300" />
+		<cooldown_addition name="twitch_WeatherStorm" time="300" />
+	</action>
+	
+	<action name="twitch_WeatherStorm" extends="twitch_WeatherRain">
+		<property name="command" value="#storm_brewing" />
+		<property name="command_key" value="TwitchAction_ActionWeatherFogCommand" />
+		<property name="title_key" value="TwitchAction_ActionWeatherFog" />
+		<property name="description_key" value="TwitchAction_ActionWeatherFogDesc" />
+		<property name="event_name" value="action_storm_brewing" />
+		<property name="default_cost" value="300" />
+		<property name="is_positive" value="false" />
+		<property name="cooldown" value="1200" />
+		<property name="cooldown_blocked" value="true" />
+		
+		<cooldown_addition name="twitch_WeatherRain" time="300" />
+		<cooldown_addition name="twitch_WeatherThunderstorm" time="300" />
+		<cooldown_addition name="twitch_WeatherSnow" time="300" />
+		<cooldown_addition name="twitch_WeatherFog" time="300" />
 	</action>
 	
 	<action name="twitch_DropHeld">
@@ -5216,17 +5248,6 @@
 		<property name="only_show_in_preset" value="true" />
 		<property name="presets" value="bits_only" />
 	</action>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	<!-- *** Bit_Only_Medical_Spawns -->
 	<action name="twitch_spawnBandage" extends="twitch_spawnMedicine1">

@@ -6547,12 +6547,6 @@
 	<HighestPitch name="1.0"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
 
-<SoundDataNode name="sine_test"> <AudioSource name="@:Sounds/Prefabs/AudioSource_ImpactDeath.prefab"/>
-	<AudioClip ClipName="@:Sounds/Misc/sine_test.wav" Loop="true"/>
-	<LowestPitch name="0.9"/>
-	<HighestPitch name="1.0"/>
-	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
-
 <SoundDataNode name="item_pickup"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UseAction.prefab"/>
 	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
 	<AudioClip ClipName="@:Sounds/Misc/item_pickup.wav"/>
@@ -9078,6 +9072,38 @@
 
 <SoundDataNode name="bike_place"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
 	<AudioClip ClipName="@:Sounds/Items/bike_place.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_desert_grab"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_desert_grab.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_desert_place"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_desert_place.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_radiation_grab"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_radiation_grab.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_radiation_place"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_radiation_place.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_smoke_grab"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_smoke_grab.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_smoke_place"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_smoke_place.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_snow_grab"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_snow_grab.wav"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
+
+<SoundDataNode name="biomegear_snow_place"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
+	<AudioClip ClipName="@:Sounds/Items/biomegear_snow_place.wav"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.1"/> </SoundDataNode>
 
 <SoundDataNode name="bladetrap_grab"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI_Item.prefab"/>
