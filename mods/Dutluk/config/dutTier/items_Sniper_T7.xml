@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configs>
+
   <append xpath="/items">
 
-    <item name="dutT8Sniper">
-
+    <item name="dutT7Sniper">
       <property name="Extends" value="gunRifleT3SniperRifle"/>
 
-      <property name="TintColor" value="239BA7"/>
+      <property name="TintColor" value="F0E68C"/>
       <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
-      <property name="CustomIconTint" value="239BA7"/>
+      <property name="CustomIconTint" value="F0E68C"/>
       <property name="ShowQuality" value="false"/>
       <property name="CreativeMode" value="Player"/>
 
       <!-- prevent to sell or buy -->
       <property name="SellableToTrader" value="false"/>
       <property name="EconomicValue" value="0"/>
-      
 
-      <effect_group name="dutT8Sniper">
+      <effect_group name="dutT7Sniper">
 
         <!-- orginal values -->
         <passive_effect name="MaxRange" operation="base_set" value="150" tags="perkDeadEye"/>
@@ -62,30 +61,27 @@
         <passive_effect name="DamageModifier" operation="base_add" value="200" tags="head"/>
         <!-- /orginal values -->
 
-        <!-- custom values for T8 -->
-        <passive_effect name="EntityDamage" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="WeaponHandling" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="DegradationMax" operation="perc_add" value="1.1,2"/>
-        <passive_effect name="MagazineSize" operation="base_add" value="0, 30"/>
-        <passive_effect name="DamageModifier" operation="base_add" value="100" tags="head"/>
+        <!-- custom values for T7 -->
+        <passive_effect name="EntityDamage" operation="perc_add" value=".35,1.2"/>
+        <passive_effect name="WeaponHandling" operation="perc_add" value=".35,1.2"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value=".35,1.2"/>
+        <passive_effect name="DamageModifier" operation="base_add" value="50" tags="head"/>
 
       </effect_group>
-
     </item>
 
-    <item name="dutT8SniperBundle">
-      <property name="Extends" value="dutT8BundleBox"/>
+    <item name="dutT7SniperBundle">
+      <property name="Extends" value="dutT7BundleBox"/>
       <property name="CustomIcon" value="gunRifleT3SniperRifle"/>
-      <property name="DescriptionKey" value="dutT8SniperBundleDesc"/>
+      <property name="DescriptionKey" value="dutT7SniperBundleDesc"/>
       <property name="UnlockedBy" value="craftingRifles"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8Sniper,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
-        <property name="Random_item_count" value="6,2,1,1"/>
+        <property name="Random_item" value="dutT7Sniper,dutT7Sniper,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,6,1,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>
-      
-  </append>
 
+  </append>
 
 </configs>

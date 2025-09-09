@@ -62,6 +62,8 @@
         <passive_effect name="DegradationMax" operation="perc_add" value="1.1,2"/>
         <passive_effect name="DamageFalloffRange" operation="perc_add" value="1.1,2"/>
         <passive_effect name="ProjectileVelocity" operation="perc_add" value="1.1,2"/>
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="2,3"/>
+        <passive_effect name="MaxRange" operation="perc_add" value="1.1,2"/>
         
       </effect_group>
 
@@ -89,8 +91,8 @@
       <property name="DescriptionKey" value="dutT8BowBundleDesc"/>
       <property name="UnlockedBy" value="craftingBows"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT8Bow,dutResourceMythicParts,plantedPotato1,plantedPotato1"/>
-        <property name="Random_item_count" value="6,2,1,1"/>
+        <property name="Random_item" value="dutT8Bow,dutResourceMythicParts,plantedPotato1,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>

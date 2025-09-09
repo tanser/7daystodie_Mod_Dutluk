@@ -23,6 +23,7 @@
         <property name="Delay" value="0"/>
       </property>
     </item>
+    
 
     <!-- *** M60 *** -->
     <item name="dutT6M60Bundle">
@@ -179,6 +180,33 @@
         <property name="Create_item_count" value="6"/>
       </property>
     </item>
+
+    <!-- *** AXE *** -->
+    <item name="dutT6AxeBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeToolAxeT2SteelAxe"/>
+      <property name="DescriptionKey" value="dutT6AxeBundleDesc"/>
+      <property name="UnlockedBy" value="craftingHarvestingTools"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeToolAxeT2SteelAxe"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
+    <!-- *** PICKAXE *** -->
+    <item name="dutT6PickaxeBundle">
+      <property name="Extends" value="dutT6WeaponBundle"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="meleeToolPickT2SteelPickaxe"/>
+      <property name="DescriptionKey" value="dutT6PickaxeBundleDesc"/>
+      <property name="UnlockedBy" value="craftingHarvestingTools"/>
+      <property class="Action0">
+        <property name="Create_item" value="meleeToolPickT2SteelPickaxe"/>
+        <property name="Create_item_count" value="6"/>
+      </property>
+    </item>
+
 
   </append>
 

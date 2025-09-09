@@ -3,18 +3,18 @@
 <configs>
   <append xpath="/items">
 
-    <item name="dutT7Club">
+    <item name="dutT8Club">
       <property name="Extends" value="meleeWpnClubT3SteelClub"/>
 
       <property name="HoldType" value="65"/>
-      <property name="TintColor" value="F0E68C"/>
+      <property name="TintColor" value="239BA7"/>
       <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Bat/bat_Prefab.prefab"/>
       <property name="CustomIcon" value="meleeWpnClubT1BaseballBat"/>
-      <property name="CustomIconTint" value="F0E68C"/>
+      <property name="CustomIconTint" value="239BA7"/>
       <property name="ShowQuality" value="false"/>
       <property name="CreativeMode" value="Player"/>
 
-      <effect_group name="dutT7Club">
+      <effect_group name="dutT8Club">
        
         <!-- orginal values -->
         <passive_effect name="AttacksPerMinute" operation="base_set" value="52" tags="perkPummelPete,perkFlurryOfStrength"/>
@@ -42,29 +42,30 @@
 
 
         <!-- custom values for T7 -->
-        <passive_effect name="EntityDamage" operation="perc_add" value=".35,1.20"/>
-        <passive_effect name="BlockDamage" operation="perc_add" value=".35,1.20"/>
-        <passive_effect name="DegradationMax" operation="perc_add" value=".35,1.20"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="2,3"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="2,3"/>
+        <passive_effect name="DegradationMax" operation="perc_add" value="2,3"/>
         
       </effect_group>
 
       <!-- custom values for T7 -->
       <effect_group name="Power Attack">
-        <passive_effect name="EntityDamage" operation="perc_add" value="1.2" tags="secondary"/>
-        <passive_effect name="BlockDamage" operation="perc_add" value="1.2" tags="secondary"/>
-        <passive_effect name="StaminaLoss" operation="base_set" value="35" tags="secondary"/>
+        <passive_effect name="EntityDamage" operation="perc_add" value="1.4" tags="secondary"/>
+        <passive_effect name="BlockDamage" operation="perc_add" value="1.4" tags="secondary"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="30" tags="secondary"/>
       </effect_group>
 
     </item>
 
-    <item name="dutT7ClubBundle">
-      <property name="Extends" value="dutT7BundleBox"/>
+    <item name="dutT8ClubBundle">
+      <property name="Extends" value="dutT8BundleBox"/>
+      <property name="CreativeMode" value="Player"/>
       <property name="CustomIcon" value="meleeWpnClubT1BaseballBat"/>
-      <property name="DescriptionKey" value="dutT7ClubBundleDesc"/>
+      <property name="DescriptionKey" value="dutT8ClubBundleDesc"/>
       <property name="UnlockedBy" value="craftingClubs"/>
       <property class="Action0">
-        <property name="Random_item" value="dutT7Club,dutT7Club,dutResourceMythicParts,plantedPotato1"/>
-        <property name="Random_item_count" value="6,6,1,1"/>
+        <property name="Random_item" value="dutT8Club,dutResourceMythicParts,plantedPotato1,plantedPotato1,plantedPotato1"/>
+        <property name="Random_item_count" value="6,2,1,1,1"/>
         <property name="Random_count" value="1"/>
       </property>
     </item>

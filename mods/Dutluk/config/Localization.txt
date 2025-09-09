@@ -151,66 +151,90 @@ dutT7Shotgun,items,Gun,,,"Shotgun Legendary",,,,,,,,,,,"Pompalı Tüfek Efsanevi
 dutT8Shotgun,items,Gun,,,"Shotgun Mythic",,,,,,,,,,,"Pompalı Tüfek Mistik",,
 
 dutT7ShotgunBundle,items,Gun,,,"Shotgun Legendary Bundle",,,,,,,,,,,"Pompalı Tüfek Efsanevi Kutusu",,
-dutT7ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Legendary. Open to receive your reward.",,,,,,,,,,,"Pompalı Tüfek Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Legendary. Open to receive your reward.",,,,,,,,,,,"Pompalı Tüfek Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 
 dutT8ShotgunBundle,items,Gun,,,"Shotgun Mythic Bundle",,,,,,,,,,,"Pompalı Tüfek Mistik Kutusu",,
-dutT8ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Mythic. Open to receive your reward.",,,,,,,,,,,"Pompalı Tüfek Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8ShotgunBundleDesc,items,Gun,,,"Contains a Shotgun Mythic. Open to receive your reward.",,,,,,,,,,,"Pompalı Tüfek Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT7Machete,items,Gun,,,"Machete Legendary",,,,,,,,,,,"Pala Efsanevi",,
 dutT8Machete,items,Gun,,,"Machete Mythic",,,,,,,,,,,"Pala Mistik",,
 
 dutT7MacheteBundle,items,Gun,,,"Machete Legendary Bundle",,,,,,,,,,,"Pala Efsanevi Kutusu",,
-dutT7MacheteBundleDesc,items,Gun,,,"Contains a Machete Legendary. Open to receive your reward.",,,,,,,,,,,"Pala Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7MacheteBundleDesc,items,Gun,,,"Contains a Machete Legendary. Open to receive your reward.",,,,,,,,,,,"Pala Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 dutT8MacheteBundle,items,Gun,,,"Machete Mythic Bundle",,,,,,,,,,,"Pala Mistik Kutusu",,
-dutT8MacheteBundleDesc,items,Gun,,,"Contains a Machete Mythic. Open to receive your reward.",,,,,,,,,,,"Pala Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8MacheteBundleDesc,items,Gun,,,"Contains a Machete Mythic. Open to receive your reward.",,,,,,,,,,,"Pala Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT7Club,items,Gun,,,"Club Legendary",,,,,,,,,,,"Beyzbol Sopası Efsanevi",,
 dutT8Club,items,Gun,,,"Club Mythic",,,,,,,,,,,"Beyzbol Sopası Mistik",,
 
 dutT7ClubBundle,items,Gun,,,"Club Legendary Bundle",,,,,,,,,,,"Beyzbol Sopası Efsanevi Kutusu",,
-dutT7ClubBundleDesc,items,Gun,,,"Contains a Club Legendary. Open to receive your reward.",,,,,,,,,,,"Beyzbol Sopası Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7ClubBundleDesc,items,Gun,,,"Contains a Club Legendary. Open to receive your reward.",,,,,,,,,,,"Beyzbol Sopası Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 dutT8ClubBundle,items,Gun,,,"Club Mythic Bundle",,,,,,,,,,,"Beyzbol Sopası Mistik Kutusu",,
-dutT8ClubBundleDesc,items,Gun,,,"Contains a Club Mythic. Open to receive your reward.",,,,,,,,,,,"Beyzbol Sopası Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8ClubBundleDesc,items,Gun,,,"Contains a Club Mythic. Open to receive your reward.",,,,,,,,,,,"Beyzbol Sopası Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT7Magnum,items,Gun,,,"Magnum Legendary",,,,,,,,,,,"Magnum Efsanevi",,
 dutT8Magnum,items,Gun,,,"Magnum Mythic",,,,,,,,,,,"Magnum Mistik",,
 
 dutT7MagnumBundle,items,Gun,,,"Magnum Legendary Bundle",,,,,,,,,,,"Magnum Efsanevi Kutusu",,
-dutT7MagnumBundleDesc,items,Gun,,,"Contains a Magnum Legendary. Open to receive your reward.",,,,,,,,,,,"Magnum Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7MagnumBundleDesc,items,Gun,,,"Contains a Magnum Legendary. Open to receive your reward.",,,,,,,,,,,"Magnum Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 dutT8MagnumBundle,items,Gun,,,"Magnum Mythic Bundle",,,,,,,,,,,"Magnum Mistik Kutusu",,
-dutT8MagnumBundleDesc,items,Gun,,,"Contains a Magnum Mythic. Open to receive your reward.",,,,,,,,,,,"Magnum Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8MagnumBundleDesc,items,Gun,,,"Contains a Magnum Mythic. Open to receive your reward.",,,,,,,,,,,"Magnum Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT7SMG,items,Gun,,,"SMG Legendary",,,,,,,,,,,"SMG Efsanevi",,
 dutT8SMG,items,Gun,,,"SMG Mythic",,,,,,,,,,,"SMG Mistik",,
 
 dutT7SMGBundle,items,Gun,,,"SMG Legendary Bundle",,,,,,,,,,,"SMG Efsanevi Kutusu",,
-dutT7SMGBundleDesc,items,Gun,,,"Contains a SMG Legendary. Open to receive your reward.",,,,,,,,,,,"SMG Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7SMGBundleDesc,items,Gun,,,"Contains a SMG Legendary. Open to receive your reward.",,,,,,,,,,,"SMG Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 dutT8SMGBundle,items,Gun,,,"SMG Mythic Bundle",,,,,,,,,,,"SMG Mistik Kutusu",,
-dutT8SMGBundleDesc,items,Gun,,,"Contains a SMG Mythic. Open to receive your reward.",,,,,,,,,,,"SMG Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8SMGBundleDesc,items,Gun,,,"Contains a SMG Mythic. Open to receive your reward.",,,,,,,,,,,"SMG Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT7Bow,items,Gun,,,"Bow Legendary",,,,,,,,,,,"Yay Efsanevi",,
 dutT8Bow,items,Gun,,,"Bow Mythic",,,,,,,,,,,"Yay Mistik",,
 
 dutT7BowBundle,items,Gun,,,"Bow Legendary Bundle",,,,,,,,,,,"Yay Efsanevi Kutusu",,
-dutT7BowBundleDesc,items,Gun,,,"Contains a Bow Legendary. Open to receive your reward.",,,,,,,,,,,"Yay Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7BowBundleDesc,items,Gun,,,"Contains a Bow Legendary. Open to receive your reward.",,,,,,,,,,,"Yay Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 
 dutT8BowBundle,items,Gun,,,"Bow Mythic Bundle",,,,,,,,,,,"Yay Mistik Kutusu",,
-dutT8BowBundleDesc,items,Gun,,,"Contains a Bow Mythic. Open to receive your reward.",,,,,,,,,,,"Yay Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8BowBundleDesc,items,Gun,,,"Contains a Bow Mythic. Open to receive your reward.",,,,,,,,,,,"Yay Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT7MachineGun,items,Gun,,,"M60 Machine Gun Legendary",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi",,
 dutT8MachineGun,items,Gun,,,"M60 Machine Gun Mythic",,,,,,,,,,,"M60 Makineli Tüfek Mistik",,
 
 dutT7MachineGunBundle,items,Gun,,,"M60 Machine Gun Legendary Bundle",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi Kutusu",,
-dutT7MachineGunBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Legendary. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7MachineGunBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Legendary. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 
 dutT8MachineGunBundle,items,Gun,,,"M60 Machine Gun Mythic Bundle",,,,,,,,,,,"M60 Makineli Tüfek Mistik Kutusu",,
-dutT8MachineGunBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Mythic. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8MachineGunBundleDesc,items,Gun,,,"Contains a M60 Machine Gun Mythic. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT7SniperBundle,items,Gun,,,"Sniper Rifle Legendary Bundle",,,,,,,,,,,"Keskin Nişancı Tüfeği Efsanevi Kutusu",,
-dutT7SniperBundleDesc,items,Gun,,,"Contains a Sniper Rifle Legendary. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği Efsanevi içerir. %50 şansın var açınca ödülünü alırsın.",,
+dutT7SniperBundleDesc,items,Gun,,,"Contains a Sniper Rifle Legendary. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
 
 dutT8SniperBundle,items,Gun,,,"Sniper Rifle Mythic Bundle",,,,,,,,,,,"Keskin Nişancı Tüfeği Mistik Kutusu",,
-dutT8SniperBundleDesc,items,Gun,,,"Contains a Sniper Rifle Mythic. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği Mistik içerir. %25 şansın var açınca ödülünü alırsın.",,
+dutT8SniperBundleDesc,items,Gun,,,"Contains a Sniper Rifle Mythic. Open to receive your reward.",,,,,,,,,,,"Keskin Nişancı Tüfeği Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
+
+dutT7Axe,items,Gun,,,"Axe Legendary",,,,,,,,,,,"Balta Efsanevi",,
+dutT8Axe,items,Gun,,,"Axe Mythic",,,,,,,,,,,"Balta Mistik",,
+
+dutT7AxeBundle,items,Gun,,,"Axe Legendary Bundle",,,,,,,,,,,"Balta Efsanevi Kutusu",,
+dutT7AxeBundleDesc,items,Gun,,,"Contains a Axe Legendary. Open to receive your reward.",,,,,,,,,,,"Balta Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
+dutT8AxeBundle,items,Gun,,,"Axe Mythic Bundle",,,,,,,,,,,"Balta Mistik Kutusu",,
+dutT8AxeBundleDesc,items,Gun,,,"Contains a Axe Mythic. Open to receive your reward.",,,,,,,,,,,"Balta Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
+
+dutT7Pickaxe,items,Gun,,,"Pickaxe Legendary",,,,,,,,,,,"Çelik Kazma Efsanevi",,
+dutT8Pickaxe,items,Gun,,,"Pickaxe Mythic",,,,,,,,,,,"Çelik Kazma Mistik",,
+
+dutT7PickaxeBundle,items,Gun,,,"Pickaxe Legendary Bundle",,,,,,,,,,,"Çelik Kazma Efsanevi Kutusu",,
+dutT7PickaxeBundleDesc,items,Gun,,,"Contains a Pickaxe Legendary. Open to receive your reward.",,,,,,,,,,,"Çelik Kazma Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
+dutT8PickaxeBundle,items,Gun,,,"Pickaxe Mythic Bundle",,,,,,,,,,,"Çelik Kazma Mistik Kutusu",,
+dutT8PickaxeBundleDesc,items,Gun,,,"Contains a Pickaxe Mythic. Open to receive your reward.",,,,,,,,,,,"Çelik Kazma Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
+
+dutT7Spear,items,Gun,,,"Spear Legendary",,,,,,,,,,,"Mızrak Efsanevi",,
+dutT8Spear,items,Gun,,,"Spear Mythic",,,,,,,,,,,"Mızrak Mistik",,
+
+dutT7SpearBundle,items,Gun,,,"Spear Legendary Bundle",,,,,,,,,,,"Mızrak Efsanevi Kutusu",,
+dutT7SpearBundleDesc,items,Gun,,,"Contains a Spear Legendary. Open to receive your reward.",,,,,,,,,,,"Mızrak Efsanevi içerir. %40 şansın var açınca ödülünü alırsın.",,
+dutT8SpearBundle,items,Gun,,,"Spear Mythic Bundle",,,,,,,,,,,"Mızrak Mistik Kutusu",,
+dutT8SpearBundleDesc,items,Gun,,,"Contains a Spear Mythic. Open to receive your reward.",,,,,,,,,,,"Mızrak Mistik içerir. %20 şansın var açınca ödülünü alırsın.",,
 
 dutT6M60Bundle,items,Gun,,,"M60 Machine Gun T6 Bundle",,,,,,,,,,,"M60 Makineli Tüfek 6. Seviye Kutusu",,
 dutT6M60BundleDesc,items,Gun,,,"Contains a M60 Machine Gun T6. Open to receive your reward.",,,,,,,,,,,"M60 Makineli Tüfek 6. Seviye içerir açınca ödülünü alırsın.",,
@@ -249,6 +273,12 @@ dutT6SpearBundleDesc,items,Gun,,,"Contains a Spear T6. Open to receive your rewa
 
 dutT6ClubBundle,items,Gun,,,"Club T6 Bundle",,,,,,,,,,,"Çelik Sopa 6. Seviye Kutusu",,
 dutT6ClubBundleDesc,items,Gun,,,"Contains a Club T6. Open to receive your reward.",,,,,,,,,,,"Çelik Sopa 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6AxeBundle,items,Gun,,,"Axe T6 Bundle",,,,,,,,,,,"Çelik Balta 6. Seviye Kutusu",,
+dutT6AxeBundleDesc,items,Gun,,,"Contains a Axe T6. Open to receive your reward.",,,,,,,,,,,"Çelik Balta 6. Seviye içerir açınca ödülünü alırsın.",,
+
+dutT6PickaxeBundle,items,Gun,,,"Pickaxe T6 Bundle",,,,,,,,,,,"Çelik Kazma 6. Seviye Kutusu",,
+dutT6PickaxeBundleDesc,items,Gun,,,"Contains a Pickaxe T6. Open to receive your reward.",,,,,,,,,,,"Çelik Kazma 6. Seviye içerir açınca ödülünü alırsın.",,
 
 
 

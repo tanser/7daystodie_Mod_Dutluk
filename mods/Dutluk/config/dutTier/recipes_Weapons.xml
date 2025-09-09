@@ -93,6 +93,39 @@
             <ingredient name="dutResourceMythicParts" count="5"/>
         </recipe>
 
+        <!-- Spear -->
+        <recipe name="dutT7SpearBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkJavelinMaster,craftingSpears,workbenchCrafting">
+            <ingredient name="dutT6SpearBundle" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8SpearBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkJavelinMaster,craftingSpears,workbenchCrafting">
+            <ingredient name="dutT7Spear" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
+
+        <!-- Axe -->
+        <recipe name="dutT7AxeBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
+            <ingredient name="dutT6AxeBundle" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8AxeBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
+            <ingredient name="dutT7Axe" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
+
+        <!-- Pickaxe -->
+        <recipe name="dutT7PickaxeBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
+            <ingredient name="dutT6PickaxeBundle" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="2"/>
+        </recipe>
+
+        <recipe name="dutT8PickaxeBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
+            <ingredient name="dutT7Pickaxe" count="1"/>
+            <ingredient name="dutResourceMythicParts" count="5"/>
+        </recipe>
+
     </append>
 
 
