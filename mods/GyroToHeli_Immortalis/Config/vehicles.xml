@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+<!--APPENDS-->
+	<!--<append xpath="/vehicles/vehicle[@name='vehicleGyrocopter']">
+		<property class="force6">
+			<property name="trigger" value="inputTurbo"/>
+			<property name="type" value="relative"/>
+			<property name="force" value="0, 0, 0"/>
+		</property>
+	</append>-->
+	<append xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='motor0']">
+		<property name="engine" value="engine"/>
+		<property name="engineOffPer" value=".12"/>	
+		<property name="turbo" value="1.15"/>
+	</append>
+
+<!--REMOVES-->
+	<remove xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='motor1']/property[@name='engineOffPer']"/>
+
+<!--VEHICLE CLASS-->
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='unstickForce']/@value">0</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='airDrag_velScale_angVelScale']/@value">.997, .97</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='brakeTorque']/@value">20</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='motorTorque_turbo']/@value">2, 2, 5, 5</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax_turbo']/@value">9, 9, 25, 25</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[contains(@class,'wheel')]/property[@name='torqueScale_motor_brake']/@value">0, 1</set>
+
+<!--MAIN ROTOR-->
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='motor0']/property[@name='trigger']/@value">inputForward</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='motor0']/property[@name='rpmMax']/@value">8</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='motor0']/property[@name='rpmDrag']/@value">.997</set>         
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='motor0']/property[@name='rpmAccel_min_max']/@value">.009, .1</set>
+
+<!--TAIL ROTOR-->
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='motor1']/property[@name='trigger']/@value">relative</set>
+
+<!--FORCES-->
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='force0']/property[@name='force']/@value">0, .17, 0</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='force1']/property[@name='force']/@value">0, 0, 0</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='force2']/property[@name='force']/@value">0, .05, 0</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='force3']/property[@name='force']/@value">0, .04, 0</set>
+
+</configs>

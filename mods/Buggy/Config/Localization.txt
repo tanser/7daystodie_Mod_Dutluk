@@ -1,0 +1,9 @@
+Key,English
+vehicleBuggychassis,Buggy Chassis
+vehicleBuggychassisDesc,Parts needed to craft the Buggy.
+vehicleBuggyaccessories,Buggy Accessories
+vehicleBuggyaccessoriesDesc,Parts needed to craft the Buggy.
+vehicleBuggy,Buggy
+vehicleBuggyplaceable,Buggy
+vehicleBuggyplaceableDesc,An old offroad buggy.
+questRewardBuggyPartsBundle,Buggy Parts Bundle

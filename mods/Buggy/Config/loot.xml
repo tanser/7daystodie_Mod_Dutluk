@@ -1,0 +1,25 @@
+<configs>
+	<append xpath="/lootcontainers">
+		<lootcontainer name="Buggy" count="0" size="9,6" sound_open="UseActions/vehicle_storage_open" open_time="0" sound_close="UseActions/vehicle_storage_close" loot_quality_template="qualBaseTemplate"></lootcontainer>
+	</append>
+		<conditional>
+			<if cond="mod_loaded('zSMXui')">
+				<set xpath="/lootcontainers/lootcontainer[@size='9,6']/@size">5,11</set>
+			</if>
+		</conditional>
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
+		<lootgroup name="Buggygroup">
+			<item name="vehicleBuggychassis"/>
+			<item name="vehicleBuggyaccessories"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		<lootgroup name="groupQuestBuggyParts" count="all">
+			<item name="questRewardBuggyPartsBundle"/>
+		</lootgroup>
+	</insertBefore>
+	<append xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
+		<item group="Buggygroup" loot_prob_template="ProbT3"/>
+	</append>
+</configs>

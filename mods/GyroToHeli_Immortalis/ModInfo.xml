@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<Name value="GyroToHeli"/>
+	<DisplayName value="GyroToHeli v2.0"/>
+	<Description value="Server-side mod that converts a Gyrocopter into a Helicopter."/>
+	<Author value="Immortalis"/>
+	<Version value="2.0" />
+</xml>
