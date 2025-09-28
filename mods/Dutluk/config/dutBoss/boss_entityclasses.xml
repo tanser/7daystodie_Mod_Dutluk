@@ -58,7 +58,7 @@
 			<property name="MoveSpeedAggro" value="1.8, 2.3"/>
 			<property name="MaxTurnSpeed" value="150"/>
 
-			<property name="HandItem" value="meleeHandAnimalZombieVultureRadiated"/>
+			<property name="HandItem" value="meleeHandAnimalZombieVultureBoss"/>
 
 			<property name="ExperienceGain" value="70000"/><!-- XP Vulture Radiated -->
 			<property name="LootDropEntityClass" value="EntityLootContainerLegendary"/>
@@ -121,7 +121,7 @@
 			<!-- Gameplay -->
 			<property name="MoveSpeedAggro" value="2, 2.1"/>
 			<property name="JumpMaxDistance" value="8, 12"/>
-			<property name="HandItem" value="meleeHandAnimalDireWolf"/>
+			<property name="HandItem" value="meleeHandAnimalDireWolfBoss"/>
 			<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 			<property name="PainResistPerHit" value=".95"/>
 			<property name="DeadBodyHitPoints" value="450"/>
