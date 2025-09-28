@@ -1,0 +1,51 @@
+<configs>
+
+<append xpath="/recipes">
+
+
+	<recipe name="BulbWhite" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+	<recipe name="BulbPink" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+	<recipe name="BulbOrange" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+	<recipe name="BulbCyan" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+	<recipe name="BulbGreen" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+	<recipe name="BulbBlue" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+	<recipe name="BulbRed" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+	<recipe name="BulbYellow" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBrokenGlass" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+	</recipe>
+
+</append>
+		
+</configs>
+
+
+

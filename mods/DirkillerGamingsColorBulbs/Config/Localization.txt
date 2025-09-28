@@ -1,0 +1,18 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+BulbWhite,blocks,Block,,,White Bulb,,Weiße Glühbirne
+BulbWhiteDesc,blocks,Block,,,A white shining Bulb for Decoration.,,Eine weiße leuchtende Glühbirne zum Dekorieren.
+BulbPink,blocks,Block,,,Pink Bulb,,Pinke Glühbirne
+BulbPinkDesc,blocks,Block,,,A pink shining Bulb for Decoration.,,Eine pinke leuchtende Glühbirne zum Dekorieren.
+BulbOrange,blocks,Block,,,Orange Bulb,,Orange Glühbirne
+BulbOrangeDesc,blocks,Block,,,A orange shining Bulb for Decoration.,,Eine orange leuchtende Glühbirne zum Dekorieren.
+BulbCyan,blocks,Block,,,Cyan Bulb,,Cyan Glühbirne
+BulbCyanDesc,blocks,Block,,,A cyan shining Bulb for Decoration.,,Eine cyan leuchtende Glühbirne zum Dekorieren.
+BulbGreen,blocks,Block,,,Green Bulb,,Grüne Glühbirne
+BulbGreenDesc,blocks,Block,,,A green shining Bulb for Decoration.,,Eine grüne leuchtende Glühbirne zum Dekorieren.
+BulbBlue,blocks,Block,,,Blue Bulb,,Blaue Glühbirne
+BulbBlueDesc,blocks,Block,,,A blue shining Bulb for Decoration.,,Eine blaue leuchtende Glühbirne zum Dekorieren.
+BulbRed,blocks,Block,,,Red Bulb,,Rote Glühbirne
+BulbRedDesc,blocks,Block,,,A red shining Bulb for Decoration.,,Eine rote leuchtende Glühbirne zum Dekorieren.
+BulbYellow,blocks,Block,,,Yellow Bulb,,Gelbe Glühbirne
+BulbYellowDesc,blocks,Block,,,A yellow shining Bulb for Decoration.,,Eine gelbe leuchtende Glühbirne zum Dekorieren.

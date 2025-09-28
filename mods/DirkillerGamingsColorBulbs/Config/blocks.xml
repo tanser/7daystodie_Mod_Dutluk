@@ -1,0 +1,151 @@
+<configs>
+	
+<append xpath="/blocks">
+
+		<block name="BulbWhite">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbWhite"/>
+			<property name="CustomIcon" value="BulbWhite" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+		<block name="BulbPink">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbPink"/>
+			<property name="CustomIcon" value="BulbPink" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+		<block name="BulbCyan">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbCyan"/>
+			<property name="CustomIcon" value="BulbCyan" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+		<block name="BulbOrange">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbOrange"/>
+			<property name="CustomIcon" value="BulbOrange" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+		<block name="BulbGreen">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbGreen"/>
+			<property name="CustomIcon" value="BulbGreen" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+		<block name="BulbBlue">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbBlue"/>
+			<property name="CustomIcon" value="BulbBlue" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+		<block name="BulbRed">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbRed"/>
+			<property name="CustomIcon" value="BulbRed" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+		<block name="BulbYellow">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mglass"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="true"/>
+                  	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+   			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ColorBulbs.unity3d?BulbYellow"/>
+			<property name="CustomIcon" value="BulbYellow" />
+			<property name="EconomicValue" value="12"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="SortOrder2" value="0001"/>		
+		</block>
+
+</append>
+
+</configs>
