@@ -30,10 +30,10 @@
       </objective>
 
       <event type="TreasureRadiusReduction">
-        <property name="chance" value="0.25" param1="spawn_chance"/>
+        <property name="chance" value="0.45" param1="spawn_chance"/>
         <action type="SpawnGSEnemy">
           <property name="gamestage_list" value="EnhancedWanderingHorde"/>
-          <property name="count" value="2-4" param1="spawn_count"/>
+          <property name="count" value="4-8" param1="spawn_count"/>
         </action>
       </event>
 

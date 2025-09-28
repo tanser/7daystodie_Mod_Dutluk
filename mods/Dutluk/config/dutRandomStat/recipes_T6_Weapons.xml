@@ -113,6 +113,24 @@
             <ingredient name="resourceLegendaryParts" count="1"/>
         </recipe>
 
+        <!--AXE-->
+        <recipe name="dutT6AxeBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
+            <ingredient name="meleeToolAllSteelParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceWood" count="15"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
+        <!--PICKAXE-->
+        <recipe name="dutT6PickaxeBundle" count="1" craft_area="workbench" craft_time="10" tags="learnable,craftingHarvestingTools,workbenchCrafting">
+            <ingredient name="meleeToolAllSteelParts" count="6"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceWood" count="15"/>
+            <ingredient name="resourceDuctTape" count="8"/>
+            <ingredient name="resourceLegendaryParts" count="1"/>
+        </recipe>
+
     </append>
 
 
