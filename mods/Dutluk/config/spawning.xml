@@ -3,5 +3,7 @@
 <configs>
 
   <include filename="dutBoss/boss_spawning_inject.xml"/>
+
+  <include filename="dutZombiTier/zombie_city_night_spawns.xml"/>
     
 </configs>

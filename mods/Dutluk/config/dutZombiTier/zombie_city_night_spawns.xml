@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+  <append xpath="/spawning">
+    <!-- City Night Spawn Groups for Custom Zombies -->
+    <spawn name="CityNightCorrupted" biome="city,wasteland,city_wasteland" time="night" group="mixedCorruptedGroup" count="3,5" max_entities="30" />
+    <spawn name="CityNightApocalyptic" biome="city,wasteland,city_wasteland" time="night" group="mixedApocalypticGroup" count="2,4" max_entities="25" />
+    <spawn name="CityNightNightmare" biome="city,wasteland,city_wasteland" time="night" group="nightmareHorde" count="1,3" max_entities="20" />
+  </append>
+</configs>

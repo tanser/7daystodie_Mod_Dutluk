@@ -9,21 +9,6 @@
 		
 		<!-- Red (Kırmızı) - En güçlü seviye (Infernal yerine gerçek kırmızı) -->
 		<color name="apocalyptic" value="3,0,0, .9"/> <!-- Pure Red, emissive power .9 -->
-		
-		<replace_properties>
-			<property name="corruptedMoveSpeedPattern" value="3, .95, 1, .75"/>
-			<property name="apocalypticMoveSpeedPattern" value="3, .95, 1, .75"/>
-		</replace_properties>
-
-		<replace_passive_effect>
-			<property name="healthBusinessManCorrupted" value="2250"/>
-			<property name="healthBusinessManApocalyptic" value="2600"/>
-
-			<property name="healthSlimCorrupted" value="2000"/>
-			<property name="healthSlimApocalyptic" value="2400"/>
-
-
-		</replace_passive_effect>
 
 		<!-- Örnek zombi türleri için yeni zorluk varyantları -->
 		
@@ -33,12 +18,12 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
 			<property name="ExperienceGain" value="2000"/><!-- XP Corrupted -->
 			<property name="HandItem" value="meleeHandZombieCorrupted"/>
-			<property name="MoveSpeedPattern" value="^corruptedMoveSpeedPattern"/>	
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>	
 			<property name="LootDropProb" value=".2"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="^healthSlimCorrupted"/>
+				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
 		</entity_class>
 
@@ -48,12 +33,12 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
 			<property name="ExperienceGain" value="2800"/><!-- XP Apocalyptic -->
 			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
-			<property name="MoveSpeedPattern" value="^apocalypticMoveSpeedPattern"/>	
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>	
 			<property name="LootDropProb" value=".2"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="^healthSlimApocalyptic"/>
+				<passive_effect name="HealthMax" operation="base_set" value="2400"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".75" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 			</effect_group>
 		</entity_class>
@@ -64,12 +49,12 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
 			<property name="ExperienceGain" value="2100"/><!-- XP Corrupted -->
 			<property name="HandItem" value="meleeHandZombieCorrupted"/>
-			<property name="MoveSpeedPattern" value="^corruptedMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="^healthBusinessManCorrupted"/>
+				<passive_effect name="HealthMax" operation="base_set" value="2250"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".75" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 			</effect_group>
 		</entity_class>
@@ -80,12 +65,12 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
 			<property name="ExperienceGain" value="2900"/><!-- XP Apocalyptic -->
 			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
-			<property name="MoveSpeedPattern" value="^apocalypticMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="^healthBusinessManApocalyptic"/>
+				<passive_effect name="HealthMax" operation="base_set" value="2600"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".90" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 			</effect_group>
 		</entity_class>
@@ -96,12 +81,12 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
 			<property name="ExperienceGain" value="2000"/><!-- XP Corrupted -->
 			<property name="HandItem" value="meleeHandZombieCorrupted"/>
-			<property name="MoveSpeedPattern" value="^corruptedMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/>	
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="^healthSlimCorrupted"/>
+				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".75" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 			</effect_group>
 		</entity_class>
@@ -112,12 +97,12 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
 			<property name="ExperienceGain" value="2800"/><!-- XP Apocalyptic -->
 			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
-			<property name="MoveSpeedPattern" value="^apocalypticMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/>	
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="^healthSlimApocalyptic"/>
+				<passive_effect name="HealthMax" operation="base_set" value="2400"/>
 				<passive_effect name="BuffResistance" operation="base_set" value=".90" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
 			</effect_group>
 		</entity_class>
@@ -128,7 +113,7 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,corrupted"/>
 			<property name="ExperienceGain" value="2200"/><!-- XP Corrupted -->
 			<property name="HandItem" value="meleeHandZombieCorrupted"/>
-			<property name="MoveSpeedPattern" value="^corruptedMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/>	
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
@@ -144,7 +129,7 @@
 			<property name="Tags" value="entity,zombie,walker,allbiome,feral,apocalyptic"/>
 			<property name="ExperienceGain" value="3100"/><!-- XP Apocalyptic -->
 			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
-			<property name="MoveSpeedPattern" value="^apocalypticMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/> 	
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
@@ -160,7 +145,7 @@
 			<property name="Tags" value="entity,zombie,spider,allbiome,feral,corrupted"/>
 			<property name="ExperienceGain" value="2300"/><!-- XP Corrupted -->
 			<property name="HandItem" value="meleeHandZombieCorrupted"/>
-			<property name="MoveSpeedPattern" value="^corruptedMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/>	
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			
@@ -176,7 +161,7 @@
 			<property name="Tags" value="entity,zombie,spider,allbiome,feral,apocalyptic"/>
 			<property name="ExperienceGain" value="3200"/><!-- XP Apocalyptic -->
 			<property name="HandItem" value="meleeHandZombieApocalyptic"/>
-			<property name="MoveSpeedPattern" value="^apocalypticMoveSpeedPattern"/>
+			<property name="MoveSpeedPattern" value="3, .95, 1, .75"/>
 			<property name="LootDropProb" value=".2"/> 	
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			

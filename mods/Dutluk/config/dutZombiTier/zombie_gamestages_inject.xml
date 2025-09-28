@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <configs>
 	<!-- 120+ tüm stage'lere Corrupted zombiler ekleniyor -->
-	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 120 and @stage <= 180]">
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage>120.00]">
 		<spawn group="mixedCorruptedGroup" num="5" maxAlive="3" duration="3" interval="30"/>
 	</append>
 	
 	<!-- 180+ tüm stage'lere daha fazla Corrupted zombiler ekleniyor -->
-	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 181 and @stage <= 250]">
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage>180.00]">
 		<spawn group="mixedCorruptedGroup" num="10" maxAlive="5" duration="2" interval="25"/>
 	</append>
 	
 	<!-- 250+ tüm stage'lere Apocalyptic zombiler ekleniyor -->
-	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 251 and @stage <= 350]">
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage>250.00]">
 		<spawn group="mixedApocalypticGroup" num="8" maxAlive="4" duration="3" interval="20"/>
 	</append>
 	
 	<!-- 350+ tüm stage'lere daha fazla Apocalyptic zombiler ekleniyor -->
-	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 351 and @stage <= 500]">
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage>350.00]">
 		<spawn group="mixedApocalypticGroup" num="15" maxAlive="8" duration="2" interval="15"/>
 	</append>
 	
 	<!-- 500+ tüm stage'lere Nightmare zombiler ekleniyor -->
-	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 501 and @stage <= 700]">
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage>500.00]">
 		<spawn group="nightmareHorde" num="10" maxAlive="5" duration="2" interval="18"/>
 	</append>
 	
 	<!-- 700+ tüm stage'lere daha fazla Nightmare zombiler ekleniyor -->
-	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 701 and @stage <= 1000]">
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage>700.00]">
 		<spawn group="nightmareHorde" num="20" maxAlive="10" duration="2" interval="12"/>
 	</append>
 	
 	<!-- 1000+ tüm stage'lere maksimum Nightmare zombiler ekleniyor -->
-	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 1001]">
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage>1000.00]">
 		<spawn group="nightmareHorde" num="30" maxAlive="15" duration="1" interval="8"/>
 	</append>
 </configs>
